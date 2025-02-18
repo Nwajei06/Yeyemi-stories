@@ -8,7 +8,7 @@ function Index() {
 
  
   return (
-    <div>
+    <div className='index-container'>
     <div className='index-logo-container'>
 <img src={logo} alt="" /> <div className="words">Anty Yeyemi Stories</div>
     </div>
@@ -22,7 +22,7 @@ function Index() {
    </div>
     </div> 
     <div className="vector-container">
-      <div className="vector-words">"Books and Doors are the same thing. You open them, and you go throughn into another world"</div>
+      <div className="vector-words">"Books and Doors are the same thing. You open them, and you go through into another world"</div>
       <div className="vector"><img className='img' src={vectorstart} alt="" /></div>
     </div>
     </div>   
