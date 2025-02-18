@@ -1,10 +1,10 @@
 import React from 'react'
 import './Style.css'
-import img1 from "../../public/images/atease.jpeg"
+import img1 from "../../public/images//godchild.jpeg"
 import img2 from "../../public/images/fallapart.jpeg"
 import img3 from "../../public/images/freshwater.jpeg"
-import img4 from "../../public/images/godchild.jpeg"
-import img5 from "../../public/images/serialk.jpeg"
+import img4 from "../../public/images/serialk.jpeg"
+import img5 from "../../public/images/atease.jpeg"
 
 
 function Topchoice() {
