@@ -142,4 +142,5 @@ progress::-webkit-progress-value{
 }
 #fade{
     opacity: 0.5;
+    font-size: smaller;
 }
