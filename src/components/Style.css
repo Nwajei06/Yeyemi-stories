@@ -115,7 +115,7 @@ gap: 20px;
     display: flex;
     flex-direction: row;
  margin-top: -95px;
- font-size: small;
+ /* font-size: ; */
 }
 .names-review span{
  width: 1000px;

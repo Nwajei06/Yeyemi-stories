@@ -33,7 +33,7 @@ function Topchoice() {
               <progress value={10} max={100}></progress></span>&nbsp;
               <span >My sister the serial killer<br /><br />
               <span id='fade'> By Oyikan Braithwiaith</span>   <br />      
-              <progress value={70} max={100}></progress></span>&nbsp;&nbsp;&nbsp;&nbsp;
+              <progress value={70} max={100}></progress></span>&nbsp;&nbsp;
               <span>No longer at  ease<br /><br />
             <span id='fade'>By Chinua Achebe</span><br />
               <progress value={10} max={100}></progress></span>
