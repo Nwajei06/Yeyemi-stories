@@ -100,10 +100,42 @@ height: 300px;
 display: flex;
 flex-direction: row;
 gap: 20px;
-overflow-x: auto;
+}
+.books{
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto;
+
 }
 .top-choice-images{
     width: 40%;
     min-height: 200px;
     border-radius: 10px;
+}
+.names-review{
+    display: flex;
+    flex-direction: row;
+ margin-top: -95px;
+}
+.names-review span{
+ width: 1000px;
+ height: 100px;
+ color: black;
+ font-size: small;
+ 
+}
+progress{
+    appearance: none;
+    /* width: 100px; */
+    height: 5px;
+    border-radius: 50%;
+}
+progress::-webkit-progress-bar{
+    background-color: #ddd;
+}
+progress::-webkit-progress-value{
+    background-color: black;
+}
+#fade{
+    opacity: 0.5;
 }
