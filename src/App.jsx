@@ -1,6 +1,7 @@
 import './App.css'
 import Index from './components/Index'
 import Topchoice from './components/Topchoice'
+import Books from './components/Books'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       
         <Index/>
         <Topchoice/>
+        <Books/>
       </div>
      
   )
