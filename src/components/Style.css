@@ -172,7 +172,9 @@ progress::-webkit-progress-value{
 #sec progress{
     width: 100%;
 }
-
+.books-container{
+height: 750px; 
+}
 
 }
 .book7{
