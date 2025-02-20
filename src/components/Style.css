@@ -112,6 +112,9 @@ gap: 20px;
     min-height: 200px;
     border-radius: 10px;
 }
+h3{
+    opacity: 0.8;
+}
 .names-review{
     display: flex;
     flex-direction: row;
@@ -148,6 +151,7 @@ progress::-webkit-progress-value{
 }
 .h3{
     margin-top: -10px;
+    opacity: 0.8;
 }
 
 .first-section{

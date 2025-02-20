@@ -20,12 +20,12 @@ function Books() {
       <div id='sec' className="book3"><a href=""><img src={img1} alt="" />God Children... <progress value={10} max={100}></progress></a></div>
       </div><br /><br /><br /><br />
       <div id='sec'  className="first-section">
-      <div id='sec' className="book4"><a href=""><img src={img5} alt="" />At ease  <progress value={20} max={100}></progress></a> </div>
-      <div id='sec' className="book5"><a href=""><img src={img4} alt="" />My sister...   <progress value={70} max={100}></progress></a></div>
-      <div id='sec' className="book6"><a href=""><img src={img2} alt="" />Freshwater  <progress value={10} max={100}></progress></a></div>
+      <div id='sec' className="book4"><a href=""><img src={img5} alt="" />At ease  <progress value={50} max={100}></progress></a> </div>
+      <div id='sec' className="book5"><a href=""><img src={img4} alt="" />My sister...   <progress value={10} max={100}></progress></a></div>
+      <div id='sec' className="book6"><a href=""><img src={img2} alt="" />Freshwater  <progress value={70} max={100}></progress></a></div>
       </div><br /><br /><br /><br />
       <div id='sec'  className="first-section">
-      <div  className="book7"><a href=""><img src={img3} alt="" />Things Fall Apart  <progress value={10} max={100}></progress></a></div>
+      <div  className="book7"><a href=""><img src={img3} alt="" />Things Fall Apart  <progress value={20} max={100}></progress></a></div>
       </div>
 
 
