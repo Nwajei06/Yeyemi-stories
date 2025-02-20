@@ -31,7 +31,7 @@ function Topchoice() {
               <span>Freshwater <br /><br />
             <span id='fade'> By Akweke Emezi</span><br />
               <progress value={10} max={100}></progress></span>&nbsp;
-              <span >My sister the serial killer<br /><br />
+              <span >My sister the serial...<br /><br />
               <span id='fade'> By Oyikan Braithwiaith</span>   <br />      
               <progress value={70} max={100}></progress></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <span>No longer at  ease<br /><br />

@@ -17,11 +17,11 @@ function Books() {
       <div id='sec'  className="first-section">
       <div id='sec' className="book1"><a href=""><img src={img6} alt="" />The death of vivek  <progress value={20} max={100}></progress></a> </div>
       <div id='sec' className="book2"><a href=""><img src={img7} alt="" />Half of a Yellow sun <progress value={70} max={100}></progress></a></div>
-      <div id='sec' className="book3"><a href=""><img src={img1} alt="" />God Children are little . . . .  <progress value={10} max={100}></progress></a></div>
+      <div id='sec' className="book3"><a href=""><img src={img1} alt="" />God Children . . . <progress value={10} max={100}></progress></a></div>
       </div><br /><br /><br /><br />
       <div id='sec'  className="first-section">
       <div id='sec' className="book4"><a href=""><img src={img5} alt="" />At ease  <progress value={20} max={100}></progress></a> </div>
-      <div id='sec' className="book5"><a href=""><img src={img4} alt="" />My sister th...   <progress value={70} max={100}></progress></a></div>
+      <div id='sec' className="book5"><a href=""><img src={img4} alt="" />My sister...   <progress value={70} max={100}></progress></a></div>
       <div id='sec' className="book6"><a href=""><img src={img2} alt="" />Freshwater  <progress value={10} max={100}></progress></a></div>
       </div><br /><br /><br /><br />
       <div id='sec'  className="first-section">
