@@ -1,7 +1,7 @@
 import './App.css'
-import Index from './components/Index'
-import Topchoice from './components/Topchoice'
-import Books from './components/Books'
+import Homepage from './pages/Homepage'
+import Gca from './pages/Gca'
+import { Route, Routes } from 'react-router-dom'
 
 
 function App() {
@@ -9,10 +9,11 @@ function App() {
   return (
     
       <div>
-      
-        <Index/>
-        <Topchoice/>
-        <Books/>
+        <Routes>
+          <Route path='/' element={<Homepage/>} />
+          <Route path='/Gca' element={<Gca />} />
+        </Routes>
+
       </div>
      
   )
