@@ -1,28 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Pages.css'
-import img6 from "../../public/images/vivek.jpeg"
+import img4 from "../../public/images/serialk.jpeg"
 
 
-
-
-const Hello = () => {
+function Sister() {
   return (
     <div className='gca'>
     <div className="blur"> 
     <Link to='/' className='link'> <li class="fas fa-arrow-left"></li></Link>
     
-        <img className='img6'  src={img6} alt="Full screen" />
+        <img className='img6'  src={img4} alt="Full screen" />
         <div className='middle'  >
-        <img src={img6} alt="" />
+        <img src={img4} alt="" />
 
         </div>
 
     </div>
     <br /><br /><br /><br />
 
-   <center><div className='vivek'>The Death  of Vivek <br />
-  <div className='authour'>Akwaeke Emezi</div> <br />
+   <center><div className='vivek'>My sister is aSerial  Killer <br />
+  <div className='authour'>Oyinkan Braithwaite</div> <br />
    </div></center>
    <div className="about">
    <h3><hr />About the book</h3>
@@ -38,4 +36,4 @@ const Hello = () => {
   )
 }
 
-export default Hello
+export default Sister

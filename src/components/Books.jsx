@@ -12,26 +12,23 @@ import { Link } from 'react-router-dom'
 function Books() {
   return (
     <div  className='books-container'>
+      <br /><br /><br />
       <h3 className='h3'>Readers Top Choice</h3>
       <div id='sec'  className="first-section">
       <div id='sec' className="book1"><Link to='/Gca'><img src={img6} alt="" />The death of vivek  <progress value={20} max={100}></progress></Link> </div>
-      <div id='sec' className="book2"><img src={img7} alt="" />Half of a Yellow sun <progress value={70} max={100}></progress></div>
-      <div id='sec' className="book3"><img src={img1} alt="" />God Children... <progress value={10} max={100}></progress></div>
-      </div><br /><br /><br /><br />
+      <div id='sec' className="book2"><Link to='half'><img src={img7} alt="" />Half of a Yellow sun <progress value={70} max={100}></progress></Link></div>
+      <div id='sec' className="book3"><Link to='/child'><img src={img1} alt="" />God Children are little . . . . <progress value={10} max={100}></progress></Link></div>
+      </div><br /><br /><br /><br /><br />
       <div id='sec'  className="first-section">
-      <div id='sec' className="book4"><img src={img5} alt="" />At ease  <progress value={50} max={100}></progress> </div>
-      <div id='sec' className="book5"><img src={img2} alt="" />Freshwater  <progress value={70} max={100}></progress></div>
-      <div id='sec' className="book6"><img src={img4} alt="" />Freshwater  <progress value={70} max={100}></progress></div>
+      <div id='sec' className="book4"><Link to='/longer'><img src={img5} alt="" />At ease  <progress value={60} max={100}></progress> </Link></div>
+      <div id='sec' className="book5"><Link to='/fresh'><img src={img2} alt="" />Freshwater  <progress value={20} max={100}></progress></Link></div>
+      <div id='sec' className="book6"><img src={img4} alt="" />My Sister is a..  <progress value={35} max={100}></progress></div>
 
       </div><br /><br /><br /><br />
       <div id='sec'  className="first-section">
-      <div  className="book7"><img src={img3} alt="" />Things Fall Apart  <progress value={20} max={100}></progress></div>
+      <div  className="book7"><Link to='/apart'><img src={img3} alt="" />Things Fall Apart  <progress value={20} max={100}></progress></Link></div>
       </div>
-
-
-
-
-
+<br /><br /><br /><br /><br /><br />
     </div>
   )
 }

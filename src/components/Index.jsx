@@ -10,7 +10,7 @@ function Index() {
   return (
     <div className='index-container'>
     <div className='index-logo-container'>
-<img src={logo} alt="" /> <div className="words">Aunty Yeyemi Stories</div>
+<img src={logo} alt="" /> <div className="words"> &nbsp;&nbsp;&nbsp;Aunty Yeyemi Stories</div>
     </div>
     <div   className='index-content'>
    <p className='p-hi'>Hi Reader,</p>
