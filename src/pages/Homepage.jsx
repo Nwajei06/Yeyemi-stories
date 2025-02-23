@@ -3,18 +3,21 @@ import Index from '../components/Index'
 import Topchoice from '../components/Topchoice'
 import Books from '../components/Books'
 import './Pages.css'
+import '../App.css'
+import '../components/Style.css'
+
 
 
 
 const Homepage = () => {
   return (
+    <div id='home-container'>
     <div id='home'>
-      weeujhujjajbjbasjbaj
         <Index/>
         <Topchoice/>
         <Books/>
-
-    </div>
+        </div>
+     </div>
   )
 }
 

@@ -1,4 +1,4 @@
-#home{
+/* #home{
     padding-left: 0;
     padding-right: 0;
 
@@ -7,46 +7,54 @@
     padding-bottom: 0;
     width: 100%;
  
-}.link{
+} */
+.link{
     text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 30px;
 
      /* position: absolute; */
 }
 .gca{
     width: 100%;
     height: 100%;
-    /* background-color: black; */
-/* padding-bottom: 50%; */
-/* margin-bottom: 10px; */
+   
 
 }
 .blur{
     position: relative;
+object-fit: cover;
+
 }
 .img6{
     width: 100%;
-    height: 400px;
+    height: 320px;
     filter: blur(8px);
-    margin: 0;
-object-fit: cover;
+overflow: hidden;
+    /* margin-left:5px; */
+    /* margin-right: 15px; */
 position:relative;
 z-index: 0;
+padding: o;
     
 }
 .middle{
-    width: 100px;
-    height: 130px;
-   /* margin-left: 135px; 
-  margin-top: -50px;  */
-z-index: 1;
-  
+    width: 120px;
+    height: 160px;
+z-index: 1; 
 position: absolute;
-top: 80%;
-left: 35%;
+top: 70%;
+left:34%;
 }
 .middle img{
     width: 100%;
     height: 100%;
+    border-radius:10px;
+
 }
 .vivek{
     font-size: large;
@@ -64,4 +72,11 @@ left: 35%;
     border: none;
     background-color: rgb(99, 83, 83);
     color: white;
+}
+.about{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: small;
 }

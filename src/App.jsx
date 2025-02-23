@@ -1,4 +1,4 @@
-import './App.css'
+// import './App.css'
 import Homepage from './pages/Homepage'
 import Gca from './pages/Gca'
 import { Route, Routes } from 'react-router-dom'

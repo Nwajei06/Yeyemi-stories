@@ -20,7 +20,8 @@ function Index() {
 
    </div>
    </div>
-    </div> 
+    </div> <br />
+    <br />
     <div className="vector-container">
       <div className="vector-words">"Books and Doors are the same thing. You open them, and you go through into another world"</div>
       <div className="vector"><img className='img' src={vectorstart} alt="" /></div>
