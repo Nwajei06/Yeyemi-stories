@@ -32,13 +32,10 @@ input{
     color: black;
     overflow: auto;
     /* padding-left: 50px; */
-    
 }
 .index-content{
     display: flex;
     flex-direction: column;
-    
-    
 }
 .inpt{
     display: flex;
@@ -51,9 +48,7 @@ input[type=text]{
     /* margin-left: -7px; */
     border-radius: 10px;
     font-size: large;
-
     /* overflow:hidden; */
-
 }
 .search{
     background-color: rgba(0, 0, 0, 0.86);
@@ -67,7 +62,6 @@ align-items: center;
 .search i{
     color: whitesmoke;
     font-size: x-large;
-
 }
 .vector-container{
     width: 95%;
