@@ -28,7 +28,7 @@ input{
     width: 250px;
     background-color: rgb(230, 227, 227);
     border: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     color: black;
     overflow: auto;
     /* padding-left: 50px; */
@@ -46,10 +46,13 @@ input{
 }
 input[type=text]{
     padding-left:15px;
-    height: 48px;
+    height: 50px;
     width: 360px;
-    margin-left: -7px;
-    overflow:hidden;
+    /* margin-left: -7px; */
+    border-radius: 10px;
+    font-size: large;
+
+    /* overflow:hidden; */
 
 }
 .search{
@@ -101,11 +104,15 @@ height: 300px;
 display: flex;
 flex-direction: row;
 gap: 20px;
+/* overflow-x: auto; */
+
 }
 .books{
         display: flex;
         flex-direction: column;
         overflow-x: auto;
+        overflow-y: hidden;
+
 
 }
 .top-choice-images{
