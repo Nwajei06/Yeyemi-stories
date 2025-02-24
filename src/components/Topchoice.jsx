@@ -32,7 +32,7 @@ function Topchoice() {
               <progress value={50} max={100}></progress></span></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              <Link className='links' to='/fresh'> <span>Freshwater <br /><br />
             <span id='fade'> By Akweke Emezi</span><br />
-              <progress value={10} max={100}></progress></span></Link>&nbsp;&nbsp;&nbsp;
+              <progress value={10} max={100}></progress></span></Link>&nbsp;&nbsp;
              <Link className='links' to='/sister'><span >My sister the serial...<br /><br />
               <span id='fade'> By Oyikan Braithwiaith</span>   <br />      
               <progress value={70} max={100}></progress></span></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
