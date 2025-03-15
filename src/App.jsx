@@ -8,6 +8,8 @@ import Fresh from './pages/Fresh'
 import Sister from './pages/Sister'
 import Longer from './pages/Longer'
 import Half from './pages/Half'
+import Bookone from './pages/Bookone'
+
 
 
 
@@ -25,6 +27,8 @@ function App() {
           <Route path='/sister' element={<Sister/>}/>
           <Route path='/longer' element={<Longer/>}/>
           <Route path='/half' element={<Half/>}/>
+          <Route path='/Book1' element={<Bookone/>}/>
+
 
 
 

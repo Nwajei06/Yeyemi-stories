@@ -80,3 +80,73 @@ left:34%;
     padding-bottom: 5px;
     font-size: small;
 }
+.chapter-container{
+    padding: 20px;
+}
+.chap1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    /* color: white; */
+    padding-top:50px;
+    overflow-y: auto;
+    /* overflow: hidden; */
+    z-index: 2;
+
+}
+.chapter-container{
+    overflow: hidden;
+}
+.cont{
+    color: blue;
+}
+.chap2{
+    background-color: white;
+    width: 85%;
+    height: 22500px;
+    position: absolute;
+    top: 10%;
+    /* margin-top: -1000px; */
+    /* z-index: 1; */
+
+
+}
+em{
+   color: blue;
+}
+.btns{
+    background-color: white;
+    /* color: black; */
+    width: 130px;
+    height: 100%;
+    padding: 10px;
+    /* padding-left: 20px; */
+    position: absolute;
+    border-top-right-radius: 10px;
+    /* border-right: 1px solid black; */
+    box-shadow: 1px 5px  50px black;
+    z-index: 2;
+    cursor: pointer;
+}
+#bars{
+font-size: 35px;
+color: black;
+font-weight: bolder;
+position: absolute;
+left: 85%;
+}
+.gatther{
+    display: flex;
+    flex-direction: row;
+    /* gap: 50%; */
+    /* position: relative; */
+}
+hr{
+   background-color: black;
+}
+.chap-img {
+    margin-top: 30%;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}

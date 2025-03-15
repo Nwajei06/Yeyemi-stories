@@ -27,7 +27,8 @@ function Child() {
    inner peace and  understanding in a moral universe whose boundaries  now ...
    </div>
    <br />
-<center><button className="all-button">Start Reading</button></center>
+
+<center>  <Link to='/Book1' className=''><button className="all-button">Start Reading</button></Link></center>
 
         </div>
   )
