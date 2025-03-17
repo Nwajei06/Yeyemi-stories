@@ -11,6 +11,13 @@ function Bookone() {
     const [hide, hideshow]=useState(false);
     const [chpfour, chpFour]=useState(false);   
     const [chpfive,chpFive]=useState(false)
+    const [chpsix,chpSix]=useState(false)
+    const [chpseven,chpSeven]=useState(false)
+    const [chpeight,chpEight]=useState(false)
+    const [chpnine,chpNine]=useState(false)
+
+
+
   return (
     <div  className='gatther'>
         <Link to="/child">  <li class="fas fa-arrow-left"></li></Link>
@@ -20,56 +27,62 @@ function Bookone() {
             <br /><br />
             <hr />
       <span onClick={()=>{
-        setShow(true)
-        showset(false)
-        hideshow(false)
-        chpFour(false);
-    chpFive(false)
-
+        setShow(true); showset(false); hideshow(false);
+        chpFour(false); chpFive(false); chpSix(false);
+        chpSeven(false); chpEight(false); chpNine(false);
         }}> 
         <center> Chapter 1 </center></span>
       <br />
       <span onClick={()=>{
-        showset(true)
-        setShow(false)
-        hideshow(false)
-        chpFour(false);
-        chpFour(false);
-    chpFive(false)
+        showset(true); setShow(false); hideshow(false);
+        chpFour(false); chpFive(false); chpSix(false); 
+        chpSeven(false); chpEight(false);chpNine(false);
         }}> 
         <center> Chapter 2 </center></span> <br />
       <span onClick={()=>{
-        hideshow(true);
-        showset(false);
-        setShow(false);
-        chpFour(false);
-        chpFive(false)
-
+        hideshow(true); showset(false); setShow(false);
+        chpFour(false); chpFive(false); chpSix(false);
+        chpSeven(false); chpEight(false); chpNine(false);
         } }> 
         <center> Chapter 3 </center></span>
 <br />
 <span onClick={()=>{
-    chpFour(true);
-    hideshow(false);
-    showset(false);
-    setShow(false);
-    chpFive(false)
-
+    chpFour(true); hideshow(false); showset(false);
+    setShow(false);chpFive(false);chpSix(false);
+    chpSeven(false);chpEight(false);chpNine(false);
     }}> 
     <center> Chapter 4 </center></span><br />
 <span onClick={()=>{
-    chpFive(true)
-    chpFour(false);
-    hideshow(false);
-    showset(false);
-    setShow(false);
+    chpFive(true);chpFour(false);hideshow(false);
+    showset(false);setShow(false);chpSix(false);
+    chpSeven(false);chpEight(false);chpNine(false);
 }} > <center> Chapter 5 </center></span><br />
-<span > <center> Chapter 6 </center></span>
+<span onClick={()=>{
+    chpSix(true); chpFive(false);chpFour(false);
+    hideshow(false); showset(false); setShow(false);
+    chpSeven(false); chpEight(false); chpNine(false);
+}} >
+     <center> Chapter 6 </center></span>
 <br />
-<span> <center> Chapter 7 </center></span><br />
-<span > <center> Chapter 8 </center></span>
+<span onClick={()=>{
+    chpSeven(true);chpSix(false);chpFive(false);
+    chpFour(false); hideshow(false);showset(false);
+    setShow(false);chpEight(false);chpNine(false);
+}}> 
+<center> Chapter 7 </center></span><br />
+<span onClick={()=>{
+  chpEight(true);chpSeven(false);chpSix(false);
+  chpFive(false);chpFour(false);hideshow(false);
+  showset(false);setShow(false);chpNine(false);
+}} >
+   <center> Chapter 8 </center></span>
 <br />
-<span> <center> Chapter 9 </center></span>
+<span onClick={()=>{
+  chpNine(true);chpEight(false);chpSeven(false);
+  chpSix(false); chpFive(false); chpFour(false);
+  hideshow(false); showset(false); setShow(false);
+  }}>
+     <center> Chapter 9 </center></span>
 
       </div> :null
       }
@@ -1456,7 +1469,7 @@ stranger, who is this man? Twisting the faucet, he would lower his head
 again, cup his palms under his face, cold water hitting him. Every day he
 lived, he felt less like himself. Growth, people called it; he thought of it as
 estrangement.
-
+<br /><br /><br />
 
        </div>:null
        } 
@@ -2106,7 +2119,7 @@ wanted was to see Dubem one last time, to say goodbye, truly say goodbye.
 his thoughts. Nonye clung to her, letting out small intermittent sobs, the
 both of them now seated on the floor. “I’d do it myself but—” She tilted her
 head at Nonye, her eyes pleading, as if to say, but as you can see.
-
+<br /><br /><br />
    </div>:null
     }
     {
@@ -2741,7 +2754,7 @@ Oh, thank you, he says. A na-emekwa?
 Ee, a na-eme.
 Tonight, you dream that he walks into this room. He is wearing his
 Arsenal jersey and green shorts. He lies beside you and says, What
-happened to you, Lotanna? You look so broken.
+happened to you, Lotanna? You look so broken. <br /><br /><br />
         </div>:null
     }
     {
@@ -3462,10 +3475,2714 @@ did not come back to him in echoes, but as the responses of passersby, Saint
 Rita’s parishioners on their way home from Mass, neighbors out in the
 street, drinking or making their hair. Happy Christmas! they yelled at him.
 Banging through all that noise, Saint Rita’s bell tolling the end of Christ’s
-Mass.
+Mass. <br /><br /><br />
         </div>:null
-        
     }
+    {
+        chpsix?<div  onClick={()=>displayNow(false)}  className="chapd"><center><h1>Chapter 6</h1> <h3>GOOD INTENTIONS</h3></center>
+        You could end it at dawn. It would shatter him, for how long, you do not
+know. But first, you take a walk.
+It is not yet daybreak, the full moon is receding, the pavement glowing
+with its borrowed light. It is a perfect morning for this. It has rained all
+night and the air is quiet and smells of kneaded earth. Tall trees flank the
+tarred road, long branches reaching out like desolate lovers, and when the
+breeze rushes through them, they shake the water off their bodies and it falls
+on you, a blessing.
+You’re walking past the tall brown building where your office is housed
+on the last floor. Trapped light beams behind most windows, tender white
+light, but not behind yours, you do not leave things unresolved. Right now,
+you wish you did—to see the fan twirling behind your empty office, to
+glimpse, from this distance, the swollen bookshelves, to be part of
+something that’s yours without being present, your life from a distance.
+He’ll be gone when you return. If any of your students run into him in
+the corridor as he walks from his department, they’ll ask What’s up, where
+is your guy, and he will shrug and say he does not know, it’s not like you
+two sleep in the same room or anything; he will be defensive today because
+of the stories, the whisperings.
+“Will you tell me how it went?” he’d said yesterday, after you returned
+from the preliminary hearing and went straight to your study, saying little of
+consequence to him, and then as you prepared for bed later, “You don’t
+have to go through this alone.”
+At forty, you were almost twice his age. You had grown up under two
+military dictatorships, you teased him, and this was nothing in comparison.
+You remember now your first night together, how, after you rolled off his
+back, panting, he turned toward you, as though he’d forgotten something,
+and touched your face, lifted your chin, wow; how he looked at your face,
+searching, until, overcome by shyness, you shut your eyes and kissed him.
+In those early days, his attentiveness had flattered yet terrified you. You
+feared that if he looked hard enough, he’d see how troubled you truly were,
+see the ghosts from your past lurking behind curtains of accomplishment,
+and leave. But for over a year he had stayed and loved you. You had spent
+so many years running from yourself, when you finally stepped into the
+light, years had passed you by, the men your age had loved and lost to
+exhaustion. And the younger men, the big boys, they lay beside you for
+what they could get: access, money, meals in sanitized spaces off campus,
+the comfort of a big bed in an air-conditioned room. You let them stay for a
+while, waking up to their snoring, their scent, sometimes all you wanted
+was to touch and to hold, nothing more. And then you let them go. It was
+easy: give less and less of the things you used to until, frustrated, they
+disappear.
+You wonder who the other boys are, faces rising now in your memory.
+Many faces. How easy it had been, moving through those younger bodies,
+their wants precise, your needs nebulous and wild, until you met him.
+Walking up to him after Poetry Friday months ago, you hadn’t imagined
+that he would follow you home that very night and strip you of all other
+curiosities. You’d found him beautiful, especially when he stood in the
+spotlight and dramatized “Invocation,” the rich baritone of his voice, the
+ruggedness of his towering stance, the force that he was, the hall drowning
+in manifold applause. Okigbo would be proud, you’d said to him, and he’d
+smiled and told you he’d heard so many wonderful stories from your
+students, that you were fair and respectful, and how much he loved your
+book, Reflections on Loneliness, how he’d looked up all your essays
+afterward and fallen in love with your mind, the way you were, unlike most
+literary critics, profound without sacrificing clarity. You’d thanked him,
+surprised and pleased, by the honest audacity of his compliment. “Fell in
+love with your mind”—it seemed like something a colleague would say,
+even though you hadn’t heard many nice words from your colleagues, who
+had sent a letter to the dean asking why you, a single lecturer, got a
+bungalow on campus while they, family people, had to manage flats in
+neighborhoods off campus swarmed by loud, rich students.
+“Let’s have a drink sometime,” you’d said to him, and he’d replied,
+“Whenever you want,” and smiled.
+“How about now?” you’d said.
+You walk now past engineering, past the faculty of biological sciences,
+away from the conspiracy of trees and into unburdened air, onto the road
+leading, on your left, toward Chitis and, on the right, to the stadium and
+male hostels. A figure hurtles toward you, it is a man and his face is hidden
+beneath a hood. He is a tall tree and a rock, possibly one of those students
+who skip classes to go to the gym. You expect him to stop and ask for your
+phone, nicely at first.
+He dashes past you, saying nothing. His motion brushes against you. You
+smell him, too, the stench of exertion, and you turn to glance at him, to see
+what he looks like from behind. Your eyes meet, but briefly, because you
+snatch yours away. You glance back again and, again, he too has turned to
+look at you, his speed retarded to a trot.
+It is the sort of thing you would mention to him at bedtime, fluffing your
+pillow, to light a certain fire in him. Consider the variables, he would say.
+That man is either checking you out or luring you to make the first move so
+he can have a reason to be violent. A violent man on a dark, lonely path
+with someone three times smaller does not need a reason to be violent, you
+would respond. His elbow pressed on the bed, he would look at you and ask
+what would you have done had the man propositioned you, and you would
+pretend to think about it, and say, I’d invite him home for a threesome, and
+he would laugh and say, As if you can handle the both of us.
+You will miss this joy made possible by his laughter, the beauty that it is,
+at once hesitant and shy, at once free.
+“You can talk to me, you know,” he’d said, when the boys first came
+forward with their stories.
+“About what?” you’d said, pretending not to know.
+“You know what.” He was seated on the bed in his favorite red briefs,
+his ankles pulled together, knees in a V, clutching a pillow against his chest.
+You did not look at him, could not remember what it was you’d been
+looking for in your cabinet, but you began to pull out drawers, fingers
+dancing over files.
+“Doc,” he said, his voice soft as a sigh. For the first time in over a year,
+there was nothing tender about the way the name sounded in his mouth; it
+reminded you instead of the things you were trying to hide from.
+“What did you hear?” you said.
+“Things.” He shrugged, he looked unsure. “The stories are many but I
+find it difficult to believe any of them. But, again, we’ve never talked much
+about the guys you used to date.”
+“This is about the article, I hope you know that,” you said.
+His shoulders moved a little, and he frowned, a very boyish frown.
+“Why does that sound like an accusation?”
+“It’s not. It’s simply the fact of the matter.”
+“I didn’t ask you to write it,” he said. “I was proud that you did, but I
+didn’t ask you to.”
+You frowned, returned to the drawer. You were angry, and it made the
+feeling return, the exposure that opened into darkness, and it made your
+heart thump.
+“I am proud that you did,” he said, breaking the silence. “It was very
+brave, and very, very foolish.”
+“Very you, you mean,” you said, you chuckled and he chuckled.
+“Those boys.” You turned to look at him. “I was never their teacher. The
+men you and your friends have been protesting against, who threaten girls
+with failure, those are the men sitting in judgment against me.”
+He was quiet, as though waiting for you to say more, and you wondered
+if he felt it, too, your fear. You’d been trying to imagine what had been done
+to those other boys to make them surrender their shadows and appear before
+a bench of men who would look at them with disgust. What would they do
+to him, your wise, beautiful boy who did not yet know the heartlessness of
+powerful men?
+You had always thought of painless ways to do it—you have always been
+afflicted.
+You are fifteen, the neighbor’s son is sixteen, and your mother has
+returned home unexpectedly to find the both of you entangled on the sofa;
+her scream, piercing like jagged glass; the indignity of your naked
+fumbling, of his trousers pooled around his knees; the days that followed,
+your mother’s eyes looking everywhere but at you, the shame clouding
+them; the smell of incense in dark rooms; the phone calls she made, to your
+brothers and aunties, phone calls that led to more dark rooms, to strange
+men prancing around you, pastors and prophets whipping your naked back
+with palm fronds, whipping so hard you still have scars, which he caresses.
+Your mother cried every time you came out of those dark rooms. At first
+her tears had shredded you, your dear mother hurting because of you.
+Months later, when you came out of the dark rooms feeling nothing, when
+her tears made you angry but also indifferent, you imagined how long it
+would take after a knife sliced your wrist, you’d seen it done in movies, and
+you wondered if it would be painless.
+“I can’t have sex with a woman,” he said weeks after he moved in with you.
+“Like, I’m totally gay, not even bi-curious, where does the erection come
+from?”
+What would he do, you asked, if someone pointed a gun at his head and
+asked him to fuck with a girl?
+“Of course I’ll do it,” he said. “Have you ever thought of getting fucked?
+Like, just to see if you’ll like it?”
+You’d both been lying on your living room floor where earlier, you’d
+walked in to him doing his evening sit-ups and, taking off only your shoes,
+knelt astride his chest, counting and teasing him, saying, “One more,
+soldier,” the both of you laughing, and then kissing and taking off your
+clothes.
+The rug scratched your naked back now. You rolled onto your side,
+facing him. “Are you asking to fuck me?”
+“Maybe,” he said. He smiled shyly, looked briefly away. “I promise I’ll
+be gentle. Soon you might even be begging for it.”
+It wasn’t as if you didn’t think of it every time he came out of the
+bathroom, his body wet, but hearing him say it, that he wanted this, it
+spread a shadow over you.
+“I cannot see myself getting fucked,” you said, standing up. “I can’t.”
+You were surprised by how angry you sounded.
+“We’re only talking, Doc,” he said, sitting up. “Why are you getting
+angry?”
+“Please, let’s free this talk,” you said, hoping it would dispel the tension.
+Under different circumstances, he would have laughed and asked if it didn’t
+feel good, speaking like a true Nigerian.
+“Why do we have to free the matter?” he asked. “This is the first time
+I’m bringing it up, you don’t have to agree, but you cannot simply shut the
+conversation down. I stopped making pro-gay posts on Facebook because
+of you. You said they put you in a precarious situation and I agreed, even
+though I don’t agree. I quit volunteering at the NGO because there were
+‘too many fem and open guys working there.’ What have you given up for
+me?”
+You stared at him. How could you explain to him that it was absolutely
+necessary for you to demand certain things of him?
+“I understand what you’re saying,” you said, calmly. “But I’m simply
+not that kind of man. I don’t get fucked.”
+There was a split moment when his face showed nothing, and then his
+expression erupted. “You’re not that kind of man?” he asked. “What kind of
+man am I, then?”
+He stood up, shaking his head as he slipped into his shorts. He headed
+for the bedroom door.
+“No, no.” You followed him into the bedroom. “I didn’t mean it like that,
+nna.”
+“You know exactly what you meant,” he said. “You have to control
+everything. Sha don’t expect me to call off the protests, because it’s
+happening.”
+“So that’s what this is about?” you said.
+“It’s about the fact that you think only of yourself. Perhaps moving in
+was a bad idea, if it means I have to only make choices that make you
+comfortable.”
+He’d been aggressively straightening the bedsheet and patting the
+pillows as he spoke, now he stood straight, facing you.
+“That is an unfair conclusion,” you said. “I’m not perfect, I know that,
+but when it comes to this protest, all I am is worried about you. It has
+nothing to do with me. There will be backlash.” You paused, you needed
+him to understand. “And the way you’re going about this, it will be easy to
+single you out.”
+He stood there, shaking his head. “You talk as if I don’t know what
+we’re up against.”
+“Do you, really?” you said.
+He was quiet, one hand on his waist. Then he walked to the wardrobe
+and began to pack his things.
+Walking past the female hostels, you remember your undergrad girlfriend,
+Ndidi, who’d stayed in one of the halls down the hill from Hilltop. You
+can’t remember which exactly, it must have been Akinola Hall. You lived in
+Hilltop at the time.
+Her name, now that you think of it, was sadly prophetic, because of how
+infinitely patient she was, forgiving your mood swings, your philandering—
+you were like heating glass in those days, you exploded without warning.
+Your mother had introduced her to you, “My friend’s daughter,” she’d said,
+with an earnestness that made you feel sorry. “Take her like a sister.” Every
+weekend Ndidi showed up in front of your door, carrying food flasks and
+stories about her week. At night, your roommate ostensibly disappearing for
+“night class,” you turned off the light before feeling in the darkness for her
+breasts, before kissing down her belly. You’d learned, by then, to listen to a
+woman’s body for what brought her pleasure. You’d also learned that by
+stripping your mind of thought, your body could will itself into an uncertain
+firmness. On Sunday evenings you walked her to her hostel, holding her
+hand, sitting in her room and chatting with her roommates, until it was late
+and the bell went off and you walked back home, while all around, boys and
+girls stood in dark corners, stealing final kisses before the final bell.
+On these same streets.
+The evening after he left, you drove to Franco, parked in the postgraduate
+compound, and called him. He came out of Alvan Hall, holding a bucket,
+his shorts too big, his singlet too thin for the weather. It was one of those
+deathly cold harmattan nights.
+“Pneumonia does not know you’re angry with me,” you said as he stood
+beside you, resting his back against the car. He shrugged, folded his arms,
+still holding his bucket. “Let’s sit in the car. It’s warmer inside.”
+“I have to go fetch water for tomorrow.” He remained standing,
+unmoved. “You know how long the queues are in the morning, and we have
+Dance Drama at seven.”
+“You don’t have to be here, queuing up for water. We can go back to the
+house and talk about this like two adults.”
+“There’s nothing to talk about.” He’d dropped the bucket on the ground,
+now he rubbed his palms together and touched his face with them. There
+was a slender darkness in his eyes. You had not imagined how much this
+meant to him—and why should it mean so much? He was not a girl, nobody
+had failed him for refusing to have sex with them. “I just wish you’d
+understand this time.” He chuckled, a small, sad chuckle. “I actually
+thought you’d understand.”
+A sudden breeze sliced through the compound. He shivered. You took off
+your sweater, offered it to him; he stared at your hand for a while, and then
+he took the sweater. “Thank you,” he muttered, pulling it on. You both
+stood there, saying nothing, your palms freezing. Every battle had a price,
+you wanted to say to him, hoping he’d choose not to fight this one. What
+else could a person want from life other than a private serenity?
+“How are you doing?” you asked instead, giving up this particular battle
+yourself. “I hear they pack you all in here like sardines. Anybody tried to
+eat you yet?”
+He tilted his head to the side, and then smiled. “You talk as if you did not
+briefly live in Franco in your days.”
+“It was different,” you said. “It smelled nicer then, and we had water in
+the toilets. The students who came before Babangida had meal cards and
+didn’t have to buy food, so they had it even better than us.”
+“It only gets worse,” he said, shaking his head. “Naija.”
+He did not come back home with you that night. He’d move back in after
+the protests, he said. You thought of him as you drove home, how he could,
+by his very restless nature, obliterate you, and you realized, with a little
+dread, that you did not care.
+Let’s walk together, he used to say, you’ll love it. Until he stopped asking.
+Mornings have always been for poetry, actual four-dimensional poetry, not
+contemplative loitering. Some have morning prayers, you’d told him, I have
+poetry, and he’d laughed, Such blasphemy, he’d said, must be the reason
+poets die tragically lonely deaths—because the Lord our God is a jealous
+god. You are not a poet and you had not told him about how you used to
+dream of a painless way to go. When he touched the scars on your back,
+you told him, eventually, where they came from. You’d never talked about
+this before, you told him. Never. When he touched your wrist, you moved
+his hand away, casually, and placed it on your groin.
+These days, when you open a page of Rilke, it doesn’t feel like prayer,
+you feel instead a fiercely corporeal despair, a premonition in your body of
+something gathering, roving, something both unsettled and unsettling.
+Your mother found you. Poor woman, always walking into hopeless
+situations. “God, you were gone already,” she said later, wiping tears from
+her eyes. “It’s a miracle you’re here, even the doctor said so. Chukwu
+arụka!” How are you, my baby? she said at the hospital, and you turned
+your head away, your body was a well in dry season, deep and empty and
+full of cavernous echoes. The hospital smelled nice, and nice meant clinical,
+the minimal whiff of medicine and antiseptics and quiet, until the people
+from church came and crowded your bed with their human scents, and their
+singing and praying, all of which felt like one huge pillow pressed to your
+face. Death by suffocation. Only if they could do away with all the feeling.
+You yelled—rather, a yell rang out of you, you were incapable of doing,
+it felt as though you were standing apart from the boy on the bed, watching
+him scream.
+They continued to pray and sing, their voices climbing into a crescendo,
+you wondered why the boy’s yelling made them pray harder and surer, and
+so he screamed again, a keen and endless sound full of wrath. A nurse
+rushed in, followed by the doctor who came every evening to ask how you
+were doing. “Everybody, out!” she said. “Nurse, usher these people out.”
+Movements, murmurs: the separate part of you observed all these while
+your body raged. Hands touching you. Hey there, it’s okay, it’s okay.
+Something piercing your skin, a warm palm on your head. Recede. The last
+thing you hear, the doctor scolding your mother: “What do you mean,
+possessed, eh? O dị ka ị chỌrỌ i gbu nnwa gị? You want to kill your child?”
+Your mother crying.
+When you woke up, your mother was there, your father seated beside
+her. “Mma,” you said, and she rushed to your side. There was a drought in
+your throat. “Water.” She whirled around, but already your father had
+snatched the bottle of Swan water from the refrigerator. He handed the
+bottle to her, sat beside your head and propped you up. She brought the
+bottle to your lips and you guzzled it, almost choking from eagerness, it
+seemed, only that morning, you hadn’t wanted to die. The body, how
+incapable of fidelity. They chuckled, softly, and your father caressed your
+head. You had never been in such physical proximity with him, not since
+you started secondary school. You looked at their faces, their smiles so
+wide, it would rip the corners of their lips if God wasn’t so great.
+“Odogwu,” your father said, a fierce happiness in his voice. “Ị sị ka ị
+bata?”
+You nodded, shy, you weren’t sure if returning was a choice you’d made,
+but there you were, not gone, and all you could think about was how sure
+you were of your love for them, love that made forgiveness wash over you
+like a breeze. Your mother sniffled, took your hand and pressed, lightly. Her
+eyes were the reds of fallen dabino. The pastors and prophets she dragged
+you to, each slashing and whipping away at your innocence, until the final
+one snatched it all, on the hard floor of his huge church placed among
+affluent mansions. Three days and two nights of praying and singing and
+Bible study, your parents present, his prayer warriors present. And one night
+alone with the Lord. And his servant.
+You thought, watching your mother, of the song that went like this: What
+the Lord has done for me / I cannot tell it all.
+What the lord did to you, you will never tell for all eternity.
+The protests yielded nothing—the dean did not step down, a female
+teaching assistant was made welfare officer of the panel, which meant all
+she did was make sure there were snacks and minerals during every
+hearing, and one man, out of the eight accused by over twenty female
+students, was found guilty of insensitive behavior and sentenced to a twoweek course at the Centre for Gender Studies.
+He came home early that day, skipping his remaining classes, and you
+expected him to seethe. “Insensitive behavior,” you expected him to say.
+“So that’s what they’re calling it.” You were thinking it, and so you
+expected him to say it, because before him, none of this would have
+lingered in your mind for long.
+“God, I’m exhausted,” was all he said, falling onto the sofa, closing his
+eyes, and you wondered if it was mere physical exhaustion. The enemies
+he’d made, and for nothing. You watched him walk around the house in
+atypical silence, opening and closing the refrigerator so many times, and
+you became convinced that what he felt was not so much exhaustion as that
+sadness that upsets the body, sending one into prolonged loitering. At night,
+you rolled over in bed and found, where his warm body should be, space.
+You shuffled to the living room, rubbing your eyes, and turned on the light.
+He was seated on the couch, his legs covered in a blanket, his arms
+folded. He looked up at you, wide awake. “Jesus. Why are you sitting alone
+in the dark, nna?”
+“I can’t sleep,” he said.
+You went to the refrigerator and got two cans of Sprite, offered him one
+as you sat beside him. “Thank you,” he muttered and placed it on a stool
+without opening it. You popped yours open and took a sip. “You have a
+right to be angry about what happened today,” you said. “And it is healthier
+to show it. That’s why I’m here, to be the ears into which you pour out your
+frustration.”
+He remained quiet for a while. “I’m not angry,” he said, finally. “I wish I
+could be angry, you know, it would have been easier. But I can’t stop
+thinking of Nneka and Anita and all the girls who exposed themselves
+because of this.” He stood up abruptly and, his face buried in his palms,
+went to stand by the window.
+You went to him. “It’s okay, let it out,” you said, placing your hand on
+his shoulder, you were unsure of the right words to say, if there were any
+right words.
+“I’m stepping down as student union secretary.” His voice, still
+tremulous, was trying to take on a brave resolve. “I don’t see the use doing
+anything when the people who are supposed to look after us constantly ruin
+everything.”
+“I’m so sorry,” you said, and began to rub his shoulders. He spun round
+and hugged you, his body shaking with low sobs.
+Toward morning, you woke up to watch him sleep, his face peaceful yet
+sad, his words in your head. You turned on your laptop and searched for the
+email address of a former classmate who was now a top editor at This Day.
+In this country, you began, we crush the hopeful spirits of our young, and
+then wonder why we have no future. Recently, some of my students came
+together to fight for something real…
+There is a poet none of your colleagues know, probably because he was
+Scottish, probably because he loved men. He has a poem titled “Absence.”
+“My shadow—,” it begins.
+At your preliminary hearing the day before, the dean said to you, “Do you
+know this boy?”
+Yes, you said, and sat up in your chair. How could you forget him, the
+first man with whom you had been naked, years after your mother walked
+in on you and the neighbor’s son? You have the feeling again, of being
+walked in on. He had been good, a boy with a pretty face and a graceful
+masculinity, but like the others after him, he’d not been what you were
+looking for, even though at the moment you’d not even known that you
+were looking. Now he stood there by the lectern, as though he were the
+accused, his head slightly bowed, his fingers dancing with one another.
+“Was he your student?”
+No, he was not your student, you said.
+“So how did you get to know him so well, he now accuses you of these
+disgusting things?” You looked up, surprised; this, from a man who did not
+have his PhD yet. The panel comprised six men and two women. Apart
+from the dean, who was a professor, the others were your peers, people with
+whom you attended conferences in Ife and Ibadan and Accra, people of
+whom the dean had said to you months ago, “They rarely publish any
+papers and have no groundbreaking books and yet feel entitled to the
+privileges of people who do,” before picking up the letter they’d written
+about you and shredding it.
+This hearing, dubbed grandiosely as preliminary, was a prelude to what
+they had already decided for you. If shame and disgrace were what they
+wanted, you’d give them dignity instead.
+“You heard the man,” the dean said. “How did you know this boy?”
+The boy looked up at you, briefly, and you saw something slip through
+his eyes, a tiny grin or flickering despair, you were not sure. How long had
+the both of you lasted? A month? You wondered, again, what they had done
+to him to bring him here. Wondered if they’d promised him something,
+instead.
+You stared at the dean. In the article, you’d written simply that his
+handling of the protests and accusations had been deeply flawed, that you,
+too, had failed by not confronting him about it. You could have been harder
+on him, you thought now, but you’d felt a tenderness toward him, this man
+whose books and lectures on African histories and literatures had inspired
+you in your undergraduate days, and so had allowed yourself to think of
+him as an old man who did not understand.
+“I know the seriousness of these accusations,” you said, calmly, even
+though your heart was beating fast. “Which is why I’m treating this
+respectfully, unlike some of the people in this room who, months ago, used
+verbally and mentally abusive tactics to stop their accusers from coming
+forward. I am here to see my accusers, and I have seen just one, and I agree
+that I know him. I want to hear what his accusations are. I have never
+molested nor threatened any student, and I have never, in all my adult years,
+had relations with anybody less than the age of twenty. Does this student, or
+anyone, for that matter, accuse me of rape or assault? Do any of my students
+accuse me of improper relations? Anything beyond that, I will prefer not to
+answer to this panel.”
+The silence that followed drowned even the nearby gargling of
+generators. The man who’d spoken earlier turned to the boy. “So? Did he
+not molest you?”
+“No,” the boy said.
+“Then what do you call what he did to you? Didn’t you say that he
+fucked you in the ass? What’s that called?”
+The boy winced. Fucked you in the ass must have unsettled him like it
+would have unsettled you had you not come prepared. He looked from the
+man to you, then to the dean. “He—fucked me, yes,” he said, staring back
+down at his fingers.
+“So? What do you have to say to that?” the dean said to you.
+“Nothing.”
+“Nothing?”
+You shuffled in your seat, exasperated, exhausted. All you wanted was to
+be home, in your bed, away from all this. “Like I said earlier, unless I am
+being accused of assault, rape, or molestation, I will not answer.”
+“And what is that that he just said, eh? You sodomized him, a young
+man. What is that called?” It was that man again, the one who’d spent an
+eternity writing his dissertation and still wasn’t anywhere close to
+completion. It was almost as if every other person on the panel was there to
+merely hear the gossip.
+“You did complete a master’s degree in European languages, Onochie,”
+you said. “Certainly, you must know what that word, molestation, means.”
+“That’s enough,” the dean said, taking off his glasses, rubbing his eyes
+with his fingers. “It’s your right to be silent, but by and large, this panel has
+to reach a conclusion and pass judgment. We will end it here today, but
+tomorrow, in the spirit of transparency—we learn from our past mistakes,
+you see—the hearing will be held in the New Lecture Hall, and all student
+excos from every department in the faculty will be present. Two other boys
+have accused you. All three will be there tomorrow.”
+You stood up. It was rude, to leave before the dean, but the look in that
+boy’s eyes, of pure, crystal pain, had shredded you, even though you’d
+remained cold, for your own sake; and now you had to sit before hundreds
+of students, most of whom would be there with their phones, and witness
+the humiliation, not just of yourself, but also of three young men. On a
+campus so compact, the lights between trees kiss, humiliation is a murder
+weapon. You could see the headlines already, on blogs and newspapers:
+“Homosexual Lecturer Sodomizes Male Students”; “40-Year-Old
+Homosexual Lecturer Converts Boys to Homosexualism.”
+“Yes, one more thing,” someone said, as you placed your hand on the
+doorknob. You turned around. It was one of the two women; she wrote
+poems with lines like “the iroko tree has fallen” and made her students buy
+and review her books. You knew, because he wouldn’t stop talking about
+her last semester, how much he hated her poetry, even though he enjoyed
+the classes where she talked about other poets. “The student union boy,” she
+was saying now. “The one who stepped down as secretary… ”
+“What about him?”
+“Shouldn’t we question him?” She turned to the dean, who was
+arranging a sheaf of paper on the table, and then back to you. “I learned you
+live together.”
+“And so?”
+“Well, if what these boys are saying is true, and I’m not saying they are
+or not, shouldn’t we be worried for his moral well-being?”
+You stared at her. The color on her face, in her voice, of concern, the
+ostentatious falseness of it. She was passing a message they’d all agreed
+upon. You turned around and left the room, shutting the door behind you.
+The trees that stretch over the road leading homeward, how beautiful, even
+in sunlight.
+It was a conversation about cups, why they had to leave the dining table
+after use, why they had to leave the sink, too, clean and dried of water. It
+was also a conversation about fans and light bulbs, why they had to be
+turned off when leaving the house. You were standing by the sink, running
+water over the dishes from the morning, when you both had hurried out of
+the house, and he was leaning against the kitchen table, saying he wished
+you wouldn’t rush to do the dishes every time they stayed a minute longer
+in the sink, it made him feel lazy. Not lazy, you said, just young, postmilitary-dictatorship young, and he laughed and said, What? You learned to
+cover your tracks in those days, you told him, to never leave anything
+unresolved.
+Is this still a conversation about chores? he asked, and you said, Maybe,
+maybe not, and asked if he’d ever thought of leaving the country, studying
+abroad. He looked at you strangely. Everybody thinks about leaving
+Nigeria, he said. You shook your head and said, Not like that, what you
+meant, you said, was if he’d thought about it seriously, like, what would he
+do if someone left him enough money to leave and go to school?
+Nobody would say no to that, he said, and then: Why? Do you have
+cancer? Are you about to leave me a bunch of money?
+Thief, you said, and he laughed. You laughed. You felt happiness like a
+spring, clear and sparkling, standing there with him, talking mundane
+things. An ordinary evening. You could decide to end it at dawn.
+I know you don’t want to talk about it, he said, but I hope the
+preliminary hearing wasn’t awfully terrible.
+It went well, you said. I was ready.
+Are you afraid for tomorrow?
+Wiping your hands with a towel, you said, I’m not afraid, and then you
+kissed him. There would not be a reason to be afraid if there would be no
+second hearing, no need for him to be interviewed, no crowd of people
+around you, once again, chanting and yelling and praying.
+Sweetheart,
+For you, everything and anything.
+Love,
+Doc
+________
+Home, finally. You turn the key in the keyhole, push the door open. A lone
+cup sits on the dining table but the bedroom light is off. You smile. Baby
+steps.
+You take the cup to the sink, turn the faucet; the sound and feeling of
+warm water, how calming. Opening the cupboard to return the cup, you find
+a small gift wrapped in purple and yellow; in front of it, in his boxy
+handwriting: “The cup was bait,” a wink, and then, “a little something to
+say you are not alone.” You clutch the small wrapped box as though to
+crush it—but it is you who are crushed, by gratitude and by sorrow. You
+will not open it, not right now with your hands shaking. You will open it
+later, when he is here, so he can watch your anticipation. You lean against
+the table, steadying yourself.
+It’s just you and I now, the Lord’s servant had said that night before he
+did the thing you have never told, his breath piquant against your face.
+Afterward, he said, Will you tell?
+No, you said, sniffling, wiping your eyes.
+Why? he said.
+And you repeated his words: Because no one will believe.
+You see now the church’s arched ceilings, the gentle majesty of the altar
+on which you lay, the moon seeping through stained glass windows, making
+the chancel glow. Your mother’s sunny smile as she picked you up in the
+morning, her hopeful tone as she said, It is well. The warmth of her body as
+she hugged you, her chest thumping with good intentions.
+You reach for your phone. <br /><br /><br />
+        </div>:null
+    }
+{
+    chpseven? <div onClick={()=>displayNow(false)}  className="chapd"><center><h1>Chapter 7</h1> <h3>WHAT THE SINGERS SAY ABOUT <br />LOVE</h3></center>
+    I’d seen Kayode once before, in first year, having a bath downstairs, his wet
+body an assemblage of small perfect muscles, his ass firm and flawless, his
+dick, my God. I noticed him in the way that one notices something beautiful
+but unattainable and did not see him again until second year, when I went
+with my friend Ekene to a campus celebrities’ bash. He was going from
+group to group, talking, swaying to the music, and I only recognized him as
+someone I’d seen before but did not know, until I heard someone say his
+name. Ekene had talked about him a few times in the past, this handsome
+boy who made beautiful music. I sat in a corner of the room, watching
+people dancing, thinking how happy their lives were in that moment, how
+tomorrow this senseless joy would be absent. His eyes caught mine
+watching him. He looked puzzled, a look that, with most boys, usually
+turned into aggression. I glanced away.
+When I looked back up, he was staring at me. I smiled, unsure of how to
+read and return that brazen stare. He smiled back, whispered something to a
+girl who was deep in conversation with Ekene, and she nodded, a quick,
+distracted nod. He strode toward me, holding a can of Star, which he placed
+on the table as he sat opposite me. I noticed, for the first time, the tiny
+gleaming silver stud in his right ear.
+You seem to be having so much fun, he said, smiling. He had the whitest
+teeth.
+You’re teasing me, I said.
+Oh no, I’m not, he said, lifting his arms innocently, and for a moment I
+believed him, but then he smiled widely and asked, Why aren’t you
+dancing?
+I can’t dance, I said, shrugged.
+He arched his eyebrow. The song playing now was loud, was full of
+clanging metal, of booming drums, and the dancers had gone completely
+mad, jumping and shaking their heads like people about to burst into
+incantations. When he spoke, he had to shout: Everybody can dance.
+Not me, I said. I dance like a girl.
+You what?
+He leaned in and I leaned in, my lips to his ear. His hair had a distant
+scent, of something sweet and fruity. I imagined him in the bathroom, his
+head crowned in lather. Then I remembered his body, the muscles moving
+across his back and arms as he washed himself vigorously, and I felt a little
+guilty; it had been different seeing him down there among a dozen other
+boys having their baths outside as I brushed my teeth, each person a feature
+of morning, now it seemed like a small violation.
+I dance like a girl, I said into his ear.
+He looked at me weird. You dance like a girl, and so? he said, squeezed
+his face thoughtfully. Standing up, he held out his hand. What, I said,
+confused and a little excited, and he said, Trust me, smiling a playfulwicked smile. He led me to the middle of the room where he started
+swaying his shoulders. God, Kayode, I said, covering my face with my
+hands. Love me, love me, love me, the speakers boomed, and he sang along,
+holding out his hands toward me, so ma fi mi si le / Oh I like it here.
+A girl laughed, yelled, Dance!
+Dance, someone else responded, and soon it was a chant, Dance! Dance!
+Dance!
+You see? Kayode said, taking my hands and twirling me round. God, kill
+me now, I thought, and moved my hips. Yes, people cheered, and if not for
+these shouts of affirmation, I might have collapsed from the exposure.
+Closing my eyes, I let the music take hold of my body, waves of pleasure
+rippling through me. This was what people meant when they said dancing
+was fun, I thought, this absolute surrender. When the music stopped, I
+opened my eyes, and there was Kayode beaming, Ekene cheering, the dance
+floor drowned by laughter and applause. I shook Kayode’s hand and he
+pulled me into a manly hug, our shoulders clashing.
+I need some air, I said, as the next song began.
+God, me too, he said.
+He followed me to the balcony, where a few people had carved a space
+for themselves to smoke and talk. The street below was dark, electric poles
+watching over the closed shops, and there was some breeze, and the music
+blasting inside was muffled, Kayode having shut the door behind us. I took
+a dramatic breath, saying how good the air was on my face. I felt happy yet
+anxious and exposed, a confusing meld: I’d noticed a few guys leave when
+Kayode led me to the dance floor, now I was sure that they’d left in disgust
+and anger, those had to be the only reasons.
+I have to go home, I said.
+He looked puzzled, concerned. Are you okay?
+Yes, I said. I’m just not a party person. I’m exhausted already, but I’m
+glad you made me dance.
+It made my night, he said, eyes alight, and then looked at me serious. I
+should probably see you off. You don’t want to jam bad guys walking alone,
+this is their time.
+I texted Ekene: Walking home with Kayode. See you tomorrow, hun. We
+walked downstairs and out the gate together, down the dusty road, the
+houses gray and forlorn.
+So how come you know my name? he said. I was a bit surprised when
+you said it on the dance floor.
+I glanced at him; walking side by side, I noticed I was taller. You’re kind
+of famous, mister.
+He laughed. You know, I used to see you in the hostel. I would think to
+myself, Who is that guy, I have to know his name.
+I felt a small, sweet stirring in my chest. Why didn’t you talk to me? I
+asked.
+Because you always had this unfriendly look on your face, and you walk
+really fast.
+He looked serious; I laughed, slowing down my steps. He laughed, too.
+At Hilltop Gate, a group of guys were seated on the corridor of a closed
+shop, smoking weed, and I reminded myself to put on my manly walk and
+my manly face. He called out to them, My manchi, and they called back,
+Baba, and I felt terribly grateful for his presence. We walked out of the gate,
+making small talk, little rocks crunching under our sneakers, onto
+Cartwright, the tarred roads illuminated by lights beaming from hostel
+windows. We walked toward the senior staff quarters, took the thin path
+leading to the boys’ quarters, the ground a carpet of dead leaves. At my
+door, I said, Thank you, and he said, Yeah, sure, and looked at his feet and
+then at my face, a peculiar shyness rising into his eyes.
+He was naked in my bed the next morning and almost every morning until
+the end of semester. For the first week, we stayed indoors all evening and
+fucked like two freshers newly discovering the joys of having a room away
+from home, stepping out only to buy food or get a change of clothes for him
+or more condoms from the chemist at Hilltop Gate.
+Little things made him happy, such as my neighbor’s singing, which was
+horrible (it sounded like a billy goat in heat, he said) but joyful, or the fact
+that I snored after a long day (or a long night, he added). We would be quiet
+one minute and the next he would shatter in laughter, flashing his phone,
+This is fucking hilarious, and it would be the most mundane thing.
+When he was away at his lectures, or playing the occasional weekend
+gig in Enugu, and I was alone, I pressed his clothes to my face, thinking,
+This is a dream.
+The holidays came and went—I traveled to Kano while Kayode returned
+to Ibadan, and we texted during the day and talked all night on the phone,
+his voice husky with need as he said, I cannot wait to hold you again, I go
+die on top your body—and soon it was November and the harmattan wind
+began to blow, ripping off rusty-old roofs, covering windows and furniture
+in dust. At first the trees were bare, their branches spread out and dry; later,
+they caught pink and purple fire, abloom. Kayode bought a big mattress,
+and we threw out my old one, which was slim and almost flat. He wore the
+thickest sweaters, the cold made him sick, and if he could miss a class, he
+did, so that I returned home many afternoons to find him curled under the
+blanket, either asleep or typing into his phone. When he was well enough to
+attend classes, he went with two or three handkerchiefs, because he was that
+sort of person: his clothes (jeans, T-shirts, ankara, whatever, really) were
+crisply ironed and spotless. Who are you kitting for? I teased him often.
+For you na, he’d say. Abi you don’t like me looking good?
+And he would spread his arms and turn around, putting on such a show,
+I’d fall back on the bed, weakened by laughter.
+I spent most of my evenings bent over my table, at war with quantum
+chemistry, which I loathed, and he spent his with his headphones on,
+hunched over his laptop, bopping his head. One evening, he let out a
+triumphant yelp, and I knew he’d cooked a beat he liked. I looked up from
+my book to stare at him. Sorry, he said.
+Let me hear it.
+I eased into bed beside him. He placed the headphones over my head, his
+arm wrapped around my shoulders. The beats filled my ears, bass strong
+and booming, drums understated but with a distinct, swinging movement,
+guitar lines joyful yet sad; it made me think of lovers at a beach, of the sun
+setting, of warmth and tranquillity. This was a love song, no doubt.
+I’ve never heard anything like this, Kayo.
+You like it? His face was bright with optimism, with expectation. How
+could one ever say no to that face, to those tenderly childlike eyes?
+Of course, I do, I said. It’s like you found a new, more mature voice and
+yet retained the best parts of you.
+He stared at me, as though unbelieving. Somto, he said, and then he
+grabbed my face and kissed me. He hugged me so tight, it almost hurt. I
+love you. God, I love you so much.
+There had been other boys before Kayode. There had been Basil in first
+year, terribly cute Basil who had a girlfriend and said he wasn’t gay but
+loved getting his dick sucked by me but would never suck dick himself
+because, hey, he wasn’t gay. Before Basil, there had been Uzo, a customer
+at the warehouse where I worked after graduating secondary school, Uzo
+with his I love you and I use to drive Toyota Corolla, Uzo who was thirtytwo and said he loved me, even though I was just seventeen, who said No
+need for condom, you’re my only one and I am your only one, except, he
+was my only one, the other half was utter bullshit, a truth I learned the hard
+way trying to explain to my parents why I had sores there. Two trips to the
+police station, a fine, doctors’ bills, and Uzo was gone. And before him
+there had been others, too, boys with whom I shared a dormitory in
+secondary school, who were gay and not gay, some who called me homo
+and boy-girl in daytime, their voices singeing with hate, only to become
+Nicodemuses in my bed or in the bathroom at night; boys who came and
+went out of my body because they needed a place to dump their fantasies
+and their frustrations and their anger.
+Before Kayode, there had been all these other people, as well as a
+constant feeling of loss after most hookups, a loneliness that all the fucks in
+the world could not fill. Before him, I walked around campus with my body
+alert, that is what the body does when it has become a recipient of frequent
+violence, it perks up, an antelope, ready to flee, or a guard dog, ready to
+pounce. Guys walking past me would turn their heads to hiss and mutter,
+Guy, you be homo? Why man go dey do like woman? Sometimes, girls
+would burst out laughing as I approached, their laughter shrill with
+aggression.
+One evening, as we walked to Chitis, a group of guys walked past us and
+muttered, Homo. Hold this thing for me, Kayode said, handing me his
+phone and wallet. He marched up to them. Talk that thing again, he said, his
+voice hard. They stared at him, silent. Kayode was not tall, he was short, in
+fact, and they towered over him, but there was something in his bearing, a
+readiness to defy consequences, that must have stilled them, so that they
+faced me and muttered, Sorry, guy, no vex.
+That night, when Kayode kissed my lips, my nipples, my stomach, when
+he turned me around and spread me open and buried his tongue in me, I did
+not remember the boys who had dumped their anguish in my body, nor the
+boys on the streets with their aggressively puzzled questions; and when he
+kissed his way up my back, muttering as he bit and licked my ears, Are you
+ready, babe? I knew, finally, I had come home.
+The only girl in our lodge, her name was Eunice, she started coming over to
+hang out in our room. First, she wanted to know if I had salt, later she
+wanted to know what movies I had on my laptop. Finally, she wanted to
+join us on the bed as we watched the movies. One afternoon, I returned
+from class and found her lying beside Kayode in a short burgundy
+nightdress, her arm around his shoulder. They were watching the latest
+season of How to Get Away with Murder. I had spent the whole of Saturday
+seated outside PAA where the school’s Wi-Fi connection was strongest,
+downloading episodes, fighting the hunger that soon began swirling in my
+stomach, so that Kayode and I could watch it together that night; he’d
+stopped at Shoprite after his show in Enugu and bought two big sacks of
+popcorn. One sack stood on the floor before them now, beside my laptop,
+half-empty.
+Hey, Som, he said. How was the tutorial?
+I shrugged, sat in a chair, taking off my socks. It was really hot, like
+being in a room full of steam. I opened the windows, rolled up the curtains,
+sunlight pouring in. Took off my shirt, climbed on the bed to get a hanger
+from the clothes rack.
+Please close one of the windows, Eunice said. The light is too much.
+I turned and stared at her. Are you talking to me?
+Yes, please, can you be a darling? She’d paused the show, had turned to
+look at me. She still had her arm around Kayode’s shoulders.
+I opened my mouth to say something, and then shut it. I put on a T-shirt,
+wanted to change into shorts, but my jeans trousers were so tight, I needed
+to sit in a chair and have Kayode drag them off. Whenever he did this, he
+would tease me about my calves, he would say, See your yam legs, Mister I
+Hate to Jog. I imagined stretching my legs now and saying Baby? in that
+innocent voice, and with that childlike pout, that he loved so much,
+imagined their faces contorting with shock and discomfort; she must know
+already—she suspected, at least, of this I was sure—what the deal was
+between Kayode and me, but had chosen to come in here anyway, touching
+him with abandon, flirting with him, simply because she could. I disliked
+her and what her presence meant, that whatever Kayode and I had was not
+real and so could be violated, specifically by her, the real deal. And I was
+angry at Kayode for allowing it, but not so much as to put him in a
+terrifying situation.
+I stood up and closed one of the windows. Kayode glanced up at me,
+pleading and apologizing with his eyes. I ignored him as I returned to my
+seat, as I joined them in watching the show. Our lodge mate, Eji, began to
+play a song, if I tell you say I love you, o, my money, my body, na your own,
+o baby, the entire lodge reverberating with the force of bass. My skin itched
+with annoyance: the song was too loud, and Eunice had her head close to
+Kayode’s ear, and the room was hot, and I hated myself for closing the
+window, for succumbing to her.
+That’s a great song, she said.
+It’s too loud, I said.
+Kayode immediately moved her arm from his shoulder, looking relieved.
+He stood up, said, I’ll ask him to lower the volume. Eunice paused the show
+and began scrolling through her phone, her back to me; I, too, brought out
+my phone, but my eyes stayed on her, her legs long and smooth and moving
+up and down with such comfort, it was almost as if I was not in the room.
+When Kayode returned, he sat beside her with his back to the wall, legs
+pulled in. I watched as she glanced repeatedly at him, her questioning look
+turning cold, watched him pretend not to notice, his eyes fixed a little too
+decidedly on the laptop screen, his face squeezed in forced concentration. I
+knew, right away, that something had happened here.
+She stood up. Going to my room, she announced in a slightly irritated
+tone.
+You fucked her, I said after she left.
+Excuse me?
+I leaped out of the chair. Don’t you dare add lying to the list of
+indignities I’ve had to endure this evening, I said. I’d raised my voice
+without meaning to; Please don’t shout, he pleaded. There was a stillness in
+the quarters now that Eji had lowered the volume of his speakers, now that
+John Legend had come on, cooing, Love your curves and all your edges /
+all your perfect imperfections. A stillness of walls listening.
+I cannot believe this—you actually fucked her. And then you brought her
+into our room.
+No, no, he said, standing up and holding out his hands to touch or hold
+me. I recoiled. We didn’t fuck, you have to believe me. We made out only
+once, Som, and now she thinks we’re in love. I wouldn’t disrespect you like
+that.
+You sound as though you need a trophy for not going all the way, I said,
+sitting back down, a little relieved but still full of rage and hurt. I wanted so
+much to cry.
+I don’t mean it that way. I’m sorry. I just didn’t know how to refuse her
+without seeming—
+I waited for him to complete the sentence; instead, he looked away.
+Without seeming what, Kayode? I said. Soft? Like a homo? You can say it.
+Som, he said. He looked scared, a little boy unsure of himself. I felt a
+rush of tenderness in spite of myself, a powerful urge to hug him: it
+sickened me.
+Do you still want this, Kayode? I said, calmly. Because I will not be your
+bi-guy’s side chick.
+There is nothing I want more than this, he said. Believe me.
+Then you have to let her know the boundaries.
+He nodded.
+Promise me, I said. I want to hear you say it.
+I will, I promise, he said, moving uncertainly toward me.
+Ekene’s room was always dimly lit, and there were always at least three
+other gay boys, often more, lying on the mattress, on the floor, laptops open
+to one TV show or another. We called it the Nsukka Gay Cathedral, though
+he preferred the Gay Capital. I see myself as the gaysident, he was saying
+now, strutting into the room with a tray of rice. I am no bishop. Ndị ahụ bụ
+amosu. They suck dick in their seminaries and then condemn us on the
+pulpit.
+He set the tray on the floor, hot steam billowing; the aroma of spices
+filled my mouth with water.
+Has a priest sucked your dick before? JJ said, looking up from his
+laptop.
+We know you’re nwa father, JJ. Ekene rolled his eyes. Food is ready o.
+He turned to me. Nwa, there’s only one spoon here, you can have it. These
+ones eat like they’re wolves, they can have the forks.
+We sat around the tray, Ekene, JJ, Kenneth, and I. Who serves food
+without water? JJ said, getting up. His glasses made him look older and
+serious, or maybe it was simply his face, the way his mouth was shaped in a
+permanent scowl. He went outside, the door creaking behind him.
+Kenneth dug his fork into the tray. Ekene smacked it. Wait for your
+boyfriend.
+He’s not my boyfriend, Kenneth said, frowning. He was a first year but I
+liked how mature he was and wished often that he would talk more.
+What do you call what you’ve been doing with him? Ekene asked.
+It’s called fucking, Ekene, I said. Two friends can have sex without it
+meaning something bigger.
+Tell him! Kenneth clapped his hands, and Ekene cocked his head
+sideways, his lips pursed, eyebrows raised, like, gurrrl. The door cawed
+open.
+Are you faggots gossiping about me? JJ said, tearing open a bag of
+water, passing us each a sachet.
+Bitch, don’t flatter yourself, Ekene said.
+The rice was good, as always, peppery without being impossible to eat.
+JJ took off his shirt, sweat beads dotted his nose, his chest, ran down the
+small folds of his stomach. I took off mine, too, the room had been warm,
+now it was hot, the white light from the rechargeable lamp shrinking, so
+that our shadows on the walls grew bigger and closer, converging together.
+Ekene took off his shirt, fanning himself with it. I felt my phone vibrate in
+my pocket before the song came on, Michael Jackson crooning your love is
+magical: my ringtone for Kayode.
+Are you home, babe? he said when I answered. I told him I was at
+Ekene’s, and he exhaled, Good, because I’m at Hilltop now about to head
+home and I think I left my key inside.
+Come toward Green Lodge, that’s where Ekene lives. I’ll come outside
+with the key.
+Ekene’s eyes shot up, and he mouthed, Outside? He pursed his lips,
+playing judgment.
+What are you guys doing? Kayode asked.
+I stood up, headed toward the door. Are you far from Green Lodge? I
+said. I knew already that he would keep on talking until he got here if I let
+him.
+I’m actually close. Was at a classmate’s to get material for a group
+project. He lives close to Green Lodge.
+Awesome.
+This your bobo that no one ever sees, JJ said as I ended the call and
+opened the door, the rattle of generators assaulting my ears. Is he afraid
+he’ll be contaminated by the fags of Gay Cathedral?
+Capital, Ekene said. Gay Capital.
+JJ waved him off. Bitch, please.
+Kayode is not like that, I said.
+Walking into the hallway, the walls dark and crowded with sounds—
+people talking in their rooms, movies and songs playing from laptops—I
+thought of what JJ had said. I knew that Kayode was not like that, and yet I
+never asked him to accompany me to Ekene’s, even though they’d known
+each other longer than I had, and he’d never asked to join me.
+At the gate, I hugged him, but briefly, the way guys did it on the streets:
+a handshake and a brief clapping of our right shoulders. He smelled of
+cologne and sweat. You look tired, I said, handing him my key.
+I’ve been walking all day. He shook his head, making a sad face. These
+lecturers are always the first to go on rants about corrupt and despotic
+politicians while oppressing their students.
+Fools and hypocrites, I said. I’m sorry, babe.
+What are you guys doing? Let’s go home.
+A plea, his were eyes imploring, lips turned down. It was dark by the
+gate, though beyond the tiny path leading to it, students milled around,
+buying things from the shops in whose corridors beamed white or yellow
+lights, others heading into campus or home from it, and I could easily place
+my hand on his lips and nobody would see. He chuckled when I did,
+holding my fingers there, biting them, his tired eyes lighting up.
+I have to hang out with my friends tonight, sorry, I said. Ekene accused
+me recently of abandoning him, and he’s right, the bitch. Plus, we’re
+watching Orange Is the New Black together, just one episode, and then I’ll
+be home. I paused. Do you want to come inside? You can lie down for a bit.
+To be honest, I don’t even want to walk home alone, he said. He put his
+arms around my neck, leaning heavily against my back.
+Don’t break me, I said, trudging forward, carrying his weight.
+Two boys talking as they approached us, I heard them before they
+appeared around the corner, and Kayode must have heard too, because he
+let me go. They barely glanced at us as they walked past, engrossed in their
+conversation, their white singlets stark against the darkness. Inside, Ekene
+said, Finally, the great Kayode steps into my house.
+Dramatic as always, Kayode said, shaking his head. He shook hands
+with JJ, who muttered something, eyes slightly averted, and then with
+Kenneth. Ekene, he hugged. So what are you guys up to? Somto tells me
+you’re watching Orange Is the New Black.
+He sat on the bed. Ekene offered to get him some rice. He ate quickly,
+watching the show, and then he fell asleep lying on his back, hands on his
+stomach like a person lying in state, legs on the floor.
+He’s so hot, Kenneth said, pulling me out of the show. You’re so lucky,
+Som.
+Stop tripping for another person’s man, Ekene said. Your man is right
+here, ho.
+God, shut up, JJ said.
+When he talked, my friends listened. The other boys watched him with
+something close to adoration, laughing too heartily at his jokes, agreeing
+with everything he said, and it occurred to me gradually that I did not like
+him with my friends. With Ekene and JJ, yes, but whenever the house was
+crowded with the other boys with whom I was not particularly close, I
+resented the very things for which I had fallen: his brimming confidence
+and the way he was able to make people comfortable around him, and so I
+stopped inviting him over.
+________
+We were at a recording studio somewhere along Oba Road. The huge
+signpost above the one-story building read MC Fleeky’s Studio. What sort
+of name is that? I said to Kayode as we entered the building. The studio was
+located on the ground floor, upstairs was a lawyers’ chamber, another
+signpost reading Ugo & Associates: Barristers at Law, everything printed in
+plain black. The building itself was humorless, old and peeling and
+crumbling, the railings brown from rust. Inside the studio, the walls painted
+the dullest blue, I had the feeling of being in my grandfather’s living room,
+complete with faded pictures hanging on the walls and a ceiling fan that
+cawed, like a plummeting bird. Kayode and I sat on a sofa after the
+secretary, a curt girl whose face glistened with Vaseline, went into one of
+the rooms.
+You cannot record here, I said, turning to him.
+I don’t know, Som, he said, eyes scanning the room. Ekene told me it’s
+old. This is ancient. Are you even sure they have a boom mic?
+He stood up and strode toward the secretary’s table, as though to check
+for a boom mic. Flipped through books and sheets of paper piled on the
+table, many brown with age. I watched him, his back turned to me, watched
+his boots, brown and heavy looking (I could never understand his obsession
+with huge boots), his hand as he flipped through the books, the calm,
+unruffled tempo of his movement.
+What are you doing?
+He turned around, gestured at a typewriter that had been covered with a
+blue cloth. Who still uses a typewriter? he said, shaking his head. He
+returned to his seat beside me, his face crumbling with despondence.
+We should go to Enugu instead, I said.
+Ah, I cannot afford it o. Twenty K for one demo.
+How much did they say it would cost here?
+Twelve thousand, he said. But that if I price it well, nine K. I need this
+demo to be perfect.
+I glanced up at the ceiling, the brown smudges almost elegant in the way
+they circled the fan, the way they ringed the electric bulb.
+What if you pay for the sessions in Enugu, I said, and I handle
+everything regarding upkeep until the end of the semester?
+Haba! No na, that’s too much. See, don’t worry about me, Som, I’ll try
+and convince my dad to send me the money.
+You’ve been trying to convince him all semester.
+Maybe we’ll go to Christ Church and sow a seed, eh, he said, smiled.
+Perhaps God will touch his heart then.
+Stop playing. We’re doing it. You’ll go to Enugu next week.
+Yes, Daddy, he said, his face breaking into an amused smile.
+I elbowed him. Your head is not correct.
+The secretary returned, sank into her seat without as much as a glance at
+us. Oga said no vex, she said, moving items on the table. They’re repairing
+the mixer, but it will soon ready.
+Kayode stood up, adjusted his trousers. Me and my friend want to take a
+walk, he said. We’ll come back.
+She shrugged.
+Outside, I said, We will come back?
+Keep moving, he said, taking my hand. And don’t look back, or you’ll
+become a pillar of salt.
+Final year beginning, the entire campus stretching and yawning, roused
+from the slumber that had been the long vac, Kayode bought forms to
+contest for the post of director of socials of the Student Union. Every
+evening, his team congregated in our room, discussing strategy. They were
+boys like him, masculine, their laughter and their postures robust and
+uninhibited. They sat on the plastic chair, on the floor, on the bed, talking in
+impassioned voices about alliances and loyalty and mandates, stuff that
+meant nothing to me. Whenever I came home, I said hello, changed my
+clothes, and left the room. Sometimes, I’d lie on the bed, headphones on,
+immersed in Facebook or in a movie.
+What faculty are you in? one of the boys asked one evening as I lay on
+the bed, watching Scandal. It was Anayo. Anayo with the voice like an
+explosion and loud gestures like a boxer circling to lunge.
+Physical sciences, I said, taking off my headphones.
+I am surprised, he said.
+How?
+Physical sciences guys don’t usually do like women, he said. That’s
+more like a faculty of arts something.
+I looked around the room, five unfamiliar pairs of eyes staring back at
+me, Kayode nowhere to be found. That is such a weird thing to say to me, I
+said.
+Guy, no be fight na, someone else said, laughed, and like robots they all
+laughed too. And you and this your English sef, every time, supree-supree.
+Guy, you be babe?
+I felt my body recoil, it was as though someone had grabbed my neck
+and was going to start pummeling me. It is not my fault that you are barely
+educated, I thought of saying, consumed by a need to reduce them, make
+them feel equally small, but I thought of Kayode, he needed this win for his
+cred and for potential networks, he’d said, and he needed these guys, some
+of the most popular in their various faculties, to win.
+I don’t know what you’re talking about, I said.
+Are you and Kayode brothers? Anayo asked. Is that why you’re
+roommates?
+No, we’re not. I plugged back my headphones. The images on my laptop
+screen blurred, the sound of the show pricking my ears like pins. I could
+hear them mumbling, did not need to hear what they were saying to know
+that they were talking about me. I thought of leaving the room, but what
+sort of person would I be, fleeing my own home? I was so angry, I could
+detonate: angry that they could come into my house and do to me what they
+did on the streets, angry that I had to hold back the many clapbacks boiling
+in my stomach.
+When Kayode returned, bearing bunches of bananas and a bottle of
+groundnuts and laughing at something Anayo said, my anger transformed
+into a throbbing resentment toward him. Won’t you eat? he said, tapping me
+and nodding at the bunches of bananas on the floor. I shook my head,
+turned up the volume on my laptop. In that moment, I could not stand the
+sound of his voice, the carelessness of his laugh, the ease with which he
+became one of them, throwing guy and manchi around, words with which
+they peppered their sentences, as though to remind one another that they
+were indeed men, Lord, wasn’t that awesome?
+Why are you angry with him? Ekene said when I went to see him that
+night. It’s not his fault that the guys are assholes.
+I said that Kayode should have known better than to bring those kinds of
+guys into our house. They could always have their meetings at Marlima or
+Chitis, no? And what was that shit he did, laughing with them when they
+talked about the girls they fucked, as if it hadn’t been two years since he last
+saw pussy?
+Ekene looked at me, uncomprehending. That is the kind of boy he is,
+Som, he said. You don’t expect him to suddenly become a different person.
+I started staying away from the lodge in the evenings, started taking long
+walks around school, visiting friends at Hilltop and Odenigwe, only
+returning home when darkness had swallowed the buildings and the trees,
+wrapping them in a black frock. Sometimes, Kayode called to know where I
+was, if I was fine and if he needed to get me anything on his way back from
+seeing the guys off. We’d then often meet at Hilltop Gate, so we could walk
+home together. I know all that talk about politics bores you, he’d say, and
+I’d nod, yes, that was it.
+I helped him select the pictures to use on his flyers and posters, sat with
+him all night as he wrote his manifesto. Nah, I would say from the bed, too
+cliché, and he would look at me with exhausted eyes and say, I think I
+should fire you, sadist, which made me laugh. All right, I would say, how
+about this? And I would give him a different sentence. It gave me such joy,
+watching him do things, early many mornings, he’d wake me with his
+hushed humming, and I’d watch him seated at the desk with his laptop
+open, headphones on, listening to his demo, pausing to take notes. Turning
+and seeing me awake sometimes, he’d smile and mutter Sorry, or wave me
+over to sit on his lap while he worked.
+The evening he called and asked where I was, and could I please come
+home, I assumed the guys had left early and he wanted to hash out the last
+points of his manifesto before bedtime. When I got home, there was no
+power, the rechargeable lamp on the table slashing the room into half light,
+half shadow. His flyers and posters were scattered all over the floor. He was
+lying on the bed in the jeans and long-sleeve shirt he’d worn to class, lying
+perfectly still on his back with his hands behind his head. I sat on the bed,
+placed my hands on his socked feet.
+Are you okay?
+He nodded, grunted, Yes, but did not move. I sat beside him, quiet. I
+could sense his sadness, it rose out of him, a wretched offering.
+Talk to me, babe, I said, rolling off his socks, massaging his feet.
+I’m pulling out of the elections, he said.
+The room was quiet, the clock going tick-tick-tick, a conductor beating
+the time to a silent song. I waited for him to say more, there had to be more,
+but he said nothing, merely lay there, staring at the ceiling.
+Why? I said, finally.
+He remained quiet at first, and I thought he’d slipped into a mood, but
+then he began to talk, his quivering voice walled with anger. Could I
+imagine, he said, that Anayo went behind his back to campaign for the guy
+from theater arts? Did I know that when he confronted Anayo, the fool did
+not even feel any shame or remorse? They ended up shouting at each other,
+he said, right there under the staircase in public admin, in front of first
+years.
+I’m so sorry, I said. I’ve never liked nor trusted that guy. Did he say why
+he did it?
+Maybe you should ask Eunice, he said, shutting his eyes. When he
+opened them, they were full of anger.
+Easy, I said, rubbing his feet.
+God, I will fuck that girl up. She doesn’t know me o, lai lai. Maybe
+because I’m always smiling, she does not know that she should be afraid of
+me.
+Kayode.
+He stood up, began pacing the room. Do you know that that girl is going
+around telling everyone I’m gay? That bitch does not know the market she’s
+buying.
+I stared at him, my tongue feeling like stone. I’d always found it
+wonderfully contradictory that he was cool with some of the most fearsome
+guys on campus and yet had only gentle bones in his body, now I felt a
+twinge of discomfort listening to him.
+That night, we woke up to loud moaning. It was the same name as
+always, Eji, our neighbor with the short dreads who played loud music. Oh,
+Eji, fuck me, a girl cried. Someone banged a pan or a pot, something metal,
+against the wall, yelling, No kill the babe o! Laughter erupted in the lodge,
+the voices of boys snatched out of sleep, of masturbating, and of studying.
+Eji said nothing, the girl was quiet for a second, and I could hear in the
+stillness the rising tempo of their bed’s creaking, and then she was at it
+again: Eji, oh, Eji!
+I can make you scream like that, Kayode said beside me. I hadn’t known
+that he was awake.
+I chuckled, burrowing deeper into the blanket. I felt the heat of his body
+against my back, his hand around my bare chest, his lips on my neck.
+You doubt me?
+You’re not fucking me to their soundtrack, I said, but did not move his
+hand away from my nipple, did not shrug his tickling tongue away from my
+neck. I was hard and he was hard, his dick straining against his boxers and
+poking my lower back. The security light from the corridor trickled into the
+room, soft and timid. I turned my head to look at the window, suddenly
+thinking of Eunice spreading stories about us: I imagined the face of a
+suspicious boy pressed against our mosquito netting, imagined curious ears
+pressed against our door.
+Kayode squeezed me into himself, grinding against my ass, and I
+thought he’d pull down my boxers, tilt my head around and kiss me.
+Instead, he let me go, put his hands behind his head, face toward the ceiling.
+They don’t even fucking care who hears them, he said, his voice harsh in
+the darkness, in the sexual chorus that had now faded into a throaty
+diminuendo. I looked at him, his chest rising and falling, his body a
+silhouette in the dark. We’d heard Eji fuck many times in the past, and not
+once had Kayode reacted to it. I knew it had something to do with
+everything that had happened earlier. I lay my head on his chest. It was
+calm and measured, his heartbeat: he was alive, my breathing, palpitating
+boy.
+There was a tension in his jaw where the corridor’s light bruised his
+profile, a trace of violence in his silence, in the way he’d said, I can make
+you scream like that. I wanted to take it all away, to make him feel good,
+see him feel good. I nuzzled against him, making him turn around so that I
+wrapped my arm around him. We stayed that way, saying nothing, listening
+to the moans and the bed creaks until they were no more, until we both fell
+asleep.
+We went to Enugu the week of the elections, spent six days in a cheap motel
+with windows overlooking a plantain grove—a window Kayode stood by
+most evenings, looking out into God-knows-what. On our last night there,
+he stood by that window and said, Now I know how you feel.
+I paused the movie I’d been watching on my laptop (the motel’s TV only
+showed Nollywood movies in which people wept disconsolately in every
+scene) and stared at him. What’s wrong, baby?
+All my life, he said, still looking out the window, hands in his pockets,
+nobody has treated me like this, like I am a leper or something disgusting.
+I left the bed and went to him. Stood behind him. Wound my arms
+around his stomach and buried my nose in his neck, breathed deep. He
+placed his hands on my arms, twirling his fingers lazily. Outside, the sunset
+was something to behold: it had splintered into varying currents of the same
+ocean, yellow, orange, red, an ocean into which bats plummeted, like
+seabirds, fluttered, then soared.
+You get better at tuning it out, I said.
+Kayode let out a long breath.
+I wished his sadness were a living thing, so that I could place my hand
+on his body and yank it off.
+Every year, his favorite songs changed, but mine remained the same. He
+called one morning, saying, You have to ditch your next class and come
+home. When I got home, he was playing “Mad Over You” so loud over the
+speakers it seemed the roof would explode. He lay on the bed in blue polkadot boxers, hands behind his head. It was the song on everybody’s lips,
+“Mad Over You”: Baby girl I say, I say your body na killer o.
+Don’t tell me you called me home because you’re horny, I said, taking
+off my sneakers.
+He stared at me, a smile struggling to break out of his quivering lips.
+Jesus, Kayode! I’m missing Chem 422.
+Guess what, he said.
+Stop playing around, Oga.
+Guess na. He smiled, the brightest, happiest smile.
+You made an A in Pol 306?
+He playful frowned. Seriously? I’ll ask you to run home because of that?
+Ngwanu, I cannot guess, I said. Just tell me.
+I got a call from Kennis, he said. They loved my demo!
+Oh my God, Kayo, I said.
+We did it, Som, he said, pulling me onto his body, arms wrapped around
+me, his voice breaking. We finally got there. We got there.
+And I kissed him, holding his face, I kissed him. He kissed me back,
+holding my face, too, and muttering into my lips how so fucking happy he
+was.
+II.
+Lagos, charming yet disorienting, bubbled with uncontainable life. Two
+months taking the bus to work, two months going to the cinema and to the
+school where I taught and to the NYSC office in Surulere, two months
+drinking in the city like a person drowning, and I still felt lost in the noise,
+in the ever-surging feeling of anonymity. Too many faces, Lord, and the
+speed, the jostling, the peevishness of strangers, the brutal sense of one’s
+invisibility.
+You cannot hate Lagos, Kayode teased me. You’d be like the weird kid
+at school.
+Whatever, I said.
+But I came to like Lagos eventually, the way one becomes fond of the
+annoying class clown, and though I dreaded taking the bus to work in the
+mornings, the racket that it was, I came to look forward to the evenings
+when, snug in the back seat of a taxi, I was able to look out into the
+glittering prism that was Lagos’s night, Ikoyi Bridge twinkling as if riddled
+with stars of Technicolor. The parties we attended were wild, but nobody
+bothered me, so I often sat at the bar sipping my Smirnoff, nodding to Kiss
+Daniel and Omawumi and Phyno, watching the bodies twisting on the
+dance floor while Kayode talked with his producer.
+He’s a great guy, Kayode said often, his eyes bright with surprise, it was
+almost as if he had not expected the people at Kennis Records to be nice.
+Lanre was very tall, he towered over me; next to Kayode he was a palm
+tree. He had an incredible bass when he talked, his entire body resonated
+with it, and it was with that bass that he said to Kayode, Don’t worry about
+Youth Service, and now Kayode spent all day at the studio, lounging at
+home when he didn’t, partying weekend nights. I teased him, saying,
+Maybe I should dump you and elope with Miracle Worker Lanre; grinning
+cockily, he said, Does he have this? He took off his shirt, his trousers,
+slipping his thumbs into his boxers, his body taking on the slant of
+performance. God, I said, both of us bursting into laughter. When there was
+no power and the low ceiling seemed to descend, we spread a blanket on the
+balcony and lay there, talking about Nsukka, watching YouTube videos of
+celebrity houses, dreaming aloud.
+The morning I woke up to something sweet wafting from the kitchen, his
+voice bright and soft as he sang I love the way you move / Shape like
+Rihanna, heart like crystal, I knew something good had happened. I went
+into the kitchen where he stood with his back to the door, flipping plantains
+in a frying pan, and wrapped my arms around him.
+The single is dropping tomorrow, he said, turning around to kiss me.
+Finally!
+That’s not even the good news, he said, his eyes like perfectly round
+plates, his lips stretched in a rubber-band smile.
+I looked at him, excited, waiting.
+Almost every big name we asked agreed to share it on their Instagram
+pages, he said, counting the big names off on his fingers, his face and
+comportment a picture of pure joy. I screamed, and he screamed, and soon
+we were singing out loud, Make I love you like say I go die tomorrow,
+singing in that tiny, sweltering kitchen soaked in the aroma of fried
+plantains.
+Lanre was planning a party to celebrate the success of the song. Who would
+have imagined it, he said, the way it had rocked the entire country, every
+major club in Lagos was grooving to it, Twitter and Facebook and
+Instagram were on fire, too, and the blogs were going crazy—who could
+have fucking imagined it? We were in the living room of a flat in Lekki, his
+voice reverberating over the empty space. I stood by the window, looking
+out into the estate. I had never seen trees arranged so delicately, ornate
+palms and whistling pines flanking somnolent streets, the swimming pool a
+deep blue. Kayode was saying it really was crazy, he was wondering what
+would happen when the album dropped. I was thinking that our lives were
+changing really fast.
+You like the place? Lanre said.
+It’s huge! Kayode said, and they both laughed.
+Is your friend moving in with you?
+Yes.
+There was silence. A black SUV was slowly rolling down one of the
+streets.
+So, the party tomorrow, are you bringing any chick?
+I don’t think so, Kayode said.
+I was talking to your friend, Som—, Somto, right? He turned to Kayode:
+As for you, babes will be all over you.
+He laughed, Kayode joining in. I wanted to laugh, too, it was what I was
+supposed to do, but my lips refused to move. Between them, there was a
+shared language that I did not speak.
+But, seriously, don’t you know any girls? Lanre said. Fine guy like you.
+No dey fall my hands fa.
+I stared at him. Give me your sister, I wanted to say. He was saying more
+words to me now than he had all month.
+Why you dey hassle my guy na? Kayode said, nudging him playfully.
+Lanre threw his hands in the air, saying, No be hassle o. His phone began to
+ring. He stepped out to answer the call.
+Isn’t this great? Kayode said, spreading his arms. He stood beside me,
+resting his back on the wall. I let my eyes travel round the room. It was
+great, the large sliding doors leading to a balcony in which potted aloes
+yawned in the evening light, the impeccably white walls, the floor of
+polished wood. Closing my eyes earlier, I’d seen the apartment furnished,
+all three rooms: the portraits on the walls would be pencil drawn,
+hyperrealist, the carpet in the middle of the living room plush and soft.
+So what time are you meeting the decor guy tomorrow?
+I shrugged. Who knows? I have to find a girl to take to the party,
+remember?
+He looked confused, and then he chuckled. You’re not serious, he said,
+nudging me with his shoulder. Come on, babe. He wrapped his arm around
+my shoulders. Don’t be mad, it’s Lanre, he’s always playing.
+I’m not mad, I said. What I really wanted was to ask if he truly did not
+see it, Lanre’s quiet aggression toward me, his delicately placed acts of
+disrespect, but he’d been so happy lately, I did not want to sabotage his joy.
+Perhaps it’s better if I don’t attend.
+You’re going with me to that party, he said, looking at me like I had said
+the silliest thing. And if any girl disturbs me too much, I’ll tell her my babe
+read chemistry o.
+A small, intimate party, Lanre had said, and yet there were a little over a
+hundred people on the hotel’s rooftop, faces and voices I knew from
+television and radio, and some others I did not know, girls in gowns so tight
+and stilettos so high, they seemed to hover and float. They sipped
+champagne, hung around in small circles, laughing at funny and unfunny
+jokes, the whole place electric with ambition and ego. After a few minutes
+of mingling, I retreated to the bar, where I sat alone.
+I watched as Lanre took Kayode from clique to clique, introducing him
+to people who mattered. Watched as Kayode shook hands, laughed, said
+things that made them laugh; he was like a solvent, he dissolved metal. I
+felt a wave of pride watching him: this boy with whom everyone was
+enamored would come home with me tonight and every other night and
+take off his clothes for me and do ridiculous dance moves that made me
+laugh.
+Twice, he’d walked up to the bar to sit with me, his voice alive with
+excitement. Are you okay here? he’d asked, and was I sure I didn’t want
+him to introduce me to so-and-so?
+No, go have fun, I said, smirking. I love to watch.
+That his song na fire, the barman said now, startling me. How long have
+you two known each other?
+I glanced at him, light skin with chubby cheeks covered in a carpet of
+hair, muscular biceps stretching the sleeves of his black shirt. Since
+university, I said.
+You guys seem very close.
+I murmured, Uh-huh, sipped my Smirnoff and looked away, partly to
+signal the end of the conversation, but also to scan all the faces for
+Kayode’s. He was standing alone with a young woman who I’d seen in a
+Nollywood movie but whose name I could not remember. She flicked
+something off his shoulder, her hand, lingering, slowly running down his
+arm. He leaned in and said something in her ear that made her laugh, head
+thrown back. I felt a sharp discomfort. All the years we had been together, I
+had never felt as vulnerable as I felt now, Kayode surrounded by the most
+beautiful people in the city. I wanted desperately to be a girl, so that I could
+place my arm in the crook of his arm and walk around with him all evening,
+and it would be okay; people would whisper She’s so possessive, so
+insecure, and it would still be okay.
+I’m Anthony, by the way, the barman was saying. What’s your name?
+Somto, I said, took out my phone to check Instagram. I wanted to sit in
+silence and listen to the band, which had been playing quietly in the
+background, and hoped he’d stop trying to make small talk.
+I knew it!
+I turned to him, moved by his excitement. Knew what?
+You’re Igbo, he said, smiling. He’s Yoruba, half the people here are
+Yoruba yet I was able to guess correctly.
+I lifted an eyebrow. Oh, I said, unsure how to respond to that. That’s
+nice. I returned to my phone.
+Sorry to disturb you o, he said. A brother was just trying to be nice.
+I ignored him. Lanre was walking toward the bar. Let us talk, he said to
+me, asked for a glass of Hennessey. We left the bar, began walking, the
+silence between us engorged with awkwardness.
+Nice trousers, he said.
+I looked up at him, surprised. Thank you.
+He nodded. I hope you’re enjoying the party, he said, lifting his glass to
+a couple who had lifted theirs to him.
+Well, I can see everything from the bar.
+Good, good. We had walked away from the heart of the party, the sound
+of music floating down to us. The band was singing As.a. I didn’t
+understand you, they cooed, I thought your love was strange. We were
+standing before sturdy glass barriers ringed by silver banisters; from this
+height, the whole of Victoria Island seemed to swarm with glowworms, cars
+and skyscrapers and apartment blocks iridescent, the ocean a black bed
+upon which all the city’s lights slept.
+I’d like to ask you a question, he said, guy to guy. No shame, no
+judgment.
+Okay.
+What sort of relationship do you have with Kayode?
+We’re friends, I said, not even pausing to think.
+It’s obvious. I’m asking if, you know, is Kayode gay?
+I said nothing. I should have said no, berate him for even thinking such
+nonsense about my mannest man: he would apologize and say what was he
+even thinking and make me promise not to mention it to Kayode. But I said
+nothing. I looked down at Lagos, all that life, all that beauty, it was almost
+painful to watch, and yet I missed Nsukka.
+Well?
+I don’t know, I said. Why not ask him?
+But you’re his guy.
+That does not make me his mouthpiece.
+There was silence. I held onto the metal banisters, my hands trembling.
+See, he said, I have been in this business for many years. I have met
+people, made people’s careers. These guys wey dey rock woman yansh up
+and down inside music video, you think say all of them straight? Many are
+gay, as in, them dey fuck man-ass. I don’t care where a guy puts his dick, as
+long as he does not bring it near me. What I care about is the music, the
+business. And in this business, it’s suicide to be gay.
+Why are you telling me this?
+We’re not children—Somto, right? It is obvious what you are, you’re not
+even hiding it. As in, look at your trousers, for instance. Don’t get me
+wrong, they’re dope. But they’re too tight for a guy na, even you, reason
+am. Anybody sees you constantly with a guy like Kayode, and only one
+thing enters their mind.
+Who I am is not your business, I said. If you have anything to say, say it
+to Kayode. Turning around to walk away, I thought I’d return to the bar, but
+instead I walked past it, feeling the fullness of Lanre’s eyes behind me, and
+then the barman’s, whose lingering gaze made me want to turn around and
+yell at him. I spent about ten minutes searching for the exit, the hotel was
+massive, and, when I found it, stood for a long time in the night draft, trying
+to flag down a taxi. In the back seat of the taxi, finally, I cried. Quietly, my
+face cradled in my palms. The radio was tuned to Cool FM, the presenter’s
+voice smooth and low as she said, This next song is for all the people who
+are afraid to love, to be themselves, to speak out. E talk say we be
+wonderful, wonderful people, so no need to be afraid. All you wonderful
+Lagos people, Emeli Sandé!
+By the time Kayode returned, I had cried out all the anger and self-pity, and
+I was listless. He flicked on the bedroom light, staring at me. You left early,
+he said, burped. Sorry. He kicked off his shoes, took off his wristwatch, his
+shirt, unbuckled his belt but left his jeans on. You should have told me you
+were bored.
+I folded my arms, looking away. If I stared at his oblivious face a
+moment longer, I might say something hurtful.
+Babe, he said. The bed dipped under his weight. Did someone say
+something to you?
+I remained quiet, unmoving.
+Talk na. Why are you pouting, eh? You know you look hot when you
+pout. See, I’m going to take a picture of you frowning and send to Ekene.
+Oh my God, my phone!
+What happened to your phone?
+I looked at him now. I think I left it at the bar. I left immediately after
+talking to Lanre.
+Don’t worry, I’m sure someone will keep it. Let me try the number.
+He dialed it. It’s ringing, he said, placing the phone to his ear. And then,
+What did Lanre say to you to make you leave so suddenly?
+He wanted to know if we’re fucking.
+Wha—wait. Hello? Who’s this? Please, you have my friend’s phone.
+Erm, what do you mean, baby?
+As he listened, his entire body stiffened, as though he’d been given news
+of a sudden death. He held out the phone from his mouth: Shit.
+What is it?
+He tapped his phone’s screen, the voice of a man filling the room. The
+man was singing Kayode’s song gruffly, Tastes like manna when I kiss you /
+Baby divine, meal for the brightest. He snorted, a short, harsh sound. So na
+man be the manna wey you dey chop? he growled. “Meal for the brightest,”
+olòshì.
+It was the voice of the barman, Anthony. I buried my face in my palms,
+how endless the night.
+What are you talking about? Kayode said. He was trying to keep a calm
+voice, I could tell, but his eyes showed that he was afraid.
+You think I don’t know your voice? See, I will crack this phone’s
+password. Shebi that your stupid boyfriend thinks he’s better than
+everybody, feeling big up and down? When my friends arrive and we crack
+this phone, your matter will be all over Linda’s blog and Nairaland.
+Cut the call, I said.
+What?
+Cut the call!
+I snatched the phone from him and hung up. He looked at me and I
+looked at him. Are there pictures on the phone? he said. Of course, there
+were pictures of us, I retorted, stood up and began pacing the room, arms
+wrapped around my body, wrapped because I felt so weightless, I could be
+blown away. I wanted to be held and brought back to the center of things
+but the only person who could have held me was in need of holding, too.
+Are the pictures on the memory card?
+There’s no memory card in the phone, I said. I use the phone’s memory.
+He nodded. And what is your password?
+You know it na, my mum’s birthday. But all my apps are locked with
+different passwords.
+Jesus, babe, he said. He dashed across the bed and hugged me. Thank
+you, he said. Thank you so much.
+I stood with my arms hanging by my side. This was not a time to
+celebrate, I thought. So much could still go wrong.
+He moved into the house in Lekki and I remained in Festac because it was
+the smart thing to do. The story had gone around on blogs that we were
+dating (in the posts that were recopied from blog to blog, I was described as
+the woman in the relationship, the guy who saved Kayode’s phone number
+as Baby) but without explicit photographs and screenshots of messages, it
+became another empty rumor that people debated in between work and
+idleness, a rumor that died down after only a few days. Still I had to
+deactivate my Facebook and Instagram accounts for two weeks because of
+the threats I received, so that the nights I didn’t sleep over at Lekki, I stayed
+up, casting wary glances around the room, sleep annihilated.
+I got funny stares at work, colleagues murmuring behind my back, and
+as I walked to the staff room after teaching one morning, the principal,
+Sister Monica, joined me, talking about the weather, the students, her new
+arts program. Eventually, she said, There are some rumors about you online.
+People will always talk, I said. We paused under the awning of the staff
+room.
+So true. And without conscience, too. What a serious lie to spread. She
+looked pointedly at me. A quick breeze ruffled her habit.
+So heartless, I said.
+I stopped taking the bus to work: Kayode asked and Lanre got a taxi
+driver who drove me to and from work and anywhere I wanted to go until
+the whole thing died down. He also called someone who hacked my phone
+and destroyed every piece of data in it. Arranged for Kayode to attend an
+event with a budding TV host named Jokè where they held hands and leaned
+into each other, whispering and laughing, someone’s camera going click.
+For days, the pictures circulated the Internet. In interviews, Jokè said,
+Kayode and I are good friends, in the way that people do when they are
+withholding something tantalizing; asked how close, she merely smiled,
+pressing her lips together.
+Lanre is such a great guy, Kayode said often. Like, many guys would
+dump me after this scandal. We’re really lucky to have him.
+Yeah, we, I said one evening.
+What is that supposed to mean?
+I don’t know. Maybe I do not have the same experience of him, of any of
+your buddies. Does it ever occur to you? Of course it doesn’t, seeing as you
+have chosen blindness lately. But, hey, anything that makes you
+comfortable.
+The silence in the room was like a balloon blown to its elastic limit.
+You can say your mind without being a bitch about it, Somto.
+Excuse me?
+You heard me, he said, blinking.
+I said nothing at first—we’d never spoken to each other like this before.
+That was not us. And yet I looked him in the eyes and said, You don’t
+realize how silly and naive you sound most times. You think Lanre cares
+about you? You think he wouldn’t dump you if something concrete drops
+about us tomorrow? If you didn’t learn something from this thing that
+happened, that nobody gives a shit about boys like us, then I’m sorry, you’ll
+never learn anything in your life.
+He stared at me, saying nothing, all the whites in the room reflecting in
+his eyes. He looked as though he’d walked in here only to find a stranger
+seated on his bed. He walked out of the bedroom. Soon, the sound of the
+television filled the house, This is CNN, a deep voice said. Kayode never
+watched the news. I remained seated on the bed, still unused to its wideness
+and softness, its spotless white sheets, filled with a shapeless sadness.
+About an hour later, the sounds from CNN taking on a hollow timbre as
+the night stilled, I went to the living room with a blanket, knowing he
+would be asleep. He was, splayed out on the couch, one arm tossed
+carelessly to the floor, the other clutching the remote to his chest. He was
+wearing just his singlets and boxers and the AC was on full blast. I turned
+off the lights, took the remote control from him, and turned off the
+television. As I covered him with the blanket, tucking his arms gently under
+it, I looked at his face in the dim light of the appliances, anger in his brows.
+I thought of the evening, weeks after he first said he loved me, when,
+walking to Chitis, a group of guys called me homo and he marched up to
+them and made them apologize.
+When I heard the shower running early in the morning, I rolled off the
+bed, having barely slept, and knocked on the door, then eased it open. He
+wasn’t singing in the shower this morning. I’m sorry, I said. All those things
+I said, they were really mean.
+He stopped rubbing his hands on his face, stood silently with his eyes
+closed, water running down his body. The sound of the shower drowned our
+silence. I stood there, waiting for him to respond. Kayo, I said, and still he
+remained silent. I turned around, was about to shut the door, when the
+shower stopped and he spoke: It’s not what you said, Somto. I know I’m not
+perfect. It’s the way you said it.
+I turned around, our eyes locking.
+It was almost as if you hated me, he said. Please don’t do that again.
+His album dropped on my birthday. The plan, he said, was to attend the
+launching, the small after-party, and then come home and party all night,
+just us two with our friends. It was the same day I met his mother and his
+sister, two funny women with whom I had spoken on the phone and on
+Skype countless times, meeting them finally felt like a reunion. You should
+come to Baltimore with us, his mother said, holding my hand and smiling
+so lovingly, it shocked me later hearing her say to Kayode, He’s much
+girlier than I expected.
+I’d gone out to get a haircut, my first in our Lekki estate, and had been
+excited to tell Kayode all about it, how the barber had washed my hair
+midway, massaging my scalp ever so gently, before working on my hairline,
+how painless the clippers were. Instead, I entered the kitchen to their
+shocked stares.
+You’re back, Kayode said.
+I did not respond. I walked to one of the cabinets, opened then closed it.
+I’m sorry you heard that, his mother said. I’m just worried about
+Kayode, especially seeing how distraught he was after he almost got
+exposed.
+We don’t need to talk about this right now, Kayode said, looking
+nervous.
+She adjusted her dress around her shoulder. I’m simply expressing how I
+feel. When you told me you were bisexual and were with a boy, it was hard
+for me to swallow. Ìyá ẹ ni mo jé., Kayode, I will not lie to you. But then
+your happiness is the most important thing to me. I don’t want you to be
+miserable the way I was with your father.
+So why all this talk now?
+You’ve always been a happy child, right from when you were little. The
+only time I ever saw you truly unhappy was when your father stopped you
+from playing in that band. That was when I knew that music was your
+everything. Now you have been offered a chance only a handful of people
+ever have, to do what they love and still be successful, and at such a young
+age. I’m just saying, the two of you can find a way to make yourselves less
+obvious.
+I like Somto just the way he is, Kayode said, glancing at me.
+I did not know why, but I stood there listening to her in spite of my
+discomfort. At the after-party that night, his family already returned to their
+hotel room, I watched as one of Lanre’s girls ran her hands all over
+Kayode’s body, watched as Lanre and the other guys laughed, teasing him,
+You dey fear? Kayode glanced across the booth at me, his eyes pleading,
+almost frightened, yet I felt nothing, my body dulled by such listlessness, I
+imagined I was an empty hall in which someone screamed only to be
+replied to by the sound of their own voice.
+I sipped my Smirnoff. She began to kiss him, right there in the dimly lit
+bar. The guys cheered. Kayode placed his hands on her face and kissed her
+back. I watched them, mesmerized by how seamless they were, how
+compactly their bodies moved, it was almost as if they were each created
+with the other in mind, her long Brazilian hair pooling over their faces as
+she sat in his lap.
+There are bedrooms upstairs o, Lanre said, laughing. The girl stood up,
+held Kayode’s hand, pulling him up. Somto’s birthday party, he said,
+turning to look at me, shock and confusion in his eyes: he expected me to
+do something, stop them.
+I think Somto understands, someone said. He’s a correct guy. This is
+your night, live for once.
+Lanre turned to me. Abi no be true? he asked.
+I shrugged. Kayode followed her toward the reception, turning to glance
+pleadingly at me. The moment they disappeared up a flight of stairs, my
+listlessness dissipated, and I felt the weight of sadness in my chest. I
+glanced around the bar: it was me, alone with these men whose faces
+annoyed and terrified me.
+People are waiting at home, I said, standing up.
+You need a taxi? Lanre asked, and I stared at him, my heart full of
+nothing but hate. The smirk on his face, his cocky manspreading; this was a
+battle he’d won, a battle they had all won: Kayode was one of them.
+I left without saying anything else. The taxi driver I flagged down said
+Three thousand to Lekki, an outrageous price, but I did not care. He was
+nodding to Kayode’s “Baby Mi,” mumbling, This love no be Cinderella ati
+Snow White.
+Please turn it off, I said.
+Sir?
+I said turn it off!
+He mumbled something in Yoruba and then turned off the radio, Lagos’s
+cacophony rushing in where once there had been a melody.
+________
+Days passed, and though I said I understood, no, I wasn’t angry, I stayed
+away from Lekki, moped around the tiny room in Festac, my body ready to
+snap. In school, a girl was five minutes late to her exam and I asked her to
+leave, don’t even look back, I told her, and don’t come to the staff room to
+beg. Sister Monica called me into her office and said, You’re one of the best
+teachers we’ve ever had, friendly with the girls without being inappropriate,
+but lately there have been complaints about short temper, and, honestly, I’m
+worried. Is there something I should know? Do you need a break?
+I needed a break, I told her. A break I spent baking meat pies and cakes
+and cleaning the entire house, raked by an absence of peace. Kayode came
+to Festac, but the nights he spent were wasted, like water on a dead plant.
+When he kissed me, I did not caress his face in wonder, and when he was in
+me, I winced and winced until, his eyes shadowed by worry, he pulled out.
+Sometimes he held me as he finished himself off, his nose pressed firmly to
+my neck, it reminded me of our beginning in Nsukka, the smallness of my
+mattress before he bought the bigger bed, the pleasure of his body pressed
+against mine. When he reached out to help me finish, I gently pushed his
+hand away, because if he did I might cry afterward, and I did not want that.
+One morning, in the flat in Lekki, I told him that I felt alone, that he was
+doing his best, still I felt alone.
+I browsed about it, he said. This sort of thing happens when one partner
+in a relationship becomes successful. It will pass.
+So now I’m jealous of you?
+That’s not what I said. I want you to be happy, Som. Tell me what you
+need me to do.
+He was standing by the kitchen door and I was standing by the sink, the
+morning bright with light. I’m sure you’d like that, I said, being the shiny
+knight who rescues me.
+Fuck, babe, why are you suddenly finding faults in everything I do or
+say?
+Maybe Google will give you an answer to that, too.
+He stood there, silent, his face long with weariness. And then he banged
+his fist on the door and stomped out.
+I stood there, quaking with anger and sadness, bloated with the load of
+all the things I’d kept away from Kayode, enamored and protective as I was
+of his innocence. I thought of Eunice and of Nnamdi, of the spellbound
+boys in Ekene’s room and their looks of incredulity, thought of all the
+people over the years who, through words, actions, or prolonged stares, had
+questioned what a boy like Kayode was doing with a boy like me.
+I left the kitchen, walked into the living room. Kayode was playing his
+guitar on the balcony. Really, he was thumping lazily at the thing, his body
+stretched out on the reclining chair, his eyes closed. The sun drew lines on
+his chest and stomach. I stood by the door, watching him, his face
+shadowed by a frown, his nose, his lovely pink lips. I watched the rise and
+fall of his chest. I wanted to collapse on his body and weep, wanted to hold
+him there, in the near serenity of that moment, forever. But I was thinking
+of James Bay: When it’s just too heavy to hold / Think now is the time to let
+it slide. I would start with that, I would remind him that the reason we flee
+burning houses is not because we no longer cherish our home. I would pull
+a chair close, sit down and say, Let us talk, Kayo.
+We need to break up, I said, instead.
+He peeked at me. What?
+I cleared my throat. I don’t think we can make this work anymore.
+He sat up. Don’t do this, Som.
+Kayo.
+Som, please.
+Something is always happening, I said. When it’s not Lanre, it is the
+whole country. I am not happy, I am constantly angry at people. I have to
+know what it’s like to be me again, Kayo, because this is not me.
+You don’t love me anymore?
+Haven’t you been listening to me, Kayode!
+I have but you’re not making much sense to me. All these things, we can
+fix them. You still love me, right? I know you do.
+The look on his face, of blinding desperation. I glanced away, at the
+children riding their bicycles down the street. If this was love, I thought,
+why did I feel so mired, so squeezed out of air? Why had we wound up
+here, struggling to breathe, restless in each other’s presence? It was strange,
+this: to imagine, now, that there were times, had been times, when we both
+felt content in each other’s company.
+I am tired, Kayode, I said, and began to cry. He stood up and held me.
+For a few seconds I let him, and then I shrugged off his arms.
+I have to do this, for me, I said, turning away.
+Ekene said, over the phone, That boy is heartbroken, Somto. The way he
+cried on the phone when he called to ask me to help talk to you, I’ve never
+heard anything like it before.
+I said nothing, merely stared at my socks, black on one foot, gray on the
+other. I should clean the house, I thought, sort out my clothes.
+Are you there? Ekene said.
+What about me? I said. How do you think I feel? How is it that nobody
+is thinking about me? I love him, I fucking love that boy, yet I broke up
+with him, that was and is still hard for me. I am heartbroken, too, but let’s
+talk about Kayode instead.
+Come on, nna, it hasn’t gotten to that level. Of course I am thinking of
+you. I’ve asked if you want me to come to Lagos and stay with you,
+because I will. You can come to Akure, too, if you need the space. JJ will be
+visiting next week.
+When I hung up, I sat on my bed and stared at the wall. My phone began
+to ring, Michael Jackson’s voice wafting through the speakers. Kayode was
+calling. Several times, I’d gone to my call settings to delete the ringtone,
+but each time I’d been unable to, had ended up tossing my phone across the
+bed, crying. I silenced the call, went into the bathroom to shower for the
+night. Coming out of the shower, I found that he’d texted me. You have
+been my biggest joy, Som, he messaged, I can’t believe I’m hurting this
+much right now because of you.
+I switched off my phone.
+At about midnight, I woke up to insistent banging on my door. I sat still,
+my heart thumping. Open the door, Kayode slurred. I went to the door,
+unlatched it.
+He stood in the hallway, resting his weight on the doorframe. His eyes
+were red, his shirt buttons undone, and he smelled of beer and weed. He
+waved his phone in the air, stepping into the room. Listen, he said as I
+latched the door. He tapped his phone. A song started to play, it was Tiwa
+Savage’s “Love Me.”
+What is wrong with you? I said, a little annoyed, a little worried.
+You don’t remember this song? Our first dance?
+He began to sing, swaying toward me, his lips close to my ears. So ma fi
+mi si le, he sang, burped and chuckled, Oh I like it here.
+Kayo, I said.
+After everything we’ve been through together, he said suddenly, a
+moment of sharp clarity in his drunken incoherence, it startled me. I turned
+on the light. He looked up at me, chuckling, his red eyes dreamy.
+After everything, Somto, you want to leave me now that I need you
+most.
+His hands flew to his mouth. He rushed into the bathroom. The sound of
+vomiting filled the room. I stood by the bathroom door. Are you okay?
+Yes—retching, more vomiting. “Love Me” had stopped playing, now his
+voice swelled from the phone, filling the room with his song. You be like
+fire for my pocket, he sang, Come lie down make we relate…
+I stood there, listening to his retching, to the song. Years later, when his
+songs would set the continent on fire, when I would stand by my window
+and look out into Lagos, wondering if leaving him was the biggest mistake
+of my life, it would be these sounds that I would hear in my memory, of a
+young man throwing up in my bathroom and a beautiful song playing in the
+background. <br /><br /><br />
+    </div>:null
+}
+{
+  chpeight? <div onClick={()=>displayNow(false)} className="chapd"><center><h1>Chapter 8</h1><h3>MICHAEL’S POSSESSIONS</h3></center>
+  Obinna did not expect this sort of generosity from Adanna. He’d expected
+her to meet him at the door with some of Michael’s things; instead, she
+stands aside to let him in, saying hello and smiling politely, her gap-tooth
+showing. She is wearing faded blue jeans and a gray sweater, her hair
+bunched in a hairnet. Her eyelids are puffy, her eyes tired, the eyes of
+someone who has not had enough sleep. It’s been three years since he last
+stepped foot in the house. The room is dim in midday. He wants to throw
+the curtains open, flood the room with afternoon light. She used to joke all
+the time that the only thing capable of coming between them were the
+curtains.
+He’d hated the dimness, the laziness of Saturdays here on the sofa with
+the television on. On those days when, dissatisfied with himself, he’d
+thrown the curtains open, flouncing around the house with a bucket and a
+mop, riling her up, she’d say, “It has started again, your madness.” He
+thinks of reminding her, as something to laugh over now.
+He looks around like a visitor, which is what he is, although this had
+been his house before they got married, and he still pays the rent. So much
+has changed: the walls have been repainted a garish green, the pictures on
+the walls arranged in the shapes of hearts. Their wedding pictures are gone,
+he notices, replaced by pictures of Michael, moments captured
+spontaneously. In one of them, Michael runs after a pigeon, his legs blurred
+in motion, the bird captured in the process of flight. He must have been
+three.
+“Four years, actually,” Adanna says.
+“Huh?”
+“He was four, Obinna.”
+He turns and nods at her, he did not realize that he’d asked the question
+out loud.
+The floor is clean, the brown tiles glistening, if he squats, he will see his
+face on the floor. The sofas do not look as if anyone has lain on them today,
+the pillows carefully tucked. She had hated the color of his chairs, floralpatterned armchairs and a cream sofa, had thought even the material too
+delicate. “You are no longer a bachelor,” she used to say, with a quiet
+insistence, something she said every time he resisted changes to the house,
+it began to seem to him that she had come into their marriage with a
+readiness to expunge every vestige of what she knew of him. But he’d lived
+in the house for two years before she moved in, had transformed it into his
+abode, and one can only give so much of oneself away; he’d allowed her to
+change the curtains, had even helped her tear down the wallpaper in his
+bedroom, his lovely gray carpet gone, too, in favor of tiles that were always
+cold, even in heat season.
+He is surprised that the chairs have not been changed. He sinks into a
+sofa, forgetting himself in the surge of memories. She parts the curtains, but
+only slightly, sunlight squeezing in. He is already rifling through the carton
+she’d placed on a stool. He empties its contents on the floor, begins to
+repack, folding each shirt neatly before tucking it in, stacking the toy cars
+and action figures. When he gets to the pictures, he pauses, suddenly unsure
+he wants to remember.
+In the first picture, Michael is seated on their bed, a curly haired cherub
+propped up by pillows, a strand of saliva hanging from his parted lips. His
+eyes are so bright, he must have been laughing at something, someone, in
+front of him. He is wearing a blue pinafore sprinkled with white polka-dots;
+Obinna remembers walking into Shoprite with Adanna, how firmly she
+gripped his hand when she saw the cloth, her excited Oh my God, it’s
+beautiful! His grimace, Ouch, how strong she’d become since her
+pregnancy, he often teased her, Are you sure we’re not expecting a soldier,
+making her spit out, God forbid. The horror in her eyes amused him,
+always. Her pregnancy had been the happiest months in their marriage, as
+was the one year they spent marveling at everything Michael did, his cute
+lopsided walk that first year, his stumbling. The morning he said his first
+word, up—lifting his arms, he’d said to Obinna, Up, Up—they’d shrieked
+into each other’s faces, pulled each other into a tight hug. For the rest of the
+week they devised ways to make him repeat himself, applauding with
+renewed joy every time he did, whispering at night about it all, which made
+him think of their time together at Youth Service camp, when they had been
+just friends.
+She is still standing by the window, looking outside, a cup of tea in her
+hand. He knows that posture, her deep-in-thought posture.
+“So, how have you been lately?” he asks.
+She glances at him, the cup pressed to her lips. She shrugs, she is again
+looking out the window, melancholic in the feeble light leaking into the
+room. He concludes that she does not want to talk to him, nods and returns
+to the pictures. When she speaks, her voice is so soft and so detached,
+moments pass before he realizes that she’s talking to him.
+“I was at church last Sunday,” she says. “I don’t go that often anymore
+but I decided to go last Sunday. I saw Buzo, God, he’s so grown. You
+remember Buzo, Buchi and Gerald’s son?”
+She’s looking at him now. He nods, he remembers Buzo, how could he
+forget a boy who had spent many nights in Michael’s room, sharing his
+toys, running with him in the backyard, a boy he had tucked into bed so
+many times, it began to feel as though he were his own son? He’s watching
+her, but not directly, not looking into her eyes, he’s waiting for her to say
+something else. She doesn’t. She raises the curtain and peeks outside, and
+then walks out of the living room, toward the dining area, where she pours
+hot water into another cup, her motions, her movements so delicate, it feels
+to him as though she is playing with him, the generosity he felt at first
+meant to drag out his disquiet. It was another thing about her, the quiet
+efficient way she could wage a war.
+“Do you want something to drink?”
+He shakes his head, no, waiting. She returns to the living room, settles
+into a sofa by the window, and crosses her legs. It is obvious already that
+she has no intention of continuing the conversation about Buzo; suddenly, it
+matters to him that she does, it seems more important than all the memories
+in the carton.
+“How is Buzo? Does he still stammer?”
+She looks up at him, eyebrow arched.
+“I didn’t notice.” She shrugs. “Maybe a little, but certainly not as badly
+as before, otherwise I would have.”
+He nods, I see, even though he does not see, this is not what he needs to
+hear. “That’s really wonderful,” he says, then, after a moment of silence,
+“Does he remember Michael?”
+“How am I supposed to know that?” She is looking away from him and
+frowning. It is difficult to remember that there had once been a time when
+she could discern his moods, the words hidden behind his words, a time,
+before their engagement when they’d merely been friends, when he too had
+felt as though he knew her completely, so much that friends and family
+began asking why they weren’t dating. He wants to tell her that he misses
+her, that he had always missed her, but not in the way that she’d missed him
+in the beginning, in a way that drove her to his parents, her parents, their
+friends, his secret rolling off of her lips into their ears, so that he remained
+in Abuja for those three months, prolonging his trial, until he got the phone
+call about Michael.
+If her missing had been an overwhelming fire, his is a dull but consistent
+ache, a longing for the friendship they had shared before their marriage,
+open and effortless. He thinks of the evening late in their Youth Service
+year when he told her he might like men. They’d been sitting quietly on the
+huge boulder near the gate leading into his lodge—she came every other
+evening, sitting with him while they talked about everything, or simply
+stared into their phones, lifting their heads briefly to share something
+interesting, funny, or outrageous. He’d been terribly sad that evening, and
+when he said, “Men are trash,” she did not say, “I know.” She clicked her
+phone off, asked if he was okay. He remembers how afraid he was as he
+told her he thought he had a crush on his platoon leader, how relieved when
+she said, after a surprised Oh, “But he’s an asshole and you are so nice.”
+He wonders if there will ever come a time when she no longer hates him.
+He thinks of asking when she became a tea addict, to soften the air, but the
+air forbids familiarity. Maybe it is not merely the air but something in him
+that needs softening. It used to be easy, making her laugh, not just her but
+everyone else. What is left of him now, of his once brilliant charisma?
+Maybe that is the reason Martin left, he thinks, he must have been
+overwhelmed by the absence of joy, after all, they’d built their relationship
+on laughter.
+He does not want to think of Martin, not here and certainly not today, but
+it had taken his leaving to bring Obinna here. He cannot say fairly that he
+did not see the signs, the oblique way in which Martin withdrew, in
+installments, into his own life, away from the one they shared: the extra
+hours Martin put in at work; all the time he spent laughing with strangers on
+his phone; and finally the long moments when, lying beside each other, no
+words or touch would pass between them. The night he found papers for a
+self-contained apartment in Lugbe that Martin had bought, he accused
+Martin of dishonesty, Martin accused him of trying to control his life, their
+tiny flat resounding with the bass of their anger.
+On the couch later that night, Obinna had been unable to sleep, not
+because of discomfort—he was thinking that after the tragedy that befell
+him, he’d fallen too deeply into Martin, had encumbered him with the
+weight of his need, his son dead and buried, his parents and siblings taking
+his wife’s side in the crisis that escalated after.
+He returns to the pictures in his hands, rescuing himself from those
+memories. “I remember this,” he says, waving a picture in which he and
+Adanna are squatting beside Michael, who stands between them, lollipop in
+hand. A pout darkens Michael’s face. Behind them, a great expanse of water
+looms. “Calabar. You had refused to get him an ice cream, instead you got
+the lollipop.” For days prior it had rained nonstop; trapped in their hotel
+room with a balcony overlooking the beach, Michael’s restlessness and
+moodiness that only lifted the next day, under a sunny sky so tender, it
+seemed like compensation for the deluge of the previous day. In the next
+picture, Michael is standing alone, ice cream cone in hand, his face alight in
+smiles. “It would seem you relented,” Obinna says, absently, he is staring at
+the picture with deep concentration, as though by doing so he can animate
+the image, thaw the frozen smile so that the living room resounds again
+with his laughter. Those days when, looking at Adanna, he doubted the
+essence of their marriage, that laughter had erased his doubts. He steels
+himself, he cannot cry here, not in front of her. “He is four here, right?”
+“Don’t ask me. He was your son, too.”
+He looks at her, shaken, first, by her clipped tone, and then by the ease
+with which she spoke of Michael in the past, was. It is not odd that she
+would, it has been three years, after all, but such is human nature that when
+we are trapped in a moment, we expect the whole world to stand still with
+us.
+Those had been Martin’s words to him; looking at her, he feels naked in
+his shock, just as he had felt in Martin’s presence weeks before, flailing, a
+man who was about to lose absolutely everything.
+“I think he is four,” he says, he is determined to ignore the walls she has
+put up. “I remember that he’d just had chicken pox before we traveled. The
+spots are even fresh on his face, see?”
+She is quiet for a moment, her face turned to the window. When she
+looks at him, her eyes are glistening. “I thought you came here to get some
+of his things?” she says. “Shouldn’t you be returning to your boyfriend?”
+“Where is this coming from, Adanna? I only asked a question.”
+For a moment it looks as though she will pounce on him.
+“You have the nerve, Obinna! You have the nerve to come in here and
+remind me of things I am trying to forget.”
+He should keep quiet, he should say he’s sorry, gather the things he
+hasn’t yet tucked into the carton, and leave. But he will not. “How can you
+say that you want to forget, Adanna? Don’t say that.”
+She looks shocked that he has spoken those words, opens her mouth and
+shuts it. She rests her elbows on the dining table, palms clutched together
+under her jaw, her little fingers frantically tapping each other. He
+remembers that posture, too, of growing anger. He decides to say nothing
+else, returns to the task at hand, placing the pictures in the carton, Michael’s
+shoes as well, tiny shoes that he must have worn when he was two or three.
+He wonders what these will do for him, really. Objects are not words, they
+are not arms: they can neither console nor embrace. If anything, they will
+only sit on his shelves as reminders of a time in his life. Before rolling his
+bags out the door, Martin had said, “You have to forgive yourself.”
+Every January, Obinna transferred money into Adanna’s account for rent,
+even though she never called to acknowledge it, even though she had a job
+that paid as much as his, he did it, religiously. Sitting here, he senses the
+shape of a familiar sadness, the same sadness that enveloped him for days
+after each transfer. He should leave, he thinks. He begins to close the
+carton. Just then, Adanna rises and walks into the bedroom; shortly after,
+the door swings open, and she rushes out, holding a huge travel box over
+her head. She charges toward him, for a moment he thinks, That box cannot
+kill me, her eyes are so wild, she seems capable of any grave act. She’d had
+the same wildness in her eyes the day he told her about Martin. I thought
+you’d changed, she’d said over and over, and then, You cannot just stand up
+and leave your family, it’s not fair.
+She empties the box over his head, releasing a rainstorm of clothes and
+shoes and photographs onto his body.
+“You want me to remember?” she yells. “Well, here it is, everything I
+remember. I remember you waking up a year after that trip and saying you
+had fucked someone else. I remember you leaving us. I remember holding
+my bleeding baby and rushing to the hospital alone. I remember calling
+your number, Obinna, but where were you? Where were you?”
+He does not move. The clothes smell so strongly of Michael, a whiff of
+baby powder and pureness. The clothes smell so strongly of Michael. The
+clothes. Michael.
+She is still screaming, Michael would not be dead had you not left! He
+wouldn’t have gone out into the street with Buzo because it would have
+been video game time with Daddy! She is yelling, What did you come here
+for? Did you come here to hear that everything was okay? I will not give
+you that, Obinna, she says, go back to your boy.
+The day he drove to the house in a swirl of dust, she was standing at this
+very spot in front of him. From there, she would change his entire life. Yes,
+a hit-and-run had killed Michael as he played in the street, she said, and,
+yes, he had been buried already, what was it worth, keeping a dead child
+and causing oneself enormous grief? He looked at her, unbelieving; he’d
+never seen that part of her, heartless and tranquilly cruel. How could she do
+this to him? he said. His son was dead and he did not even get to see his
+corpse—how could she?
+“Maybe if you did not disappear for three months, you would still have a
+son!” she said.
+He had never felt as though there were something to forgive himself for,
+he was merely angry, he’d told himself, angry that he had not been allowed
+to see his son one last time, even though lifeless, that he was denied his
+right to an ending, and yet nobody stood up for him, not even his family. As
+though his anger were a candle burning steadily in the dark, its boundaries
+precise and definite. As though it were not an inferno. It surprises him now,
+watching her, the stillness he feels, how clearly he can hear those words that
+had for so long filled him only with anger.
+She sinks into an armchair, elbows on her knees, face in her hands.
+“What were we thinking, getting married?” she says. She lifts her head,
+begins to wipe her eyes with the hem of her blouse. “I know—I wanted a
+good man.” She chuckles, shaking her head, then looks at him with sad
+contemplation. “And you, what did you want? A cover?”
+“We don’t have to cheapen what we had, Adanna.”
+“You humiliated me. Do you even realize how betrayed I felt?”
+“I had a right to say goodbye to my son and you denied me that.”
+“I went too far, I know, but I was hurt.”
+They sit in silence, sunlight slinking through the closed curtains.
+“It’s been three years,” she says, “and we’ve gotten nowhere in our
+grief.”
+He places his hands on the box, ready to leave, but she stands up and
+asks if he would like some tea. <br /><br /><br />
+  </div>:null
+}
+{
+  chpnine? <div  onClick={()=>displayNow(false)} className="chapd"><center><h1>Chapter 9</h1><h3>MOTHER’S LOVE</h3></center>
+  It was not a good time for Mma to visit: two weeks earlier, Chenna had
+moved out. Chikelu still felt the weight of the loss lodged in his chest like a
+smooth and perfect pebble, still shut himself in the house after work, still
+fell asleep to the sound of the television, his curtains closed, the lights
+turned off, all he wanted was to banish light, to be left alone—but what was
+all that to say to one’s own mother? And so here she was, flinging the
+curtains open, murmuring about how badly the house smelled, like dirty
+boxers or, worse, a corpse undiscovered, festering in the open.
+“Have you seen a festering corpse before?” he said, teasing her.
+“Don’t give me your sharp mouth,” she said, hands on her waist, her
+eyes scanning the living room. “This was one thing I liked about Uchenna,
+that man knew how to keep a house!”
+He opened his mouth to say something but decided not to. He dragged
+Mma’s bags toward the guest room. Earlier, he’d gone into the room with a
+broom, ready to be assaulted by the things that needed cleaning, only to find
+everything in place, the old cartons he’d left there gone, the floor tiles
+sparkling, the ceiling white and clean of cobwebs. All he’d had to do was
+make the bed. He’d wondered when Chenna tidied the room, if it was on
+the day before their quarrel or after. They’d known about Mma’s visit since
+the hospital informed him of a date to see the cardiologist, but, as always,
+he’d let the little things, such as making Mma’s bed, roam the boundaries of
+his mind. Looking into the clean room, he’d been filled with gratitude, had
+slipped his hand into his pocket for his phone, and then, remembering, he’d
+turned around and banged the door shut, only returning hours later to make
+the bed.
+Mma was seated on the bed now, rifling through her handbag, her entire
+arm submerged in it. She looked better than the last time they had seen each
+other, she was almost back to how he remembered her, how he’d love to
+remember her for the rest of his life, plump and restless, always doing,
+always talking, always moving. Tiny cornrows crisscrossed her head in
+intricate whorls; he imagined her sitting for hours under the dogonyaro tree
+in Mama Emma’s compound, getting her hair plaited, the conversations that
+swirled from woman to woman, the children running around, dirtying
+themselves in the sand, the occasional peal of a woman’s voice in furious
+scolding, the grating rattle of Mama Emma’s grinding machine as it crushed
+beans or tomatoes, the flies, Lord, the flies. It had been two years since he
+had last visited Kano.
+“Wetin you dey find?” he said; she was still digging into her handbag,
+her arm now frenetic.
+She knotted her brows, her nose scrunched up. His mother had such a
+perfect nose, full and round, his siblings’ nose. He’d inherited Mpa’s, so flat
+it was almost as though God had bored two holes into his face and then
+slapped on a ridge as an afterthought.
+“It’s the fidget spinners I bought for KC and Mmeso,” she said. “Are you
+sure I didn’t forget them in Kano?” She emptied the bag onto the bed:
+notebooks, pens, pieces of chalk, a small black leather-bound Bible, combs,
+talcum powder, a small hand mirror and, above them all, smooth and
+glistening in the light, the fidget spinners. “Ah, thank God. That’s all they
+asked me to buy for them after they learnt I wouldn’t be sleeping at your
+sister’s. I don’t know what they are, but all the children are playing with
+them.”
+“Why didn’t Anulika buy it for them?” he asked, absently, his eyes
+focused on the long notebooks on the bed, their red covers splashed with
+cursive whites. Growing up, their house had been littered with books like
+those, and whenever he thought about home, there was always an image of
+Mma bent over their low center table, scribbling into the books, for hours,
+weekend after weekend, sometimes her face split between shade and gold
+under the feeble light of a kerosene lamp. She was talking now, about how
+his sister wouldn’t buy any more fidget spinners after the children lost the
+last ones. “Children are children,” she was saying, “you punish them for a
+moment and then you relent. Punish them indefinitely and they forget the
+lesson you’re trying to pass. But your sister doesn’t listen. She’s been a
+mother for six years and suddenly she’s a king who would not be
+counseled.”
+“You came all the way to Abuja with your lesson notes,” he said.
+“Are you not listening to me?”
+“I heard you, Anulika is stubborn.” She would not look at him, she was
+gathering her stuff, shoving it back into her bag. “You said you were going
+to resign after last term. What are you still doing with lesson notes?”
+“Leave me alone, Chikelu.”
+“Why are you so stubborn, eh?” he said. “Is it until you kill yourself that
+you’ll listen and take it easy?”
+She was silent, took her time zipping up her handbag, and then she
+looked up at him. “Resign and do what, Chikelum? Resign and do what?”
+She stood up, walked to the wardrobe where he’d kept her travel bags, and
+placed her handbag there. Sunlight filtered in through the curtains, it was so
+bright outside, so hot. She returned to the bed, lowered down. “If the first
+thing you do when I come to your house is to berate me, maybe I should
+pack my things and go to your sister’s.”
+He stood there, staring at her. Mma was so stubborn, so stubborn. “It
+hasn’t come to that,” he said.
+She shrugged. “What did you even say happened to Uchenna? If he were
+here, he would be having my stomach full of food by now.”
+“Mma, I was going to stop at a restaurant on our way home. You stopped
+me, now you’re talking about food.”
+“I’m not hungry. I’m just asking if you didn’t learn anything about being
+a good host after many years of being his friend.”
+“Well, he’s not here,” Chikelu said, slightly annoyed. “I’ll let you rest
+now.” He knew that what she wanted was for him to sit on the bed with her
+and chat about things, him about work and her about the street, whose
+daughter was marrying whose son and whose nwa-boy had been sent back
+to the village without settlement. He loved those conversations, had always
+loved them, even as a boy when he would stand beside her by the cupboard
+outside the house as she chopped ugu. But now he felt no excitement, only
+exhaustion.
+He left the room, easing the door shut behind him.
+Uzoamaka stood briefly in the alcove, watching Chikelu, the way the light
+fell on his body, blue and soft, the way it made him look sad. He was lying
+on the couch, fiddling with the remote control. The living room was only
+slightly illuminated, the television’s light spilling into corners. He was not
+looking for something to watch, he was passing time, filling in the silence
+with light and sound. The last time she’d seen him in Abuja, he’d not been
+like this; she could tell even though she’d been sick, even though after three
+days with Chikelu and one with Anulika, she’d been rushed to the hospital
+with a swollen leg and racing heart. Uchenna had still not found his own
+place at the time and had shared a room with Chikelu—she’d moved into
+his for the duration of her visit. Every evening, he’d return home with roast
+corn and ube and sit on the floor with Chikelu, their backs against the
+couch, eating, laughing at things on the television, the living room bright
+and warm and lively. She would glance at them from her seat at the dining
+table, she would watch him, Chikelu, the way he stretched his legs in front
+of him, her son, owning his own house. And she would imagine a woman
+seated on the carpeted floor with him, sharing everything with him, hear the
+patter of little feet running around the living room, ruining things but
+making them all laugh. “Mma, are you sure you don’t want another corn?”
+Uchenna would say from the floor, turning to look at her, and she would
+find herself loathing his presence, no, she was okay, she would say simply;
+a few minutes later, she would walk out of the living room, frowning and
+merely muttering her good night. He was a sweet man, almost like a woman
+in his attentiveness and care, yet she’d found herself unable to like him.
+She’d disliked him, in fact. She disliked his face, chocolate toned and
+pretty, too pretty, and the way he would walk into the kitchen and ask if she
+was absolutely sure she did not need any help. “You know this one is only
+good at talking,” he’d say, punching Chikelu in the arm. He wanted her to
+like him, she could tell, but she could not stop blaming him for Chikelu’s
+singleness; no woman, she thought, would take Chikelu seriously as long as
+he continued to live with his friend. She’d visited Abuja once more since
+this trip but had not seen Chikelu then, he had been unable to wriggle out of
+a work trip, so Chenna drove her and Anulika to the hospital for her labs;
+from the back seat of the car, she watched as Anulika became engrossed in a
+story he was telling, watched as she laughed at his jokes, as she slapped his
+arm playfully, saying, “That’s crazy.” When Anulika, still laughing a little,
+turned around to ask if she’d heard Chenna’s story, she said, “I wasn’t
+listening” in a clipped, apathetic tone that gave even her pause, and then
+turned her face toward the window, staring at the road without really seeing
+it, silence descending on the car.
+Mma was awake early. Her movements traveled to him on the couch,
+silverware clattering in the hollow morning air, the piquant aroma of stew,
+also. Chikelu had hoped to wake up earlier and would have set his alarm for
+four thirty, knowing what an early riser she was, that she would be up at
+five regardless of the day of the week, but he’d fallen asleep watching a
+movie he did not now remember. He had been that way for weeks, hazy and
+forgetful, like a person always suffering from a terrible hangover.
+He rolled off the couch, grunting, and ambled to the kitchen, cracking
+the door open. “This woman, you no dey ever rest?”
+“Good morning to you too, Chikelu,” she said, stirring her stew, which
+sizzled in the pot, as though defying her with its rude little hisses.
+“You too like fight.” He walked into the kitchen now, gently closing the
+door. He wondered why he’d done that, close it gently, as though Chenna
+were still here, ready to campaign against slamming things. He thought of
+pushing it back open and slamming it shut, and he would have, were Mma
+not here. It would have given him a small satisfaction.
+“Stir this for me,” Mma said, moving aside so that he could take over. “It
+will be done in five minutes. Take it down then. I have to go prepare.”
+“Good. Because you take ages preparing.”
+She didn’t take ages preparing, she was always out of the bathroom
+minutes after stepping into it. When he was a kid and the neighbors queued
+up to use the bathroom every morning, people would yell at whoever had
+gone in after her, saying, “You no fit do like Mma Chikelu? If you wan’ dey
+born pikin inside bathroom, go rent flat!” Perhaps that was why she never
+missed an evening bath, not even in harmattan. She woke him up first each
+morning, letting Anulika, James, and Bobo sleep longer, not only because
+she needed him to help her fan the charcoals in the stove until they glowed
+fiery red, a miracle of wind, but also because she needed him to shower
+before the neighbors, hearing the noise she made outside, began to spill out
+of their rooms to start their small fires in front of their small doors and,
+eventually, yell at him to hurry up and leave the bathroom. He always
+lingered there, scrubbing his armpits, his soles, his face, and, when he
+discovered masturbation, his groin, ditching the sponge for just soap,
+ignoring the cemented floor and tiny walls green with moss, or the
+occasional cockroach peering down at him. When it was harmattan and he’d
+run into the house shivering, teeth chattering, Mma would look at him
+sideways and say, her Igbo coming out as a single string, “You didn’t know
+you were cold when you were taking your time with whatever it is you do
+in there.” He would mumble, “I no dey do anything,” defensive, even
+though he never thought for once that she was referring to his one-man
+trysts, but by then she would have moved on, rushing Anulika to the
+bathroom: “Mee ngwa-ngwa, nnwa a, I did not wake up at five to queue up
+with these people!”
+He wanted to tease her now, to tell her that she no longer needed to wake
+up early, especially now with the doctors still trying to figure out what was
+wrong, that the bathroom was inside the house and that his neighbors all
+had their bathrooms inside their houses. But he wouldn’t have been able to
+pull it off, the teasing, because it made him sad, not her here, now, but the
+thought of her alone, in Kano, waking up early as though she still needed to
+boil water for anybody, as though it wasn’t just her in the house now, a
+house he had bought and renovated years ago, so that, even though the
+neighbors still had to queue up for the bathroom, she had hers inside, right
+beside her bedroom.
+She was at the door now. “If you like, let the food burn, Mister Sharp
+Mouth,” she said, stepping out.
+He took the ladle. The kitchen smelled nice, of fried plantains and spices
+and simmering tomatoes. It had been months since the kitchen felt lived in.
+For years, Chenna had made elaborate meals, filling the house with the
+smell of food on weekends so that for the rest of the week the refrigerator
+was swollen with containers of rice, beans, egusi, onugbu, stew. But then
+after Mma’s last two visits, during which she stayed longer, he’d done it
+less and less because she did the cooking when she was around. After she
+left, he didn’t really ease back in, and it did not strike Chikelu at first: he
+would open the refrigerator and there’d be nothing, and he’d order
+something online, or ask if Chenna wanted to go to Soup Kitchen with him.
+And then the evening came when Chikelu asked, casually, when next
+Chenna would cook, maybe they could drive to the market on the weekend,
+and Chenna exploded at him. He stood over Chikelu and asked, over and
+over, when he’d been turned into a houseboy; his words and movements
+seemed to belong in a previous moment, when he’d first begun to feel this
+way, but that moment had passed, and now his anger felt outsized. Chikelu
+sat there, too stunned to speak; one minute they’d been sitting on the living
+room floor, totally ignoring the couches like they often did, Chikelu typing
+into his phone, occasionally laughing, and Chenna watching a football
+match on TV, and the next minute there was the shouting.
+Chikelu began to stay longer at work, taking on more pro bono cases
+than he was required to. Some evenings, driving home from the office, he’d
+look out the window into the after-work traffic of Abuja, the roads so wide
+and full of cars, so orange in the swirl of the streetlights, and it would occur
+to him that he did not want to go home. He would drive to Tim’s Place and
+order a plate of pepper soup and bottles of beer, sometimes in the company
+of his friends Kene and Moses, but mostly alone, because they were both
+married and spent most evenings with their families, or in hotel rooms with
+boys from the state university. When he got married, they told him often, he
+would learn to make every second he spent away from home count. He
+would stare at them, so unrecognizable from how they had been in their
+university days when they’d marched in the same pro-democracy protests
+and attended the same parties and crushed on the same boys, all possessed
+by the same radical optimism, and he would feel savagely lonely, their lives
+so vastly different. He’d feel silly, too, his problems with Chenna paling
+under the relentless beam of their cynicism: “See, you have to forget this
+thing with this guy and settle down.” Driving back home, the roads clear of
+traffic, so that the orange lights seemed to ripple on the asphalt and cars
+zipped past as though in pursuit of something, he would wonder if he was
+fooling himself, brooding over the tantrums of another grown man. But then
+he would drive into the estate, wave at the security man at the gate, honk
+back at his neighbor driving out with her family, perhaps on their way to
+night vigil, park in his garage, walk to the kennel to pet Jasper or bring him
+inside the house, open the door, and there would be Chenna, asleep on the
+rug in his shorts, the television’s light blue against his bearded face, and he
+would think this was all he wanted, this person with whom he had moved
+around for years, from the one bedroom in Maitama to the flat in Lugbe that
+was always too cold in harmattan, and, finally, to this, a place of their own.
+This person whom he’d thought he knew perfectly, this person whom he
+was now trying to understand.
+She took her time preparing. He stood outside her door after knocking and
+peeking in, after she said, “One minute, nna.” He paced the alcove. He’d
+had breakfast and rushed through his bath, hurried into rumpled jeans,
+thinking that she would be waiting impatiently for him. Now, he was the
+person waiting: Who would have thought? He went and sat on a couch,
+dialed Anulika. She would be up, she and Phillip, and they would be getting
+the girls ready for school, getting ready for work themselves. Maybe they’d
+be saying their morning prayers.
+She picked up. “See who’s awake!”
+“Shut up,” he said.
+“What’s up na?”
+“Mma is making up. Mma dey put makeup for face!” There was silence,
+he could hear the hollowness from the other end. “Anuli?”
+“Oh, I dey here. I just dey wonder how I go take talk this thing.”
+“Talk which thing? What happened?”
+“Calm down.” She sighed, her breath coming down in a rush through the
+phone, her peculiar prelude to a long story. “It’s this doctor. The last time
+she was here, when you were gone, we had some problems at the hospital.”
+“What?” he said. “Why didn’t anyone tell me?”
+“Because it wasn’t that serious, just basic office workers’ inefficiency.
+Anyway, the people at the lab were giving us wahala and the doctor in
+charge of Mma’s file wasn’t helping—you know, young doctor, smart and
+nice, but she no wan’ step on toes—and this man, him go dey like late
+fifties, tall, fine, full body, like a proper daddy, he walks in and Mma just sit
+down there, stressing, you know how emotional your mother can be.” She
+laughed. “Well, he come ask her what’s up, why she keep face like that, so
+she told him. He asked her not to worry, that he’d talk to the people himself.
+I no know wetin him tell them, but he went into the main office and in less
+than fifteen minutes, them produce lab documents wey them say them no
+see before.”
+“And no one thought this was something I needed to know about?”
+“Calm your temper, Mister Lawyer. Haba.” He knew she’d just rolled
+her eyes. “It has passed. The fine doctor handled it. There was no need to
+bother you. Uchenna said we should tell you when you got back to town but
+I know my brother, you for give yourself unnecessary headache, so I asked
+him not to. Anyway, the doctor made sure from then that we were attended
+to without any delay. How you think say we take get early appointment to
+see the specialist?”
+He wanted to ask if they were sure, absolutely sure, that the lab got the
+right test results after that entire brouhaha, but that was exactly the kind of
+question that made them hide things from him in the first place. He felt
+betrayed by Chenna as well, he should never have hidden something like
+that from him, and he wondered now what else Chenna had hidden, with
+whom else he’d allowed a higher loyalty, but how could he say this to
+Anulika without exposing himself? He needed to talk to someone about
+Chenna.
+“So you think Mma has a man friend?” He laughed, tried to laugh.
+“I no know o, but I know something is up. After that day, na so she go
+dey for phone everytime, laughing like one amaria. I ask her who she dey
+talk with, she say doctor. I was like, hmm.”
+He tried to collect his thoughts, to decide how he felt about this. Did the
+doctor see her in that way, he asked, worried about his mother expending
+energy, hope, on a man who was not going to be hers.
+“Your problem, Chikelu,” Anulika said, “is that you worry so much
+about people, you begin to think everybody is an idiot.”
+“Haba, Anulika.” He could hear voices now from her end, Phillip asking
+someone to put on their sandals, a child’s voice raised in protest. “Is that
+Mmeso?”
+“Yes.” She said something but not to him. She’d said it in English, a
+language she spoke only when she was angry or making a serious point.
+“Phillip says hi. Mmeso is being a little troublesome this morning. I have to
+go.”
+“Okay.”
+“See you in the evening,” she said, paused, one of her intentional pauses.
+“You have to stop thinking that Mma does not know what she’s doing or
+what’s best for her.”
+After she hung up, he cradled his face in his hands, and then stood up
+and went to knock on Mma’s door. “Finished, finished,” she chanted, and
+the door swung open. He looked at her face, a powdered brown, her brows
+penciled in, her lips a hushed red. He was sure Anulika would have done it
+better, but this was beautiful, she was beautiful.
+“O gini?” She touched her face. “Too much brown powder?”
+“No,” he said, and smiled. “Who be this fine girl?” He put his arm
+around her shoulders and whipped out his phone, angled it for a selfie. She
+smiled, a wide, happy smile.
+Of all her children, he was the one she trusted to understand. When she had
+announced to them a few years ago that she was leaving their father, they’d
+stared at her and at one another, as though they had not all been cosufferers.
+At the point of making her decision, she’d not seen her husband for a whole
+year. And then Chikelu rose, as though snapping out of a spell, knelt before
+her, and hugged her.
+His instinct had always been to reach out, support, comfort. As a child,
+he’d rarely gotten into trouble, but his siblings always did, especially
+Anulika, who had come into the world with a heart so strong, a lifetime of
+scolding did not leave a crack. For a while, Uzoamaka’s favorite
+punishment was to buy them ice cream and deny the offending child, but
+Chikelu always went behind her back to share his, sometimes rallying the
+others to do the same, and she had to toss that for more direct lessons,
+asking the offender to kneel down while she did things around the house,
+their waiting, more than the few strokes of their father’s belt on their
+outstretched palm, the punishment. Even then, Chikelu would corner the
+sulking or crying sibling, massaging their palm, saying sorry, hugging them,
+sometimes it infuriated her and she would threaten to give him his own
+ration of flogging. But mostly it made her sad for a reason she could not
+name, and after a while she discarded that method, too, because she really
+did not have the heart for punishment, and she resented that their father had
+left the job of raising the children to her when she was often confused and
+afraid she was doing the wrong things. The older they got and the more she
+needed him, the longer he stayed away, for months at a stretch, for half a
+year. He would call weekly from Lagos and ask to speak to the kids, and
+Bobo would say “No,” face buried in a video game on Anulika’s phone,
+until Chikelu said, sternly, “Come on!”
+She glanced at him now, in his car that was cool and in which a choir
+was chanting a psalm. When the Gloria came on, he bellowed it in his offkey voice, Glory be to the Fa-a-ther. She and Uchenna had joked about
+Chikelu’s love for choral music and his total lack of a singing voice, this
+was long before Chikelu built his own house when the sight of Uchenna did
+not irk her yet. He’d sung in the parish choir when he was in secondary
+school, she told Uchenna, and he in turn told her that he’d quit in their third
+year in university. “You no dey go choir today?” the roommates asked him
+the day he quit, and he said, “Bro, them say my voice be like frog own.”
+The way he said it, Uchenna told her, without a slice of bitterness in his
+voice, that was what he liked most about Chikelu: he had a good heart, obi
+ocha.
+She wanted to tell Chikelu about Maxwell, who had been to Kano once
+to see her. She’d wanted to tell him from the moment he picked her up at
+the airport the day before, but he’d been strangely quiet as he drove her
+home, and she decided that it was wrong, anyway, to throw something like
+that at him. She would do it after they settled down at home, she thought,
+but he’d remained in a mist of melancholy. She’d thought of asking if it was
+because Uchenna had moved out, but even now that it came to her mind,
+she almost laughed at the thought, the ridiculousness of it. Chikelu was
+thirty-four, not ten, and he ought to have said too many goodbyes at this
+point in his life to brood like a man who had recently been abandoned by
+his woman.
+“Wetin you dey think about?”
+“Eh?” She tapped her head, even though her braids weren’t itchy. “Oh,
+nothing.”
+“You dey sure?” He glanced at her and then at the road, again, and again.
+She knew that look, worry. “Are you nervous about your appointment?”
+“I’m fine, Chikelum, don’t worry.” She touched his arm, it was warm
+and covered in coarse black hair, like his father’s. She knew he was afraid.
+She was, too. Thoughts of death had assailed her since she’d gotten sick.
+After everything she’d been through with and for her children, would she
+die suddenly just as their lives were beginning to glimmer?
+The hospital had ruled out blood clots, and when Maxwell had referred
+her to the specialist, he said he suspected it was nothing serious. But the
+worry didn’t go down with the swelling. She realized, then, that this fear
+also had something to do with happiness. She’d met Maxwell. He always
+listened, was always full of questions, his attentiveness and humor like a
+miracle. For so long she had been alone, all her laughter coming from her
+children, her friends, and so had forgotten the thrill of a man’s loving
+efforts, little shocks of joy at his good morning texts. Each day since he first
+asked for her number, she’d felt herself inching closer to something
+definitive, but she would not think too far—even if it was nothing serious,
+what she was doing with him, it was an opportunity to beat loneliness.
+“You dey think something, this woman,” Chikelu said, his eyes curious
+and shrewd. “Oya, confess.”
+“You think I’m one of those your court witnesses?” she said and he
+slowly shook his head. Another psalm was ending, the Gloria gliding in the
+contained space of the car. He joined in, his voice like bumps in the smooth
+sound of the choir. Outside the window, the road was endless, cars speeding
+on the roads that crisscrossed underneath this one, high-tension poles
+glinting in the sunlight, the corporate buildings far off. Everything in Abuja,
+new and beautiful and futuristic. She tried not to smile.
+The waiting room was long and full of natural light. Chikelu walked all the
+way down the hallway, found a spot by the door and sat down. He hated
+hospitals, their antiseptic smell reminding him of needles and tears. He
+wished he was in the specialist’s office with Mma but he was also grateful
+that he wasn’t; inasmuch as he wanted to be there to hold her hand in case
+of bad news—and he had faith that there would be none, he had to have
+faith—he also dreaded the possibility of that moment when a sentence from
+the doctor’s mouth would change everything forever.
+That was his problem, worry; he imagined the worst outcomes for most
+situations. Ironic, he thought, with an inward chuckle, that even in all their
+fighting, he never imagined that Chenna would leave him.
+He let his mind wander to their last fight, Chenna saying, “When it
+comes to your family, especially your mother, you become absolutely blind,
+suddenly you who notices everything cannot see how unkind your mother
+sometimes is to me,” his retorting, “Of course everyone who doesn’t
+immediately hug you is unkind to you. That might have been cute in
+university but now it’s just annoying.”
+He wondered now why he’d responded that way. Perhaps it was the
+suddenness of the accusation, the way a fight over chores became about his
+mother. Perhaps he’d thought Chenna’s words an utter mischaracterization
+of Mma, Mma who always opened their doors to the neighbor’s children,
+Mma who had no airs, no bitterness.
+When he returned home from work the evening of that fight to find
+Chenna gone, the house stripped of the things that were his, the wardrobes
+looking robbed without his clothes in them, the clock loud in the yawning
+emptiness, Chikelu had called him, angry, but when he did not pick up, his
+anger had melted into a quivering fear, and he’d sat on the bed and cried.
+That night, Chenna sent a short message breaking up with him.
+He’d promised himself that he would not think of Chenna now that Mma
+was here. He had to be fully present, just in case. He thought of what
+Anulika had said earlier, that he often acted as though Mma did not know
+what was best for her. Was that why Mma didn’t mention her doctor friend,
+even in passing? Perhaps he was being too hard on her about work, but
+wasn’t it reasonable, what he was asking? He had not asked her to retire
+entirely, he’d only wanted her to stop walking from house to house in the
+heat of afternoon, teaching people’s children, burning herself out, after an
+entire day of sitting with those same kids in class. Maybe when he and his
+siblings were younger and they needed the extra money, it had made sense,
+but not anymore. The only person still in school was Bobo and as far as he
+knew, he and Anulika were doing a great job of making sure he wasn’t
+broke like they had often been in university. Mpa had taken advantage of
+their newfound prosperity and slowed down, moving from Lagos to settle in
+Owerri, so that he was just a few miles to the village to which he returned
+every other weekend, sitting in the dusk with his friends, sipping beer and
+eating goat head. That was the secret to a long life, Chikelu had begun
+recently to think, to love yourself unabashedly, and Mpa had always done
+that, loved himself unabashedly, sending them money whenever he had it,
+saying he didn’t have when it wasn’t there, and toward the end of Anulika’s
+university days, his refrain had become, “M ga-egbu onwe m? I cannot kill
+myself.”
+He thought of those weekends in his childhood when Mma would give
+her phone to him. “Call your father,” she would say, “maybe he thinks I’m
+joking when I say there’s no food in this house. Let him hear it from your
+mouth.” He’d resented making those calls; he loved to help, to ease Mma’s
+burden, and Mpa listened to him more than he listened to anybody else (to
+others, he would say, “Nna, there’s no business happening here o,” but to
+him, he always added, “Let me see what I can do, ị nụgo?”), and yet
+Chikelu hated making those calls. When he spoke to Mpa, he wanted to talk
+about school, about his new win with the debate team, he wanted to ask him
+when he would visit Kano—he did not want to talk about money. One time,
+he must have been in SS1 then, he refused to take the phone from Mma, he
+grumbled something about wanting to be left alone, and her face had
+changed, her eyes filling with tears as she said, “So I am the only one who
+should not be left alone, eh? You people have seen the person that deserves
+to die from stress.” He had walked out as she spoke, he was full of a new
+and confusing rebelliousness in those days, and it didn’t help that he could
+not stop thinking of Gee, who had a girlfriend and did not know he existed.
+Nurses paced the long hallway, some brisk and purposeful, others lazily
+chitchatting, their white uniforms almost disappearing into the milky white
+of the walls. On the bench across from him, a man cradled his son’s head on
+his lap, gently patting the boy’s shoulders. He’d not noticed them come in.
+The man looked exhausted, as did the boy, who was in his checkered school
+uniform. Decades ago, Chikelu had been that boy, crying into Mpa’s lap
+because the tetanus injection had hurt. Now, he threw his head backward
+and closed his eyes, the memory inching closer, Mpa’s hand patting his
+back felt so real. After the hospital, he remembered, they’d gone to FanMilk
+and had ice cream, Mpa telling him how strong he was, hailing him “My
+boy, my boy,” even though he’d cried.
+He allowed his eyes to travel, glancing at all the people perched on
+benches, looking tired and desolate. He hated hospitals so much. He wished
+that Chenna were here right now. They would wander off somewhere
+together, maybe buy bananas at the stand outside the gate and chat with the
+seller, to kill time. Chenna would have convinced him, he would have said,
+“Bilienu, nna,” in that languid and swinging way he spoke his Igbo, and
+Chikelu would have stood up and they would have talked idly as they
+strolled to the gate. He should have listened to Chenna.
+He pulled out his phone from his jeans pocket and scrolled to Chenna’s
+name. Obi m, he typed, I’m so sorry, please come back home. He deleted
+the last letter and the one before it, and then everything. He typed again, I
+think Jasper misses you. He’s been barking a lot more at night, pressed
+Send, and slid the phone back into his pocket as though it were something
+hot. He cupped his nose and mouth with his hand and exhaled.
+Mma came out to the lobby just as Chenna was putting his phone away.
+She was walking down the hallway with a man he immediately knew to be
+the doctor. Her lace gown, green with yellow patterns and loose, swayed, as
+did her black handbag, which she slung on one shoulder. They were talking.
+The man was tall and, even though Chikelu could only see his shape from
+where he sat, he could not miss the beard that Anulika had described, gray
+and coiffed. He wondered if this man had brought out a hand mirror in his
+office and, looking at it, arranged himself in preparation for this moment.
+Had he been in the specialist’s office with Mma? That seemed unlikely, it
+would be unprofessional, wouldn’t it? He should be happy, he knew, she’d
+been through a lot, but Chikelu did not like this man who had now stopped
+and was facing Mma, saying something that made her laugh. There was
+nothing inappropriate about their posture, no grazing of arms and, when he
+turned left toward the west wing and Mma continued down, no hug, no
+handshake, just a wave of hands, brief and formal. He knew, then, that
+whatever Anulika had imagined between them did not even come close to
+what they really had. He knew all the postures, the calibrated ways of being
+together in public without divulging the private. It had been that way with
+him and Chenna in the beginning, barely talking to each other when the
+roommates were around, until they learned eventually that the best place to
+hide was right under the sun. Mma smiled as she came closer, as she saw
+him sitting there, watching her. She spread her arms in a questioning way,
+still smiling, and he shrugged. She was okay, he thought. She would be
+okay.
+KC and Mmeso left their fidget spinners on the floor and chased Jasper
+around the house instead. Uzoamaka still jumped whenever it rushed
+toward her, wagging its tail, but she was no longer afraid of it. She even
+played with it now, sometimes caressing its back, which was covered in soft
+fur, its head, never its belly, so damp looking. The first time she saw it,
+she’d told Chikelu and Uchenna that she could not stay in the same house
+as a beast that big. Now, it was even bigger, and sometimes, when it barked
+at night as it roamed the compound, the sound at once aggressive and
+plaintive, she almost pitied it. It loved being inside, with people, Uchenna
+had told her.
+The girls were running away from it now, squealing as it chased them
+from the dining area into the living room, their parents sitting there
+watching TV, not at all alarmed. KC jumped unto her body, laughing, and
+Mmeso did the same, and Jasper bounded toward her and stood on its hind
+legs as it reached for them with its front paws. Uzoamaka almost died,
+she’d never seen it that way before, as tall as a twelve-year-old boy, and
+thrice as bigheaded. “Bịa, ụmụazị a!” she yelled, throwing her head back
+and closing her eyes while it pawed at them. Laughter erupted in the living
+room. Phillip came and took the girls away, Jasper following. “Let Mma
+rest,” he said.
+Chikelu looked away from the television and watched them as though
+trying to remember when all these people had come into his house. He
+checked his phone, probably for the twentieth time in the space of a minute,
+dropped it back on the stool beside him, and returned his gaze to the
+television. Uzoamaka continued to watch him, the way he sat, with his legs
+drawn together on the chair. “Chikelụ, kedụ ihe Ọ?” she asked.
+She’d assumed that, with the house full, and after the news that the
+specialist had found no reason to suspect the edema was caused by
+something serious, he would rise from whatever pit he’d been thrown in,
+but he looked worse now, duller in the light of all that laughter. She’d
+sensed him descending deeper after they returned from the hospital that
+afternoon, and she’d asked, finally, what the problem was, but he merely
+shook his head and said it was nothing. Now, he looked at her from that
+vacuous place, as though contemplating her. He smiled. “Do I look like
+someone who has a problem?” She did not believe the amusement in his
+voice, so blatantly false.
+“Yes, you do. You’ve been moping around since I came here. If you have
+a problem, spit it out. Kwupute ya. If it’s my presence in your house that
+makes you moody, tell me, so I can pack and go where I’m welcome. Ị
+fụkwaa!”
+“Mma!” It was Anulika. The room was silent. The television droned on.
+Even the girls were quiet, looking at them with eyes naked with curiosity.
+Jasper was curled on the floor and KC was rubbing its neck.
+“I don’t know what you’re talking about,” Chikelu said, not in pidgin,
+not even in Igbo, but in English, and in that version of English he’d used
+during debates back in secondary school and, she imagined, in courtrooms
+now. She felt slapped, especially as he continued looking at the television,
+ignoring her. She stood up, snatched his phone from the stool. Is it because
+of that man, she heard herself say, is it because of him? Chikelu leaped up
+from his seat.
+“Do you want to drag it from my hand?” She gripped the phone, tight.
+“Mma, biko nyeghachi m foonu m,” he said, arm outstretched, palm
+open. She moved back. Anulika was talking, Kedụ ụdịrị mkparị bụkwanụ
+nke a? Phillip was saying to the girls, let’s go and play with Jasper outside.
+They were moving, the sound of the door unlatching. She stood there,
+unsure, the air between them soiled by her one reckless move. She could
+return the phone now and sit back down and let the air ferment even further,
+and they could all sit in the discomfort of it, wait for it to pass; or she could
+open his messages and confirm her worst fear, a fear she’d never let herself
+name because doing so might call it forth into reality.
+She pressed the side button, the screen lighting up. The texts were right
+there, under a thread titled My Heart.
+Obi m, the most recent message read, I am terribly sorry, please answer
+your phone or flash me. I didn’t mean to make you feel that way. I miss you.
+The one before: I think Jasper misses you. He’s been barking a lot more at
+night. Before that: If what you want is a break, then why did you pack all
+your clothes? And why aren’t you at least answering your phone?
+Prior to all that, My Heart had texted, This is the most difficult message
+I’ve typed in years but it feels necessary. We need a break. I need the space
+to think about us, about me. I love you but increasingly you no longer see
+me, and it hurts. I don’t feel like the most important person to you, and that
+is not okay for me.
+Before that, from My Heart—in response to, Chicken or point-and-kill?
+—You know I can never resist point-and-kill!
+Uzoamaka’s hands shook. She stared at Chikelu but saw only his
+reflection. Anulika snatched the phone from her and said, “Chikelu,” her
+voice a whisper, a plea.
+Chikelu stood up, took the phone. He stared at her. “You’ve seen what
+you’re looking for,” he said, “are you happy now?” A calm in his voice, the
+surface calm of a simmering underbelly. “I guess no more secrets between
+us.” He walked toward his bedroom and slammed the door.
+She felt empty, as though she’d witnessed her son die. He would never
+bring a woman home and show her all the love bubbling inside of him, all
+the attention she herself had felt and relished; and he would never fill the
+house with little replicas of him for her to dote on and spoil.
+“What entered into your head?” Anulika was saying but words meant
+nothing to her. She sat on a sofa, she could not stand, she was shaking.
+Anulika held her shoulder. “Are you okay?”
+“My enemies have laughed the last laugh!” She put her hands on her
+head. “Hei!”
+“There are no enemies, Mma. I’m sure you’ve suspected for a long
+time.”
+She looked up at her. “Can you hear yourself? I na-anụkwa onwe gị?”
+“You cannot stay here tonight. Come with me, I’ll help you pack.”
+“I’m not going anywhere. We must finish this thing tonight. Ọ bụrụ
+church, we will go to church. Is it dibia? Doctor? We must get to the root of
+it.”
+“You’re not getting to the root of anything, Mma, at least not tonight.”
+She rubbed her shoulders. “Bịa, let’s go and pack your things.”
+It felt like hours, but it had only been about twenty minutes, and the room
+was dark. Outside, night was descending, dimly blue. He sat with his back
+to the window, one leg stretched out, the other pulled up in an inverted V.
+He could hear his nieces laughing, their father saying, “That’s enough for
+today, girls. Get in the car. I’ll take Jasper to his kennel.”
+“What about Uncle Kelum? We want to tell him bye-bye.”
+“If you don’t get into this car this instant!”
+“You heard Mummy, enter, enter,” Phillip said. Jasper barked. “You
+didn’t need to shout at them, baby.” Chikelu imagined him kneading her
+shoulders. He could see the girls’ heads, their hair decorated in ribbons of
+bright colors, as they walked to the car, saw Phillip walk Jasper toward the
+kennel. Someone was knocking on his bedroom door. He pulled the duvet
+closer, covering his shoulders. He did not want to talk to anybody.
+The knocking persisted. “I am not going to leave until you open this
+door,” Anulika said, kept silent for a second. “Kelum, bikozienu, I cannot
+bear to leave you like this.”
+He stood up and unlatched the door, returned back to the bed.
+“God, see as this place dark.”
+“Don’t turn on the light.”
+“I won’t.” He could see her, dim. She was standing at the foot of the bed,
+peering down at him. She sat down. “I’m sorry.” She touched his leg,
+briefly, gently.
+He continued to look out the window. He could hear the girls singing,
+Do you know Mummy? I know Mummy is the best!
+“Where is she?” he asked.
+“Who? Oh.” She brought her fingers to her face and flicked her braids
+off, her nails were long and painted red. “She’s in the car. She’s going home
+with us.”
+“Huh. I see she cannot stay under the same roof as her demon son.”
+“Come on, Chikelu. I made her come with us. She did not want to leave.
+And I’m sure you don’t want her here either tonight.”
+When she goes away, I will be left alone!
+“And you? What are you going to do? Will you stop bringing the girls
+over now?”
+She looked at him, her eyes sad, or maybe it was the dying light. Can
+you take a picture to represent Mummy? “How can I, Chikelu? They love
+you and I love you.”
+He felt a throb in his throat, he wanted to cry. “And Phillip?”
+“Phillip is not like most men,” she said. “And even if he turns out to be,
+we will fight over it and I will win. You know me, I always win.” She
+smiled, touched his leg again, this time leaving her hand there.
+“Of course, you always do.” He chuckled.
+Can a picture do what Mummy can do for me? Oh no-o-o, Mummy is the
+best!
+“You should probably find them a voice teacher as soon as possible,” he
+said. “They’ve murdered that song.”
+“Just like you murdered it during morning assemblies in nursery school,
+so enthusiastic and confident in your off-key voice. Or you think say I
+forget?”
+They both laughed. There was a brief moment of silence, and then the
+girls began singing a new song, but he did not know it and so could not
+make out the words. “I talked to Uchenna,” Anulika said, and he sat up.
+“We spoke yesterday on the phone. I asked him why he left without telling
+us.”
+He did not know what to say. She continued. “You ever wonder why
+Mma never left Mpa all the years he was in Kano with her, cheating up and
+down? Ever wonder why she divorced him when she did?”
+“Because she wanted us to grow up first.”
+“That, too,” she said. “But something else, something more. Mpa was
+not the worst of men, he was in fact very good, by available standards.
+When he was around, he took care of us, bathed us, helped in the kitchen,
+not for once did he beat Mma. Mpa had those flings and it made them
+quarrel all the time at first, and when Mma was younger it made her so
+unhappy. But she learned to live with it, to ignore it. And then he left her all
+those years with us, never made an effort to help when things became
+tough, never acknowledged her sacrifices. And Mma realized that she could
+not handle that, it made her feel alone, like a widow.” She paused; he sat in
+the silence, waiting. “What I’m saying, Chikelu, is that everybody has their
+breaking point, the thing that they finally say no to.”
+The room was darker. He breathed, deep. She stood up. “Will you be
+okay? I can stay while Phillip takes them home.”
+“I think I’ll prefer being alone,” he said.
+She nodded, walked to the door, turned. “Don’t think too much about
+what Mma did. She was just afraid. We all know you are her poison.”
+After she left, after the car drove off and he went out to bolt the living
+room door, he returned to the bed, got out his phone and texted Chenna:
+Mma found out about us tonight. She’s left with Anulika now. I pretended
+not to see the way she treated you in the past. That will change. He paused,
+let his thumb hover again. I am afraid but I am also sure now that you’re all
+I need. I love you.
+He sent it.
+The entire family had gone to bed. She tossed and tossed in hers. There was
+power and the ceiling fan was blowing cool air, yet she felt hot. Her phone
+beeped. She knew, even without looking at it, that it was another message
+from Maxwell, perhaps saying good night this time and could she please
+call or text him in the morning to let him know she was okay. He was like a
+distant noise in her mind right now. Now that her anger was gone, now that
+her shock was gone, she felt sorry for what she’d done to Chikelu. She
+could still see the hurt on his face, the surprise, as though he could not
+believe that she was doing that to him.
+Weeks ago, he had called her at night to tell her that Uchenna moved out.
+She’d been asleep when her phone rang, and she felt in the darkness for it,
+flicking it on and checking the time. It was 11:00 P.M. “Chikelum, arụ
+adịkwa?” she said, and he simply sighed, one long breath traveling down
+the line like wind through a tunnel.
+“I didn’t realize how late it was,” he said, laughing, a short awkward
+laugh. The silences, they were wide and deep. The gentle rasp of breathing.
+His words, that he’d had a misunderstanding with Uchenna and he’d moved
+out suddenly. She could not remember the last time Chikelu had needed her.
+Unlike Anulika, who would call with all her school and friendship
+problems, he’d kept his life, his hurts to himself. Instead, he’d always been
+the one to listen as she spoke, angry when she needed him to be, absorbing
+it all. As she listened to his breathing, she sensed that he needed her, and
+she was afraid to pry, afraid that he would say something if she did,
+something she’d always suspected but did not want to confirm.
+“Yes, I was asleep,” she said. “But call me back in the morning.” She
+knew that when he did, he would no longer need her.
+She should have been there, she thought now, sniffled. He’d looked so
+sad hours ago, and she wished she could return to hours before, when she
+did not feel so conflicted in her love for him.
+He was almost asleep when his phone rang. Jasper was barking, the sound
+coming from the door instead of the kennel. He picked up his phone, stared
+at it, his heart thumping.
+“I’m at the door,” Chenna said.
+<br /><br />
+<center><h1>THE END</h1></center> <br /><br /><br />
+  </div>:null
+}
+  
+    
     </div>
   )
 }
