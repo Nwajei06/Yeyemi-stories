@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom'
 
 
 function Bookone() {
-    const [show, setShow]=useState(true)
-    const [shows, showset]=useState(false)
     const [displays, displayNow]=useState(false)
+    const [show, setShow]=useState(true)    
+    const [shows, showset]=useState(false)
+    const [hide, hideshow]=useState(false)
+    
   return (
     <div  className='gatther'>
         <Link to="/child">  <li class="fas fa-arrow-left"></li></Link>
@@ -16,12 +18,27 @@ function Bookone() {
           <center> <img className='chap-img 'src={img1} alt="" /></center> 
             <br /><br />
             <hr />
-      <span onClick={()=>showset(false)}> <center> Chapter 1 </center></span>
+      <span onClick={()=>{
+        setShow(true)
+        showset(false)
+        hideshow(false)
+        }}> 
+        <center> Chapter 1 </center></span>
       <br />
-      <span onClick={()=>showset(true)}> <center> Chapter 2 </center></span> <br />
-      <span> <center> Chapter 3 </center></span>
+      <span onClick={()=>{
+        showset(true)
+        setShow(false)
+        hideshow(false)
+        }}> 
+        <center> Chapter 2 </center></span> <br />
+      <span onClick={()=>{
+        hideshow(true);
+        showset(false);
+        setShow(false);
+        } }> 
+        <center> Chapter 3 </center></span>
 <br />
-<span> <center> Chapter 4 </center></span><br />
+<span > <center> Chapter 4 </center></span><br />
 <span > <center> Chapter 5 </center></span><br />
 <span > <center> Chapter 6 </center></span>
 <br />
@@ -818,7 +835,7 @@ you look, you’ll even see the dust rising from Baba’s car driving away.”
 </div>:null
       } 
        {
-       shows?<div onClick={()=>displayNow(false)}  className='chap2' ><center><h1>Chapter 2 </h1> <h3>HAPPY IS A DOING WORD</h3></center>
+       shows?<div onClick={()=>displayNow(false)}   className='chap2' ><center><h1>Chapter 2 </h1> <h3>HAPPY IS A DOING WORD</h3></center>
 
 <center>I.</center> <br />
 They were ten when the plane crashed. Binyelum saw the blackened
@@ -1419,10 +1436,659 @@ estrangement.
 
 
        </div>:null
-       }  <br />
+       } 
       
-
+  
+        <br />
+      
     </div>
+    {
+   hide?<div onClick={()=>displayNow(false)}  className="chap3"> <center><h1>Chapter3</h1> <h3>WHERE THE HEART SLEEPS</h3></center>
+    Two weeks after her father’s death, Nonye returned to the house in Lekki.
+The evening she arrived, Tochukwu met her at the gate and helped her with
+her bags. He was a slim man, and when he took off his glasses as he asked
+about her trip, his eyes looked dim. He plucked a hankie from the breast
+pocket of his blue shirt and began to wipe his glasses, his motions gentle,
+almost like petting. His fingers were too slender for a man. She told him her
+trip was fine.
+In the living room, she stood and stared at the high ceiling. It was the
+same gleaming white, the ceiling, and the chandelier shone softly golden.
+The curtains were drawn over the large arched windows, blocking out the
+waning sunlight. She remembered that the curtains used to be taupe, not this
+deep shade of gold, but could not remember, although she tried hard to,
+whether the changes had already been made when she last visited two years
+ago, whether she’d simply failed to notice.
+“I prepared your old room,” Tochukwu said. “I thought you’d like to stay
+in it?”
+They walked upstairs. The paintings on the walls were the same,
+abstract, they looked childish to her. She used to marvel at how much her
+father spent on art. Only one of the paintings had any intimation of
+something real, the colors spiraling into the shape of a man. She
+remembered being absolutely terrified of walking down the stairs at night if
+she needed something from the refrigerator; in the dim light reflecting from
+the kitchen below, the man had seemed full of colorfully expanding eyes
+into which she could sink and never be found.
+“It was Dubem’s favorite,” Tochukwu said, noticing her pause. “At first,
+I didn’t understand it, didn’t understand any of the paintings, to be honest.”
+He laughed. She could sense his discomfort, slight and well preserved—
+he was a man with his edges tucked in—but there nonetheless. She wanted
+to be kind, to laugh with him, but all she could think about was the stirring
+in her chest, an old and pulsing resentment.
+He must have sensed it, because he said nothing else. In her room, he
+pulled her bags into the wardrobe. “Let me know if you need anything,” he
+said, stepping out and easing the door closed.
+She went to the window, parted the curtains. Something felt lost,
+missing, the space right outside too vacant, and it took her a moment to
+realize that the cashew tree was gone. It had been there the last time she
+visited; she was certain about this because, although she didn’t sleep in the
+house, she’d always come into this room to smoke.
+She pulled the curtain closed, sat on the bed. This was real, she thought.
+She would never sit with her father on the veranda, never brush a leaf off
+his hairy arm, and he would never again ask to smoke with her. She’d come
+here to feel him, to see his fingerprints scattered all over, in the decor and
+the paintings, in Tochukwu, and now that she was here, she was no longer
+certain feeling would be enough. When she had looked at Tochukwu earlier,
+she’d not seen her father, she’d seen a man helping her with her bags, a man
+with his own look and voice and walk. What she really needed was to see
+them together, to hear what her father’s laughter sounded like with
+Tochukwu in the room, to experience the man he became when they were
+together. To do this without feeling like a peace offering, a compromise
+spread between this and the house in Ikoyi.
+________
+Tochukwu knocked to tell her that dinner was ready. In the dining room, the
+table felt long for two people. Even with the three of them, her mother
+across from her father, it had been too large. She used to wonder if her
+parents had planned to have more kids.
+As they ate, she thought of things to say to him, hoped that he would say
+something. In the past, when she visited, she ate alone with her father.
+Tochukwu never joined them. He would return home from work in the
+evenings and sit briefly with them on the veranda, talking about current
+affairs, conversations that intentionally floated, never sinking deep.
+Dinner was fried yam and egg sauce. She wanted to ask if her father had
+told him that it was her favorite food. He had cooked it well, the eggs
+clumpy like popcorn in the sauce.
+“This is delicious,” she said, raising her fork and nodding.
+“Thank you.” He sounded almost shrill, as though surprised that she had
+paid him a compliment. He had changed from the blue shirt, now wore a
+yellow open neck, his chest hair peeking out, dark and curly, his beard
+trimmed in a way that made him look younger, and she had to remind
+herself that he was several years her senior. Still, he was good looking, in
+the way that a well-tended lawn is beautiful, purposefully. She wondered if
+that was something her father had liked about him, wondered if they’d had
+parties, and if yes, who their friends had been, which of her father’s old
+friends had remained, secretly, wondered if any had. Often, she had thought
+that more than anything else, her mother, alone in her house in Ikoyi, had
+missed playing hostess, wearing her most glittering earrings and waving off
+the compliments her father’s friends gave on her cooking, Oh, this small
+thing, her father beaming with pride.
+Did her father show him off? she wondered.
+“Have you spoken to your mother yet?” Tochukwu said.
+“We talked when I arrived at the airport. I’ll go see her when she returns
+from the village.”
+He nodded, stared into his plate. “I don’t have any idea what’s
+happening. No one will tell me what the plans are. I didn’t even know when
+he was moved from the mortuary at the Teaching Hospital. Nobody told
+me.”
+She put down her fork. Mortuary. Whenever her mother called, she’d
+talked only of plans for Nonye’s travel, and it had been a gift, keeping her
+away from the practicalities of her father’s death. Tochukwu had just
+snatched that away from her. Her father was lying somewhere, cold and
+alone.
+She stood up. “Thank you for making dinner,” she said.
+The pain in his eyes, it was full and brimming. “Please finish your food.”
+“We’re in the same boat, Tochukwu, I don’t know anything either.” She
+picked up her plates, took them to the kitchen, dumped them into the sink,
+the force, it was a miracle they did not crack. She stood by the sink until the
+water warmed up. Her hands shook as she held a plate under running water,
+and to steady herself, she returned the plate into the sink, clutching the
+countertop. She looked around, the walls white but no longer tiled. The last
+time she was in this kitchen, the tiles from her childhood had been intact,
+and her father had stood by the refrigerator while she washed the plates, and
+he’d said, “I miss your mother, I miss being on good terms with her.”
+“Daddy, why are you telling me this?” she said, looking up at him.
+“It’s just a thought.” He shrugged. “Can’t a man share things with his
+daughter anymore?”
+He’d not always been that way, prone to bouts of sharing; he’d been
+sufficiently tender, asking, whenever she visited, what was going on in her
+life, teasing her about boyfriends she didn’t have, asking if she was having
+a good time at her new school. But then she’d gone to Nebraska for
+university and he became the sort of father who told stories, reaching deep
+into his past for anecdotes about his parents, his childhood, his early days
+doing business in Lagos—to keep her on the phone, she’d concluded, now
+his stories felt to her like chronicles, told to be remembered. Sometimes
+she’d wake up in a panic, afraid she’d forgotten them all.
+She stacked her plates in the cupboard, wiping her hands with a towel.
+Her anger had dissipated; in its place was sadness, wide and gaping. What
+would her father be doing were he here now, alone with Tochukwu? Would
+they have seen a movie together? If yes, would they have curled up on the
+couch, holding each other, or would they have sat separately, arms grazing
+occasionally as they reached for the remote control? Had they been happy
+until the very end?
+Her phone was ringing. Sweet Mummy, the caller ID said. She let it ring.
+They’d talked for almost an hour earlier in the day, and Nonye knew what
+sorts of things her mother would say if she picked up. “Don’t eat or drink
+anything he gives you,” she’d said earlier.
+They’d been quiet, and then her mother had laid it all out again, as
+though she hadn’t repeated it like a favorite song even when Nonye had
+been in Nebraska: I don’t understand why you’re going there, while you
+could stay in Ikoyi until I return.
+Her phone was ringing again, vibrating against the counter. She picked it
+up and slid it into her jeans pockets. In the dining room, Tochukwu was
+clearing the table, his back to her. She stood by the alcove, watching him,
+wondering what her father had seen in him the first time, wondering who
+made the first move. “I’ll try and talk to my mother when she returns to
+Lagos,” she said.
+He turned, looking startled. “Thank you.”
+She was so obviously unlike Dubem, having inherited her mother’s light
+skin and fiercely beautiful face, that when she’d stood up and thanked him
+for dinner, Tochukwu froze, petrified by how her anger eyes mirrored
+Dubem’s, how her movements, terse and immediately aloof, were exactly
+like his. He’d spent years teasing Dubem about how his daughter had none
+of his features, and now, weeks after his death, she was looking at him with
+the same eyes that Dubem did whenever they quarreled.
+He thought about this as he walked upstairs. It was the only quiet
+thought he’d had since he returned from the hospital two weeks earlier. That
+first night, he’d stood in the middle of the living room, hands on his head.
+He could not cry because he did not believe it, that a small complaint about
+a headache after a business trip would lead, by morning, to him speeding to
+the hospital because the headache had intensified, it was as though someone
+where knocking a nail into his skull, Dubem had complained; he did not
+believe that by late morning, the doctor would call him into the office and
+say, “I’m sorry, we did all that we could, but the aneurysm had ruptured,”
+that he would laugh.
+He’d slept on the couch that night. When he went upstairs into their
+bedroom, the bed had seemed endless with Dubem’s absence, still he
+dreamed of Dubem’s laughter, of Dubem’s arms around his shoulders. And
+then he’d woken up to the sun pouring into the living room, Dubem gone
+forever, and he’d sat up on the couch and cried, loud and ugly.
+It occurred to him that morning that it was up to him to tell everyone:
+their friends, Dubem’s senior employees, Dubem’s family. Prior to this, the
+biggest loss Tochukwu had experienced had been his grandmother’s, in his
+first year of university. They had been close, relatives calling him her little
+purse. He’d fled to his mother’s room during the funeral, he could not stand
+the thud of sand hitting her coffin, the sound so precisely lonely, so
+heartless. What he had not understood then was his privilege of flight, of
+grieving without obligations—his uncles had to stand there, stone faced and
+bleary eyed, until the priest said the final words, watching their mother
+disappear forever shovel after shovel of brown earth. Now he had to tell
+everyone that Dubem was dead.
+The first person he called was Nkiru, Nonye’s mother. “Onye?” she said
+when he told her who he was—it wasn’t that she hadn’t heard him the first
+time, he knew. “Tochukwu,” he said, pacing the room. “Albert’s friend.”
+He’d never called Dubem by that name.
+“Ehen?” she’d said, impatient.
+He opened his mouth, but no words came out, instead he gulped air. He
+sat on the edge of the bed. “Dubem,” he said, blinking, holding the
+trembling in his throat by pressing his mouth closed. “Dubem a-nwuỌla.” It
+was easier to say in Igbo, a language in which he’d heard that sentence said
+before.
+“What? Ị sị gịnị?” Her voice was low, and then it was shrill. “I did not
+hear you well, biko kwukene ya ỌzỌ.”
+“Dubem died,” he said, this time in English. “Yesterday.”
+She asked what had happened, and he told her about the headache, and
+how fast he drove to the hospital—the roads were not yet cramped, he told
+her, it was early morning.
+She cut the call suddenly. He would have to call Dubem’s brothers,
+James and Maxwell. He would have to answer their questions, people who
+had long stopped talking to Dubem, except for the text messages from
+James’s wife every Christmas, New Year’s, and Easter, seasonal greetings
+laced heavily with small sermons about the impermanence of earthly things
+and the reality of eternity. She always signed off with Jesus loves you.
+Dubem would shake his head as he read the messages to Tochukwu, smiling
+sadly, and yet he always called her after, thanking her for her message,
+asking after his nephews and nieces, after his brother, telling her that he was
+thinking of them. “Why do you continue to entertain this?” Tochukwu had
+asked last Christmas. “I see how much it hurts you, I see how much it ruins
+your mood, and yet Christmas after Christmas, you call. Why?”
+Dubem tapped the space on the bed beside him. Tochukwu hesitated, he
+was angry for Dubem and a little annoyed with him. Finally he sat on the
+bed. Dubem wrapped his arm around his waist. “I do not know how to be
+without my family,” he said. “I was raised to need them. ‘After you’ve
+trekked round the world and you’re dirty and smelly,’ our mother used to
+say, ‘return home and your brother will bathe and feed you.’ ”
+“It seems you alone listened to that lesson,” Tochukwu said, laying his
+head on Dubem’s shoulder.
+Dubem squeezed his side, gently. “I have you, nnwa, so I count myself
+among the lucky.” He looked at Tochukwu, smiled. “And one day, Nonye
+will come to understand fully.”
+He was lying in bed, reading a novel, when someone knocked. At first, he
+thought it was Musa, the gateman, but when the knock was not followed by
+a loud “Oga,” he knew it had to be the only other person in the compound,
+Nonye.
+He put on a shirt, shuffled into his slippers, and went to the door. She
+was already dressed for bed, in a white nightgown sprinkled with tiny pink
+flowers, her hair bunched in a black hairnet. She was barefoot, and the
+hallways were not carpeted, the tiles always cold. “Is everything okay in
+there?” he said, certain that she would ask if he had spare slippers.
+“It’s stupid,” she said, shaking her head. “Sorry to disturb you.” She
+turned around. She’d stood very briefly there in front of his door, yet he’d
+seen it in her eyes, the weariness, the far-flung look of someone lost. He
+called after her, asking if she was sure everything was okay. Did she need
+anything? Slippers? More blankets?
+“I can’t sleep,” she said.
+He stood there, saying nothing, the light in the hallway dull and yellow.
+Her arms were wrapped in an X across her chest, like someone shielding
+herself from a terrible cold. They were multiplying, the little things that
+made her alike to Dubem, such as this X, the gentle rotating of her fingers
+around her shoulders.
+“Can I come in for a while?” she said.
+“Absolutely.”
+He moved out of the way, letting her in, shut the door behind him. She
+stood in the middle of the room, looking around, his eyes moving with hers,
+settling on the green couch by the wardrobe, the pencil portraits on the wall,
+one of Dubem in an Afro he hadn’t had since he was thirty, having gone
+totally bald by the time they met, and the other of Tochukwu squinting at
+the sky, the huge table by one of the walls littered with papers and on which
+a lamp gave out golden light, the door beside it, shut, leading into Dubem’s
+study—and, finally, the huge picture above the bed, the both of them in
+white, a coral necklace around Tochukwu’s neck, the both of them laughing,
+Dubem’s head thrown slightly back, teeth bared, Tochukwu leaning against
+him, and below, in cursive calligraphy: Home is where the heart sleeps.
+They’d taken the picture at a beach in Kigali. The photographer, a young
+man in his early twenties named Pius, had said, “Hold your husband,” and
+they’d both been taken aback, in a good way, used already to people calling
+them brothers or calling Dubem Tochukwu’s uncle. “We’re not married,”
+Dubem had said, smiling mischievously at Pius, to which he’d retorted,
+“Well, you should be, you’re both beautiful.” Was that the only reason
+people married one another? Dubem asked. “No,” Pius said, fiddling with
+his camera. “But that’s the most important reason. I know, what’s in the
+head is important, but it will not give you fine children.” That was when
+they’d laughed, the way he said it, his face serious and set. “Perfect!” he
+said, clicking his camera.
+“I’ve not been in this room since I was seventeen,” Nonye said. “I
+cannot believe how much it’s changed and how much it has remained the
+same.” She nodded toward the couch. “Can I sit?”
+“Feel free,” he said.
+He sat on the bed opposite her, the space between them so wide, they
+wouldn’t be able to touch fingertips even if they stretched their arms. He
+wondered why he simply did not sit at the other end of the couch—it would
+have implied a comfort that did not exist, but that would have been better
+than the feeling of exposure he had sitting on this high bed, doused in the
+light, totally seen. He laced and unlaced his fingers, and then, telling
+himself not to do that again, placed his hands under his lap, his palms
+pressed to the bed.
+She looked at the picture hanging above the bed. “Did my father decide
+on the inscription?”
+Tochukwu stared at the picture, so huge, so tall, it was like a kindly
+watchman. “You know it.”
+“It’s just like him, always ready with his aphorisms.” She shook her
+head, a tiny smile on her lips. “When I was little, he would summarize all
+his fatherly lectures with these. He called them wisdom nuggets.” She
+chuckled to herself. “Run fast, but only against your shadow from
+yesterday. One time, I think I was in primary four, some mean boys taunted
+me and when my mum picked me up, I was in tears. She told my dad when
+he returned home from work that evening and he called me into this room.
+He said, ‘Never let them see your tears, they are hungry for it and it will
+only make them more cruel.’ Of course, he said my mum would go with me
+to school the next day to talk to my class teacher, but those words stayed
+with me. A bully never made me cry again.”
+“He loves that word, cruel,” Tochukwu said. “Next to sons of destruction
+and desolation.”
+“That one he reserves solely for every Lagos State governor that ever
+lived!” she said, laughing, her head thrown back and her teeth bared. The
+sound, so pure, so unlike Dubem’s in its gentle highness, surprised him. It
+occurred to him that he’d never heard her laugh, that she’d never laughed in
+his presence.
+He was laughing too now. “It’s true, though,” he said. “The inscription.
+Home really is wherever the heart sleeps, the things and people it retains
+and remembers fondly.”
+“You sound just like him,” she said.
+“Well, it rubs off.” He felt freer, thawed, as though their laughter
+together had unstrung something between them, and he could finally be
+himself with her.
+They were silent, but it was not the silence of before. It was not exactly
+comfortable, but it was nice. He was happy to be on her good side.
+“Did you notice?” she said.
+“Notice what?”
+“We talked about him in the present, as though he were still here.” She
+blinked, brought her fingers to her eyes. “It’s still unbelievable to me, the
+thought that I will never see him again. My daddy, gone, just like that.”
+She sat there with her head bent into her palm. He wanted to tell her that
+she was right, he was grieving too, but who in the world cared for his grief?
+It was this that made the mortuary attendant release Dubem’s body to his
+brothers without consulting him, the person listed officially as Dubem’s
+emergency contact, who had signed the fatality papers. He wanted to tell
+her how he’d yelled at the man, saying repeatedly, “You don’t know who I
+am,” how those words, coming from a man like him, a man who had driven
+into the compound in a Chrysler, would have worked wonders in any Lagos
+office, how it only elicited in the attendant a snort-like chuckle and the
+words, “Orí ẹ dàrú. Oga, wait until I call the police, then you can explain to
+them what you’re doing asking for the body of a man who is not your father
+or brother.” He wanted to tell her how he hated the attendant, how he hated
+himself, that after all the years he’d been in the world, surviving men like
+that, outsmarting and outachieving them, they could still make him feel
+small.
+He did not tell her any of this. He asked, instead, if she needed a tissue.
+She nodded, wiping her eye with the sleeve of her nightgown, then smiled
+up at him, the smile of someone caught doing something deeply private in
+public.
+“Maybe it would help if you shared some memories.” He paused. “It
+would help me, too, to be honest. I need to get my mind off some thoughts,
+onto something… meaningful.”
+“That’s an interesting word to use in describing memories.” She huffed
+out a smile. “Talk about no pressure.”
+“Nothing in this life is easy,” he said.
+“Well, what do I share?” She looked thoughtful and a little shy. “It feels
+artificial bringing up stuff after being cued. Plus, the memories in this house
+aren’t exactly happy ones—don’t get me wrong, there are many happy
+moments, but my cohesive memory of this place is one of strife, especially
+the last two years we all lived together as a family.”
+He knew what she was referring to and was immediately afraid. Yet, he
+thought, perhaps this was the conversation they needed to have, the
+conversation she should have had with Dubem all these years; perhaps they
+had needed to break things in order to rebuild them. That was probably the
+reason she’d come here, not just to this room, but to the house in Lekki, to
+dissect the demons of her past.
+“Maybe you could start with the happy ones,” he said, shrugging, trying
+to seem both curious and uninvested.
+“Maybe,” she said, smiling.
+When she woke up, it was raining outside, and she had several missed calls
+from her uncle James. She went to the bathroom, then downstairs to make
+herself a bowl of cornflakes, standing briefly by the window overlooking
+the veranda and peering out into the rain, sheets of pouring silver. Musa was
+busy outside, squatting in front of his house by the gate scrubbing a rug, his
+bare back twitching. She imagined dashing out in the rain toward him, the
+way she sometimes did when she was a kid. She imagined that he would
+smile at her and say, “Small madam, you go catch cold o,” that her mother
+would yell at her from a distance to leave the rain if she did not want to
+receive slaps for dinner. She closed her eyes. For a moment, everything was
+as it had been: her father was alive, and her mother still lived here, and she
+was in her room, near tears, unable to understand why she could not play in
+the rain when it was the most exhilarating thing to do.
+When she’d knocked on Tochukwu’s door, she’d told herself that what
+she wanted was to see her father’s room, smell him in the air, and there had
+been some of that, but what she hadn’t acknowledged was the feeling in her,
+like small persistent bites, of an unworthiness to grieve. The evening her
+mother had called to say that her father was dead, she’d felt, after shock and
+disbelief, a nebulous surge of contrition, as though she’d spent her entire
+life doing something wrong and his death was penance. She’d cried, not
+only because she would no longer see her father, she’d cried because she
+could no longer say to him the things that she knew she would have one day
+said, that she forgave and understood him. Before this, she’d never
+experienced a death up close, her mother’s parents both still alive and her
+father’s parents dead before she learned to walk, and so she didn’t have in
+her what she now had, that feeling her friends who had lost a sibling or
+parent described often, of urgency and pervading dread. Her father, healthy
+and boisterous and always on a trip, had seemed durable, and it never
+occurred to her that something so casual as a headache would snatch him
+away.
+She’d rebuffed all his attempts at drawing her into his life in recent years
+and, sitting in the room with Tochukwu, she realized that it had not been so
+much from resentment as it was loyalty—all the times she heard her parents
+scream at each other, there had been a pain in her mother’s voice, a pain
+Nonye feared and responded to—and hearing him talk so intimately of her
+father, it sliced something in her open, and she’d burst out in both grief and
+gratitude.
+She drew the curtains, the living room plunged into an even darker gold,
+ate a few spoonfuls of her cornflakes, disgustingly sodden, went back into
+the kitchen and rinsed off the bowl. As she ascended the stairs, she
+wondered if Tochukwu was up and what his plans for the day were. She
+wondered how he usually filled his days, since this happened but also
+before; she knew nothing about him, she realized.
+Her uncle had called again. She called him back. “Nne, kee kwanụ?” he
+said, his tone the joyful peal of someone who was talking to a favorite
+niece. She hadn’t spoken to him since he surprised her last New Year’s.
+She’d taken the call from an unknown Nigerian number, thinking, since it
+was that time of year, it could be anyone she knew calling to say happy
+New Year, and it had been a little awkward, the first minute between them,
+when she had to pretend to be sorry that she didn’t have his phone number
+saved.
+“A dị m mma,” she said, uninterested; she would not pretend, this time,
+to be excited by his call. She hated it, the falseness Nigerians forced upon
+themselves in the name of respect and politeness. If he was going to pretend
+that a relationship existed between the both of them, she would not.
+He asked how her flight had been and why she didn’t go to his house
+instead. “I know I’m not around and your cousins are in school,” he said.
+“But you’re just like a daughter to my wife. She would have made you
+correct ofe ora and kept you company.”
+Nonye dug her toes into the rug. “This is where I am supposed to be at
+this time, Uncle, in my father’s house.”
+He laughed. “Ị bụ nwoke!” he said. “You’re the son Albert never had.”
+She did not know what to do with his pride, so unexpected. If she held
+her phone any tighter, it would shatter in her palm, which was sweaty in the
+coolness of the room.
+“What about that man?” he said, after some small talk. “Is he still
+there?”
+“You mean Tochukwu?”
+“Who else would I be talking about, nne?”
+“He’s here. This is his home, too.”
+“What kind of talk is that?” he said. “How is it his home? Biko don’t say
+that kind of thing. He’s very lucky we didn’t storm that place with police
+immediately after we heard and demand an explanation. I thought he would
+have left by now, but he still has the audacity to stay, Ị fụkwaa!”
+Nonye said nothing. She shifted farther into bed, pulling her legs
+together. It was like something from an old Nollywood movie, the
+oppressive brother tormenting the bereaved widow. It had not occurred to
+her that Tochukwu could be made to leave.
+“Like I said, Uncle, this is his home.”
+“Stop talking nonsense,” he said. “It belongs to you and your mother.”
+“I’m sure my mother doesn’t want to live here.”
+“You are not your mother’s mouthpiece, Nonye nnwa. I don’t know what
+that man has given you to eat that you’re suddenly dancing to his music,
+like your father did, but we will talk about this when we return from the
+village, ị nụgo?”
+After the phone call, Nonye remained on her bed. The house was so
+quiet, she could hear the ticktock of the clock, the sound of rain reduced to
+a soft patter. It would be merely drizzling now, and soon the sun would be
+out. She picked up her phone and called her mother.
+“Did you know that Uncle James and Uncle Maxwell moved Daddy’s
+body without telling Tochukwu?”
+“What kind of talk is that to wake me with this morning?” her mother
+said.
+“It’s not fair, Mummy.”
+“They’re his brothers.” In the background, the sound of the toilet
+flushing. “Don’t tell me this is the reason you called me this morning. I
+have a flight back to Lagos in a few hours and I spent the whole of
+yesterday attending meetings, these umuada women giving me headache as
+if I’m some widow.”
+“He would have done the same for you,” Nonye said.
+“Well, guess who’s not here—him. And guess who is leaving everything
+behind because of him, again—me. So please don’t lecture me this morning
+about what he would have done because we will never know now.”
+Nonye’s eyes burned. All she could think about was Tochukwu in the
+dining room after she went into the kitchen the night before, how he’d
+hidden his face away from her when she came back in to say she’d ask her
+mother, she suspected he must have been crying. Ghosts did not exist in her
+daily imagination of the world, yet she could not stop imagining her father
+watching him hurt.
+“What has come over you?” her mother said.
+What, indeed, had come over her? She knew now why she’d come here:
+to grieve together. Her mother was hurt by her father’s death, she knew, but
+not in the same way that she was hurt. Her mother felt sad because she was
+a good person who had once loved someone and that someone was gone
+forever, but it wasn’t grief. Her mother had experienced that grief years ago,
+when Nonye had returned from school and found her seated on her
+bedroom floor, crying. Nonye had stood briefly in the middle of the room,
+watching her; she’d never seen her mother looking so dejected. She’d
+known something was wrong when the driver picked her up from school
+that Friday; usually, her mother did, because she did not work on Fridays.
+Nonye enjoyed those drives with her mother, the songs they played, songs
+that belonged to Nonye’s generation but which she loved sharing with her
+mother, the both of them singing along, e get as e dey do me, do me, how
+the inappropriate became delicious on her mother’s lips, so that Nonye
+often burst out laughing. All her classmates said her mum was cool, which
+made her immensely proud, but also a little sad, because she sensed that
+there was, between the countless quarrels her parents had and the
+familiarity she shared with her mother, a precise thread. So, that afternoon,
+when the driver picked her up instead and she trudged straight to her
+parents’ bedroom to find her mother seated on the floor, crying, Nonye took
+off her schoolbag, letting it drop onto the floor, and sat beside her.
+“It is even worse than I suspected,” her mother wept, almost incoherent.
+“It is worse.”
+“Is the woman pregnant?” Nonye said.
+“Oh, ada m,” her mother said, looking up at her with such pity in her
+eyes, Nonye’s lips began to quiver, too. “You will not understand—you
+think you know a man and then one day he shows you his real face.” Her
+mother sobbed even more loudly. Nonye lay her head on her mother’s
+shoulder, between them was something intimate, a shared femaleness, a
+sense of the mistreated.
+She said to her mother now, “I really do not understand why Uncle
+James and Uncle Maxwell are carrying Daddy’s burial on their heads. They
+were not even on talking terms when he died.”
+“And me,” her mother said, “was I on talking terms with him?”
+“It’s different,” Nonye said.
+There was quiet on the other end of the phone, soft breathing. “Nonye,
+nwa m,” her mother said finally. “I understand that you’re going through a
+lot but you’re not unaware of how things are done here. And I am aware
+that, in your grieving, you are trying to bond with your father’s friend. But
+that relationship has ended. It ended the day Dubem died. Your uncles are
+your family, regardless of what has happened in the past. Tochukwu will be
+an old story soon, a memory, something that happened. He will move on to
+the next man and this family will be a past and it will be as if nothing
+happened here. But you, Nonye nwa, you will be in this family for a long,
+long time. When you find a man, your uncles will have to step in for your
+father and give their blessings, and if your husband’s people are bad, they
+will be the ones with whom I will go and confront them. Be wise, nne, and
+don’t throw your family away.” She paused, a thoughtful calm. “You are not
+your father.”
+“Don’t say that,” Nonye said. The tears surprised her, a rush, crowding
+her eyes, strangling her voice. “Call me before you board. I have to go now.
+Love you.”
+She ended the call before her mother could say anything, and then lay
+flat on the bed, her loud cries muffled by pillows. She’d thought that the
+worst thing to happen to her was her father’s death, yet here she was,
+shattered at the realization that she had no power as to how he would be
+mourned. It was like being punched over and over while someone else cried
+on your behalf.
+They were in the kitchen after dinner, Nonye leaning against the
+refrigerator, wineglass in hand, Tochukwu seated on the counter, between
+them a half-empty bottle of chardonnay he’d found in Dubem’s study, when
+Nonye said there was something that had been eating at her all day. “My
+uncles are planning a meeting here, and they threatened to kick you out.”
+He slid off the counter, began to load the dishwasher, his hands shaking.
+He’d expected this, and yet his hands shook.
+“I’m sorry about this,” she said.
+“I expected it,” he said. He leaned back against the counter, breathing,
+steadying himself.
+“What will you do?” she said, the way one does when they are saying
+that a problem is not theirs even though they care.
+“I don’t know,” he said, reaching for the bottle. “Right now, though?” He
+refilled his glass, smiled at her, exhausted.
+When Dubem’s family members arrived, Tochukwu came downstairs, sat
+on a couch, and crossed his legs. He did not avoid their questioning,
+aggressive eyes. He recognized James from the wedding pictures in a photo
+album somewhere in Dubem’s study, long nosed, like Dubem, and, in his
+eyes, a hint of something once beautiful, something fiery and boyish. But he
+was not like Dubem. He was sprawling in his posture, legs spread as though
+the house were his, arms flung across the backrest, his stomach a wobbling
+ball. Maxwell, lean and bespectacled, looked like a university lecturer who
+claimed to have high moral standards but secretly enjoyed the suffering of
+the students he failed. Their wives looked twenty years younger, coiffed and
+radiant even in their mourning whites.
+There were two other people in their company, apart from Nonye’s
+mother, Nkiru, who Tochukwu tried not to look at, not out of shame or guilt,
+but out of courtesy, because he knew that whatever happened in that living
+room eventually, she would be the only person who sincerely did not
+deserve the indignity. The other two people, young men, most likely
+cousins, were there, he sensed, to look burly and intimidating. He did not
+know and did not care.
+“What is he doing here?” Maxwell said, his voice deep for someone so
+lean. He was looking at Nonye, who was seated beside her mother. Nonye
+looked away.
+“Rapu Nonye nwa,” James said, smiling, his face alight with the
+arrogance of a man who handled people. “It’s not her fault. She’s just a
+child, she cannot tell a grown man how to behave.” He turned to Tochukwu.
+“Nwoke, you are an Igbo man, and you are not a child. You know how this
+goes. Whatever thing my brother had with you is now in the past. You are
+not his son, neither are you his brother.” He cleared his throat, his eyes
+glinting an evil light. “You also are not his wife, regardless of how hard that
+must be for you to grasp.”
+A chuckle rippled through the room, like a baton being passed around.
+Tochukwu did not want to, but he swallowed. He felt Nonye’s eyes on him
+but avoided them, he did not want her pity. Pity made him weak, it assumed
+a helplessness, a powerlessness that he could not afford, not right now,
+when he needed to be strong. He thought of how much they had hurt
+Dubem, these same people who sat in his living room calling themselves his
+brothers.
+“What I am saying, in essence,” James said, after he’d left enough pause,
+“is that this gathering is for family alone, in case you did not understand.”
+“I hear you,” Tochukwu said. “But this is my house”—their laughter
+came after shocked silence, like bad engines coughing awake—“and you
+came in here without my invitation, without even asking me, yet I let you
+in. I let you sit. I do not expect a thank you from you because I know how
+important what is going to be said here is. We all lost someone dear to us
+and, even though you abandoned your brother, I assume that you are
+grieving, but I spent his last years with him, and he called me family.” His
+pause was intentional—they would expect him to complete his thought,
+stunned by his effrontery, and he would say instead, as he now did: “Can we
+proceed?”
+“Nna, what kind of insult is this?” Maxwell said. He looked ready to
+stand up and leave.
+“Wait, wait,” James said. The smirk remained on his face, arrogant,
+knowing. He looked impressed and excited, as though he’d underestimated
+his enemy and, now that he knew that he was ready to put up a fight, was
+looking forward to the bloodbath. “We have been patient with you so far,
+letting you stay on in our brother’s house, but it seems our patience is being
+misunderstood for foolishness.” He looked around for affirmation, getting
+nods from the two strange men. “In the coming days, visitors will be
+coming to this house to condole with the family. We will be cleaning this
+place up in preparation on Tuesday. If you know what is best for you, you
+will have packed out of this place by tomorrow evening. For now,
+peacefully leave this meeting and stop causing a nuisance.”
+“Where did you move Dubem’s body?” Tochukwu said.
+Maxwell looked stunned. “Hah, what is wrong with this man?”
+“Let him see the body,” Nkiru said. All eyes turned to her. It was almost
+as if she had not been in the room at all. “Kedụ ife Ọ dị? There’s nothing
+wrong with that, James, if it will bring peace.”
+“What does he want to do with the corpse?” Maxwell said. “Will he fuck
+it?”
+“What nonsense is this?” Nonye said, standing up. “It is my father we
+are talking about—my father. My father who is lying somewhere now, cold,
+and this is how you talk about him.”
+“Nonye, o zugo,” Maxwell’s wife said.
+“Mba!” Nonye waved her arms at her in expressive arches, no-no.
+“Nobody should talk to me. In fact, I want everybody out. Leave this house,
+leave my father’s funeral. I will bury him myself.”
+“Nonye nwa,” her mother said, a plea in her eyes.
+“Mummy, no!” She was like a thing erupting. “I have kept quiet for too
+long while these men, these people who abused my father decide what
+happens to him.” She glared from James to Maxwell. “Why are you here?
+You hated him, so why are you here? Did you enjoy seeing him lie there,
+helpless? Is that what all this is about? Does it give you joy seeing the
+people he loved suffer?” She quieted, her breathing loud and rapid. “Please
+leave. Just go.” She sank back into her chair and, face buried in her hands,
+began to wail, her body shaking. Nkiru stood up and pulled her into a hug,
+cradling and patting her head, whispering, “Nne, o zugo.”
+Tochukwu stood up, near tears himself but vowing not to cry in the
+presence of these people. “You have to go now,” he said. He’d not expected
+Nonye’s outburst, and watching her, he’d felt both protective and alone;
+everyone in the living room understood her pain, had become gentle in the
+face of its eruption, and even if they chose not to understand, they would
+have to tolerate it—she belonged to them.
+“Nkiru,” James said.
+“You heard them,” Nkiru said, still holding Nonye. “Just go, bikozienu.”
+“Nkiru, this is wrong. Ọ bụ ihe Ọchị!”
+“Ya dịba. She’s all I have, the only reason I’m here in the first place. If
+she wants you to leave, you leave.”
+They stood up reluctantly, muttering among themselves. At the door,
+James turned around one last time, looking toward Nkiru and Nonye, it
+seemed he wanted to make one last appeal but changed his mind. He glared
+at Tochukwu. After he’d shut the door, Tochukwu stood with his back
+against it. His chest pounded, he felt like he might fall down, his legs
+without bones. He felt a wave of relief and gratitude, and yet he felt afraid,
+afraid of morning. Nonye would leave to be with Nkiru, and then he would
+be alone. His friends were scattered around the country, the few in Lagos
+working from dawn to dusk, commuting long hours to and from work, and
+he was thankful whenever they made the time to come be with him; but he
+did not, could not, feel entitled to their presence, their time, and they would
+never feel for him the same sense of responsibility and obligation that his
+mother or siblings would feel, and no one in his family knew about him. It
+hit him like a sudden shard of light at a precarious bend on a dark road, the
+extent of his powerlessness. He would have to move out eventually, he
+realized, in a year, two years—a few months. The house would not be the
+same without Dubem, would never feel warm and safe and welcoming: he
+would return home from work, he would open the fridge, turn on the
+microwave, expecting to hear the sound of Dubem’s car a few minutes later
+as it drove into the compound, but all he would hear would be the sound of
+the clock ticking, the refrigerator droning on, loud in the emptiness. All he
+wanted was to see Dubem one last time, to say goodbye, truly say goodbye.
+“Please can you get her some water?” Nkiru said, pulling him away from
+his thoughts. Nonye clung to her, letting out small intermittent sobs, the
+both of them now seated on the floor. “I’d do it myself but—” She tilted her
+head at Nonye, her eyes pleading, as if to say, but as you can see.
+
+   </div>:null
+    }
     </div>
   )
 }

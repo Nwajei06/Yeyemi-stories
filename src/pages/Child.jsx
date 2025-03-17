@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import img1 from "../../public/images/godchild.jpeg"
+import { useState } from 'react'
 import './Pages.css'
 
 function Child() {
+      const [show, setShow]=useState(true)
+  
   return (
     <div>
         <Link to='/' className='link'><li class="fas fa-arrow-left"></li></Link>
@@ -28,8 +31,8 @@ function Child() {
    </div>
    <br />
 
-<center>  <Link to='/Book1' className=''><button className="all-button">Start Reading</button></Link></center>
-
+{show?<center>  <Link to='/Book1' className=''><button onClick={()=>{setShow(true)}} className="all-button">Start Reading</button></Link></center>:null
+}
         </div>
   )
 }

@@ -103,7 +103,7 @@ left:34%;
 .chap2{
     background-color: white;
     width: 85%;
-    height: 22500px;
+    height: 100%;
     position: absolute;
     top: 10%;
     /* margin-top: -1000px; */
@@ -149,4 +149,12 @@ hr{
     width: 50%;
     height: 50%;
     border-radius: 50%;
+}
+.chap3{
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+
 }
