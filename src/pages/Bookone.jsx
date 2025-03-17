@@ -5,11 +5,12 @@ import { Link } from 'react-router-dom'
 
 
 function Bookone() {
-    const [displays, displayNow]=useState(false)
-    const [show, setShow]=useState(true)    
-    const [shows, showset]=useState(false)
-    const [hide, hideshow]=useState(false)
-    
+    const [displays, displayNow]=useState(false);
+    const [show, setShow]=useState(true) ;   
+    const [shows, showset]=useState(false);
+    const [hide, hideshow]=useState(false);
+    const [chpfour, chpFour]=useState(false);   
+    const [chpfive,chpFive]=useState(false)
   return (
     <div  className='gatther'>
         <Link to="/child">  <li class="fas fa-arrow-left"></li></Link>
@@ -22,6 +23,9 @@ function Bookone() {
         setShow(true)
         showset(false)
         hideshow(false)
+        chpFour(false);
+    chpFive(false)
+
         }}> 
         <center> Chapter 1 </center></span>
       <br />
@@ -29,17 +33,37 @@ function Bookone() {
         showset(true)
         setShow(false)
         hideshow(false)
+        chpFour(false);
+        chpFour(false);
+    chpFive(false)
         }}> 
         <center> Chapter 2 </center></span> <br />
       <span onClick={()=>{
         hideshow(true);
         showset(false);
         setShow(false);
+        chpFour(false);
+        chpFive(false)
+
         } }> 
         <center> Chapter 3 </center></span>
 <br />
-<span > <center> Chapter 4 </center></span><br />
-<span > <center> Chapter 5 </center></span><br />
+<span onClick={()=>{
+    chpFour(true);
+    hideshow(false);
+    showset(false);
+    setShow(false);
+    chpFive(false)
+
+    }}> 
+    <center> Chapter 4 </center></span><br />
+<span onClick={()=>{
+    chpFive(true)
+    chpFour(false);
+    hideshow(false);
+    showset(false);
+    setShow(false);
+}} > <center> Chapter 5 </center></span><br />
 <span > <center> Chapter 6 </center></span>
 <br />
 <span> <center> Chapter 7 </center></span><br />
@@ -53,8 +77,7 @@ function Bookone() {
     <div className='chapter-container'>
       
       <br /><br /><br />
-      {
-        
+      {    
        show?<div onClick={()=>displayNow(false)} className='chap1'>
        <center> <h1 className='story-head'>GOD’S <br /> <br />
        CHILDREN <br /> <br />
@@ -1437,13 +1460,10 @@ estrangement.
 
        </div>:null
        } 
-      
-  
         <br />
-      
     </div>
     {
-   hide?<div onClick={()=>displayNow(false)}  className="chap3"> <center><h1>Chapter3</h1> <h3>WHERE THE HEART SLEEPS</h3></center>
+   hide?<div onClick={()=>displayNow(false)}  className="chapd"> <center><h1>Chapter 3</h1> <h3>WHERE THE HEART SLEEPS</h3></center>
     Two weeks after her father’s death, Nonye returned to the house in Lekki.
 The evening she arrived, Tochukwu met her at the gate and helped her with
 her bags. He was a slim man, and when he took off his glasses as he asked
@@ -2088,6 +2108,1363 @@ both of them now seated on the floor. “I’d do it myself but—” She tilted
 head at Nonye, her eyes pleading, as if to say, but as you can see.
 
    </div>:null
+    }
+    {
+        chpfour?<div onClick={()=>displayNow(false)}  className='chapd'><center><h1>Chapter 4</h1> <h3>  GOD’S CHILDREN ARE LITTLE <br />BROKEN THINGS</h3> </center> 
+        You met in your second year. At the stadium one cloudy June evening when
+you played against his department. He was not a player, he was too small to
+be, even though you knew that bigness wasn’t the stuff anyway. But he was
+so small, so fragile, you were dead sure he had never kicked a football.
+He reminded you of Dave.
+You walked up to him at halftime and told him he reminded you of
+someone. The way he smiled, his eyes lingering briefly on your sweaty
+chest and then on the ground, made you certain that he was one of them.
+Dave was one of them too, and he had almost put you in trouble.
+I wanted to tell you that you reminded me of someone, you said, and
+then you were gone.
+You lost the game to his department. On your way home, you called
+Rachael and told her you loved her so much, did she know that? She
+giggled and you told yourself again that Dave had almost put you in
+trouble, Jesus!
+You met him again. At Christ Church Chapel, where he played the organ
+so well on Mothering Sunday, the entire church was filled with a tender
+light, the women burst into tongues in the middle of hymns, and the
+chaplain for once didn’t say, First and last verses only. He did not look
+fragile on the organ.
+After the service, you lingered around the door of the choir room until he
+came out and said, Hey.
+Hey, you said, scratching your head and glancing at the floor. That was
+great, what you did up there.
+T-thanks, bro, he stuttered. I wasn’t sure at first, b-but then…
+You learned that day how well he could talk and not bore you. (Later, he
+would tell you that he had been afraid you would walk away again, so he’d
+talked and talked.) You exchanged numbers, and you whistled on your way
+home, skipped by the roadside like a little boy.
+You did not call him. He called you, twice, first to know how your day
+had been. You said, Fine. The second time he called, he told you that his
+piano instructor was OCD, the man didn’t give him any breathing space,
+and you said, Really?
+Yes, he said.
+After that, he stopped calling, and you did not call either. Not until the
+night Dumebi texted you that Mum and Dad were quarreling, could you
+please call them now? You were asleep when the text message came in, and
+when you woke up at midnight, you had eleven missed calls. You tried to
+call her back, but she wasn’t answering. You started to dial Mum’s number
+but then stopped. Then you dialed his number. His voice was rough: Hey,
+Lotanna.
+You sat on the bed, running your fingers through your hair. Hey, Kamsi,
+you said. Didn’t expect you to be awake.
+I’m rehearsing my exam pieces.
+I see.
+You told him everything, how every time Mum and Dad quarreled, even
+though it was in low tones, the entire house seemed to reverberate with their
+bitterness. How it hurt you in the chest so badly you couldn’t breathe. He
+was so quiet, you said, I’m not even sure why I’m telling you this. I hope I
+didn’t disturb you.
+No, no, he said. N-not at all.
+Okay, you said, and asked how he was doing, and what were the pieces
+he was playing?
+The girls from your department had a football match with the girls from his.
+The match was already on when you came, and you walked straight to him
+after shaking hands with your friends. He folded his arms across his chest,
+smiled so widely it made you happy simply to stand there, saying, How’ve
+you been, bro?
+He was wearing three-quarter shorts and his Arsenal jersey, the hair on
+his legs and arms black and curly against the light brown of his skin.
+You have nice legs, you said. Let’s run.
+He said no, weakly, but you pulled him up, called him lazy, and laughed
+at his pout. He had not run a hundred meters before he bent over, his hands
+on his knees. His classmates were laughing: Mozart, you dey fall hands o.
+He was panting. He collapsed on the track and lay on his back.
+Lazy, you said, smiling down at him. Is this how you do your girlfriend?
+He arched an eyebrow, stared at you.
+You did not hold his gaze, merely chuckled. You sat on the ground
+beside where he lay.
+II.
+You told him Rachael was the best thing that ever happened to you. Told
+him she saved you.
+From what? he asked.
+You won’t understand, you said.
+You were seated on a step at the stadium, watching the sun, once white,
+fade into a calm yellow, and all you could think about were his hands, how
+they tapped rhythms on his knees as he tried to get the words out of his
+mouth.
+Don’t conclude so quickly, he said. But I understand if you don’t want to
+tell me.
+You stalked him on Facebook, squinted at every update ancient and
+modern, and told yourself that you found him interesting. Simple.
+Sometimes you would lie in bed trying to visualize Rachael from last time.
+Her lips, what did they taste like the last time? Lemon mint? Tom Tom?
+What would his lips taste like? Like Tom Tom too? Or like nothing.
+You remember certain things about him. Little little things. How his stutter
+became obvious only when it was cold or when he was emotional. How
+when he told you about his hookups he looked you boldly in the eyes,
+teasing, Does my story make you horny? Though he tried to sound flippant
+and cool, the shyness billowed in his voice. He liked to sing when he was in
+the bathroom, you often heard him screaming Ekuro la labaku ewa… and it
+made you laugh because he sounded so much like Justin Bieber screaming
+Baby, baby, baby, oh. Nobody sang Davido with that kind of voice.
+You were trying to make sense of your History of Nigeria lecture notes the
+morning he came to your house and flopped on the bed facedown. You
+watched him him for a while, and then you asked, What is it?
+When he looked at you, his eyes were red. His lips quivered. I h-hate eevery. One o-of them. I’ve met, he said.
+What happened? you asked.
+He grabbed your bedsheet, bit his lips so hard, you thought he would
+draw blood. I. Told him. No, he said. I t-told him. No.
+He covered his face with the bedsheet. He was shaking terribly.
+You sat beside him on the bed and held his hand, rubbed it gently. He
+was still shaking. But as you rubbed and rubbed, he began to calm down.
+You rubbed and pressed, rubbed and pressed. Better? you asked. He
+nodded, sniffling.
+Who was it?
+Kent, he said.
+All his friends had funny names: Kent, Klay, Vinny. Like names on body
+cream bottles—Kent: Light & Lovely. I thought you were just friends, you
+said.
+He nodded, blew his nose. I want to bathe, he said.
+He refused to dress in front of you, yelled Stop! when you teased him
+about acting like a girl, why couldn’t he dress in front of you? As you sat on
+the veranda, waiting for him to be done, you thought of nothing but how
+hard you wanted to punch Kent.
+You learned to handle him even more gently. He was delicate, always lying
+in bed, eating plantain chips. Sometimes, he woke up in the middle of the
+night kicking. You learned to hold him close, to press his head against your
+chest and whisper, It’s okay, I’m here. It’s okay.
+You asked him to bring his keyboard to your house. He didn’t want to be in
+his room, so you walked with him to Lemon Villa to get his things. No, you
+didn’t mind the noise, you could cope. He smiled and said thank you.
+You called Rachael often to say I miss you, I cannot wait to be home. Yet
+your heart beat too fast when he rested his head on your chest, and you
+wanted too much to bury your nose in his neck and sniff the talcum powder
+he wore to bed; and every time you saw the tears that made his eyes look
+silvery in the dark, you wanted too much to touch his chin, his lower lip, to
+kiss him hard and gentle.
+It sometimes rained all night in July, and you had to wear a sweater and
+socks as you studied for exams. One night it rained so hard it sounded like
+pebbles hitting the roof, the wind filtering in through shut windows. You
+stopped reading and eased into bed beside him. You had to spoon against
+him, the blanket was small. Your nose brushed his neck. You whispered,
+Kamsi, are you awake?
+Yeah, he said. I want to practice the Sam Ojukwu piece for my exam, but
+I’m feeling so lazy.
+He adjusted slightly, his back warm on your stomach. You held his hand
+and pressed it, then pressed your nose so closely to his neck, you could
+smell him, clean as air, through the talcum powder. When your hand eased
+under his sweater and rubbed his stomach, he whispered, I thought you
+would never decide.
+Decide what? you asked, moving your hand upward and upward, until
+you found his nipples, two tiny hard grains. He stifled a giggle (he did that
+often when he was turned on, stifle a giggle, so that it sounded like a snort).
+He tilted his head backward to look at you, and you pressed your lips,
+tentatively, on his. He tasted almost of nothing. You helped him out of his
+sweater and inner shirt, put your hand into his trousers. Your eyes closed.
+Your lips and tongues dancing. He had given himself up so easily, so gently,
+and then all of a sudden he was shaking.
+You had his hands pinned down, and his legs were wrapped around your
+waist. You leaned forward. Just relax, you said. Relax.
+No, he said. His legs slackened.
+Come on.
+No, he said, shaking his head.
+For a while you towered over him. Then you rolled over and lay beside
+him, staring at the dark ceiling, your hand on your forehead.
+Was this what happened with Kent?
+No, he said quickly, like he had been expecting the question.
+I see.
+After your History of Nigeria exam, you said to your classmate Pascal, I
+have this babe who was hurt, and it’s affecting her sex life badly.
+Pascal nodded. She no wan’ give you, eh?
+Something like that, you said. Pascal was the perpetual lover boy in
+class, he had to know some stuff.
+Give it some time, he said. Keep trying, small small. No force am o.
+God forbid! you said. I no fit try that one na.
+You searched on Google. You wished there was someone else you could
+ask, someone to whom you could say the words. Someone who would
+certainly understand.
+III.
+The first time you quarreled, it was because he did not tidy the room after
+he returned from school. You came home that evening to the sound of
+Beethoven’s “Für Elise.” (You were beginning to know the names of his
+favorite pieces.) The room was dim, the only light coming from the dying
+sun. The bed was unmade, your clothes scattered on it just like you both had
+left them in the heat of the previous night. The room still had the air of
+morning rush—two empty cups sat unwashed on the cupboard. His
+schoolbag lay open on the floor. You picked it up and hung it, together with
+yours, on the wall beside your clothes rack.
+Normally, when he was on the keyboard, you did not talk to him. But
+today had been bad, and the sound of the keyboard felt like someone
+sticking pins into your ears. You returned since afternoon, you said. How
+could you have left this room like this?
+He played two more notes of the music, and then there was utter silence.
+Lotanna, he said. Good evening.
+Why didn’t you tidy the room?
+I was rehearsing for my recital, as you can see, he said. He sounded
+rebuked, confused. But there was a hint of testiness, too. He fiddled with
+the collar of his polo shirt like a child.
+You began to pick things up. He stood to help you, but you said, No,
+please, and took the rag from him. He stood there, watching you. Then he
+took his schoolbag and left the room.
+You wanted to tell him about the phone call. How Dumebi had sounded
+like she had been crying all morning. Mum was going mad, she had said.
+Mum was hurling things at Dad, the television was on the floor now,
+broken, and Chisom was crying, but Mum wouldn’t stop. You wanted to tell
+him how when you called Mum and she did not pick up, you felt all these
+tiny insects crawling in your head.
+All through the evening, you stood on the veranda waiting for him to
+return. The evening turned from orange to blue and then to gray blue. When
+your lodge mate put on his generator, you rushed next door to charge your
+phone and call Kamsi. The voice came through, soft and sweet: The number
+you’re calling is currently not available.… You boarded an okada to his
+house. He wasn’t there. You returned home and sat on the veranda, waiting.
+When Mum called back, it was night, and she did not sound mad at all.
+It’s your father again, she said. This time it’s with my friend, Mama Ejima’s
+daughter. Her voice sounded nasal and tired. You wanted to tell him you’d
+had a bad day. He did not return that night, nor the next day, nor the day
+after. And you did not tell him.
+The next time you quarreled, you flung words at each other. Quietly, so that
+the neighbors wouldn’t hear. He wanted you to end it with Rachael, and you
+called him selfish. He said, No, it’s you who is a liar, stop fooling the girl.
+You told him, See who’s talking, you knew I had a girl, and you still came
+to me. He snorted. I didn’t come to you, dude, stop lying to yourself. You
+bit your lip hard and called him a fucking child, and he looked at you with
+tears in his eyes and yelled, I am not a child! He flung a pillow at you and
+stormed out of the room.
+You lay in bed. The ceiling spun so fast it was about to fall on you.
+IV.
+He liked to pray. On mornings when there was no lecture rush, he sat on the
+chair in front of his keyboard, his hymnbook open before him, his Bible
+closed, hands clasped in a praying posture against his chest. He muttered
+the words softly softly. Sometimes the sun drew fine lines on his face, and
+his lips became redder, his skin brighter, his aura more childlike.
+V.
+It was on the day of your last exam that Mum fell in her restaurant and had
+to be carried home by some of her customers. On your way to Peace Park,
+you called Kamsi. I won’t make it to your piano recital this evening, you
+said. My mum fell sick.
+Where are you now? he asked. I’m c-coming.
+He met you at the motor park. What happened? he asked.
+They said it’s hepatitis B, you said. My sister said she’s not been well for
+a while. She went to a chemist, got treated for malaria, said she was fine.
+She does this all the time.
+He sat beside you on a bench. You both watched the hawkers and
+agboro. Most departments were through with their exams, and the park
+teemed with students. You’ll still travel tomorrow, right? you asked.
+Yes, he said. My b-brother will meet me at the airport.
+Okay, you said, moved closer and held his hand, you were trembling so
+badly.
+You need a sweater, he said. It’s going to get cold by the time you
+approach Kano.
+I have a sweater in my bag, you said. He had his hand in yours, hidden
+from view by the way you both sat so closely.
+You had never said it to anyone before, but now you told him, how you
+were afraid that Mum would die suddenly, just like her mother, and you
+wouldn’t be able to buy her all the cars and clothes she didn’t have now. It’s
+like mourning someone many years before their death, you said.
+Everything will be fine, all right?
+All right, you said.
+As your bus ambled out of Peace Park, the girl seated beside you
+wouldn’t stop giving you the eye. Nsukka glided past, rusty roofs and red
+dust, the evening turning gray blue so quickly. You blocked your ears with
+earphones. The song was As.a’s “So Beautiful.”
+VI.
+Only three months, and Kano looked changed and new. You opened the
+window and devoured the sight. The sun shone remorselessly bright.
+Houses, tall and short, ugly and beautiful, stood side by side. And people.
+So many people. People who didn’t care whether you said good morning to
+them. People who were I don’t care like that. Ba komai. That was the word.
+Nsukka had reminded you of good behavior, with the town’s dusty red
+roads and old houses scattered between farms and bushes, and people who
+took offense if you did not say good morning. But Kano, big ancient Kano,
+Kano of merciless sunniness, Kano of wide-road and coffee-smelling
+Bompai, Kano of slang-and-decay Sabon Gari. Kano reminded you of the
+word be.
+In Sabon Gari, the air smelled of decaying refuse, the roads had holes,
+the houses like discolored matchboxes strewn around by adventurous
+children. And so many people speaking Igbo and Yoruba and pidgin. You
+closed your eyes, breathing deep, absorbing the sounds, all the tongues;
+everything felt like huge arms spread out to welcome you home.
+There was no okada in the streets, you noticed.
+Yes, army pursue okada, Chisom said, searching your bag for the toy car
+you had bought him when your bus stopped briefly in Lokoja.
+Why? you asked.
+Boko Haram, he said. Boko Haram use okada to bomb.
+You noticed, like a newcomer, the smallness of the living room, so
+square, so artless, the fading blue walls covered with pictures bearing
+everybody’s stories, from Mum and Dad’s wedding to Chisom’s first
+birthday. The dimness, how the neighboring house blocked much of the
+light.
+At the hospital, Mum could barely talk. She lay in bed, too bony to be
+Mum, Mum who had always been described as full. The room smelled of
+cleanness. Dumebi sat on a mat spread on the floor, her legs stretched out in
+front of her. Four people from church sat on plastic chairs, looking
+prayerful. Their leader, an evangelist in a too-ironed ankara, stood up and
+said, Brothers and sisters, the devil came to steal, to kill, and to destroy. He
+waved a huge black Bible in the air, spoke with an authority like he could
+kick open locked doors and storm dark rooms and make them super bright.
+As he spoke, his prayer warriors hummed, it was like he was pulling them
+with an invisible string. When he said Rise, rise, let us pray, pray, the room
+filled with voices high and mighty, and you stood reluctantly, worried that a
+nurse would storm into the room and yell at everybody to fucking shut up,
+they were too damn loud.
+________
+Later it was just you and Dumebi and Mum. When she said How is school,
+in a voice so thin and cracked, something inside you broke.
+Dad came in with Chisom. He shook your hand and asked, Nwoke, a naeme kwa? You left the bed and sat in a chair. Dad sat on the bed beside
+Mum, saying something softly to her. She nodded now and again, and once
+you caught a smile on her face, and the broken thing in your chest began to
+collect itself.
+Leave that thing, now! Dumebi said to Chisom, who was trying to get
+the bottle of Lucozade Boost on the medium-size refrigerator.
+I want to bring it for Mummy, he said in his three-year-old voice. The
+way he stood on tiptoes, struggling to get the bottle, was comical. You made
+to help him, but he’d already grabbed the bottle. He held it up, hands shaky
+with its weight, face brilliant and proud as he turned to you all.
+Oya, go and give it to Mummy, Dumebi said, but he rushed to you,
+screaming, Lota, open for me!
+You all began to laugh, Chisom standing there thinking he had fooled
+everybody. When you described this scene to Kamsi, you told him how it
+had made you feel hopeful, how briefly the world had seemed capable of
+tenderness.
+VII.
+You emerged from Rachael’s bathroom and found her curled on a sofa in
+the living room, crying.
+She tossed your phone to you. You picked it up, confused, and flicked it
+on. You’d forgotten to delete Kamsi’s text message. It glared at you now:
+I’m listening to Davido right now, and I’m thinking of that night we went to
+Flat and the Klin promo car was playing “Ekuro” and you said you’d kiss
+me behind the old buildings if I dared. Miss you, man.
+When Kamsi had sent the message, you had read it over and over, had
+searched for hidden meaning. And you’d forgotten to delete it like you did
+the others.
+Who is Kamsi? she asked, sniffling. Who is she?
+She’s my course mate, you said, then added quickly you’d stop seeing
+her.
+You sat beside her, held her, letting her struggle until she relaxed.
+Kamsi called to say that he had finally arrived in Kano, could you come to
+his house at Bompai? You said no, you were a little sick and needed to rest.
+Who was that? Dumebi asked.
+My friend, you said.
+Kamsi?
+Yeah.
+She nodded, patted Chisom on the bum—Stay one place, let me wash
+your armpit—and said to you, You lied to him. You’d told her about Kamsi,
+your wonderful new friend who was king of church organs.
+You shrugged. Well, sometimes it’s necessary.
+She hoisted Chisom out of the plastic bath and proceeded to wipe his
+body with a towel. I can’t lie to Obika, she said. He’ll not talk to me for
+weeks if I did.
+Digressing, you asked, What’s up with you and Obika, sef? I’ve not seen
+him since I returned.
+Oh, he traveled to China, she said. He should be back next week. She
+paused, helping Chisom into his pajamas, then, without changing the color
+of her voice: He wants to bring wine to Dad, I agreed.
+You laughed. But she wasn’t laughing. She meant it.
+Do I look like I’m playing? She patted Chisom’s head and sent him off
+to watch TV with his friends—If you dirty your body you’ll enter the
+bedroom and sleep. He ran off, his gait shaky, like the breeze would carry
+him away.
+What about school? you asked. No more JAMB?
+JAMB, kwa? Exam that I have passed how many times. Where is the
+admission? I cannot continue to wait for university, biko.
+You didn’t get her. You had waited three years before you got into the
+university, changed your course choice from law to political science and
+then finally to history and international relations. She had waited just two
+years, and there she was, complaining.
+She scoffed. Biko, don’t forget that I am a girl. My time is short.
+But you’re just nineteen.
+She shook her head. Me, I have decided, she said, turned her face away
+from you. Besides, I’m tired of all the quarrels in this house.
+VIII.
+It wasn’t that you couldn’t have kept quiet. Wasn’t that you couldn’t have
+swallowed the phlegm. But as he stepped into the living room the night
+before you returned to Nsukka, laughing at something Chisom had said, you
+looked up at him and simply could not understand.
+At the hospital, you’d been playing a game on your phone when Mum
+said, You see how heartless your father can be, eh?
+Her cheeks looked sunken, her cheekbones jutting out. Just look at me,
+she said, lying here like this, and he can’t even show some respect. Small
+respect.
+You placed your hand on hers. Mum, what is it?
+Where did your father sleep last night?
+I thought he slept here?
+Here, kwa? Your father, your father left me here and said he was going
+home to you and Chisom. Only for me to hear this morning that he was
+seen coming out of that useless girl’s house. Does he have to do it on the
+street we live in? With girls who say “good morning” to me?
+Who told you? you asked—you did not know what else to say—but
+Mum had already shut her eyes and was shaking her head slowly.
+Your anger swung like a loose-hinged door. You weren’t sure if you were
+angry that Dad had slept at the girl’s house, or because someone had
+brought the news to your sick mother. So when he stepped into the living
+room that night, laughing, you said, You’re heartless.
+He looked around the living room, behind him, above him. What?
+How could you do this to Mum? How?
+He stood there, mouth open like he was going to say something. You
+wanted to stop, to apologize—but your heart burned, like you had hot
+charcoal on it, and your tongue was bitter. The words poured out.
+Nwoke, he said, looking struck and confused. Nwoke.
+You had almost forgotten how tall he was, how you looked so much
+alike, with the same broad shoulders and the same sleepy eyes and wellkept goatee. It stared you in the face like a child’s taunting, this
+resemblance, sticking out its pinkish tongue at you.
+You walked out into the looming darkness. Through Abedie and Sanyaolu
+Streets where the sound of Hausa music filled the night, the street cramped
+with so many keke napeps, and you remembered your days in secondary
+school when one night, on your way to Dave’s house, a lady stopped you on
+Abedie Street, speaking florid Hausa, and when you gaped at her, she
+tugged impatiently at your arm and asked, You wan’ poke? You wan’ poke?
+I no wan’ fuck, you had said to her, dragged your arm away, and ran.
+You walked to France Road. France Road with the streetlights beaming
+orange light. France Road with locked-up shops at night and with rushing
+cars during the day. France Road with Dave in a room of his own, chatting
+on 2go all day and hooking up with hunky guys, short guys, fat guys,
+married guys. France Road that led to Bompai and Airport Road, to Kamsi
+and Rachael.
+You turned around and began to return home.
+IX.
+He had texted every day. Called every day. Had wanted to see your mother
+and your siblings. Had wanted you to meet his twin brother, Kosi, and his
+parents if possible. But every day after Rachael cried you had bounced his
+calls, deleted his text messages mostly unread. And now you were back to
+school, and he was standing at your door, and you were staring at each
+other.
+How is your mother? he asked finally.
+She’s getting better, you said.
+Okay, he said. I returned yesterday. Couldn’t get to you. I c-came to get
+my keyboard.
+You watched him throw his music books into his bag. Clothes he had left
+behind before traveling. Watched him lift the keyboard. Watched him walk
+out of the door. We’ll see later? you asked, and he shrugged and walked
+away.
+X.
+Every evening you sat on the veranda and stared into the street, hens and
+people ambling by, and hoped that something would fall from the sky and
+break the silence in the house. Sometimes you walked down to Flat because
+it wasn’t so quiet there. Not once, not twice, you’d picked up your phone to
+call Kamsi. But not once, not twice, you’d stopped yourself.
+Then, one evening after football training, you came home to some students
+and a lecturer from your town’s union at your door. You hadn’t attended
+their meetings since eternity. You opened the door and let them in. The light
+from your rechargeable lamp cast tall shadows on the wall. The union
+secretary, a lanky guy in sociology, spoke like a character from Things Fall
+Apart, and you wanted to tell him that your heart was beating too fast, you
+could have a heart attack, that proverbs were cliché, and that this
+generation, your generation, spoke in monosyllables: She. Died.
+And then he said the words: Your mother died this evening.
+You watched the shadows and nodded like an agama lizard. Everybody
+was saying sorry, and it was like something was killing you slowly.
+When everyone left, the lecturer took you in his car and drove you to
+Jives. You sat at a table for two. He ordered two bottles of Hero, said, That’s
+the new drink for men.
+Jives was open air, students and lecturers lounging around tables. The
+speakers were blaring out some fast song, and a handful of people were
+dancing.
+The lecturer said, When my mother died twelve years ago, I was twenty.
+My father was already dead four years.
+He had a flat nose and small lips and dirty eyes. He drank from the bottle
+and said, And all I could think about was how much she had suffered. And
+also how I was going to take care of my younger siblings, all four of them.
+He drank again. But somehow, God helped me, he said. Our last born
+will be doing her convocation next month.
+He paused. You glanced away, at the people dancing.
+Where do you worship? he asked.
+Christ Church, you said.
+Do you have a relationship with God?
+Church had always been routine, something to do on Sunday mornings.
+You did not attend any fellowship meetings, no midweek Bible studies. No
+revival hours for you, either. And God was simply there: at Holy
+Communion on Sundays when the choir sang your favorite hymn, “Abide
+with Me.” And “relationship” was what you had with Rachael, with Kamsi,
+with your teammates.
+I don’t know, you said.
+He chuckled, shaking his head. You don’t know, he said, leaning in. I
+think it’s God you can talk to now, really. It will help. And, you haven’t
+touched that bottle.
+You raised the bottle, and the image that never left your eyes was of
+Mum lying there, shaking her head slowly.
+On your way home you asked him to drive you to Lemon Villa. A few
+minutes, and you were standing in front of Kamsi’s door, listening to
+muffled strains of guitar music.
+You knocked. Once, then twice. Tentatively. Who’s there? he asked.
+It’s me, Lotanna, you said.
+There was the clicking of bolts, and then he stood in front of you, a near
+silhouette in green shorts and a white singlet. Mum died, you said, swinging
+your arms like you were in Sunday school and he was your Bible recitation
+instructor.
+He covered his mouth with his palm, eyes bulging. Stood aside to let you
+in. He shut the door. When was it?
+Today, you said. This evening.
+For a while you were both quiet. His wall clock ticked, the walls more
+green than lemon in the whiteness of the electric bulb, the rug red and soft
+under your feet. The room smelled of him, that mix of talcum powder and
+nothing. You told him how you had called Dumebi and wished you had not
+because her grief inflamed your own, how you had ignored your father’s
+calls until the lecturer asked you why, and how Rachael had called to say
+God cares. Does God really care?
+I hope he does, Kamsi said. Otherwise what’s the use of everything?
+You touched his face, tilted his head up and kissed him hard and gentle.
+You heard the grunt at the back of his throat. You were a little tipsy from
+drinking Hero. But not too tipsy to feel all the things that you felt at that
+moment: relief and love and that heavy, drumming sensation in your chest
+that always exploded in tears.
+XI.
+They said they would beat the gay out of me, he said. But that I was so cute
+they’ll have a little fun raping it out of me.
+He laughed, like that sounded funny. Like he was unfazed. He was on
+the bed, his chin on his knees, which were drawn to his chest.
+It had been going on for about a month. He hadn’t told you.
+Since October, around the time you traveled for the burial, he said.
+But how did they find out about you? You don’t even look gay, for
+Christ’s sake.
+How does one look gay, Lota? They even said what’s the size of your
+macho boyfriend’s thing.
+You grabbed your phone and began dialing a friend’s number.
+What are you doing? Kamsi asked.
+Calling some of my teammates. They’ll deal with this.
+And what will you tell them? Please forget it.
+You cut the call, flopped on the bed, and covered your face with your
+hands.
+XII.
+You would not be returning to Kano for the holidays, you told him. Enugu
+made sense, you had relatives there. He said, It’s about your dad, right?
+At Mum’s funeral, Dad had tried to tell you how it felt like sinking and
+sinking, and you had told him, coldly, that you never knew he was a poet.
+He had called you into his room and told you a long story about how all that
+time your mother had been his number one, how even though he couldn’t
+help it, seeing some other women, she had been the one he truly loved.
+He’d said, I’m telling you this because you’re becoming a man, and that
+evening, you went to Rachael’s house and told her you had to end it.
+I think you should let it go, Kamsi said. He’s your father, after all, and I
+can tell you miss him.
+You continued folding your clothes into a travel bag.
+He held your hands, gently pressed them to his cheeks. Then he began to
+blow on them, in circles, like you usually did to help him relax, his eyes
+fixed on yours. The room was suddenly still, the air calm and waiting. You
+felt like a child stealing milk.
+Wait here, he said, his eyes lighting up. He rushed into the bathroom,
+returned to the room with a new razor blade.
+Let’s have a blood covenant, he said.
+Don’t be silly, you said, laughing.
+Yes, I’m silly. Let’s be silly together.
+XIII.
+You watched Enugu from Aunt Oge’s balcony, its calm, orderliness, the
+gray hovering over the faraway houses. November. The air in the mornings
+was cool, a little wet, not wet wet like in Nsukka, and not dry and brittle
+like in Kano. You were on the balcony in your singlet and boxers when the
+yellow taxi pulled up by the gate. The passengers alighted—Dad in jeans
+and a baseball cap, Chisom looking bigger, and Dumebi carrying two small
+bags, her stomach the shape and size of a football. At first they looked a
+little clueless, and then Chisom looked up and started shouting, Lota! Lota!
+You did not tell me! you shot at your cousin.
+Mum said it was a secret, he said.
+At the door, Dad said, Since the mountain has refused to come to
+Muh.ammad, and smiled.
+Welcome, you said, after a slight pause, and took Dumebi’s bags.
+Somadina drove everyone around Enugu—Dumebi, Chisom, and you.
+There was something vainly ambitious about Enugu. A tidy city if you
+drove or walked through the right places; Enugu with the wide roads and
+do-not-litter policy, and pretty housing estates, and Shoprite, young people
+watching their villages transform into something big and glittering.
+Enugu glided past you. You nodded when they asked a question. You
+could not pull out of the dark hole into which you were sinking. Chisom
+tugged at your arm.
+Leave him alone! Dumebi snapped. He’s not happy to see us.
+You whipped out your phone and sent a WhatsApp message to Kamsi:
+Hey love.
+You were not sad or anything. You just didn’t feel right.
+Dad had not left his business in Kano to simply visit Mum’s sister in Enugu.
+He came for something, and seated alone with him and Aunt Oge in the
+living room, you felt trapped.
+Aunt Oge said, You must forget all that has happened, life must go on.
+But how can I forget? you wanted to ask. Like, maybe I should press a
+button in my head and say Delete?
+Lotanna, Dad said. You cannot continue to run like this. You have to
+return home.
+He said, We can start afresh.
+He said, I’m sure your mother is in a better place now, and she’ll want us
+to forgive, so that we can all meet her again at that place someday.
+All this in Igbo, which you could not speak in a situation like that.
+Because you had very few Igbo words. You kept mute, kpịm, tapping your
+bare feet on the floor.
+Later, you called Kamsi.
+Someone else picked up. Lotanna, right?
+Yes, you said. Good evening.
+Now listen, young man. Don’t ever call this number again. Our son is a
+good boy—
+You cut the call while he was still talking.
+Dumebi wanted to know what was wrong. Was it Dad? Were you sure it
+was just Dad?
+Yes, you said. I’m sure.
+Then you have to sort it out, she said. Sharp sharp.
+I’ll do that in my own time, you said. He should respect that.
+But every night, you slept with that heavy thing in your chest that rose
+up and up, until it choked you, until it strangled out a sob from your throat.
+XIV.
+In Nsukka everything looks worn, fading. You walk to the stadium, still
+incomplete one year after everything, and sit on a step on what should be
+the spectators’ stand. It is getting late, and the bodybuilders are packing and
+leaving. A flock of herons have descended on the football field.
+You used to return here often, both of you, watching the herons and the
+late evening joggers. He used to tease you about checking out the
+bodybuilders, which made you laugh.
+It reminds you of Dumebi in Enugu, asking how long you had known.
+You sure this Kamsi guy didn’t convert you? Because, from his pictures,
+I’m sure he can convert even the pope.
+So you don’t think I’m handsome enough to have been the one.
+Vanity, she’d said, rolling her eyes. Was that why you broke up with
+Rachael?
+On the street below, cars flooding the night with yellow lights.
+I don’t get this, she kept saying. What will people say? What would God
+say?
+Since when did you start caring about God, Dumebi? you asked, and she
+chuckled and said, I be God pikin, abeg.
+You still expect him to show up at your door at any moment.
+After his friends came to your place, someone having heard from his
+twin brother, Kosi, you called Dumebi and told her. I kept waiting for him
+to return to school, you said. I even dared it and called his number, but it
+was switched off. I didn’t know, Dumebi. I didn’t know.
+You walk out of the stadium. It is getting too dark, and soon bad guys will
+come here to smoke, and you don’t want to be there when they arrive. You
+put your hands in your sweater’s pockets to keep the cold away. The
+harmattan haze is so low, you can’t see the world ahead of you. You walk
+and walk and walk. Slowly, like you are walking with someone. Listening
+to their footfalls.
+You create dreams in which he comes and talks with you. You talk and
+talk and laugh and laugh, and it feels like you are stretching a fractured arm,
+testing it. When you wake up, the room is cold.
+You want to ask him, Why?
+And, Did you think about me?
+And, Why didn’t you just endure like everyone else?
+There is no power. You light a candle, and everything else becomes
+shadows.
+You call Dad. He sounds surprised: Lotanna?
+A sị m ka m malụ otu ị dị, you say.
+Oh, thank you, he says. A na-emekwa?
+Ee, a na-eme.
+Tonight, you dream that he walks into this room. He is wearing his
+Arsenal jersey and green shorts. He lies beside you and says, What
+happened to you, Lotanna? You look so broken.
+        </div>:null
+    }
+    {
+        chpfive? <div onClick={()=>displayNow(false)}  className="chapd"><center><h1>Chapter 5</h1><h3>ALỌBAM</h3></center>
+        
+        It was past ten when Obum finally called back. By then, the club was
+packed, and Ralu had stopped telling anyone who asked that he was waiting
+for someone, and so had allowed a couple to settle in the private booth with
+him. The girl in her Christmas hat had glanced at him shyly, almost
+apologetically, before they’d begun making out. He’d let his eyes settle on
+them for a second, and then looked away, at the dance floor that was dim
+between the sparkle of lights. The DJ had been on fire all night long, giving
+them jam after jam; now he was playing Olamide, and if he were here,
+Obum would have been on the dance floor. Ralu loved to watch him, his joy
+and his freedom that pulled people in, women who turned around to hug
+him through bouts of laughter between songs, the occasional guy grabbing
+his waist in a way so brief and loud as to be humorous, but underneath
+which Ralu saw desire or curiosity.
+Things had been different recently. Ralu had tried to make him talk
+whenever he was at the house, each attempt met with stoicism, which had
+made Ralu all the more worried because Obum liked to talk, his Instagram
+bio said in this house, we are vulnerable and radically honest, and so he
+had decided that perhaps what Obum needed was a distraction, this, a wild
+Friday night at the Element. But two hours after he was supposed to show
+up, having said he’d take a keke after hanging out with his friends, he was
+only just returning Ralu’s calls.
+Ralu watched the phone buzz on the table. He poured himself another
+shot of Hennessey, which he’d opened after the first hour of waiting. Now
+that his phone was ringing, Obum’s name flickering on the screen, all that
+anger and uncertainty had vaporized, replaced with relief. It was loud in the
+club, Teni blasting out of the speakers. He downed his shot, reaching for the
+phone just as it stopped ringing. He could feel the couple’s presence, the
+girl in her Christmas hat, now that they were no longer kissing, now that
+they were whispering earnestly to each other. They were young, probably
+Obum’s age-mates, twenty. He caught their eyes on him. “Feel free,” he
+said, loud and smiling, nodding at the bottle, still half-full, on the table
+between them, and the guy smiled and said, “Manchi!” Ralu’s phone
+buzzed again, stopped, and then flickered with a text notification. I’m so
+sorry, the text said, I’m high af and seated alone outside a store on M.M.
+Way. Please come get me.
+All the cars, all the lights on the road. It was as though he had water in his
+eyes, he saw everything first through a glaze, and then extra bright. When a
+car approached, he felt both hopeful and afraid, hopeful that it would be
+Ralu’s dark-blue Honda pulling up to the curb, afraid, when it wasn’t, that
+the quizzical glint of the headlamps would linger for too long and that the
+car would stop suddenly and a stranger would emerge and march toward
+him. He plugged in his earphones. Before the store owner, Inusa, locked up
+for the night, he’d said, handing Obum a blanket, “You fit sit down for here,
+I go leave the bench outside for you, and the security light go dey on,” and
+Obum thought he would cry. He’d nodded and said thank you and watched
+the man walk down the street, his white jallabiya so long, it almost grazed
+the pavement.
+If the evening had gone well, it most likely would have ended at Inusa’s
+store, as it usually did, Ibrahim chatting with him while he made their
+Indomie and fried eggs, Obum practicing his Hausa by interjecting every
+other minute, which pleased and amused Inusa.
+But the evening had not gone well.
+He reached into his pocket for his phone, opened Instagram. The cold
+nibbled at his fingers. Top on his feed was Ralu, who in several pictures
+was wearing a red Christmas hat ringed with blinking stars, his colleagues,
+all in almost uniform suits and ties, smiling around a Christmas cake.
+Obum wondered what was taking him so long. He eased his hand under
+the blanket, warming it, and then returned to his phone. He found himself
+on Ibrahim’s page. His fingers seemed to move of their own will, scrolling
+through high-resolution pictures until they got to the grainy ones in which
+Ibrahim was not yet so inked, not yet ripped. He was lanky in these
+pictures, all arms and legs, a gangly boy. In one of the pictures, he was
+holding a chair above his head, facing a classmate who was also holding a
+chair above his own head. Obum remembered that day, the sun, the
+roughness of their play. They’d just written their final exams in their final
+term as juniors and were heady with joy (if they knew then what they knew
+now, would they have looked forward to adulthood?). He remembered Mr.
+Jackson walking into the classroom and barking at everyone to kneel down,
+they were making so much noise. He remembered that he got his first note
+from Ibrahim that afternoon, slid expertly into the New General
+Mathematics textbook he’d borrowed, or pretended to borrow, earlier that
+day. Every time I look at you, the note said, I feel confused but I don’t hate
+it.
+Obum sifted through his texts, rereading Ibrahim’s recent messages. The
+earliest, sent a week before, said, simply, Hey ;); the second, a few days
+later, Baby, how are you? Sorry, I was going through shit with my elder
+brother, that’s why I disappeared like that. The third, sent before daylight
+this morning, was a nude pic, lean body covered in tattoos from V-line to
+chest: wings above the chest, a snake here, a cherub aiming an arrow at a
+heart there, a prayer in Arabic, “and from dust shall We raise you again,”
+the prayer said—Ibrahim had translated, lying beside Obum years ago after
+their first hookup. He’d taken the picture lying on his bed of gray sheets,
+arm extended in front of him, pointing down at the spread of his body, at the
+lofty obscenity of his hard dick. Under the picture: Why aren’t you
+answering your messages?
+You come here full of promises & good times, ghost me and then return
+like nothing happened, Obum had typed hours after that. I am a human
+being, Ibrahim. I feel things. He deleted it. Openness made him weak, he
+told himself, lying on his friends’ couch, listening to their playful singing,
+their guitar strumming—“That progression, very tricky,” Tomi said,
+chuckling to himself after missing a note—and he was done being weak. I
+just want to fuck bro, he typed instead, send your keke driver.
+He looked up from his phone now, sensing a car’s approach. Ralu’s
+Honda stopped in front of the store, headlights blinking. The road remained
+washed in all those lights. How the evening had turned, Obum thought,
+blinking to prevent tears, he did not want Ralu to see him crying. Billie
+Eilish’s voice shivered in his ears, aching, and the world felt bloated with
+the sadness.
+“Are you okay?” Ralu asked as Obum put on his seat belt. He did it with
+religious care whenever he got into the car, something people rarely did in
+Kano. He sat with stillness, his back pressed firmly against the chair.
+“Yes,” he said. “I’m sorry I stood you up.”
+Ralu said nothing. Obum was that way, even in his apologies, always
+naming things as they were. Ralu had found it endearing in the past; now, it
+annoyed him, even if slightly, that sentence, “I stood you up,” signifying an
+awareness that had not deterred him from doing it anyway.
+“Were you with Ibrahim?” he asked.
+“Yes,” Obum said.
+Ralu nodded, engaged the gear, easing the car onto the main road, which
+was wide and smooth in this part of town. He loved to drive here. Unlike in
+Sabon Gari, where the roads made his car bounce, forcing him to drive
+slowly, here he could accelerate, fling the car into all that wideness, wind
+rushing in or, as it did now, beating against the rolled-up windows. He
+wanted to ask more, wanted to know why Obum had chosen this particular
+day, when they had a date, to go see that boy, but something in Obum’s
+demeanor, something both stricken and ready to strike, made him pause.
+They had been fighting more about Ibrahim recently. You do not own me,
+Obum had said the last time, and Ralu had retorted, I let you see whomever
+you choose, I’m just worried about you. You “let me,” Obum said, Let! For
+two days, they did not speak to each other. Two days in which Ralu moved
+around feeling confused; he had done nothing wrong, he knew, and yet he
+felt he had to apologize. He’d never felt that way with Obum, confused, not
+in the two years since they’d begun doing this, not in all the years since
+they’d known each other. On the third day, before Ralu could send the
+apology he’d crafted in his head, Obum messaged. I was being unfair, he
+said, I’m sorry.
+Ralu kept one eye on the road, another on Obum, who was now fully
+relaxed into his seat, eyes closed. Perhaps he was asleep and dreaming
+something wild. At New Road, cars and keke jammed for as far as the eyes
+could see, the air had changed, tainted by all that honking and all that
+smoke. The windows were rolled up, and yet the harmattan cold seeped into
+the car; he turned up the heat, then rested his eyes fully on Obum. The car’s
+dimly gold light poured across his face, his clenched jaws, lower lips,
+pouted as though in sadness and anger, so pink they were almost red, skin a
+lustrous black. Ralu had long since ceased to be startled by the
+resemblance, but right now it jolted him afresh, how keenly Obum had
+grown to look like his brother, Makuo, even down to the spread of his
+shoulders, the way they took up the whole width of a seat, so that it
+reminded him of Makuo sitting beside him in secondary school. He was
+wearing the polka-dot shirt Ralu had bought him last Christmas, had left the
+first three buttons undone, and Ralu could see the coy sprinkle of hair
+across his chest; it would have traveled down his body, that sparse hair
+becoming wild, were Obum not obsessed with smoothness. Ralu thought of
+the tubes of Veet lying in his bathroom cabinet; he, too, had begun using
+them when he noticed that Obum loved to play with his balls when they
+were smooth. How he loved this boy, he thought, sometimes it terrified him.
+Driving to M.M. Way, he’d felt a rush of jealousy, he knew who lived on
+M.M. Way, knew that Obum had gone to see him before he admitted it, his
+flame from secondary school. And yet, seated beside him in the car now, all
+he felt was worry, his anger and jealousy blunted until it was an
+imperceptible spark in his chest. He reached his hand behind Obum’s seat,
+letting his fingers graze his ear. The traffic moved and then stopped at the
+next intersection; he turned off the light in the car, so that people would not
+see, and then let his fingers travel to the back of Obum’s head, caressing his
+neck, toying with his coarse hair, returning to his ear, the softness of his
+earlobe. Exactly like Makuo’s, Ralu thought, and then cautioned himself
+against the endless comparisons, Makuo was gone and Obum was here, and
+yet he could not stop thinking of Makuo.
+The warden standing in the middle of the intersection waved Ralu’s side
+of the road forward. Suddenly, vehicles blinked on, the entire road going
+ballistic with the sound of stirring engines, of honking. Ralu made to
+withdraw his hand and place it on the steering wheel, but Obum grabbed it
+and held it there, eyes still closed, rubbed his right cheek against it. Ralu
+left his arm there, maneuvering the car with just one hand. Soon, they were
+hurtling toward Airport Road. A song had begun playing on 95.1 Cool FM,
+where, earlier, there’d been a talk show. Obum stretched his hand in the
+same carefree way that he reached for Ralu’s balls and turned up the
+volume, Nonso Amadi’s voice swelling in the car.
+Makuo used to say, “You see my brother, Obum? He will go places,” before
+regaling Ralu with all of Obum’s recent exploits at school: a statewide
+spelling competition that he had won first place at, a televised debate
+competition that he’d participated in, the youngest participant, at the age of
+eight, his report card with first and second positions only. Makuo brought
+Obum to almost all their football trainings. In the beginning, after their
+mother closed her shop to become an evangelist, and Ralu and Makuo
+began watching Obum almost full-time, the other boys had resisted. First,
+they teased Makuo, “Your brother be like MTN—Everywhere you go,” they
+said, or cautioned him, “You no go get girlfriend fa,” and then they resisted
+outright, “Guy, na everywhere you go you dey bring am?” Finally, they got
+used to his quiet presence, which was every so often broken by a funny
+quip, even came to expect it, so that, when he missed a training or two, they
+wondered, “Where our small man dey?”
+When Ralu thought back to those times, their teenage years, one of the
+recurring images was of eight-, nine-, ten-year-old Obum seated on the
+sideline, calm in his faded jeans shorts, in the relentless sun that left his
+forehead shiny with sweat. But it was not everywhere Makuo went that he
+brought Obum, just as he did not bring the other boys everywhere he and
+Ralu went. Sometimes, it was just the two of them, Ralu and Makuo, when
+they went to the uncompleted building that would become, twelve years
+later now, the resplendent Saint Rita’s Multipurpose Hall. It was four
+stories; they would climb to the last floor and stand by the window, gazing
+at the farm behind the church’s fence, at the stream that ran across it, black
+and thin in dry season, clear and gushing when it rained. Makuo liked to
+make up elaborate stories about the men who were bent over, tilling the
+earth or pulling vegetables out of it: in daylight, he would say, these were
+ordinary men, but at night, their true natures revealed themselves, their
+spirit natures, eyes glowing green or deep white; they walked among the
+crops, watching over the city, making sure everyone got a good sleep, but if
+you walked onto the farm after midnight and saw one of them as they truly
+were, that would be the end of you—not death, exactly, but a permanent
+absence from the presence and memories of the ones who loved you: it
+would be almost as though you never existed. He would pause, letting the
+birds and frogs and the singing from the parish fill in the silence. “Once,
+there was a boy.”
+Ralu loved stories, and nobody told them as well as Makuo. “You
+know,” he would say to Makuo, “you fit become writer like Chinua Achebe,
+my mother get all him books.” The light, fading across the farm, signaling
+the closing of day.
+“I know am,” Makuo would say. “But, him be billionaire?”
+“I no know o, I no think so.”
+“See, I wan’ be billionaire when I grow. Like Dangote or Bill Gates, so
+that I fit buy duplex for me and my brother, then live very far from our
+parents.”
+Ralu knew what Makuo’s parents did to him, had seen the welts on his
+legs and back, red and black and placed as though with intention, like
+patterns in a work of art. “You must to take me with you,” he’d say. Lying
+on his bed later that night, he would imagine Makuo and Obum traveling
+far away from him, and the thought would fill him with sadness.
+“You know why I no get any sibling?” he said to Makuo one evening.
+“Because my mother almost die when she dey born me. My father tell me
+so I go stop to dey ask her when she go born another pikin.”
+Makuo looked sad listening to him. “I be your brother,” he said, and
+then, sliding an arm around Ralu’s shoulder, said, “me and Obum.” Their
+sides pressed together, Makuo warm and smelling of sweat and soap, of
+him, Ralu knew that he wanted to be more than a brother, that he wanted
+Makuo to hold his face and look in his eyes, the way men and women did
+on television, but that was a weird feeling to have for a friend, a terrible
+thing to feel for a brother.
+Obum was starting to feel better. His heart no longer raced, and his head no
+longer ballooned, making the world seem endlessly confounding; he was
+still worried that Ralu was angry with him, and that the moment they got
+home, he would grab his shoulders, pin him against the wall, and yell in his
+face. He reminded himself that it was Ibrahim’s edibles speaking, he’d
+never seen Ralu raise his voice at anyone before, and then he worried that
+he was muttering his reassurances out loud, and that Ralu was hearing
+everything and silently judging him.
+They were closer to home now: the road had become bumpy, the streets
+darker, electric poles looming in the darkness, no streetlights around. He
+tilted his head and gazed at Ralu who, both hands maneuvering the steering
+wheel to turn at a corner, glanced at him and said, “You’re awake.” His face
+remained unchanged after all these years, light skin, pink lips, eyes smoky
+and dull, like someone who was always high: that was the feature that
+Obum loved the most, those eyes.
+By the time they arrived, the bell was ringing at Saint Rita’s for
+Christmas Eve, and the road leading into his street had been blocked off.
+The security men, in their orange and lemon vests, looked like squares of
+light in the darkness. Ralu would have honked and shouted at them in jest
+as he often did, and one of them, a parishioner volunteering, would have
+hailed him, “Ralu the man!” and lifted the barricade—but there were
+soldiers around tonight, seated in their vans, looking hungry and ready, and
+so he waited quietly until one of the volunteers walked up to him.
+“Una go soon start to pay for the inconvenience,” Ralu said, driving
+through. The man, Echezona, said nothing as, unsmiling, he waved at his
+colleague to lift the barricade.
+Echezona was not really a man, he was a boy, could not have been more
+than twenty-one, but already he wore the grimness of a person who had
+seen it all, his shirt, oversize, tucked into trousers that swayed as he moved,
+indifferent, uncaring, as though he were declaring to himself, and to
+everyone around, that this world was not his home. He had not always been
+this way, pious and dour. His was a story of divine transformation: the
+women liked to talk about it in storefronts, or in their living rooms, or on
+balconies overlooking the street, the remarkable story of the street boy who
+went to the Blessed Sacrament every day, promising to change his life if
+God healed his mother’s breast cancer.
+They said, “Oh, see am, perfect example of how God can send a difficult
+situation just to save your soul.”
+They used him as a whip for their strongheaded children: “Do you want
+God to make me suffer like Echezona’s mother before you change?”
+They turned him into a love epic, reminding one another that no matter
+how errant a son was, no matter how impenetrable the walls of his heart,
+deep down was a well of love for his mother, that at the slightest glimpse of
+her suffering, a new person would emerge, hurting with goodness.
+To Obum, however, he was merely another young person lost to the
+streets, to the lack, violent and unrelenting, that clung like algae to the
+discolored walls and the bumpy roads and the tainted air. It did not matter to
+him that it was not a knife stab at a street fight or an abortion gone wrong,
+didn’t matter that it was only a consuming spirituality that left no room for
+joy: a loss was a loss.
+Driving into the compound, Obum tried to banish the thoughts of
+Echezona from his mind, they made him think of Makuo. As they stepped
+out of the car, the compound kids rushed at them, tiny hands hugging Ralu’s
+legs, his waist, his hands, sparkling voices chanting, Brother, oyoyo,
+Brother, oyoyo. Ralu lifted them up one after the other, the littler ones—the
+older kids stood on the fringes, waiting for the end of the spectacle, when
+he would walk them to Papa Ebuka’s shop—throwing them into the dark
+night and catching them midair. Their screams, terror curdled into delight,
+made Obum happy, so that he almost forgot everything that had happened at
+Ibrahim’s.
+Obum walked ahead of Ralu, who would spend a few more minutes with
+the kids, buying them biscuits and Capri Suns at Papa Ebuka’s shop. As he
+trudged upstairs, he said good evening and happy Christmas Eve to the
+women making their hair under the golden beam of Papa Ebuka’s outside
+lights, and to those who weren’t so lucky, who, in dark corners, had to hold
+kerosene and bush lamps over heads that would look, by morning, either
+like intricate artworks or gaudy portraits, depending on the chosen hairstyle
+or the chosen hairdresser. On some Christmas nights past, a woman’s hair
+had caught fire, and the compound had reverberated with the commotion,
+screams and rushing and, eventually, laughter. He wondered if it had
+happened tonight. He said his hellos quickly, so that the women would not
+engage him in banter and, in so doing, see that he was high. He should be
+above caring, and if he were sober, he wouldn’t have cared—but right now,
+he cared about everything in the world, sad things and happy things,
+everything vibrated at the tips of his fingers.
+Ralu lived at the end of a long corridor. His was the biggest flat in the
+entire compound and was the only house with its own bathroom and kitchen
+inside. Standing by the door on which a sticker said My Year of Enduring
+Joy, Obum struggled a little, sliding his key into the keyhole, but eventually
+he was able to steady himself.
+It was dark inside. He took off his sneakers but left his socks on, yet he
+still felt the coldness of the tiles on his feet. The floor used to be covered in
+a brown rug, soft to the feet but itchy if you lay on it too long, as Obum
+liked to do. Ralu had removed it after taking over the flat from his parents,
+replacing it with cream tiles that reflected the ceiling lights, beautiful but
+too cold in this weather. Lying on the couch, Obum came to the conclusion
+that a warm rug was better than aesthetically pleasing tiles any day. He slid
+out his phone. Two missed calls from Ibrahim. A text from Tomi saying, Go
+on Twitter!! Beyoncé is that imperialist, capitalist queen I stan! And, from
+Ibrahim, I’m so sorry, I don’t know what came over me. And: Please let me
+know you got home safe. I shouldn’t have gotten so high. Finally: My
+brother just called to ask me all sorts of useless questions, I’m so tired of
+his wahala. Please talk to me.
+Obum put his phone away. He wanted to cry, not because of what had
+happened, but because he feared that he still cared in spite of it, still wanted
+to hold Ibrahim’s sad head, stretch forth his arm and heal his pain. He was
+not okay, he was not okay—and he was afraid that he would not be okay for
+a long time to come. He wondered where Ralu had gone to, why he wasn’t
+here yet, upstairs; being alone made him think, and thinking made him cry.
+He could still hear the women talking, but his mind registered only the
+ripples of their voices, just as it registered the street from a distance: music
+blaring, men laughing, drunk and happy and celebratory, children singing
+and playing, glad to be out and about this late. He should not have left his
+friends to go see Ibrahim; he’d been doing well. His head was full of
+memories, of their early days. The notes they wrote each other. The meat
+pies and buns Ibrahim bought him at break time. Their heads huddled
+together as Obum showed him how to solve an equation or conjugate a
+French verb, Ibrahim distracted and distracting, sneaking a kiss when he
+was sure no one was looking. Those memories, now tangled with recent,
+painful ones.
+At his place earlier that evening, Ibrahim had answered the door shirtless, a
+smirk on his face. “My sexy troublemaker,” he’d said. Obum said nothing
+as he walked into the living room. It had been years since he stepped foot in
+the house, before Ibrahim’s father got the ministerial appointment in Abuja,
+before his brother, Hassan, found them together. All the other times Ibrahim
+had returned to Kano, he stayed in a hotel close by, said he was trying to
+avoid his brother’s “spies.” Obum wondered how Ibrahim could sleep alone
+in that one-story duplex in a compound covered in trees, a compound that
+was too dark at night, wondered if he was bored, or lonely, and then
+cautioned himself against feeling. He marveled afresh at the ordinary fact of
+space, the wide verandas with their polished terrazzo floors, the living room
+with its high ceiling from which dangled chandeliers, its spacious floor
+covered partly in a soft red rug around which black leather cushions were
+arranged in a semicircle and partly in gleaming white tiles in which Obum
+could see his face.
+It was different now, unlike those times Ibrahim had brought him home
+under the guise of doing homework when the house would bustle with the
+movement of servants and cousins, the air sweet with the aroma of cooking,
+Ibrahim’s mother doting on Obum, asking the cook to bring him snacks,
+asking about his comics. “Ibrahim has told me so much about your
+drawings,” she would say, “I’d love to read.” How infatuated he’d been
+with her, her olive skin without blemish, her slender face, the regality of her
+motions, the grace, as though anything she touched would combust in a
+flare of colorful dust. Sometimes, when Ibrahim finally got him alone in his
+bedroom, Obum would clamp up under his touch, unable to relax with the
+thought of that floating presence somewhere close by.
+“I’m glad you came,” Ibrahim said, handing Obum a video game
+controller.
+Obum waved his hand, no. “I need to get clean,” he said.
+“What’s the hurry?” Ibrahim said, punching his controller. “We have all
+night. We can relax and watch Home Alone or something.”
+Obum took a deep breath. It was like listening to an old song on repeat,
+Ibrahim seated there, face made mildly blue by the television, controller in
+hand. He’d barely glanced up from his video game as he spoke, that
+casualness, it had to be intentional. You left me on read for a month, Obum
+wanted to say, but there was nothing new about that and perhaps Ibrahim
+was right in acting nonchalant, this was, after all, the status quo and yet here
+they were, together again. Obum thought of all the times Ibrahim had
+shown up in Kano, lodging in hotels for days, sometimes weeks, rekindling
+what they had, and then disappearing without a word. Last month’s had
+been the most brutal. Ibrahim had said, out of the blue, I wish things
+weren’t so complicated, I really miss you, and Obum had shown up at the
+hotel carrying a hastily packed bag, cuddling and fucking and holding his
+sad head. Then Ibrahim said his brother was at it again, surveilling him,
+threatening to freeze his bank accounts, and he’d left.
+Ralu had not liked it. “That boy is a distraction,” he said one evening
+when Obum came to spend the night.
+“You don’t understand,” Obum said. “You don’t know him, he’s going
+through a lot.”
+“What about me? What do I do while you go take care of him?”
+“We agreed to keep this open, Ralu.”
+“Because I wanted you to enjoy yourself. This does not look like
+enjoyment.”
+They had been cuddling in bed after fucking, and their playlist was still
+on, 6LACK’s voice sifting through the speakers. The ceiling fan ruffled the
+curtains.
+“Is this how you want to spend the evening?” Obum said. “Arguing?”
+Watching the shirtless boy who was now seated on the floor, video game
+controller in hand, it was difficult to reconcile the tornness Obum felt inside
+with the love, perfect and wild, he’d felt in their teenage years. He
+remembered, clearly, one morning during Ramadan. They were both
+sixteen. He had slept over, having lied to his parents and told them that he
+was attending a night vigil, and Ibrahim, too sick to go to the mosque, had
+spread a prayer mat on the floor of his bedroom. As he prayed, his pink lips
+moving silently, Obum had watched him from the bed. At that moment,
+he’d felt a fierce possessiveness. My man, he’d thought.
+Now, he said, “I’m going to shower.”
+Ibrahim paused his video game. “Okay, babe,” he said. He dropped the
+controller, crawled on his knees to where Obum sat, wrapping his arms
+around Obum’s waist, his head on Obum’s lap. He said, “You always smell
+so good,” breathed deeply. Obum resisted the urge to caress his hair, jet
+black and mildly curly, resisted the urge to pull him close and bury his nose
+in the crook of his neck. Inside him, immense love wrestled with immense
+distrust. He would fuck and he would feel nothing, that was his mission
+here today, to use and be used: afterward, he would not text to say good
+morning, would not send memes he knew Ibrahim would find funny, would
+not respond to Ibrahim’s memes either. He would be a wall, unfeeling and
+impregnable.
+He left his arms hanging awkwardly at his sides until Ibrahim looked up
+and asked if he was okay. “Yes,” he said. Ibrahim reached up and took his
+face in his hands, Look at me, he said, and Obum let Ibrahim gently pull
+their faces close, Ibrahim’s warm breath on his face. Letting him go,
+Ibrahim caressed his arm, his neck, looking all over his body with a quiet
+attention, the absentmindedness of it, like someone checking a prized
+possession for wear. Obum eased him away from his body. It had to be a
+moral weakness, his inability to choose his own serenity no matter how
+hard he tried.
+“Do you have edibles?” he said.
+Ibrahim looked up at him, and then he smiled. “Someone wants to have a
+wild evening,” he said. “There are a few left in my bathroom cabinet. I
+think I might have one myself.” He stood up, his dick print sideways in his
+red Man-U shorts; he pinched the shorts between his legs, adjusting it, a
+small, careless act: it filled Obum with lust, after all these years they still
+responded to each other’s bodies with thirst. Obum wished they could
+return to a time when it was not yet complicated, a time before Ibrahim’s
+eldest brother, Hassan, suspicious and bossy Hassan, had dressed up and
+pretended to go out so that he could walk in on them, as he did, ten minutes
+later. Obum wished he could go back to a time before Ibrahim’s mother
+asked him never to show his face at their house again, hate and
+disappointment on her face as she glowered at this boy who had come to
+corrupt her precious son, a time before Hassan slapped Ibrahim, reached out
+to slap him too until Ibrahim stood between them, pleading, saying You
+can’t beat someone else’s child, you can’t beat someone else’s child.
+He missed the times before confusion, when Ibrahim did not show
+warmth one day, coldness the next. At first, around the time they began
+their final exams, the coldness had been absolute: they would pass each
+other in the corridors at school and Ibrahim would look away, or harden his
+face, and it had felt, each time, like fingers digging into a wound. And then
+Makuo had died in that street fight, and everyone at school had gathered
+around Obum’s table to say sorry, which had made him cry even worse.
+Ibrahim there later, in front of his desk at break time when the class was
+empty, just the two of them. He pulled up a chair and sat in it, silent. He
+held Obum’s hands. Obum began to cry again, for Makuo and for himself.
+Ibrahim sat there, saying nothing, holding his hands and saying nothing.
+Two years after they graduated from secondary school, after Ralu entered
+his second year in Nnamdi Azikiwe University and Makuo didn’t even gain
+admission, Makuo started going to Weather Head with Crazy Man, who was
+about ten years his senior. He returned to Aminu Road one evening, Ralu
+was told, high like there was no tomorrow, found his father beating Obum,
+and punched him. Nobody liked the way the man beat his children, they
+told Ralu. After all, he and his wife weren’t the only evangelists in Sabon
+Gari and others didn’t beat their children like that. But nobody supported
+Makuo for fighting his father, for standing in the doorway after letting
+Obum run off and saying, “If you ever touch am again, I swear, you go
+regret my next action.” Nobody liked that he turned on his mother and said,
+“And you, too, if you didn’t want us, why did you bring us into this world?”
+After his real death at twenty-three, people began to say he had died on the
+day he’d punched his father and insulted his mother.
+Obum had once shown Ralu the ladle with which his parents beat him,
+brown, smooth, sturdy wood, the same ladle with which his mother turned
+garri. “If I don’t teach you,” Makuo’s mother would say, “then I don’t love
+you.” By the time they entered secondary school, Makuo had learned and
+mastered ways of manufacturing other experiences he’d had with his
+parents—they had gone to the zoo on Christmas Day, they had gone to the
+amusement park on his birthday—each experience lacking, at first, in
+specificity, and then becoming outlandish. One day, in JSS3, he came to
+school with a camera phone. “My father bought it for me,” he said, his
+classmates clustering around his table, touching the phone, taking pictures.
+The next day, the principal called him out on assembly ground. There was a
+song the students sang to taunt people who had stolen. That day, they sang it
+to Makuo, clapping their hands, stomping their feet. “Mai thief! Mai thief!”
+they chanted.
+That night, someone knocked loudly on Ralu’s door. It was late, the
+compound had gone to sleep, and the sound of Baba Tosin’s snoring could
+be heard from next door, a constant fixture of night. Ralu’s father came into
+the living room, where Ralu slept on the sofa. “Who’s there?” he barked,
+his machete clasped firmly in his hands, as though wielding it against
+darkness itself.
+Makuo simply wept.
+Ralu’s father opened the door. In the room, Makuo continued to cry,
+head bowed. It was shame, Ralu would realize years later after the knife
+fight that killed him, to be seen that way, helpless, always helpless, it made
+Makuo ashamed. Obum stumbled into the room, holding his brother’s hand.
+In the soft moonlight that cut the room conically, he looked lost. Ralu’s
+mother rushed to them, ushering them in.
+Long after Obum had slept off, on a blanket spread for him on the living
+room floor, Ralu and Makuo stayed awake, watching WrestleMania. They
+sat closely, their arms brushing. The television was muted, so that even as
+images flickered in the living room, the night still lent its sounds to them.
+“Them no go try this rubbish with Obum,” Makuo said, so quietly it
+seemed he was telling himself. “They should wait and see.”
+“Let me see,” Ralu said.
+Makuo took off his shirt silently, turned his back to Ralu. Ralu touched
+Makuo’s back, tentatively at first, then gently. The welts were too red and
+too many, even though his mother had massaged Makuo’s back with a towel
+soaked in hot water. Makuo turned around and leaned backward, so that he
+rested on his arms, his stomach exposed. Ralu touched his stomach. It was
+hard and rough. The marks were smaller there, thinner, purplish. Ralu
+touched his navel, drew circles on it. Makuo chuckled. Tickles, he said. The
+night was so quiet. Even Baba Tosin’s snoring had diminished.
+“Sorry,” Ralu said, looking away. He wasn’t sure if he was sorry for
+what had happened to Makuo or for what he was feeling in that moment,
+what he had felt so many times before, but more intensely at that moment: a
+need to be closer to Makuo than mere arms grazing, than mere playing
+football together, than mere sitting together in the same uncompleted
+building.
+When Ralu insisted on returning to Kano after university, his parents
+having relocated to Enugu by then, his mother said, “It’s because of Obum,
+okwia?” and he looked out of the window and said nothing, and she
+returned to reading her Bible and said nothing else about the matter.
+Ralu sat on the armrest, watching Obum sleep on the couch, running his
+fingers in slow circles through his hair. Walking into the house earlier, he’d
+moved the curtains aside, the darkness softened by the light from the street.
+The way Obum lay on the couch, in a fetal position, it reminded him of
+their first time together, a Friday night two years earlier, almost one year
+after Makuo passed. Obum had rushed into the house, waving a newspaper,
+bubbly with joy. He’d just been admitted to study fine arts at ABU, Zaria.
+They hugged, Ralu opened a bottle of moscato, and they clinked glasses. It
+was April, the air soft with impending rain. By then, Obum was already
+spending half his nights at Ralu’s flat. His parents gave him money for
+upkeep, promised to pay his university fees, and in return, he did not totally
+disappear from their lives, spending every other night at theirs,
+accompanying them to church every other Sunday, he was eighteen, which,
+for a boy, especially one who had somewhere else to lay his head and fill
+his stomach, was grown, he could not stand them, and Makuo’s death, the
+gruesomeness of it, had changed them: they had become meek and more
+agreeable, perhaps out of guilt, or fear, or a mix of both.
+Obum shared Ralu’s bed, choosing always to sleep by the wall, it made
+him feel safe, he said.
+And so, that night, as Ralu felt Obum’s hands on his body, he could have
+jumped out of bed, but he did not. The room, dark, was occasionally
+brightened by a slash of lightning: it illuminated the billowing blue curtains,
+the wardrobe, the portrait on the wall, of his mum, dad, and himself in their
+Sunday best. Obum’s fingers caressing his hair had surprised him, and when
+they paused, he held his breath. The fingers flicked across his arm, a single
+tame motion. And then, with a sudden boldness, they reached around his
+waist, caressing his thigh. Obum, Ralu said, grabbing the boy’s hand, and
+then letting go. You’re like a brother to me, he said, and thought of Makuo
+saying, I be your brother, me and Obum. Yet, there he was, hard as iron.
+Maybe it was because he hadn’t felt a strong attraction for anybody other
+than Makuo. What was he? he used to wonder. He liked girls and he liked
+boys, but it manifested as a general curiosity, roving and aimless, without
+fire. He’d had to know Makuo before he loved, or even desired him, for his
+storytelling and for his face, but especially for the way he looked like he
+needed to be held, and though Ralu had learned to control that feeling for
+the sake of their friendship, it never went away.
+His first time with a guy, and it was Obum, Makuo’s little brother.
+Between them, the sound of rain, the coolness of air, desire charged with
+sadness and hope. Obum gripped and stroked him with such possessiveness;
+he simply lay there, letting himself be kissed. When he came, he shuddered,
+wailing into Obum’s mouth, the ugliest wailing. Obum’s lips parted in a
+sweet, low chuckle, Yeah, he muttered, fuck yeah. They clung to each other.
+Ralu said, Your turn to come, unsure what to do to make that happen, but
+Obum shook his head, Just hold me, he said, that is all I want.
+Ralu remembered how he stayed awake long after Obum had rolled
+away, deep in sleep. How he’d stared at the ceiling, at the fan that stood
+motionless in the gentle morning light. How he’d gone to stand by the
+window, listening to the lone tenor chanting “Allahu Akbar!” A few seconds
+later, Saint Rita’s bell started tolling, sonorous and majestic in the gaping
+silence of early morning. The muezzin’s voice continued, almost sad in its
+abundant tremolos. Ralu’s face was cool with the after-rain breeze. The
+years he had spent going to university in Awka, he had risen on many
+mornings, longing for that duet, of man and bell. It was what he’d missed
+the most about Kano, after the people, and yet he knew that when he
+returned, they would be there, the minaret and the belfry, the streets, the
+convoluted interconnections of main roads and alleyways, shortcuts he
+knew like rhymes from childhood, intimately. The people, not so much, at
+least not Makuo. He’d been away, tidying his MSc thesis, when he heard
+the news of Makuo’s death. He thought how unfair it was, the
+impermanence of people and the permanence of things. Obum muttered
+something, still asleep, turned and faced the ceiling, his hands spread, his
+left leg swaying. In that moment, he was exactly as Makuo would have
+been.
+Obum had not felt himself fall asleep, but now he woke up to Ralu’s fingers
+in his hair. At first he remembered nothing, only the sadness that had lulled
+him to sleep, and then he remembered everything. He remembered
+Ibrahim’s bathroom, the white tiles on the wall, the white towels on the
+rack, the mirror that was clean and clear, making him think that a cleaning
+person must have come around recently. He remembered that he was still
+seated on the toilet, that the water he’d been shooting up his ass had finally
+come out clear, when the edible kicked in, his head light and awake, his
+heart palpitating, his toes, dick, asshole awash in a sweetness. Remembered
+that he stood up, flushed the toilet, and then got in the bathtub, under the
+shower that was already spraying hot water. Almost immediately, Ibrahim
+rapped on the bathroom door before gently pushing it open. He got in the
+bath behind Obum, wrapping his arms around Obum’s body, his hard dick
+pressed against the cleft of Obum’s ass. His arms, sturdy and inked and
+veined, Obum caressed them with his fingers, throwing his head back,
+allowing Ibrahim to grip his neck, to pull his head back, staring into his
+eyes and forcing him into an impossible arch. The spank on his ass, it was
+shockingly rough, too rough, too early; Obum gasped, whimpered, and
+Ibrahim gripped his neck even tighter. Whose are you? he asked, and Obum
+whispered, Yours.
+I can’t hear you.
+Yours.
+Always remember that.
+Obum remembered that he only heard the sound of the shower when
+Ibrahim reached around and turned it off, the silence awaking him to the
+gushing sound it had replaced. He remembered Ibrahim kneeling behind
+him, prying his cheeks open and burying his tongue in him. He remembered
+the clarity of his pleasure, his feet lifting until he was on the tip of his toes.
+He remembered, also, the clarity of his pain as Ibrahim stood up and pushed
+in, searing pain that split his body in two, from head to toe. Fuck, he said,
+beating on the wet walls, pull out, I need lube. Ibrahim holding him there,
+saying, I ate it, you can take it. He remembered that he did take it, and that
+for almost an hour, as they moved from bathroom to bedroom, the pleasure
+he felt morphed into dread as Ibrahim became rougher and rougher, saying,
+Thought you only wanted to fuck, well get fucked, anger in his strokes, real
+anger, not the playful kind, punctuated with laughter and smiles, that they
+both liked to toy with when they got high like this. There was no smiling,
+no laughing, and when Ibrahim put him on his back and looked in his eyes,
+all Obum saw was that anger: in the whites of his eyes, now red, and in his
+sweating, laboring body, muscles taut from his aggressive movements.
+Perhaps it was a culmination of the high and everything that he’d been
+feeling lately, but in that moment, all Obum could think was Why? The
+question gripping his body, making him clench up, filling his head, every
+pore; he thought Why are you doing me like this? and said, Ibrahim, stop,
+grabbing Ibrahim’s arms to push him off, but Ibrahim did not budge until he
+came, an eternity later, shuddering and muttering, Fuck, fuck, his eyes
+closed, his body shiny with sweat, a bead of sweat falling from his forehead
+onto Obum’s face. When he pulled out, Obum felt a sharp, slender pain
+inside; he clutched his legs, his body tingling with the pain. He’d been
+crying all along and had not even realized it, real crying, tears streaming
+down his face. Ibrahim had fucked him through his tears. He felt such pity
+for himself, and such rage. He got up, silently, and began picking up his
+clothes from the floor. Throughout, Ibrahim said nothing; he sat at the other
+end of the bed, his back to the wall, knees drawn up to his chest, head
+bowed. Occasionally, he glanced up, but Obum could not bear to look at
+him, confused and ashamed and enraged as he felt, and so did not see the
+expression on his face. They said nothing to each other, even as Obum
+dressed and left the house, easing the door closed behind him, as though
+afraid to disturb the peace.
+One moment, Obum was asleep, and the next he was awake and crying.
+Ralu immediately slid beside him on the couch, holding his head against his
+shoulder. Obum wrapped his arms around him. His body was warm and
+trembly. “Am I a terrible person, Ralu?” he said, between sobs. “Do I
+deserve terrible things?”
+The question pierced something inside Ralu and then shattered it. He
+hated to see his baby so beaten, hated that boy for doing this to him, as
+though he’d not had enough beatings to last a lifetime; and he hated his
+powerlessness, that he could not end it all with the right words, the right
+actions. He looked into Obum’s face, his eyes glossy with tears. “What
+would make you think that? You’re one of the kindest people I know. And
+you’re so beautiful. You deserve everything good.” He paused. “Did
+something happen at your friend’s house?”
+Obum’s voice increasingly steadied as he spoke, each mounting second
+of his story making Ralu quake with anger. Halfway through his story, the
+siren went off on the street, and a roar went up, “Up NEPA!” The appliances
+beeped awake, blinking blue and red lights all around the living room, as
+did the Christmas lights that Obum had hung up the previous day, twinkling
+like multicolored stars in the darkness. A neighbor’s speakers came on, a
+band was singing a carol.
+“How are you not angry with me?” Obum said. “I don’t understand it.”
+“Why would I be?” Ralu said. “I’ve said it before that you can see
+whomever you please, as long as you’re safe.” He smiled at Obum, hoping
+that it would calm him. “And as long as you bring your beautiful self back
+to me.”
+He kissed the side of Obum’s head. Of what use would it be, telling him
+that waiting in the booth of that club tonight, he’d come close, for the first
+time, to feeling disappointment? The boy was clearly hurting. There was
+always tomorrow to talk about what he needed. All he wanted right now,
+holding Obum’s head against his chest, was for Obum’s life to be easy, for
+him to return again to that boy who would walk into a room, talking
+excitedly about comic books and TV shows, the boy in whose presence
+everyone felt at ease to be themselves. That was what made him happy,
+seeing all that light, and knowing that, in some small or big way, he was
+responsible for it.
+He thought of the last time he saw Makuo, an evening before traveling
+back to Awka. They had taken a walk, chatting, aimless in their ambling.
+Finally, they arrived at Saint Rita’s Hall, climbing the staircase with its
+gold-plated banisters. Already, Ralu could sense something different in
+Makuo, a remoteness; he talked about life in a defeated tone, dropping
+unsolicited advice like an old man who had been through it. “See,” he said,
+when they got to the last, and only—at the time—uncompleted floor,
+“you’re so lucky that you’re bright, please don’t lose focus. This country
+eats people alive, and only the strong and sharp can make it.” Ralu had
+watched him, his worry mellowed by Makuo’s earnestness, his use,
+completely, of English instead of pidgin, his baggy trousers that were a
+faded blue, his white shirt with the green letters that said My Money Grows
+like Grass, his eyes with their look of sad resignation. “You see Obum? He
+has that brightness, too, I think he can even get a scholarship anywhere he
+wants, he has brains and talent.” He paused, looking out the window. Ralu
+followed his gaze. Below, a group of women had gathered on benches,
+singing in Urhobo, and beyond the fence encircling the parish compound,
+the farm loomed, green and brown, the stream running through it a thinning
+black. “But there’s something about him, he doesn’t want to tell me, but I
+know. I know he likes boys. I know that he is doing something with one of
+his classmates, one Hausa boy like that. He will not tell me, but I know. I
+accept it, it is his life and I want him to be happy.” Another pause, this time
+he looked straight into Ralu’s eyes, and Ralu knew that he was speaking to
+him, not merely about Obum, but also about him. His legs felt weak, and
+his heart pounded. “I am telling you because you are my person, alỌba m,
+and I know you will understand when I say that I’m worried that his life
+will be very hard here because of it.”
+Ralu thought of that evening all the time, how the sky had become a
+canvas of warm colors, yellow, orange, red, all the bats fluttering against it.
+He thought of it now as he held Obum. “I love you,” he whispered, kissing
+Obum’s ear, “never forget that.”
+Obum held him tighter. Outside, Papa Ebuka was yelling Happy, happy,
+his voice thick with laughter. He must be closing shop. He never closed
+quietly, even on nights when the street was not bright and loud; he would
+yell out words, or burst into song, for this life, I can’t kill myself o, his
+voice, bright and cheery, multiplied by the deep quiet. Tonight, his words
+did not come back to him in echoes, but as the responses of passersby, Saint
+Rita’s parishioners on their way home from Mass, neighbors out in the
+street, drinking or making their hair. Happy Christmas! they yelled at him.
+Banging through all that noise, Saint Rita’s bell tolling the end of Christ’s
+Mass.
+        </div>:null
+        
     }
     </div>
   )

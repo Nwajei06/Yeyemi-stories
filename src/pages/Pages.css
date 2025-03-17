@@ -138,6 +138,7 @@ left: 85%;
 .gatther{
     display: flex;
     flex-direction: row;
+    position: static;
     /* gap: 50%; */
     /* position: relative; */
 }
@@ -150,11 +151,11 @@ hr{
     height: 50%;
     border-radius: 50%;
 }
-.chap3{
-    width: 1000px;
+.chapd{
+    width: 85%;
     height: 1000px;
     background-color: white;
     position: absolute;
     top: 10%;
-
+    margin-left: 30px;
 }
