@@ -108,11 +108,13 @@ left:34%;
     top: 10%;
     /* margin-top: -1000px; */
     /* z-index: 1; */
-
-
 }
 em{
    color: blue;
+}
+.em{
+    color: navy;
+    font-size: large;
 }
 .btns{
     background-color: white;
@@ -158,4 +160,13 @@ hr{
     position: absolute;
     top: 10%;
     margin-left: 30px;
+}
+.linkk{
+    color: black;
+    font-size: larger;
+    margin-top: 10px;
+}
+.letter{
+    color: black;
+    font-weight: lighter;
 }

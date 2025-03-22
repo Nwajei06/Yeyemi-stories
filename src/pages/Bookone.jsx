@@ -20,7 +20,7 @@ function Bookone() {
 
   return (
     <div  className='gatther'>
-        <Link to="/child">  <li class="fas fa-arrow-left"></li></Link>
+        <Link className='linkk' to="/child">  <li class="fas fa-arrow-left"></li></Link>
           {
            displays? <div className='btns'>
           <center> <img className='chap-img 'src={img1} alt="" /></center> 

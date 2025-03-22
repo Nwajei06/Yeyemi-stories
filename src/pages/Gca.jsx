@@ -31,7 +31,7 @@ const Hello = () => {
     overprotective mother and a distant father, and the heart-wrenching trale of o0ne family's struggle to understand their child,
     just as Vivek learn to recognize himmself.
    </div><br />
-<center><button className="all-button">Start Reading</button></center>
+<center> <Link  to='/Book6'><button className="all-button">Start Reading</button>  </Link></center>
 
 
     </div>

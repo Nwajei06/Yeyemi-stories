@@ -9,8 +9,9 @@ import Sister from './pages/Sister'
 import Longer from './pages/Longer'
 import Half from './pages/Half'
 import Bookone from './pages/Bookone'
-
-
+import Bookfour from './pages/Bookfour'
+import Bookfive from './pages/Bookfive'
+import Booksix from './pages/Booksix'
 
 
 function App() {
@@ -28,9 +29,9 @@ function App() {
           <Route path='/longer' element={<Longer/>}/>
           <Route path='/half' element={<Half/>}/>
           <Route path='/Book1' element={<Bookone/>}/>
-
-
-
+          <Route path='/Book4' element={<Bookfour/>}/>
+          <Route path='/Book5' element={<Bookfive/>}/>
+          <Route path='/Book6' element={<Booksix/>}/>
 
 
         </Routes>
