@@ -12,7 +12,7 @@ import Bookone from './pages/Bookone'
 import Bookfour from './pages/Bookfour'
 import Bookfive from './pages/Bookfive'
 import Booksix from './pages/Booksix'
-
+import Abigail from './pages/Abigail'
 
 function App() {
 
@@ -32,6 +32,7 @@ function App() {
           <Route path='/Book4' element={<Bookfour/>}/>
           <Route path='/Book5' element={<Bookfive/>}/>
           <Route path='/Book6' element={<Booksix/>}/>
+          <Route path='/Book7' element={<Abigail/>}/>
 
 
         </Routes>

@@ -173,3 +173,11 @@ hr{
 .italics{
     font-size: 40pxnpmm;
 }
+.abi{
+    font-size: 45px;
+    font-style: italic;
+}
+.nov{
+    font-size: 30px;
+    font-style: italic;
+}

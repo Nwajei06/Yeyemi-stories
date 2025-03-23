@@ -27,58 +27,58 @@ function Booksix() {
                 chpFour(false); chpFive(false); chpSix(false);
                 chpSeven(false); chpEight(false); chpNine(false);
                 }}> 
-                <center> Chapter 1 </center></span>
+                <center> Page 1 </center></span>
               <br />
               <span onClick={()=>{
                 showset(true); setShow(false); hideshow(false);
                 chpFour(false); chpFive(false); chpSix(false); 
                 chpSeven(false); chpEight(false);chpNine(false);
                 }}> 
-                <center> Chapter 2 </center></span> <br />
+                <center> Page 2 </center></span> <br />
               <span onClick={()=>{
                 hideshow(true); showset(false); setShow(false);
                 chpFour(false); chpFive(false); chpSix(false);
                 chpSeven(false); chpEight(false); chpNine(false);
                 } }> 
-                <center> Chapter 3 </center></span>
+                <center> Page 3 </center></span>
         <br />
         <span onClick={()=>{
             chpFour(true); hideshow(false); showset(false);
             setShow(false);chpFive(false);chpSix(false);
             chpSeven(false);chpEight(false);chpNine(false);
             }}> 
-            <center> Chapter 4 </center></span><br />
+            <center> Page 4 </center></span><br />
         <span onClick={()=>{
             chpFive(true);chpFour(false);hideshow(false);
             showset(false);setShow(false);chpSix(false);
             chpSeven(false);chpEight(false);chpNine(false);
-        }} > <center> Chapter 5 </center></span><br />
+        }} > <center> Page 5 </center></span><br />
         <span onClick={()=>{
             chpSix(true); chpFive(false);chpFour(false);
             hideshow(false); showset(false); setShow(false);
             chpSeven(false); chpEight(false); chpNine(false);
         }} >
-             <center> Chapter 6 </center></span>
+             <center> Page 6 </center></span>
         <br />
         <span onClick={()=>{
             chpSeven(true);chpSix(false);chpFive(false);
             chpFour(false); hideshow(false);showset(false);
             setShow(false);chpEight(false);chpNine(false);
         }}> 
-        <center> Chapter 7 </center></span><br />
+        <center> Page 7 </center></span><br />
         <span onClick={()=>{
           chpEight(true);chpSeven(false);chpSix(false);
           chpFive(false);chpFour(false);hideshow(false);
           showset(false);setShow(false);chpNine(false);
         }} >
-           <center> Chapter 8 </center></span>
+           <center> Page 8 </center></span>
         <br />
         <span onClick={()=>{
           chpNine(true);chpEight(false);chpSeven(false);
           chpSix(false); chpFive(false); chpFour(false);
           hideshow(false); showset(false); setShow(false);
           }}>
-             <center> Chapter 9 </center></span>
+             <center> Page 9 </center></span>
         
               </div> :null
               }
