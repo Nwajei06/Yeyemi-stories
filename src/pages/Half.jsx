@@ -18,8 +18,8 @@ function Half() {
       </div>
       <br /><br /><br /><br />
   
-     <center><div className='vivek'>Half of a Yellow  sun <br />
-    <div className='authour'>Chimamanda Ngozi Adiche</div> <br />
+     <center><div className='vivek'>Becoming Abigail<br />
+    <div className='authour'>Chris Abani</div> <br />
      </div></center>
      <div className="about">
      <h3><hr />About the book</h3>

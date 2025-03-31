@@ -1,3 +1,7 @@
+
+@media ( max-width:1920px) and ( min-width:300px) { 
+
+
 /* #home{
     padding-left: 0;
     padding-right: 0;
@@ -123,7 +127,7 @@ em{
     height: 100%;
     padding: 10px;
     /* padding-left: 20px; */
-    position: absolute;
+    position: fixed;
     border-top-right-radius: 10px;
     /* border-right: 1px solid black; */
     box-shadow: 1px 5px  50px black;
@@ -180,4 +184,6 @@ hr{
 .nov{
     font-size: 30px;
     font-style: italic;
+
+}
 }

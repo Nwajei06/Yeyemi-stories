@@ -111,8 +111,57 @@ gap: 20px;
 }
 .top-choice-images{
     width: 40%;
-    min-height: 200px;
+    min-height: 150px;
     border-radius: 10px;
+}
+#id1{
+    width: 100px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+#id2{
+    width: 100px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow-x: auto;
+}#id3{
+    width: 100px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow-x: auto;
+}#id4{
+    width: 100px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow-x: auto;
+}#id5{
+    width: 100px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+.names-review{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.lin{
+    text-decoration: none;
+    color: black;
+}
+.word{
+    opacity: 0.7;
 }
 h3{
     opacity: 0.8;
@@ -120,10 +169,13 @@ h3{
 .names-review{
     display: flex;
     flex-direction: row;
- margin-top: -95px;
+ /* margin-top: -30%; */
  font-size: small;
  
  /* margin-left: 10px; */
+}
+#pr{
+    width: 100px;
 }
 .names-review span{
  width: 1000px;
@@ -165,7 +217,7 @@ progress::-webkit-progress-value{
 }
 #sec{
     width: 320px;
-    height: 150px;
+    height: 135px;
 }
 #sec a{
     text-decoration: none;
@@ -186,7 +238,7 @@ height: 750px;
 
 .book7{
     width:100px;
-    height: 150px;
+    height: 135   px;
     border-radius: 10px;
 }
 .links{

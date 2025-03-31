@@ -13,6 +13,9 @@ import Bookfour from './pages/Bookfour'
 import Bookfive from './pages/Bookfive'
 import Booksix from './pages/Booksix'
 import Abigail from './pages/Abigail'
+import Zikora from './pages/Zikora'
+import Lion from './pages/Lion'
+
 
 function App() {
 
@@ -33,6 +36,9 @@ function App() {
           <Route path='/Book5' element={<Bookfive/>}/>
           <Route path='/Book6' element={<Booksix/>}/>
           <Route path='/Book7' element={<Abigail/>}/>
+          <Route path='/Book3' element={<Zikora/>}/>
+          <Route path='/Book2' element={<Lion/>}/>
+
 
 
         </Routes>

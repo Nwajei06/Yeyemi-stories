@@ -5,8 +5,8 @@ import img7 from "../../public/images/abii.jpeg"
 import img1 from "../../public/images//godchild.jpeg"
 import img5 from "../../public/images/atease.jpeg"
 import img4 from "../../public/images/serialk.jpeg"
-import img2 from "../../public/images/freshwater.jpeg"
-import img3 from "../../public/images/fallapart.jpeg"
+import img2 from "../../public/images/zikoraimage.jpeg"
+import img3 from "../../public/images/lion.jpeg"
 import { Link } from 'react-router-dom'
 
 function Books() {
@@ -21,12 +21,12 @@ function Books() {
       </div><br /><br /><br /><br /><br />
       <div id='sec'  className="first-section">
       <div id='sec' className="book4"><Link to='/longer'><img src={img5} alt="" />At ease  <progress value={60} max={100}></progress> </Link></div>
-      <div id='sec' className="book5"><Link to='/fresh'><img src={img2} alt="" />Freshwater  <progress value={20} max={100}></progress></Link></div>
+      <div id='sec' className="book5"><Link to='/fresh'><img src={img2} alt="" />Zikora  <progress value={20} max={100}></progress></Link></div>
       <div id='sec' className="book6">  <Link to='/sister'><img src={img4} alt="" />My Sister...  <progress value={35} max={100}></progress> </Link></div>
 
       </div><br /><br /><br /><br />
       <div id='sec'  className="first-section">
-      <div  className="book7"><Link to='/apart'><img src={img3} alt="" />Things Fall Apart  <progress value={20} max={100}></progress></Link></div>
+      <div  className="book7"><Link to='/apart'><img src={img3} alt="" />The Lion and the  Jewel  <progress value={20} max={100}></progress></Link></div>
       </div>
 <br /><br /><br /><br /><br /><br />
     </div>

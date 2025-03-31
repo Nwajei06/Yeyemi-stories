@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Pages.css'
-import img2 from "../../public/images/fallapart.jpeg"
+import img2 from "../../public/images/lion.jpeg"
 
 function Apart() {
   return (
@@ -17,7 +17,7 @@ function Apart() {
         <br /><br /><br /><br />
 
 <center><div className='vivek'>Thing Fall Apart <br />
-<div className='authour'>Chinua Achebe</div> <br />
+<div className='authour'>Wole Soyinka</div> <br />
 </div></center>
 <div className="about">
 <h3><hr />About the book</h3>
@@ -26,7 +26,7 @@ Okonkwo is a wealthy and  respeected warrior of the Umuofia clan,
 is about the struggle between change and tradition, which  is amplified by the introduction
 of Christianity
 </div><br />
-<center><button className="all-button">Start Reading</button></center>
+<center><Link to='/Book2' ><button className="all-button">Start Reading</button> </Link></center>
 
     </div>
     

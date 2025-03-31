@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Pages.css'
-import img3 from "../../public/images/freshwater.jpeg"
+import img3 from "../../public/images/zikoraimage.jpeg"
 
 function Fresh() {
   return (
@@ -18,8 +18,8 @@ function Fresh() {
        </div>
        <br /><br /><br /><br />
    
-      <center><div className='vivek'>Freshwater <br />
-     <div className='authour'>Akwaeke Emezi</div> <br />
+      <center><div className='vivek'>Zikora <br />
+     <div className='authour'>Chimamanda Ngozi Adichie</div> <br />
       </div></center>
       <div className="about">
       <h3><hr />About the book</h3>
@@ -28,7 +28,7 @@ function Fresh() {
        overprotective mother and a distant father, and the heart-wrenching trale of o0ne family's struggle to understand their child,
        just as Vivek learn to recognize himmself.
       </div><br />
-   <center><button className="all-button">Start Reading</button></center>
+   <center> <Link to='/Book3'><button className="all-button">Start Reading</button> </Link> </center>
    
    
        </div>
