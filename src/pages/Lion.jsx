@@ -1090,557 +1090,1060 @@ Thou art the queen of them all.
                                } 
         
         {
-                   hide?<div onClick={()=>displayNow(false)}  className="chap2"> <center><h1 className='abi'>Page3</h1> </center>
-                   slid one into another. Time spent on remembering, time lost on remembering.
-        I lingered on the messages he had sent when he stopped at my
-        favorite Indian restaurant to buy me pakoras. No veg today, babes. Meat okay?
-        Or when he drove to the Middle Eastern place in Silver Spring to
-        get me hummus. They ran out of regular, just red pepper, sorry babes.
-        How well he knew me. It was real hummus or nothing for me,
-        none of those flavors invented to appeal to the American obsession for
-        variety. I read somewhere that love was about this, the nuggets of
-        knowledge about our beloved that we so fluently hold.
-        “Stop reading his texts,” Mmiliaku told me on FaceTime. “You’ll
-        start questioning everything, and wondering if any of it was even real.”
-        “Yes,” I said, but I didn’t question whether it was real, because I
-        knew it was. I questioned where it had gone. How could emotions just
-        change? Where did it go, the thing that used to be?
-        Each time I called, I felt newly surprised at the burr-burr-burr of his
-        phone ringing unanswered. How could he have turned, and so quickly? I
-        knew him well, but I could not have known him well. He was lovely, he
-        truly was. Silence was not his fighting tool; he was a man who talked
-        things through. But he ignored my calls and texts, and sent back my
-        apartment key in an envelope, the lone metal key wrapped in plain paper.
-        Some days I was fine and some days I was underwater, barely breathing.
-        At my twenty-week checkup, I smiled at the moving grainy gray image on the ultrasound screen, flush with wellbeing, and I waved at the front-desk
-        women as I left, but in the elevator, I burst into tears, a sudden sense of
-        dissolving all around me. I sent Kwame a text: I’m 20 weeks today.
-        He replied three days later: It’s manipulative to send me this. You
-        know you made a decision that excluded me. I didn’t want things to end this way. I’m hurting too.
-        I read it over and over; it felt like something written by somebody
-        who was not Kwame, like an exercise from law school, an argument about
-        case law, hard and elegant and empty. To my Can we please at least talk?
-        Kwame did not respond. Ours was an ancient story, the woman
-        wants the baby and the man doesn’t want the baby and a middle ground does not exist.
-        What would a middle ground be? We couldn’t have half a baby.
-        “Water, everyone at work knows I was dumped while pregnant,” I
-        told Mmiliaku. “I hate the way they look at me.”
-        “It’s all in your head,” Mmiliaku said.
-        Maybe she was right and I was merely suffering from the paranoia of
-        the abandoned. I cared now what people thought, and I had never cared before.
-        “I just want them to know I can handle it, I can do it alone,” I said.
-        “Some of us have men and are still doing it alone,” Mmiliaku said.
-        She could have gloated. She could have asked, “Isn’t this the perfect man
-        you won by deciding not to settle?” She could have been passive
-        aggressive, or resentful, or lectured me in that world-weary way of a
-        woman who believed that men would be men. But she didn’t, and so with
-        the light streaming through my apartment window, I began to weep
-        because my cousin had grace and I lacked grace. I cried and cried. I no
-        longer had friends, all my time so focused on Kwame. I cried and cried,
-        and even though people said crying made them feel better, it made me feel frightened and small.
-        I sifted through my memories, as though through debris, trying to find a
-        reason. Was it how I had told him? Was it because I said it so lightly, so
-        playfully, that there was no question of how I felt? Did he know, too, as I
-        knew, that I was pregnant even as I was telling him that I might be? It had
-        never occurred to me not to have the baby, and he must have heard it in
-        my voice. The knowledge came to him as an already-sealed box.
-        He said so often that we had to make decisions together, and it
-        amused me sometimes, how seriously he meant this, even for small things
-        like which table to select when making a restaurant reservation online.
-        “Okay, babes?” he would ask, and wait for my nod. Was he recoiling
-        because I had made this decision already? If he was going to have a child,
-        of course he should have a say, but how much of a say, since the body was
-        mine, since in creating a child, Nature demanded so much of the woman
-        and so little of the man. I remembered taking him to visit a relative in
-        Delaware who had come from Lagos to have her baby. She had brought
-        her toddler, too, and a nanny, and it surprised me how quickly Kwame
-        displaced the nanny for the length of our visit and was on his knees,
-        slipping his palm into a puppet and wiggling his fingers, his voice tuned to
-        a funny high pitch. I had watched the two-year-old, who was riveted and
-        adorably giggly, and saw the father Kwame would be.
-        “I just don’t understand it. It’s as if an artery burst inside him and
-        suddenly his whole body is wired differently and he is no longer the
-        person he was,” I told Mmiliaku. “I don’t understand how we could have
-        unprotected sex for so long and then when I get pregnant, he reacts like he never knew it could happen.”
-        “Zikky, have you considered that maybe he didn’t know?”
-        14
-        “What do you mean?”
-        “Men know very little about women’s bodies.”
-        I felt betrayed by her. I was annoyed, and wanted to tell her that not
-        everyone was her Emmanuel, warped and stunted, raping her while she slept.
-        “How can you say that?” I asked.
-        “Seriously. Men don’t know how women’s bodies work. Remember
-        Amaka, my friend from university? She moved to Canada some years ago.
-        She has a blog where she interviews men anonymously. You should read it.”
-        Kwame thought I couldn’t get pregnant because I hadn’t explained
-        that stopping birth control pills and not using condoms meant I could get
-        pregnant? How ludicrous. I hung up, my dark day further darkened.
-        Yet I began to think about it. On the blog, I read about men who as
-        boys were separated from the girls in sex ed class, and were never taught
-        about the bodies of girls. They learned instead from mainstream
-        pornography, where women were always shaved smooth and never had
-        periods, and so they became men who thought the contrived histrionics
-        onscreen were How Things Were Done. The blog annoyed me, and I
-        resisted it while also seeing its sense. It was possible that a sophisticated, welleducated man with a healthy sex life could still harbor a naivety, a
-        shrunken knowledge, about the inner workings of female bodies. Could it
-        be that Kwame was fuzzy about this, that it had not occurred to him that I
-        might get pregnant, that when he said “Okay, babes” to my “I’m stopping
-        the pill,” it was not what I thought it was?
-        One sleepy weekend morning in his apartment, after slow sex, and a
-        slower brunch of eggs I made and pancakes he made, he was playing a
-        video game with lots of noise and flashes, and I was reading the news
-        online, and I looked up and said, “Can you believe an elected US official
-        actually asked why women can’t hold their periods in?” I laughed, and so
-        did he, but I remembered now his first fleeting reaction, the slightest of
-        hesitations, as though he was holding back from saying, “You mean they can’t?”
-        And I thought about the night I was patting cream on my face and examining again the ugly brownpurple patch that had appeared on my
-        cheek. “It has to be my birth control pills causing this,” I said, and there
-        was again that small hesitation from him, a restraint, from discomfort
-        rather than deceit. I could have been clearer when I stopped the pill, we
-        could have talked plainly, as we talked about so much. Did I choose to
-        assume he understood, because I didn’t want to give him the chance to say
-        he didn’t want a child? Now I was blaming myself. I was bearing the responsibility of a fullgrown man. It felt self-flagellating, as though I 15
-        were looking for a reason to excuse him, but the alternative was to accept
-        that the Kwame I knew was a lie. My head pounded and throbbed, and my
-        vision fogged over. I worried that my stress was harming the baby, and the
-        worry added layers to my stress. I called Mmiliaku again sobbing, saying I
-        was scared to do it alone, I was scared to be alone, I was so secure in my
-        relationship with Kwame that I just never considered being alone.
-        For a while, she let me cry.
-        “Zikky, it won’t be easy, but it won’t be as hard as you think. How
-        you imagine something will be is always worse than how it actually ends
-        up being,” she said. The easy wisdom, her emollient words slipping out so
-        smoothly, rankled rather than soothed me. As if Mmiliaku sensed this, she
-        asked, “Remember when I called you from Nitel?”
-        When I called you from Nitel.
-        Years had passed since that phone call, and Mmiliaku had never
-        referred to it; we had picked up and continued as though the phone call had
-        never happened. She had gone to a Nitel office in central Lagos to call
-        from a grimy public phone because she was worried that Emmanuel—who was not even home—
-        would somehow hear our conversation if she used
-        her cell phone. A bright winter morning in Washington, DC. I was
-        sweeping pillows of snow from the top of my car and missed the first call
-        as my gloved hand fumbled in my coat pocket, and then I almost didn’t
-        answer, because I thought the strange number was a telemarketer.
-        “Zikky,” she said.
-        “Water!” I said. “What number is this?”
-        “I’m pregnant,” she said.
-        Right away something felt off, her flat tone didn’t match her news.
-        “Ah-ah,” I said. Her fifth child was six months old.
-        “I should have put in the coil, but I was waiting for my stitches to
-        heal well first, and then I had to deal with the nipple infection and then
-        Baby’s pneumonia, and I just forgot.”
-        She was crying.
-        “Water, calm down.”
-        “Amuchago m,” she said. “I’m done having children.”
-        We mostly spoke English; Igbo was for mimicking relatives and for
-        saying painful things. When our grandmother died, Mmiliaku had called me and said, “MamaNnukwu anwugo,” with a firmness that gave no
-        room. I had no choice but to accept the news. She sounded the same now as she said, “Amuchago m.”
-        I pictured her from my last visit at Christmas, in her harried living
-        room, little children stumbling about, the eldest just six, an endless loop of
-        cartoons on television, and the faint smell of urine in the slightly warm air.
-        Emmanuel traveled a lot, she said, and when he was in a bad mood, he 16
-          <br /><br /><br />
-                   </div>:null
-                    }
-                    {
-                        chpfour?<div onClick={()=>displayNow(false)}  className='chap2'><center><h1 className='abi'>Page4</h1> </center> 
-                     refused to pay the oldest child’s school fees. “I don’t understand that,” I
-        said, and she looked at me blankly as if to say, “How do you expect me to
-        understand it?” She had a nanny, but she seemed always to be laboring,
-        distracted by tasks and things unfinished. Why is this diaper leaking
-        again? Let’s add banana to the sweet potato puree. If he doesn’t sleep
-        now, he will be unmanageable this evening. This rash is getting worse.
-        “Amuchago m,” she said again.
-        “Water, I understand. Do you know where you’ll go?”
-        “I’ll ask Dr. Ngozi. I trust her.”
-        “It will be okay. I’ll send the money today. I wish I could be there with you.”
-        Nigerian banks were not yet modernized, online transfers didn’t exist,
-        and so I drove, windscreen frosted with ice, to a Western Union. I sent her
-        the money in dollars, so she could get the best rates on the black market,
-        and she hid it in her daughter’s underwear drawer, where Emmanuel
-        would never go, until she went to a discreet doctor’s clinic.
-        I pushed out a baby boy. Wrinkled and silent, scaly skinned, wet black
-        curls plastered on his head. He came out with his mouth full of shit, and
-        the bigger nurse, chuckling, said, “Not the best first meal,” while
-        somebody swiftly took him away to suction the feces from his mouth.
-        Now here he was wrapped like a tidy sausage roll and placed on my
-        chest. He was warm and so very small. I held him with stiff hands. I was
-        suspended in a place of no feeling, waiting to feel. I could not separate this
-        moment from the stories of this moment—years of stories and films and
-        books about this scene, mother and child, mother meeting child, child in
-        mother’s arms. I knew how I was supposed to feel, but I did not know how
-        I felt. It was not transcendental. There was a festering red pain between my
-        legs. Somewhere in my consciousness, a mild triumph hovered, because it
-        was over, finally it was over, and I had pushed out the baby. So animalistic, so violent—
-        the push and pressure, the blood, the doctor urging
-        me, the cranking and stretching of flesh and organ and bone. At the final
-        push, I thought that here in this delivery room we are reduced, briefly and brutishly, to the animals we truly are.
-        “Beautiful boy,” my mother said, smiling down at him.
-        To me she said, “Congratulations,” and it stung of the perfunctory. I
-        reached for my phone. There was no response from Kwame. In a surge of
-        disbelief and desperation, I sent another message: It’s a boy. Now that he
-        knew it was no longer just about me, he might respond. Or appear at the
-        hospital, holding a balloon and flowers, limp flowers from the supermarket 17
-        because he wouldn’t have had time to go to a florist. I felt pathetic.
-        “You’ve had a tear,” my doctor said, needle in hand. Did it never
-        end? Nature must not want humans to reproduce, otherwise birthing would
-        be easy, even enjoyable: babies would easily slip out, and mothers would
-        remain unmarked and whole, merely blessed by having bestowed life.
-        At the needle’s pierce of tender raw skin, I cried out.
-        “Shouldn’t the epidural still be working?” I asked.
-        My mother glanced at me with eloquent eyes. Get yourself together and stop making noise.
-        Then she looked away and asked the doctor a question. “Will it be
-        possible to have his circumcision today?”
-        “Not until he has urinated,” the doctor said. “And I don’t do circumcisions. It’ll be done by another doctor.”
-        “And when can we expect him to urinate?” my mother asked.
-        “I won’t circumcise him,” I said. How could they be having a
-        conversation while he slid needle and thread in and out of my flesh?
-        “Of course you will circumcise him,” my mother said coolly.
-        “I won’t!” I said, my voice raised, and for a moment I felt an intense desire to pass out and escape my life.
-        “Done,” my doctor said, still holding the needle. “It should heal nicely.”
-        My mother was asking about the circumcision consent forms. “Can we get them today?”
-        “I said I won’t circumcise him.”
-        “Why?” She trained her eyes on me.
-        “Barbarism,” I said, surprising myself, remembering a post on a
-        pregnancy website. You Americans may circumcise, but we don’t do
-        barbarism here in Europe. The only reason it’s tolerated at all is so we don’t get called Islamophobic.
-        I mostly ignored posts about baby boys because I thought I was
-        having a girl, I sensed it, and all the mythical girl signs were there: I
-        carried the pregnancy high, I had bad morning sickness, my skin turned greasy.
-        But I remembered the post because I had disagreed, bristled at it.
-        Now it was convenient ammunition.
-        “Circumcision is barbaric,” I said. “Why should I cause my child pain?”
-        “Cause your child pain?” my mother repeated as if I was making no sense.
-        I checked my phone, still nothing from Kwame. I sent another text: Your son.
-        I felt ragged and hopeless, high on my desperation. I had 
-        already ripped up my dignity, so I might as well scatter the pieces. I called
-        him, and his phone rang and went to voice mail, and I called again, and
-        again, and the fourth or fifth time, I heard a beep instead of a ringing, and I
-        knew that he had just blocked my number. I closed my eyes. In my head,
-        there was a queue of emotions I could not name, wanting to be tried out
-        one after the other. A fog blanketed me, a kind of deadness. I didn’t cry;
-        crying seemed too ordinary for this moment.
-        When my mother left the room, the smaller nurse gently asked, “Is it really
-        about causing Baby pain?” I stared at her. Her eyelashes made her eyes dolllike and difficult to take seriously. “Baby won’t remember the pain. If
-        everyone in your culture does it, you should do it too. Kids hate being
-        different. I used to work in a pediatrician’s office and that’s one thing I
-        learned. We don’t have kids yet, my fiancé is training to be a police
-        officer, but I’m keeping that in mind for my kids.”
-        She held the circumcision consent forms in her hand for a moment
-        before placing them on the table. Something about her manner made sobs
-        gather at my throat. Compassion. She thought what I was feeling mattered.
-        Had I missed it before or had she suddenly changed?
-        “Thank you,” I said, wanting to say sorry, too, wanting to reach out to
-        hold her hand, even though I knew it might be a bit too much, but she had turned to leave.
-        “I don’t know if I want to circumcise him,” I told my doctor.
-        “It’s your decision. Boys live happy lives whether circumcised or not.”
-        It felt to me a glib thing to say.
-        “Are you?” I asked.
-        “What?”
-        “Are you circumcised?” I could ask him that, surely, after the shared intimacy of delivering my baby.
-        He smiled a small smile but did not respond. “Your mother speaks so
-        well, she sounds almost British. I like hearing proper English. My relatives
-        in Iran speak like that. She owns two private schools in Nigeria?”
-        “Yes,” I said, and wondered when she had told him that.
-        In the nursery procedure room, he was placed on a board under a warming
-        light, restrained, his arms and legs strapped down. It felt sacrificial.
-        Afterward he fussed and cried. His tiny mouth was pinkly open. From it came a highpitched wail. My baby boy, his skin peeling, his gums bare, 19
-        and between his legs, an angry raw nub. I cradled him and hushed him and
-        pushed my nipple into his mouth and then I, too, began to cry. Why had I
-        done it? Why had I signed those forms, with my mother looking over my
-        shoulder? I had caused my son unnecessary pain. My son. Those words:
-        my son . He was my son. He was mine. I had given birth to him and I was
-        responsible for him and already he knew me, moving his face blindly at
-        my breasts. He was mine, and his tiny translucent arms lay precious
-        against my skin. He was mine. My son. I would die for him. I thought this
-        with a new wonder because I knew it to be true; something that had never
-        been true in my life now suddenly was true. I would die for him. His tiny tongue quivered as he cried his highpitched, screeching cry. My mother
-        took him from me and paced back and forth, holding him pressed to her chest, and soon he fell asleep.
-        She laid him in the glass-walled crib next to my bed.
-        “Mummy, I would die for him,” I said, partly to make peace with her
-        and partly because I needed to speak this miraculous momentous thing that was true.
-        “Thank God you managed to get pregnant at your age,” she said.
-        “What?”
-        “Many women find it difficult at your age.”
-        Why was this an appropriate response? How was this an appropriate
-        response? For long moments I could not find any words to fling at her.
-        “I’ve been pregnant before, so I knew very early on,” I said finally.
-        She said nothing. She began looking through the file the lactation nurse had left on the table.
-        “Thank God I was able to remove that pregnancy,” I said.
-        Her silence bruised the air between us.
-        “I was so relieved,” I said.
-        “Some things are better left unsaid.” She turned away.
-        I wanted to wound her, but I wasn’t sure why I chose this to wound
-        her with. Now her indifference grated. Did it even matter to her? And what would matter—
-        that I ended a pregnancy, that I got pregnant at nineteen,
-        that she hadn’t known? Only Mmiliaku knew, and I never told the boy
-        who didn’t love me, the boy I was trying to make love me when I didn’t
-        yet know that you cannot nice your way into being loved. I met him in
-        sophomore year of college, my second year in America. A basketball
-        player. He was very dark and very beautiful, near-comical in his selfregard, tall, his head always held high, his gait something of a trot. He
-        often said, “I don’t do commitment,” with a rhythm in his voice, as though
-        miming a rap song, but I didn’t hear what he said; I heard what I wanted to hear: he hadn’t done commitment
-        yet . From the beginning I was of no real
-        consequence to him. At some level I knew this, because I had to have 20
-        known this, but I was also nineteen and feeding the insecurities of that age.
-        The first time I knelt naked in front of him, he yanked a fistful of my
-        braids, then pushed at my head so that I gagged. It was a gesture replete
-        with unkindness. He could have done it differently, had he wanted me to
-        do things differently, but that push was punitive, an action whose theme was the word
-        bitch . Still, I said nothing. I made myself boneless and
-        amenable. I spent weekends willing the landline next to my bed to ring.
-        Often it didn’t. Then he would call, before midnight, to ask if I was still
-        up, so he could visit and leave before dawn. When my grandmother died, I
-        called him crying, and he said, “Sorry,” and then in the next breath, “Has
-        your period ended so I can stop by?” My period had not ended and so he
-        did not stop by. I believed then that love had to feel like hunger to be true.
-        “The rubber came off,” he said carelessly that night. He’d been drinking and I had not.
-        “It’s so funny how you say ‘rubber,’” I tittered, wishing he weren’t
-        already distracted, reaching for his clothes, eyes on his car keys. I thought
-        nothing of it; the condom slipping off once couldn’t possibly matter.
-        Symptoms can mean nothing if a mind is convinced, if a thing just
-        cannot be, and so the sore nipples, the sweeping waves of fatigue, had to
-        have other meanings until they no longer could, and I walked to Rite Aid
-        after class and bought a pregnancy test. How swift the moment is when
-        your life becomes a different life. I had never considered myself getting
-        pregnant, never imagined it, and for moments after the test showed
-        positive, I sat drowning in disbelief. I didn’t know what to do; I had never
-        thought I would need to know. I went to the health center and lied to the
-        nurse practitioner, telling her the condom slipped off the night before. She gave me a white morningafter pill, which I swallowed with tepid water
-        from the dispenser in the waiting room. It was too late of course, I knew,
-        but still I did other desperate nonsensical things: I jumped up and threw
-        myself down on the floor, violently, and it left me stunned, too jolted to try
-        it again. I drank cans of lemon soda, dissolved sachets of fizzy liver salts
-        in glasses of water. I disfigured a hanger in my closet and held it steely in
-        my hand, trying to imagine what distraught women did in old films. A
-        clutch of emotions paralyzed me, bleeding into each other, disgust-horror-fearpanic. Like slender talismans, I lined up different pregnancy tests on
-        my sink, and each one I urinated on I willed to turn negative. They were
-        all positive. Something was growing inside me, alien, uninvited, and it felt like an infestation.
-        Some kindnesses you do not ever forget. You carry them to your
-        grave, held warmly somewhere, brought up and savored from time to time.
-        Such was the kindness of the African American woman with short pressed
-        hair at the Planned Parenthood clinic on Angel Street. She smiled with all 
+                   hide?<div onClick={()=>displayNow(false)}  className="chap2"> <center><h1 className='abi'>Night</h1> </center>
+              The village centre. Sidi stands by the Schoolroom window, admiring her photos as before.
+Enter Sadiku with a longish bundle. She is very furtive. Unveils the object which turns out
+to be a carved figure of the Bale, naked and in full detail. She takes a good look at it,
+bursts suddenly into derisive laughter, sets the figure standing in front of the tree. Sidi
+stares in utter amazement.
+SADIKU: So we did for you too did we? We did for you in the end. Oh high and mighty
+lion, have we really scotched you? A -- ya-ya-ya . . . we women undid you in the end. I
+was there when it happened to your father, the great Okiki. I did for him, I, the youngest
+and freshest of the wives. I killed him with my strength. I called him and he came at me,
+but no, for him, this was not like other times. I, Sadiku, was I not flame itself and he the
+flax on old women's spindles? I ate him up! Race of mighty lions, we always consume you,
+at our pleasure we spin you, at our whim we make you dance; like the foolish top you
+think the world revolves around you . . . fools! fools! . . . it is you who run giddy while we
+stand still and watch, and draw your frail thread from you, slowly, till nothing is left but a
+runty old stick. I scotched Okiki, Sadiku's unopened treasure-house demanded sacrifice,
+and Okiki came with his rusted key. Like a snake he came at me, like a rag he went back,
+a limp rag, smeared in shame. . . . [Her ghoulish laugh re-possesses her.] Ah, take
+warning my masters, we'll scotch you in the end . . . [With a yell she leaps up, begins to
+dance round the tree, chanting.] Take warning, my masters
+We'll scotch you in the end.
+-32-
+[ Sidi shuts the window gently, comes out, Sadiku, as she comes round again, gasps and
+is checked in mid-song.]
+SADIKU: Oh it is you my daughter. You should have chosen a better time to scare me to
+death. The hour of victory is no time for any woman to die.
+SIDI: Why? What battle have you won?
+SADIKU: Not me alone girl. You too. Every woman. Oh my daughter, that I have lived to
+see this day . . . To see him fizzle with the drabbest puff of a mis-primed 'sakabula'.
+[Resumes her dance.]
+Take warning, my masters
+We'll scotch you in the end.
+SIDI: Wait Sadiku. I cannot understand.
+SADIKU: You will my girl. You will.
+Take warning my masters . . .
+SIDI: Sadiku, are you well?
+SADIKU: Ask no questions my girl. Just join my victory dance. Oh Sango my lord, who of
+us possessed your lightning and ran like fire through that lion's tail . . .
+SIDI: [holds her firmly as she is about to go off again.]
+Stop your loose ranting. You will not
+Move from here until you make some sense.
+SADIKU: Oh you are troublesome. Do you promise to tell no one?
+SIDI: I swear it. Now tell me quickly.
+[As Sadiku whispers, her eyes widen.]
+O-ho-o-o-o-!
+But Sadiku, if he knew the truth, why
+Did he ask me to . . .
+[Again Sadiku whispers.]
+Ha ha! Some hope indeed. Oh Sadiku
+I suddenly am glad to be a woman.
+[Leaps in the air.]
+We won! We won! Hurray for womankind!
+[Falls in behind Sadiku.]
+-33-
+Take warning, my masters
+We'll scotch you in the end. [ Lakunle enters unobserved.]
+LAKUNLE: The full moon is not yet, but
+The women cannot wait.
+They must go mad without it.
+[The dancing stops. Sadiku frowns.]
+SADIKU: The scarecrow is here. Begone fop! This is the world of women. At this moment
+our star sits in the centre of the sky. We are supreme. What is more, we are about to
+perform a ritual. If you remain, we will chop you up, we will make you the sacrifice.
+LAKUNLE: What is the hag gibbering?
+SADIKU: [advances menacingly.] You less than man, you less than the littlest woman, I
+say begone!
+LAKUNLE: [nettled.] I will have you know that I am a man
+As you will find out if you dare
+To lay a hand on me.
+SADIKU: [throws back her head in laughter.] You a man? Is Baroka not more of a man
+than you? And if he is no longer a man, then what are you? [ Lakunle, understanding the
+meaning, stands rooted, shocked.] Come on, dear girl, let him look on if he will. After all,
+only men are barred from watching this ceremony.
+Take warning, my masters
+We'll . . .
+SIDI: Stop. Sadiku stop. Oh such an idea
+Is running in my head. Let me to the palace for
+This supper he promised me. Sadiku, what a way
+To mock the devil. I shall ask forgiveness
+For my hasty words . . . No need to change
+My answer and consent to be his bride -- he might
+Suspect you've told me. But I shall ask a month
+To think on it.
+SADIKU: [somewhat doubtful.] Baroka is no child you know, he
+-34-
+will know I have betrayed him.
+SIDI: No, he will not. Oh Sadiku let me go.
+I long to see him thwarted, to watch his longing
+His twitching hands which this time cannot
+Rush to loosen his trouser cords.
+SADIKU: You will have to match the Fox's cunning. Use your bashful looks and be truly
+repentant. Goad him my child, torment him until he weeps for shame.
+SIDI: Leave it to me. He will never suspect you of deceit.
+SADIKU: [with another of her energetic leaps.] Yo-rooo o! Yo-rororo o! Shall I come with
+you?
+SIDI: Will that be wise? You forget
+We have not seen each other.
+SADIKU: Away then. Away woman. I shall bide here.
+Haste back and tell Sadiku how the no-man is.
+Away, my lovely child.
+LAKUNLE: [he has listened with increasing horror.] No, Sidi, don't. If you care
+One little bit for what I feel,
+Do not go to torment the man.
+Suppose he knows that you have come to jeer --
+And he will know, if he is not a fool --
+He is a savage thing, degenerate
+He would beat a helpless woman if he could . . .
+SIDI: [running off gleefully.] Ta-raa school teacher. Waithere for me.
+LAKUNLE: [stamps his foot helplessly.] Foolish girl! . . . And this is all your work.
+Could you not keep a secret?
+Must every word leak out of you
+As surely as the final drops
+Of mother's milk
+Oozed from your flattened breast
+Generations ago?
+-35-
+SADIKU: Watch your wagging tongue, unformed creature!
+LAKUNLE: If any harm befalls her . . .
+SADIKU: Woman though she is, she can take better care of herself than you can of her.
+Fancy a thing like you actually wanting a girl like that, all to your little self. [Walks round
+him and looks him up and down.] Ah! Oba Ala is an accommodating god. What a poor
+figure you cut!
+LAKUNLE: I wouldn't demean myself to bandy words With a woman of the bush.
+SADIKU: At this moment, your betrothed is supping with the Lion.
+LAKUNLE: [pleased at the use of the word 'Betrothed'.] Well, we are not really betrothed
+as yet,
+I mean, she is not promised yet.
+But it will come in time, I'm sure.
+SADIKU: [bursts into her cackling laughter,] The bride-price, is that paid?
+LAKUNLE: Mind your own business.
+SADIKU: Why don't you do what other men have done. Take a farm for a season. One
+harvest will be enough to pay the price, even for a girl like Sidi. Or will the smell of the wet
+soil be too much for your delicate nostrils?
+LAKUNLE: I said mind your own business.
+SADIKU: A -- a -- ah. It is true what they say then. You are going to convert the whole
+village so that no one will ever pay the bride-price again. Ah, you're a clever man. I must
+admit that it is a good way for getting out of it, but don't you think you'd use more time
+and energy that way than you would if . . .
+LAKUNLE: [with conviction.] Within a year or two, I swear,
+This town shall see a transformation
+Bride-price will be a thing forgotten
+And wives shall take their place by men.
+A motor road will pass this spot.
+-36-
+And bring the city ways to us.
+We'll buy saucepans for all the women
+Clay pots are crude and unhygienic
+No man shall take more wives than one
+That's why they're impotent too soon.
+The ruler shall ride cars, not horses
+Or a bicycle at the very least.
+We'll burn the forest, cut the trees
+Then plant a modern park for lovers
+We'll print newspapers every day
+With pictures of seductive girls.
+The world will judge our progress by
+The girls that win beauty contests.
+While Lagos builds new factories daily
+We only play 'ayo' and gossip.
+Where is our school of Ballroom dancing?
+Who here can throw a cocktail party?
+We must be modern with the rest
+Or live forgotten by the world
+We must reject the palm wine habit.
+And take to tea, with milk and sugar.
+[Turns on Sadiku who has been staring at him in terror. She retreats, and he continues to
+talk down at her as they go round, then down and off-stage, Lakunle's hectoring voice
+trailing away in the distance.] This is my plan, you withered face
+And I shall start by teaching you.
+From now you shall attend my school
+And take your place with twelve-year olds.
+For though you're nearly seventy,
+Your mind is simple and unformed.
+Have you no shame that at your age,
+You neither read nor write nor think?
+You spend your days as senior wife,
+Collecting brides for Baroka.
+And now because you've sucked him dry,
+You send my Sidi to his shame. . . .
+[The scene changes to Baroka's bedroom. On the left in a oneknee-on-floor posture, two men are engaged inkind of wrestling, their arms clasped round each other's waist, testing the right moment to leave. One is Barthe other a short squat figure of apparent muscular power. The contest is still in the balanced stage. In somedistant part of the house, Sidi's voice is heard lifted in the familiar general greeting, addressed to no one in
+particular.]
+SIDI: A good day to the head and people
+Of this house.
+[ Baroka lifts his head, frowns as if he is trying to place the voice.]
+A good day to the head and people
+Of this house.
+[ Baroka now decides to ignore it and to concentrate on the contest. Sidi's voice draws progressively nearer.enters nearly backwards, as she is still busy admiring the room through which she has just passed. Gasps onturning round to see the two men.]
+BAROKA: [without looking up.] Is Sadiku not at home then?
+SIDI: [absent-mindedly.] Hm?
+BAROKA: I asked, is Sadiku not at home?
+SIDI: [recollecting herself, she curtsys quickly.] I saw no one, Baroka.
+BAROKA: No one? Do you mean there was no one
+To bar unwanted strangers from my privacy?
+SIDI: [retreating.] The house . . . seemed . . . empty.
+BAROKA: Ah, I forget. This is the price I pay
+Once every week, for being progressive.
+Prompted by the school teacher, my servants
+Were prevailed upon to form something they call
+The Palace Workers' Union. And in keeping
+With the habits -- I am told -- of modern towns,
+This is their day off.
+-38-
+SIDI: [seeing that Baroka seems to be in a better mood, she becomes somewhat bolder.
+Moves forward -- saucily.] Is this also a day off
+For Baroka's wives?
+BAROKA: [looks up sharply, relaxes and speaks with a casual voice.]
+No, the madness has not gripped them -- yet.
+Did you not meet with one of them?
+SIDI: No, Baroka. There was no one about.
+BAROKA: Not even Ailatu, my favourite?
+Was she not at her usual place,
+Beside my door?
+SIDI: [absently. She is deeply engrossed in watching the contest.]
+Her stool is there. And I saw
+The slippers she was embroidering.
+BAROKA: Hm. Hm. I think I know
+Where she'll be found. In a dark corner
+Sulking like a slighted cockroach.
+By the way, look and tell me
+If she left her shawl behind.
+[So as not to miss any part of the tussle, she moves backwards, darts a quick look round
+the door and back again.]
+SIDI: There is a black shawl on the stool.
+BAROKA: [a regretful sigh.]
+Then she'll be back tonight. I had hoped
+My words were harsh enough
+To free me from her spite for a week or more.
+SIDI: Did Ailatu offend her husband?
+BAROKA: Offend? My armpit still weeps blood
+For the gross abuse I suffered from one
+I called my favourite.
+SIDI: [in a disappointed voice.]
+Oh. Is that all?
+BAROKA: Is that not enough? Why child?
+What more could the woman do?
+-39-
+SIDI: Nothing. Nothing, Baroka. I thought perhaps --
+Well -- young wives are known to be --
+Forward -- sometimes -- to their husbands.
+BAROKA: In an ill-kept household perhaps. But not
+Under Baroka's roof. And yet,
+Such are the sudden spites of women
+That even I cannot foresee them all.
+And child -- if I lose this little match
+Remember that my armpit
+Burns and itches turn by turn.
+[ Sidi continues watching for some time, then clasps her hand over her mouth as she
+remembers what she should have done to begin with. Doubtful how to proceed, she
+hesitates for some moments, then comes to a decision and kneels.]
+SIDI: I have come, Bale, as a repentant child.
+BAROKA: What?
+SIDI: [very hesitantly, eyes to the floor, but she darts a quick look up when she thinks the
+Bale isn't looking.] The answer which I sent to the Bale Was given in a thoughtless
+moment . . .
+BAROKA: Answer, child? To what?
+SIDI: A message brought by . . .
+BAROKA: [groans and strains in a muscular effort.]
+Will you say that again? It is true that for supper
+I did require your company. But up till now
+Sadiku has brought no reply.
+SIDI: [amazed.] But the other matter! Did not the Bale
+Send . . . did Baroka not send . . . ?
+BAROKA: [with sinister encouragement.]
+What did Baroka not, my child?
+SIDI: [cowed, but angry, rises.]
+It is nothing, Bale. I only hope
+That I am here at the Bale's invitation.
+BAROKA: [as if trying to understand, he frowns as he looks at her.]
+-40-
+A-ah, at last I understand. You think
+I took offence because you entered
+Unannounced?
+SIDI: I remember that the Bale called me
+An unwanted stranger.
+BAROKA: That could be expected. Is a man's bedroom
+To be made naked to any flea
+That chances to wander through?
+[ Sidi turns away, very hurt.]
+Come, come, my child. You are too quick
+To feel aggrieved. Of course you are
+More than welcome. But I expected Ailatu
+To tell me you were here.
+[ Sidi curtsys briefly with her back to Baroka. After a while, she turns round. The mischief
+returns to her face. Baroka's attitude of denial has been a set-back but she is now ready
+to pursue her mission.]
+SIDI: I hope the Bale will not think me
+Forward. But, like everyone, I had thought
+The Favourite was a gentle woman.
+BAROKA: And so had I.
+SIDI: [slyly.] One would hardly think that she
+Would give offence without a cause
+Was the Favourite . . . in some way . . .
+Dissatisfied . . . with her lord and husband?
+[With a mock curtsy, quickly executed as Baroka begins to look up.]
+BAROKA: [slowly turns towards her.] Now that
+Is a question which I never thought to hear
+Except from a school teacher. Do you think
+The Lion has such leisure that he asks
+The whys and wherefores of a woman's
+Squint?
+-41-
+[ Sidi steps back and curtsys. As before, and throughout this scene, she is easily cowed by Baroka's change mood, all the more easily as she is, in any case, frightened by her own boldness.]
+SIDI: I meant no disrespect . . .
+BAROKA: [gently.] I know. [Breaks off.] Christians on my
+Father's shrines, child!
+Do you think I took offence? A -- aw
+Come in and seat yourself. Since you broke in
+Unawares, and appear resolved to stay,
+Try, if you can, not to make me feel
+A humourless old ram. I allow no one
+To watch my daily exercise, but as we say,
+The woman gets lost in the woods one day
+And every wood deity dies the next.
+[ Sidi curtsys, watches and moves forward warily, as if expecting the two men to spring apart too suddenly.]SIDI: I think he will win.
+BAROKA: Is that a wish, my daughter?
+SIDI: No, but -- [Hesitates, but boldness wins.]
+If the tortoise cannot tumble
+It does not mean that he can stand.
+[ Baroka looks at her, seemingly puzzled. Sidi turns away, humming.]
+BAROKA: When the child is full of riddles, the mother
+Has one water-pot the less.
+[ Sidi tiptoes to Baroka's back and pulls asses' ears at hint.]
+SIDI: I think he will win.
+BAROKA: He knows he must. Would it profit me
+To pit my strength against a weakling?
+Only yesterday, this son of -- I suspect --
+A python for a mother, and fathered beyond doubt
+By a blubber-bottomed baboon,
+[The complimented man grins.]
+Only yesterday, he nearly
+-42
+Ploughed my tongue with my front teeth
+In a friendly wrestling bout.
+WRESTLER: [encouraged, makes an effort.] Ugh. Ugh.
+SIDI: [bent almost over them. Genuinely worried.]
+Oh! Does it hurt?
+BAROKA: Not yet . . . but, as I was saying
+I change my wrestlers when I have learnt
+To throw them. I also change my wives
+When I have learnt to tire them.
+SIDI: And is this another . . . changing time
+For the Bale?
+BAROKA: Who knows? Until the finger nails
+Have scraped the dust, no one can tell
+Which insect released his bowels.
+[ Sidi grimaces in disgust and walks away. Returns as she thinks up a new idea.]
+SIDI: A woman spoke to me this afternoon.
+BAROKA: Indeed. And does Sidi find this unusual --
+That a woman speak with her in the afternoon?
+SIDI: [stamping.] No. She had the message of a go-between.
+BAROKA: Did she? Then I rejoice with you.
+[ Sidi stands biting her lips. Baroka looks at her, this time with deliberate appreciation.]
+And now I think of it, why not?
+There must be many men who
+Build their loft to fit your height.
+SIDI: [unmoving, pointedly.] Her message came from one
+With many lofts.
+BAROKA: Ah! Such is the greed of men.
+SIDI: If Baroka were my father
+[aside] -- which many would take him to be --
+[Makes a rude sign.]
+Would he pay my dowry to this man And give his blessings?
+-43-
+BAROKA: Well, I must know his character.
+For instance, is the man rich?
+SIDI: Rumour has it so.
+BAROKA: Is he repulsive?
+SIDI: He is old. [ Baroka winces.]
+BAROKA: Is he mean and miserly?
+SIDI: To strangers -- no. There are tales
+Of his open-handedness, which are never
+Quite without a motive. But his wives report
+-- To take one little story --
+How he grew the taste for ground corn
+And pepper -- because he would not pay
+The price of snuff!
+[With a sudden burst of angry energy, Baroka lifts his opponent and throws him over his
+shoulder.]
+BAROKA: A lie! The price of snuff
+Had nothing to do with it.
+SIDI: [too excited to listen.] You won!
+BAROKA: By the years on my beard, I swear
+They slander me!
+SIDI: [excitedly.] You won. You won!
+[She breaks into a kind of shoulder dance and sings.]
+Yokolu Yokolu. Ko ha tan bi
+Iyawo gb'oko san'le
+Oko yo'ke . . .
+[She repeats this throughout Baroka's protests. Baroka is pacing angrily up and down. The
+defeated man, nursing a hip, goes to the corner of the room and lifts out a low 'ako'
+bench. He sits on the floor, and soon, Barokajoins him; using only their arms now, they
+place their elbows on the bench and grip hands. Baroka takes his off again, replaces it,
+takes it off again and so on during the rest of his outburst.]
+BAROKA: This means nothing to me of course. Nothing!
+But I know the ways of women, and I know
+-44-
+Their ruinous tongues.
+Suppose that, as a child -- only suppose --
+Suppose then, that as a child, I --
+And remember, I only use myself
+To illustrate the plight of many men . . .
+So, once again, suppose that as a child
+I grew to love 'tanfiri' -- with a good dose of pepper
+And growing old, I found that --
+Sooner than die away, my passion only
+Bred itself upon each mouthful of
+Ground corn and pepper I consumed.
+Now, think child, would it be seemly
+At my age, and the father of children,
+To be discovered, in public
+Thrusting fistfuls of corn and pepper
+In my mouth? Is it not wise to indulge
+In the little masquerade of a dignified
+Snuff-box? -- But remember, I only make
+A pleading for this prey of women's
+Malice. I feel his own injustice,
+Being myself, a daily fellow-suffferer!
+[ Baroka seems to realize for the first time that Sidi has paid no attention to his explanation. She is, in fact, humming and shaking her shoulders. He stares questioningly at her. Sidi stops, somewhat confused and
+embarrassed, points sheepishly to the wrestler.]
+SIDI: I think this time he will win.
+[ Baroka's grumbling subsides slowly. He is now attentive to the present bout.]
+BAROKA: Now let us once again take up
+The questioning. [Almost timidly.] Is this man
+Good and kindly.
+SIDI: They say he uses well
+His dogs and horses.
+-45-
+BAROKA: [desperately.]
+Well is he fierce then? Reckless!
+Does the bush cow run to hole
+When he hears his beaters' Hei-ei-wo-rah!
+SIDI: There are heads and skins of leopards
+Hung around his council room.
+But the market is also
+Full of them.
+BAROKA: Is he not wise? Is he not sagely?
+Do the young and old not seek
+His counsel?
+SIDI: The Fox is said to be wise
+So cunning that he stalks and dines on
+New-hatched chickens.
+BAROKA: [more and more desperate.]
+Does he not beget strength on wombs?
+Are his children not tall and stout-limbed?
+SIDI: Once upon a time.
+BAROKA: Once upon a time?
+What do you mean, girl?
+SIDI: Just once upon a time.
+Perhaps his children have of late
+Been plagued with shyness and refuse
+To come into the world. Or else
+He is so tired with the day's affairs
+That at night, he turns his buttocks
+To his wives. But there have been
+No new reeds cut by his servants,
+No new cots woven.
+And his household gods are starved
+For want of child-naming festivities
+Since the last two rains went by.
+BAROKA: Perhaps he is a frugal man.
+Mindful of years to come,
+-46-
+Planning for a final burst of life, he
+Husbands his strength.
+SIDI: [giggling. She is actually stopped, half-way, by giggling at the cleverness of her
+remark.]
+To husband his wives surely ought to be
+A man's first duties -- at all times.
+BAROKA: My beard tells me you've been a pupil,
+A most diligent pupil of Sadiku.
+Among all shameless women,
+The sharpest tongues grow from that one
+Peeling bark -- Sadiku, my faithful lizard! [Growing steadily warmer during this speech, he
+again slaps down his opponent's arm as he shouts' Sadiku'.]
+SIDI: [backing away, aware that she has perhaps gone too far and betrayed knowledge of
+the 'secret'.]
+I have learnt nothing of anyone.
+BAROKA: No more. No more.
+Already I have lost a wrestler
+On your account. This town-bred daring
+Of little girls, awakes in me
+A seven-horned devil of strength.
+Let one woman speak a careless word
+And I can pin a wriggling -- Bah! [Lets go the man's arm. He has risen during the last
+speech but held on to the man's arm, who is forced to rise with him.]
+The tappers should have called by now.
+See if we have a fresh gourd by the door. [The wrestler goes out. Baroka goes to sit on
+the bed, Sidi eyeing him, doubtfully.] What an ill-tempered man I daily grow
+Towards. Soon my voice will be
+The sand between two grinding stones.
+But I have my scattered kindliness
+Though few occasions serve to herald it.
+-47-
+And Sidi, my daughter, you do not know
+The thoughts which prompted me
+To ask the pleasure that I be your host
+This evening, I would not tell Sadiku,
+Meaning to give delight
+With the surprise of it. Now, tell me, child
+Can you guess a little at this thing?
+SIDI: Sadiku told me nothing.
+BAROKA: You are hasty with denial. For how indeed
+Could Sadiku, since I told her
+Nothing of my mind, But, my daughter,
+Did she not, perhaps . . . invent some tale?
+For I know Sadiku loves to be
+All-knowing.
+SIDI: She said no more, except the Bale
+Begged my presence.
+BAROKA: [rises quickly to the bait.]
+Begged? Bale Baroka begged?
+[Wrestler enters with gourd and calabash-cups.
+Baroka
+relapses.]
+Ah! I see you love to bait your elders.
+One way the world remains the same,
+The child still thinks she is wiser than
+The cotton head of age.
+Do you think Baroka deaf or blind
+To little signs? But let that pass.
+Only, lest you fall victim to the schemes
+Of busy women, I will tell you this --
+I know Sadiku plays the match-maker
+Without the prompting. If I look
+On any maid, or call her name
+Even in the course of harmless, neighbourly
+Well-wishing -- How fares your daughter?
+-- Is your sister now recovered from her
+-48-
+Whooping cough? -- How fast your ward
+Approaches womanhood! Have the village lads
+Begun to gather at your door? --
+Or any word at all which shows I am
+The thoughtful guardian of the village health,
+If it concerns a woman, Sadiku straightway
+Flings herself into the role of go-between
+And before I even don a cap, I find
+Yet another stranger in my bed!
+SIDI. It seems a Bale's life
+Is full of great unhappiness.
+BAROKA: I do not complain. No, my child
+I accept the sweet and sour with
+A ruler's grace. I lose my patience
+Only when I meet with
+The new immodesty with women.
+Now, my Sidi, you have not caught
+This new and strange disease, I hope.
+SIDI: [curtsying.] The threading of my smock --
+Does Baroka not know the marking
+Of the village loom?
+BAROKA: But will Sidi, the pride of mothers,
+Will she always wear it?
+SIDI: Will Sidi, the proud daughter of Baroka,
+Will she step out naked?
+[A pause. Baroka surveys Sidi in an almost fatherly manner and she bashfully drops her
+eyes.]
+BAROKA: To think that once I thought,
+Sidi is the eye's delight, but
+She is vain, and her head
+Is feather-light, and always giddy
+With a trivial thought. And now
+I find her deep and wise beyond her years.
+[Reaches under his pillow, brings out the now familiar
+-49-
+magazine, and also an addressed envelope. Retains the former and gives her the
+envelope.]
+Do you know what this means?
+The trim red piece of paper
+In the corner?
+SIDI: I know it. A stamp. Lakunle receives
+Letters from Lagos marked with it.
+BAROKA: [obviously disappointed.]
+Hm. Lakunle. But more about him
+Later. Do you know what it means --
+This little frippery?
+SIDI: [very proudly.]
+Yes. I know that too. Is it not a tax on
+The habit of talking with paper?
+BAROKA: Oh. Oh. I see you dip your hand
+Into the pockets of the school teacher
+And retrieve it bulging with knowledge.
+[Goes to the strange machine, and pulls the lever up and down.]
+Now this, not even the school teacher can tell
+What magic this performs. Come nearer,
+It will not bite.
+SIDI: I have never seen the like.
+BAROKA: The work dear child, of the palace blacksmiths
+Built in full secrecy. All is not well with it --
+But I will find the cause and then Ilujinle
+Will boast its own tax on paper, made with
+Stamps like this. For long I dreamt it
+And here it stands, child of my thoughts.
+SIDI: [wonder-struck.] You mean . . . this will work some day?
+BAROKA: Ogun has said the word. And now my girl
+What think you of that image on the stamp
+This spiderwork of iron, wood and mortar?
+SIDI: Is it not a bridge?
+BAROKA: It is a bridge. The longest -- so they say
+-50-
+In the whole country. When not a bridge,
+You'll find a print of groundnuts
+Stacked like pyramids,
+Or palm trees, or cocoa-trees, and farmers
+Hacking pods, and workmen
+Felling trees and tying skinned logs
+Into rafts. A thousand thousand letters
+By road, by rail, by air,
+From one end of the world to another,
+And not one human head among them;
+Not one head of beauty on the stamp?
+SIDI: But I once saw Lakunle's letter
+With a head of bronze.
+BAROKA: A figurehead, my child, a lifeless work
+Of craft, with holes for eyes, and coldness
+For the warmth of life and love
+In youthful cheeks like yours,
+My daughter . . .
+[Pauses to watch the effect on Sidi.]
+. . . Can you see it, Sidi?
+Tens of thousands of these dainty prints
+And each one with this legend of Sidi.
+[Flourishes the magazine, open in the middle.]
+The village goddess, reaching out
+Towards the sun, her lover.
+Can you see it, my daughter!
+[ Sidi drowns herself totally in the contemplation, takes the magazine but does not even
+look at it. Sits on the bed.]
+BAROKA: [very gently.]
+I hope you will not think it too great
+A burden, to carry the country's mail
+All on your comeliness.
+[Walks away, an almost business-like tone.]
+Our beginnings will
+-51-
+Of course be modest. We shall begin
+By cutting stamps for our own village alone.
+As the schoolmaster himself would say --
+Charity begins at home.
+[Pause. Faces Sidi from nearly the distance of the room.]
+For a long time now,
+The town-dwellers have made up tales
+Of the backwardness of Ilujinle
+Until it hurts Baroka, who holds
+The welfare of his people deep at heart.
+Now, if we do this thing, it will prove more
+Than any single town has done!
+[The wrestler, who has been listening open-mouthed, drops his cup in admiration. Baroka,
+annoyed, realizing only now in fact that he is still in the room, waves him impatiently out.]
+I do not hate progress, only its nature
+Which makes all roofs and faces look the same.
+And the wish of one old man is
+That here and there,
+[Goes progressively towards Sidi, until he bends over her, then sits beside her on the
+bed.]
+Among the bridges and the murderous roads,
+Below the humming birds which
+Smoke the face of Sango, dispenser of
+The snake-tongue lightning; between this moment
+And the reckless broom that will be-wielded
+In these years to come, we must leave
+Virgin plots of lives, rich decay
+And the tang of vapour rising from
+Forgotten heaps of compost, lying
+Undisturbed . . . But the skin of progress
+Masks, unknown, the spotted wolf of sameness . . .
+Does sameness not revolt your being,
+My daughter?
+-52-
+[ Sidi is capable only of a bewildered nod, slowly.]
+BAROKA: [sighs, hands folded piously on his lap.]
+I find my soul is sensitive, like yours,
+Indeed, although there is one -- no more think I --
+One generation between yours and mine,
+Our thoughts fly crisply through the air
+And meet, purified, as one.
+And our first union
+Is the making of this stamp.
+The one redeeming grace on any paper-tax
+Shall be your face. And mine,
+The soul behind it all, worshipful
+Of Nature for her gift of youth
+And beauty to our earth. Does this
+Please you, my daughter?
+SIDI: I can no longer see the meaning, Baroka.
+Now that you speak
+Almost like the school teacher, except
+Your words fly on a different path,
+I find . . .
+BAROKA: It is a bad thing, then, to sound
+Like your school teacher?
+SIDI: No Bale, but words are like beetles
+Boring at my ears, and my head
+Becomes a jumping bean. Perhaps after all,
+As the school teacher tells me often,
+[Very miserably.]
+I have a simple mind.
+BAROKA: [pats her kindly on the head.]
+No, Sidi, not simple, only straight and truthful
+Like a fresh-water reed. But I do find
+Your school teacher and I are much alike.
+The proof of wisdom is the wish to learn
+Even from children. And the haste of youth
+-53-
+Must learn its temper from the gloss
+Of ancient leather, from a strength
+Knit close along the grain. The school teacher
+And I, must learn one from the other.
+Is this not right?
+[A tearful nod.]
+BAROKA: The old must flow into the new, Sidi,
+Not blind itself or stand foolishly
+Apart. A girl like you must inherit
+Miracles which age alone reveals.
+Is this not so?
+SIDI: Everything you say, Bale,
+Seems wise to me.
+BAROKA: Yesterday's wine alone is strong and blooded, child,
+And though the Christians' holy book denies
+The truth of this, old wine thrives best
+Within a new bottle. The coarseness
+Is mellowed down, and the rugged wine
+Acquires a full and rounded body . . .
+Is this not so -- my child?
+[Quite overcome, Sidi nods.]
+BAROKA: Those who know little of Baroka think
+His life one pleasure-living course.
+But the monkey sweats, my child,
+The monkey sweats,
+It is only the hair upon his back
+Which still deceives the world . . .
+[ Sidi's head falls slowly on the Bale's shoulder. The Bale remains in his final bodyweighed-down-by-burdens-of-State attitude. Even before the scene is completely shut off
+a crowd of dancers burst in at the front and dance off at the opposite side without
+slackening pace. In their brief appearance it should be apparent that they comprise a
+group of female dancers pursuing a
+-54-
+masked male. Drumming and shouts continue quite audibly and shortly afterwards. They
+enter and re-cross the stage in the same manner. The shouts fade away and they next
+appear at the market clearing. It is now full evening. Lakunle and Sadiku are still waiting
+for Sidi's return. The traders are beginning to assemble one by one, ready for the evening
+market. Hawkers pass through with oil-lamps beside their ware. Food sellers enter with
+cookink pots and foodstuffs, set up their 'adogan' or stone hearth and build a fire. All this
+while, Lakunle is pacing wretchedly, Sadiku looks on placidly.]
+LAKUNLE: [he is pacing furiously.]
+He's killed her.
+I warned you. You know him,
+And I warned you.
+[Goes up all the approaches to look.]
+She's been gone half the day. It will soon
+Be daylight. And still no news.
+Women have disappeared before.
+No trace. Vanished. Now we know how.
+[Checks, turns round.]
+And why!
+Mock an old man, will you? So?
+You can laugh? Ha ha! You wait.
+I'll come and see you
+Whipped like a dog. Baroka's head wife
+Driven out of the house for plotting
+With a girl.
+[Each approaching footstep brings Lakunle to attention, but it is only a hawker or a
+passer-by. The wrestler passes. Sadiku greets him familiarly. Then, after he has passed,
+some significance of this breaks on Sadiku and she begins to look a little puzzled.]
+-55-
+LAKUNLE: I know he has dungeons. Secret holes
+Where a helpless girl will lie
+And rot for ever. But not for nothing
+Was I born a man. I'll find my way
+To rescue her. She little deserves it, but
+I shall risk my life for her.
+[The mummers can now be heard again, distantly. Sadiku and Lakunle become attentive as the noise
+approaches, Lakunle increasingly uneasy. A little, but not too much notice is paid by the market people.]
+What is that?
+SADIKU: If my guess is right, it will be mummers.
+[Adds slyly.]
+Somebody must have told them the news.
+LAKUNLE: What news?
+[ Sadiku chuckles darkly and comprehension breaks on the School teacher.] Baroka! You dared . . . ?
+Woman, is there no mercy in your veins?
+He gave you children, and he stood
+Faithfully by you and them.
+He risked his life that you may boast
+A warrior-hunter for your lord . . . But you --
+You sell him to the rhyming rabble
+Gloating in your disloyalty . . .
+SADIKU: [calmly dips her hand in his pocket.]
+Have you any money?
+LAKUNLE: [snatching out her hand.]
+Why? What? . . . Keep away, witch! Have you
+Turned pickpocket in your dotage?
+SADIKU: Don't be a miser. Will you let them go without
+giving you a special performance?
+LAKUNLE: If you think I care for their obscenity . . .
+SADIKU: [wheedling.] Come on, school teacher. They'll expect
+-56-
+it of you . . . The man of learning . . . the young sprig of foreign wisdom . . . You must not
+demean yourself in their eyes . . . you must give them money to perform for your
+lordship . . .
+[Re-enter the mummers, dancing straight through (more centrally this time) as before.
+Male dancer enters first, pursued by a number of young women and other choral idlers.
+The man dances in tortured movements. He and about half of his pursuers have already
+danced off-stage on the opposite side when Sadiku dips her hand briskly in Lakunle's
+pocket, this time with greater success. Before Lakunle call stop her, she has darted to the
+drummers and pressed a coin apiece on their foreheads, waving them to possession of the
+floor. Tilting their heads backwards, they drum her praises. Sadiku denies the credit,
+points to Lakunle as the generous benefactor. They transfer their attention to him where
+he stands biting his lips at the trick. The other dancers have now been brought back and
+the drummers resume the beat of the interrupted dance. The treasurer removes the coins
+from their foreheads and places them in a pouch. Now begins the dance of virility which is
+of course none other than the Baroka story. Very athletic movements. Even in his prime, '
+Baroka' is made a comic figure, held in a kind of tolerant respect by his women. At his
+decline and final downfall, they are most unsparing in their taunts and tantalizing motions.
+Sadiku has never stopped bouncing on her toes through the dance, now she is done the
+honour of being invited to join at the kill. A dumb show of bashful refusals, then she joins
+them, reveals surprising agility for her age, to the wild enthusiasm of the rest who
+surround and spur her on.
+With ' Baroka' finally scotched, the crowd dances away to their incoming movement,
+leaving Sadiku to dance on oblivious of their departure. The drumming becomes more
+distant and she unwraps her eyelids. Sighs, looks around her and walks contentedly
+towards Lakunle. As usual he has enjoyed the spectacle in spite of himself, showing
+especial relish where ' Baroka' gets the worst of it from his women. Sadiku looks at him for
+a moment while he tries to replace
+-57-
+his obvious enjoyment with disdain. She shouts 'Boo' at him, and breaks into a dance
+movement, shakes a sudden leg at Lakunle.]
+SADIKU: Sadiku of the duiker's feet . . . that's what the men used to call me. I could twist
+and untwist my waist with the smoothness of a water snake . . .
+LAKUNLE: No doubt. And you are still just as slippery.
+I hope Baroka kills you for this.
+When he finds out what your wagging tongue
+Has done to him, I hope he beats you
+Till you choke on your own breath . . .
+[ Sidi bursts in, she has been running all the way. She throws herself on the ground
+against the tree and sobs violently, beating herself on the ground.]
+SADIKU: [on her knees beside her.] Why, child. What is the matter?
+SIDI: [pushes her off.]
+Get away from me. Do not touch me.
+LAKUNLE: [with a triumphant smile, he pulls Sadiku away and takes her place.]
+Oh, Sidi, let me kiss your tears . . .
+SIDI: [pushes him so hard that he sits down abruptly.]
+Don't touch me.
+LAKUNLE: [dusting himself.]
+He must have beaten her.
+Did I not warn you both?
+Baroka is a creature of the wilds,
+Untutored, mannerless, devoid of grace.
+[ Sidi only cries all the more, beats on the ground with clenched fists and stubs her toes in
+the ground.] Chief though he is,
+I shall kill him for this . . .
+No. Better still, I shall demand
+Redress from the central courts.
+I shall make him spend
+The remainder of his wretched life
+-58-
+In prison -- with hard labour.
+I'll teach him
+To beat defenceless women . . .
+SIDI: [lifting her head.]
+Fool! You little fools! It was a lie.
+The frog. The cunning frog!
+He lied to you, Sadiku.
+SADIKU: Sango forbid!
+SIDI: He told me . . . afterwards, crowing.
+It was a trick.
+He knew Sadiku would not keep it to herself,
+That I, or maybe other maids would hear of it
+And go to mock his plight.
+And how he laughed!
+How his frog-face croaked and croaked
+And called me little fool!
+Oh how I hate him! How I loathe
+And long to kill the man!
+LAKUNLE: [retreating.] But Sidi, did he . . . ? I mean . . .
+Did you escape?
+[Louder sobs front Sidi.]
+Speak, Sidi, this is agony.
+Tell me the worst; I'll take it like a man.
+Is it the fright which effects you so,
+Or did he . . . ? Sidi, I cannot bear the thought.
+The words refuse to form.
+Do not unman me, Sidi. Speak
+Before I burst in tears.
+SADIKU: [raises Sidi's chin in her hand.]
+Sidi, are you a maid or not?
+[ Sidi shakes her head violently and bursts afresh in tears.]
+LAKUNLE: The Lord forbid!
+SADIKU: Too late for prayers. Cheer up. It happens to the best
+of us.
+-59-
+LAKUNLE: Oh heavens, strike me dead!
+Earth, open up and swallow Lakunle.
+For he no longer has the wish to live.
+Let the lightning fall and shrivel me
+To dust and ashes . . .
+[Recoils.]
+No, that wish is cowardly. This trial is my own.
+Let Sango and his lightning keep out of this. It
+Is my cross, and let it not be spoken that
+In the hour of need, Lakunle stood
+Upon the scales and was proved wanting.
+My love is selfless -- the love of spirit
+Not of flesh.
+[Stands over Sidi.]
+Dear Sidi, we shall forget the past.
+This great misfortune touches not
+The treasury of my love.
+But you will agree, it is only fair
+That we forget the bride-price totally
+Since you no longer can be called a maid.
+Here is my hand; if on these terms,
+You'll be my cherished wife.
+We'll take an oath, between us three
+That this shall stay
+A secret to our dying days . . .
+[Takes a look at Sadiku and adds quickly.]
+Oh no, a secret even after we're dead and gone.
+And if Baroka dares to boast of it,
+I'll swear he is a liar -- and swear by Sango too!
+[ Sidi raises herself slowly, staring at Lakunle with
+unbelieving eyes. She is unsmiling, her face a puzzle.]
+SIDI: You would? You would marry me?
+LAKUNLE: [puffs out his chest.] Yes.
+[Without a change of expression, Sidi dashes suddenly off the stage.]
+-60-
+SADIKU: What on earth has got into her?
+LAKUNLE: I wish I knew
+She took off suddenly
+Like a hunted buck.
+[Looks off-stage.]
+I think -- yes, she is,
+She is going home.
+Sadiku, will you go?
+Find out if you can
+What she plans to do.
+[ Sadiku nods and goes. Lakunle walks up and down.]
+And now I know I am the biggest fool
+That ever walked this earth.
+There are women to be found
+In every town or village in these parts,
+And every one a virgin.
+But I obey my books.
+[Distant music. Light drums, flutes, box-guitars, 'sekere'.]
+'Man takes the fallen woman by the hand'
+And ever after they live happily.
+Moreover, I will admit,
+It solves the problem of her bride-price too.
+A man must live or fall by his true
+Principles. That, I had sworn,
+Never to pay. [Enter Sadiku.]
+SADIKU: She is packing her things. She is gathering her clothes and trinkets together, and
+oiling herself as a bride does before her wedding.
+LAKUNLE: Heaven help us! I am not impatient.
+Surely she can wait a day or two at least.
+There is the asking to be done,
+And then I have to hire a praise-singer,
+And such a number of ceremonies
+-61-
+Must firstly be performed.
+SADIKU: Just what I said but she only laughed at me and called me a . . . a . . . what was
+it now . . . a bra . . . braba . . . brabararian. It serves you right. It all comes of your
+teaching. I said what about the asking and the other ceremonies. And she looked at me
+and said, leave all that nonsense to savages and brabararians.
+LAKUNLE: But I must prepare myself.
+I cannot be
+A single man one day and a married one the next.
+It must come gradually.
+I will not wed in haste.
+A man must have time to prepare,
+To learn to like the thought.
+I must think of my pupils too:
+Would they be pleased if I were married
+Not asking their consent . . . ?
+[The singing group is now audible even to him.]
+What is that? The musicians?
+Could they have learnt so soon?
+SADIKU: The news of a festivity travels fast. You ought to know that.
+LAKUNLE: The goddess of malicious gossip
+Herself must have a hand in my undoing.
+The very spirits of the partial air
+Have all conspired to blow me, willy-nilly
+Down the slippery slope of grim matrimony.
+What evil have I done . . . ? Ah, here they come!
+[Enter crowd and musicians.]
+Go back. You are not needed yet. Nor ever.
+Hence parasites, you've made a big mistake.
+There is no one getting wedded; get you home.
+[ Sidi now enters. In one hand she holds a bundle, done up in a richly embroidered cloth:
+in the other the magazine. She is
+-62-
+radiant, jewelled, lightly clothed, and wears light leather-thong sandals. They all go
+suddenly silent except for the long-drawn O-Ohs of admiration. She goes up to Lakunle
+and hands him the book.]
+SIDI: A present from Sidi.
+I tried to tear it up
+But my fingers were too frail. [To the crowd.]
+Let us go. [To Lakunle.]
+You may come too if you wish,
+You are invited.
+LAKUNLE: [lost in the miracle of transformation.]
+Well I should hope so indeed
+Since I am to marry you.
+SIDI: [turns round in surprise.]
+Marry who . . .? You thought . . .
+Did you really think that you, and I . . .
+Why, did you think that after him,
+I could endure the touch of another man?
+I who have felt the strength,
+The perpetual youthful zest
+Of the panther of the trees?
+And would I choose a watered-down,
+A beardless version of unripened man?
+LAKUNLE: [bars her way.]
+I shall not let you.
+I shall protect you from yourself.
+SIDI: [gives him a shove that sits him down again, hard against the tree base.] Out of my
+way, book-nourished shrimp.
+Do you see what strength he has given me?
+That was not bad. For a man of sixty,
+It was the secret of God's own draught
+-63-
+A deed for drums and ballads.
+But you, at sixty, you'll be ten years dead!
+In fact, you'll not survive your honeymoon . . .
+Come to my wedding if you will. If not . . .
+[She shrugs her shoulders. Kneels down at Sadiku's feet.]
+Mother of brides, your blessing . . .
+SADIKU: [lays her hand on Sidi's head.] I invoke the fertile gods. They will stay with you.
+May the time come soon when you shall be as round-bellied as a full moon in a low sky.
+SIDI: [hands her the bundle.]
+Now bless my wordly goods.
+[Turns to the musicians.]
+Come, sing to me of seeds
+Of children, sired of the lion stock.
+[The Musicians resume their tune. Sidi sings and dances.]
+Mo te'ni. Mo te'ni.
+Mo te'ni. Mo te'ni.
+Sun mo mi, we mo mi
+Sun mo mi, fa mo mi
+Yarabi lo m'eyi t'o le d'omo . . .
+[Festive air, fully pervasive. Oil lamps from the market multiply as traders desert their
+stalls to join them. A young girl flaunts her dancing buttocks at Lakunle and he rises to the
+bait. Sadiku gets in his way as he gives chase. Tries to make him dance with her. Lakunle
+last seen, having freed himself of Sadiku, clearing a space in the crowd for the young girl.
+The crowd repeat the song after Sidi.]
+Tolani Tolani
+T'emi ni T'emi ni
+Sun mo mi, we mo mi
+Sun mo mi, fa mo mi
+Yarabi lo m'eyi t'o le d'omo.
         
-        <br /><br /><br />
+        <br /><br /> 
+        <center><h2>The End</h2></center>
                         </div>:null
                     }
-                    {
-                        chpfive? <div onClick={()=>displayNow(false)}  className="chap2"><center><h1 className='abi'>Page 5</h1></center>
-                        
-                        We laughed whenever I mimicked my law school classmate, a
-        humorless American woman, face scrubbed, asking me to “acknowledge
-        the contradiction” of my mother. It was after my presentation on
-        traditional Igbo property laws, and I’d used my mother’s story: a woman
-        from a wealthy family marries a man from a wealthy family, has one
-        daughter, three miscarriages, and an emergency hysterectomy, after which
-        her husband decides to marry again because he needs to have sons, and she
-        agrees, and it is those sons who will inherit the family property.
-        “My mother is uncommon but normal,” I had replied to the woman, and then corrected myself with, “Uncommon
-        and normal.”
-        “Perfect response,” Kwame always said each time we laughed about
-        that story. He had an uncle in Ghana, a government minister, who had married a second wife.
-        “Can’t have been easy for either wife,” he said when he told me the
-        story, and I nodded, agreeing, loving him for his sensitivity.
-        We told and retold each other stories from our past lives, until we felt
-        as though we had been there. I felt flooded by sadness in the brightly lit
-        hospital room. I could not imagine being with someone else, someone who
-        was not Kwame, who did not know me as Kwame did and did not say the
-        things that Kwame said and did not have Kwame’s easy laugh.
-        “He looks just like me!” my father announced when my mother placed the phone above my son’s face.
-        “Ziko, congratulations, God has blessed us,” Aunty Nwanneka said,
-        and a slice of her face appeared above my father’s on the screen. “How are you feeling?”
-        “Tired,” I said, and sensed my mother’s disapproval. She would have
-        wanted me to tell Aunty Nwanneka that I was perfectly fine.
-        “Aunty, congratulations,” Aunty Nwanneka said to my mother. She
-        had always called my mother “Aunty” to show respect.
-        “Thank you,” my mother said serenely.
-        “My girl, is anybody else there with you apart from Mummy?” my father asked.
-        “No, Daddy.”
-        Is Kwame there? Has Kwame called? Does Kwame know? The
-        questions he wanted to ask but didn’t. My mother hadn’t asked either. I
-        sensed her suspicion, as though I had not told the truth and there was more
-        unsaid. How could Kwame have left me because I got pregnant—Kwame,
-        who came to Lagos with me last Christmas for two weeks and tried to
-        kneel when he met my father, until my father laughed and said, “No, no,
-        we don’t do that, that’s Yoruba,” and Kwame said, “I can’t believe I didn’t
-        
-        do my research better.” “Do your research better” became their joke, in
-        that blustery male way of men who felt unthreatened by each other, and
-        the evening my father took Kwame to his club alone, it was, he joked, to
-        do his research better. My father had liked him right away, but my mother
-        watched him for a while before she, too, caved. On the phone I heard her say to a friend, “Zikora’s fiancé.”
-        My father was asking to see the baby’s face again. My mother hovered the phone above his tiny sleeping form.
-        “My girl, I won’t be able to make it after all, but I’ll definitely see
-        him before he’s one month old,” my father said.
-        “Okay, Daddy.” I had expected it. When he said that he would come
-        from Lagos to be there for the baby’s birth, I knew it was just one more of the many promises he made.
-        “I have a stubborn cold,” he said. “So it’s best not to be around a newborn.”
-        “Yes,” I agreed, even though I knew the cold was as good a reason as
-        any. It could have been a business meeting or a last-minute issue at work.
-        My mother handed me the phone and walked to the window.
-        “I’ve had this cold for almost two weeks now, and it doesn’t help that
-        this house is like a freezer,” my father said. “The air conditioner is so cold,
-        but your aunty still wants to reduce the temperature. I’ve told her that we
-        have to reach a compromise because we don’t have the same condition!”
-        He was laughing, that mischievous laugh that meant he knew his joke was
-        less than decorous. But what was the joke? I laughed a little too, because I
-        always laughed at my father’s jokes. Then I realized it was about Aunty
-        Nwanneka’s menopausal symptoms, her feeling hot when nobody else did.
-        I looked at my mother, by the window, turned away, separate and apart
-        from the conversation. My father would never have joked about her
-        menopause. With my mother his jokes were smaller and safer; he was
-        careful always to show her respect. Respect: a starched deference, a string
-        of ashen rituals. It was my mother who sat beside my father at weddings
-        and ceremonies; it was her photo that appeared above the label of “wife”
-        in the booklet his club published in his honor. Respect was her reward for
-        acquiescing. She could have been difficult about Aunty Nwanneka, fought
-        with my father, quarreled with his sisters, disrupted things with relatives.
-        Instead she always bought Christmas and birthday presents for Aunty
-        Nwanneka’s sons. She was civil, proper, restrained, running her schools,
-        always nicely dressed, a subdued gloss in her gold-framed eyeglasses.
-        Senior wife. My aunty Uzo, my father’s sister, said “senior wife” like a
-        title, a thing that came with a crown.
-        24
-        “You are the senior wife, nothing will change that,” Aunty Uzo told
-        my mother a few days after my father moved out of our house. My brother
-        (my half brother) Ugonna, only in primary school, had been caught
-        cheating on an exam. A teacher saw him sneak out a piece of paper from
-        his pocket and shouted at him to hand it over, but instead of giving up the
-        paper, Ugonna threw it in his mouth and swallowed. My father decided to
-        move in with Aunty Nwanneka to set Ugonna right. “He needs to see me
-        every morning when he wakes up. Boys can so easily go wrong, girls don’t
-        go wrong,” he told my mother. It was a Sunday, with the slow lassitude of
-        Sundays in the air, and we were in the living room upstairs, playing cards,
-        as we always did after lunch, before my father left to spend the rest of the
-        day at Aunty Nwanneka’s. I remembered that afternoon in drawn-out,
-        static images: my father blurting out the words, eyes trained on the cards in
-        his hand, words he must have been thinking about how to say for days, and
-        my mother staring at him, her body so rigid and still.
-        Later, she stood at the top of the stairs, in my father’s way, as he tried
-        to go downstairs. She reached out and pushed him backward, and he,
-        surprised, tottered. “This is not what we agreed!” she shouted. She was a
-        different person, shaken, splintered, and she held on to the railings as
-        though she might fall. My father left anyway. The next day, his workers
-        moved his clothes and books, his collection of tennis rackets, his study
-        desk, to Aunty Nwanneka’s house. For weeks I spoke to my mother only
-        in sullen monosyllables, because I thought she could have better handled
-        it. If she had not raised her voice, if she had not pushed him, my father
-        would not have left. For some months my parents were estranged. My
-        father did not visit us; he sent his driver to pick me up on weekends and
-        bring me to his tennis club, where we drank Chapmans and he told me
-        jokes but said nothing about moving out of our house.
-        Slowly, things thawed, and my mother accepted that he would no
-        longer come home to us, that we were now the family who would merely
-        be visited. She began to hang her newest dresses in his wardrobe, which
-        was almost empty, a few of his unloved shirts hanging there.
-        I looked at my mother, standing by the window. How had I never
-        really seen her? It was my father who destroyed, and it was my mother I
-        blamed for the ruins left behind. My parents decided early on that I would
-        go abroad for university, and in the evenings after school, lesson teachers
-        came to our house to prepare me for the SATs and A levels. My father
-        wanted me to go to America because America was the future, and my
-        mother wanted me to go to the UK because education was more rigorous
-        there. “I want to go to America,” I said. Had I really wanted America or
-        did I want what my father wanted or did I not want what my mother
-        wanted? The way she said “rigorous” had irritated me. Her addiction to 25
-         <br /><br /><br />
-                        </div>:null
-                    }
-                    {
-                        chpsix?<div  onClick={()=>displayNow(false)}  className="chap2"><center><h1 className='abi'>Page 6</h1> </center>
-                    dignity infuriated me, alienated me, but I always looked past why she held so stiffly to her own self-possession.
-        “I’ll call you tomorrow, my princess,” my father said. “Send another photo of my grandson once we hang up.”
-        “Okay, Daddy, I love you.”
-        We left the hospital in the early afternoon. My mother dressed my son in
-        the yellow onesie I had packed, newborn-sized but still big for him, the
-        sleeves flopping around his tiny arms. In the taxi, his car seat lodged
-        between my mother and me, I felt a wind pull through me, emptying me
-        out. An intense urge overcame me, to hide from my mother and my son,
-        from myself. You don’t know how bristly sanitary pads are until you have
-        worn postbirth pads in the hospital and then switched to sanitary pads at
-        home. I was constipated, and on the toilet, I tried not to strain while
-        straining still, tentative, panic in my throat, afraid I might tear my stitches.
-        A geyser of anxiety had erupted deep inside me and I was spurting fear. I
-        sat in the warm sitz bath, worried that I hadn’t sat for long enough, even
-        though I set my timer for fifteen minutes. What if I got an infection? I
-        would need medication, which would taint my breast milk and affect my
-        son. My son. My son could not latch on to my breasts properly, always my
-        nipple slipped out of his little hungry mouth. He wailed and wailed. His
-        cries seared into my head and made me so jittery I wanted to smash things.
-        My mother called a lactation nurse for a home visit, a tiny platinum-haired
-        woman who coaxed and cooed and tried to get my son’s mouth to open
-        and close, but he pulled back and wailed. Was it something about being
-        back home? I had breastfed him in the hospital. The nurse gave me a
-        plastic nipple shield, to place between my nipple and my son’s mouth, and
-        for a brief moment he sucked in silence, and then began to cry again. I
-        pumped my breasts with a machine that vibrated, funnels affixed to my
-        nipples, spurts of thin liquid filling the attached bottles. The pumping was
-        tortuously slow; my breasts recoiled from the machine and so gave up little
-        of their milk. My son slept in a crib by my bed. At first, my mother slept in
-        the next room, and then she pulled her mattress into my bedroom and set it
-        by the couch. At night, she fed my son a bottle of breast milk with a slim curved nipple.
-        “Sleep, try and sleep,” she said to me, but I couldn’t sleep. I hardly
-        slept, and I could hear in the silence of my luxury apartment the gurgle of my son’s swallowing.
-        My tear itched badly. My appetite grew with a fury, and I ate whole
-        loaves of bread, large portions of salmon. The sun slanting through the
-        windows my mother opened every morning. The tinkly music from my
-         <br /><br /><br />
-                        </div>:null
-                    }
-                {
-                    chpseven? <div onClick={()=>displayNow(false)}  className="chap2"><center><h1 className='abi'>Page 7</h1> </center>
-                 son’s crib mobile. The frequent flare of sad longing. I missed Kwame. I
-        looked ahead and saw a future dead with the weight of his absence. I
-        thought of getting a new number and calling him, to tell him we could
-        make it work, that he could do as little as he wanted as a father just as long
-        as he was there. But I was wearied of his rejection, his ignoring my texts,
-        his blocking my number, and I felt translucent, so fragile that one more
-        rejection would make me come fully undone.
-        “Why don’t I call his parents? To inform them. They deserve to
-        know,” my mother suddenly said one morning as she fed my son, and I
-        was startled that she could read my mind.
-        “Who?” I asked foolishly.
-        She looked at me evenly. “Kwame.”
-        “No,” I said. “Not yet.”
-        My son began to cry. He was fed, his tiny belly tautly round, and yet he cried. He cried and cried.
-        “Some babies just cry,” my mother said calmly.
-        What am I supposed to do with him? I thought to myself. It had only
-        been a few days. There would be more days and weeks of this, not
-        knowing what to do with a squalling person whose needs I feared I could
-        never know. Only in my mother’s arms did his wails taper off, briefly,
-        before they began again. Only while asleep was he fully free of tears. My
-        mother laid him in his crib and after a moment said, “Look how he’s raised
-        his arms!” She was smiling, and I had never seen delight so naked on her
-        face. My son’s tiny arms were raised up, as though in salute to sleep. It made me smile too.
-        “I don’t know what I’ll do when you leave,” I said.
-        “My visa is long stay,” she said. “I’m not going anywhere yet.”
-        “Thank you, Mummy,” I said, and I began to cry. Tears were so cheap now.
-        How do some memories insist on themselves? I remembered the
-        night of Aunty Nwanneka’s birthday party. A big party. Canopies ringed
-        by balloons had been set up in her compound. My mother asked me not to
-        go. It was shortly after my father had moved out of our house, the strain
-        between my parents still ripe and raw.
-        “Stay and stand by me,” my mother said, and I scoffed silently, thinking she was being dramatic.
-        Chill out, it’s not as if this is a blood feud.
-        I went to the party. When I came home, unsteady from the wine
-        Mmiliaku and I had drunk straight from the bottles, our househelp let me
-        in. My mother was in the living room reading.
-        “Mummy, good evening,” I greeted, and she said nothing. She looked 27
-        up from her book, as though to show she had heard me, and then turned
-        away. A recurring image: my mother turning away, retreating, closing windows on herself.
-        My son woke up and began to cry. My mother hurried to his crib. I
-        watched her cradle him and lower her head, as though to inhale him,
-        touching the skin of his face with the skin of hers.
-        
-        
-        <br /><br />
-                <center><h1>THE END</h1></center> <br /><br /><br />
-        
-         <br /><br /><br />
-                    </div>:null
-                }
-                
+                  
         
                
                                 <br />
