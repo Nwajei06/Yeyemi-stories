@@ -8,12 +8,7 @@ function Lion() {
             const [show, setShow]=useState(true) ;   
             const [shows, showset]=useState(false);
             const [hide, hideshow]=useState(false);
-            const [chpfour, chpFour]=useState(false);   
-            const [chpfive,chpFive]=useState(false)
-            const [chpsix,chpSix]=useState(false)
-            const [chpseven,chpSeven]=useState(false)
-            const [chpeight,chpEight]=useState(false)
-            const [chpnine,chpNine]=useState(false)
+     
         
   return (
     <div className='gather' >
@@ -44,37 +39,7 @@ function Lion() {
                                 } }> 
                                 <center> Page 3 </center></span>
                         <br />
-                        <span onClick={()=>{
-                            chpFour(true); hideshow(false); showset(false);
-                            setShow(false);chpFive(false);chpSix(false);
-                            chpSeven(false);chpEight(false);chpNine(false);
-                            }}> 
-                            <center> Page 4 </center></span><br />
-                        <span onClick={()=>{
-                            chpFive(true);chpFour(false);hideshow(false);
-                            showset(false);setShow(false);chpSix(false);
-                            chpSeven(false);chpEight(false);chpNine(false);
-                        }} > <center> Page 5 </center></span><br />
-                        <span onClick={()=>{
-                            chpSix(true); chpFive(false);chpFour(false);
-                            hideshow(false); showset(false); setShow(false);
-                            chpSeven(false); chpEight(false); chpNine(false);
-                        }} >
-                             <center> Page 6 </center></span>
-                        <br />
-                        <span onClick={()=>{
-                            chpSeven(true);chpSix(false);chpFive(false);
-                            chpFour(false); hideshow(false);showset(false);
-                            setShow(false);chpEight(false);chpNine(false);
-                        }}> 
-                        <center> Page 7 </center></span><br />
-                        <span onClick={()=>{
-                          chpEight(true);chpSeven(false);chpSix(false);
-                          chpFive(false);chpFour(false);hideshow(false);
-                          showset(false);setShow(false);chpNine(false);
-                        }} >
-                        
-                             </span>
+                      
                         
                               </div> :null
                               }
@@ -696,7 +661,7 @@ I took a wife . . . five full months . . .
                         </div>:null
                               } 
                                {
-                               shows?<div onClick={()=>displayNow(false)}   className='chap2' ><center> <h1 className="abi">Noon</h1></center>
+                               shows?<div onClick={()=>displayNow(false)}   className='chap2' ><h1 className="abi">Noon</h1>
                         
                         A road by the market. Enter Sidi, happily engrossed in the pictures of herself in the
 magazine. Lakunle follows one or two paces behind carrying a bundle of firewood which
@@ -723,7 +688,7 @@ Is he at his tricks again?
 SIDI: Be quiet, ' Kunle. You get so tiresome.
 The message is for me, not you.
 LAKUNLE: [down on his knees at once. Covers Sidi's hands with kisses.]
--19-
+
 My Ruth, my Rachel, Esther, Bathsheba
 Thou sum of fabled perfections
 From Genesis to the Revelations
@@ -755,7 +720,7 @@ When he dies -- and that should not be long; even the Lion has to die sometime -
 when he does, it means that you will have the honour of being the senior wife of the new
 Bale. And just think, until Baroka dies, you shall be his favourite. No living in the
 outhouses for
--20-
+
 you, my girl. Your place will always be in the palace; first as the latest bride, and
 afterwards, as the head of the new harem. . . It is a rich life, Sidi. I know. I have been in
 that position for forty-one years.
@@ -787,7 +752,7 @@ even in your own hearing? [Rushes suddenly at Lakunle.] Is this your doing, you 
 Have you driven the poor girl mad at last? Such rubbish. . . I will beat your head for this!
 LAKUNLE: [retreating in panic.] Keep away from me, old hag.
 SIDI: Sadiku, let him be.
--21-
+
 Tell your lord that I can read his mind,
 That I will none of him.
 Look -- judge for yourself.
@@ -821,7 +786,7 @@ Like the dew-moistened leaves on a Harmattan morning
 But he -- his face is like a leather piece
 Torn rudely from the saddle of his horse,
 [ Sadiku gasps.]
--22-
+
 Sprinkled with the musty ashes
 From a pipe that is long over-smoked.
 And this goat-like tuft
@@ -852,7 +817,7 @@ Every woman who has supped with him one night,
 Becomes his wife or concubine the next.
 LAKUNLE: Is it for nothing he is called the Fox?
 SADIKU: [advancing on him.] You keep out of this, or so Sango be my witness. . .
--23-
+
 LAKUNLE: [retreats just a little, but continues to talk.]
 His wiliness is known even in the larger towns.
 Did you never hear
@@ -884,7 +849,7 @@ All within the grasp of Ilujinle. . .
 [The wrestler enters, stands horrified at the sight and flees. Returns later with the Bale
 himself who soon assesses the situation. They disappear. The work continues, the
 surveyor occupies himself
--24-
+
 with the fly-whisk and whisky. Shortly, after, a bull-roarer is heard. The prisoners falter a
 little, pick up again. The bull-roarer continues on its way, nearer and farther, moving in
 circles, so that it appears to come from all round them. The foreman is the first to break
@@ -912,7 +877,7 @@ His dogs and horses, his wives and all his
 Concubines. . . ah, yes. . . all those concubines
 Baroka has such a selective eye, none suits him
 But the best. . .
--25-
+
 [His eyes truly light up. Sidi and Sadiku snigger, tip-toe off stage.]
 . . . Yes, one must grant him that.
 Ah, I sometimes wish I led his kind of life.
@@ -941,7 +906,7 @@ As if you feared to hurt the panther of the trees.
 Be sharp and sweet
 Like the swift sting of a vicious wasp
 For there the pleasure lies -- the cooling aftermath.
--26-
+
 FAVOURITE: I'll learn, my lord.
 BAROKA: You have not time, my dear.
 Tonight I hope to take another wife.
@@ -974,7 +939,7 @@ What did she say?
 SADIKU: She will not, my lord. I did my best, but she will have none of you.
 BAROKA: It follows the pattern -- a firm refusal At the start. Why will she not?
 SADIKU: That is the strange part of it. She says you're much
--27-
+
 too old. If you ask me, I think that she is really off her head. All this excitement of the
 books has been too much for her.
 BAROKA: [springs to his feet.]
@@ -1007,7 +972,7 @@ For I am wroth at heart.
 and begins to tickle the soles of his feet. Baroka turns to the left suddenly, reaches down
 the side, and comes up with a copy of the magazine. Opens it and begins to study the
 pictures. He heaves a long sigh.]
--28-
+
 That is good, Sadiku, very good.
 [He begins to compare some pictures in the book, obviously his own and Sidi's. Flings the
 book away suddenly and stares at the ceiling for a second or two. Then, unsmiling.]
@@ -1041,7 +1006,7 @@ SADIKU: [tearfully.] The Gods must have mercy yet.
 BAROKA: [as if suddenly aware of her presence, starts up.]
 I have told this to no one but you,
 Who are my eldest, my most faithful wife.
--29-
+
 But if you dare parade my shame before the world. . . [ Sadiku shakes her head in protest
 and begins to stroke the soles of his feet with renewed tenderness. Baroka sighs and falls
 back slowly.] How irritable I have grown of late
@@ -1074,7 +1039,7 @@ Promised of thrills to come
 Remaining
 Unfulfilled because the fingers
 Were too frail
--30-
+
 The touch too light and faint to pierce
 The incredible thickness of my soles.
 But thou Sadiku, thy plain unadorned hands
@@ -1111,7 +1076,7 @@ a limp rag, smeared in shame. . . . [Her ghoulish laugh re-possesses her.] Ah, t
 warning my masters, we'll scotch you in the end . . . [With a yell she leaps up, begins to
 dance round the tree, chanting.] Take warning, my masters
 We'll scotch you in the end.
--32-
+
 [ Sidi shuts the window gently, comes out, Sadiku, as she comes round again, gasps and
 is checked in mid-song.]
 SADIKU: Oh it is you my daughter. You should have chosen a better time to scare me to
@@ -1143,7 +1108,7 @@ I suddenly am glad to be a woman.
 [Leaps in the air.]
 We won! We won! Hurray for womankind!
 [Falls in behind Sadiku.]
--33-
+
 Take warning, my masters
 We'll scotch you in the end. [ Lakunle enters unobserved.]
 LAKUNLE: The full moon is not yet, but
@@ -1174,7 +1139,7 @@ My answer and consent to be his bride -- he might
 Suspect you've told me. But I shall ask a month
 To think on it.
 SADIKU: [somewhat doubtful.] Baroka is no child you know, he
--34-
+
 will know I have betrayed him.
 SIDI: No, he will not. Oh Sadiku let me go.
 I long to see him thwarted, to watch his longing
@@ -1205,7 +1170,7 @@ As surely as the final drops
 Of mother's milk
 Oozed from your flattened breast
 Generations ago?
--35-
+
 SADIKU: Watch your wagging tongue, unformed creature!
 LAKUNLE: If any harm befalls her . . .
 SADIKU: Woman though she is, she can take better care of herself than you can of her.
@@ -1233,7 +1198,7 @@ This town shall see a transformation
 Bride-price will be a thing forgotten
 And wives shall take their place by men.
 A motor road will pass this spot.
--36-
+
 And bring the city ways to us.
 We'll buy saucepans for all the women
 Clay pots are crude and unhygienic
@@ -1291,7 +1256,7 @@ Were prevailed upon to form something they call
 The Palace Workers' Union. And in keeping
 With the habits -- I am told -- of modern towns,
 This is their day off.
--38-
+
 SIDI: [seeing that Baroka seems to be in a better mood, she becomes somewhat bolder.
 Moves forward -- saucily.] Is this also a day off
 For Baroka's wives?
@@ -1325,7 +1290,7 @@ SIDI: [in a disappointed voice.]
 Oh. Is that all?
 BAROKA: Is that not enough? Why child?
 What more could the woman do?
--39-
+
 SIDI: Nothing. Nothing, Baroka. I thought perhaps --
 Well -- young wives are known to be --
 Forward -- sometimes -- to their husbands.
@@ -1358,7 +1323,7 @@ SIDI: [cowed, but angry, rises.]
 It is nothing, Bale. I only hope
 That I am here at the Bale's invitation.
 BAROKA: [as if trying to understand, he frowns as he looks at her.]
--40-
+
 A-ah, at last I understand. You think
 I took offence because you entered
 Unannounced?
@@ -1390,7 +1355,7 @@ Except from a school teacher. Do you think
 The Lion has such leisure that he asks
 The whys and wherefores of a woman's
 Squint?
--41-
+
 [ Sidi steps back and curtsys. As before, and throughout this scene, she is easily cowed by Baroka's change mood, all the more easily as she is, in any case, frightened by her own boldness.]
 SIDI: I meant no disrespect . . .
 BAROKA: [gently.] I know. [Breaks off.] Christians on my
@@ -1420,7 +1385,7 @@ A python for a mother, and fathered beyond doubt
 By a blubber-bottomed baboon,
 [The complimented man grins.]
 Only yesterday, he nearly
--42
+
 Ploughed my tongue with my front teeth
 In a friendly wrestling bout.
 WRESTLER: [encouraged, makes an effort.] Ugh. Ugh.
@@ -1452,7 +1417,7 @@ SIDI: If Baroka were my father
 [aside] -- which many would take him to be --
 [Makes a rude sign.]
 Would he pay my dowry to this man And give his blessings?
--43-
+
 BAROKA: Well, I must know his character.
 For instance, is the man rich?
 SIDI: Rumour has it so.
@@ -1485,7 +1450,7 @@ place their elbows on the bench and grip hands. Baroka takes his off again, repl
 takes it off again and so on during the rest of his outburst.]
 BAROKA: This means nothing to me of course. Nothing!
 But I know the ways of women, and I know
--44-
+
 Their ruinous tongues.
 Suppose that, as a child -- only suppose --
 Suppose then, that as a child, I --
@@ -1516,7 +1481,7 @@ The questioning. [Almost timidly.] Is this man
 Good and kindly.
 SIDI: They say he uses well
 His dogs and horses.
--45-
+
 BAROKA: [desperately.]
 Well is he fierce then? Reckless!
 Does the bush cow run to hole
@@ -1551,7 +1516,7 @@ For want of child-naming festivities
 Since the last two rains went by.
 BAROKA: Perhaps he is a frugal man.
 Mindful of years to come,
--46-
+
 Planning for a final burst of life, he
 Husbands his strength.
 SIDI: [giggling. She is actually stopped, half-way, by giggling at the cleverness of her
@@ -1582,7 +1547,7 @@ Towards. Soon my voice will be
 The sand between two grinding stones.
 But I have my scattered kindliness
 Though few occasions serve to herald it.
--47-
+
 And Sidi, my daughter, you do not know
 The thoughts which prompted me
 To ask the pleasure that I be your host
@@ -1618,7 +1583,7 @@ On any maid, or call her name
 Even in the course of harmless, neighbourly
 Well-wishing -- How fares your daughter?
 -- Is your sister now recovered from her
--48-
+
 Whooping cough? -- How fast your ward
 Approaches womanhood! Have the village lads
 Begun to gather at your door? --
@@ -1653,7 +1618,7 @@ Is feather-light, and always giddy
 With a trivial thought. And now
 I find her deep and wise beyond her years.
 [Reaches under his pillow, brings out the now familiar
--49-
+
 magazine, and also an addressed envelope. Retains the former and gives her the
 envelope.]
 Do you know what this means?
@@ -1688,7 +1653,7 @@ What think you of that image on the stamp
 This spiderwork of iron, wood and mortar?
 SIDI: Is it not a bridge?
 BAROKA: It is a bridge. The longest -- so they say
--50-
+
 In the whole country. When not a bridge,
 You'll find a print of groundnuts
 Stacked like pyramids,
@@ -1723,7 +1688,7 @@ A burden, to carry the country's mail
 All on your comeliness.
 [Walks away, an almost business-like tone.]
 Our beginnings will
--51-
+
 Of course be modest. We shall begin
 By cutting stamps for our own village alone.
 As the schoolmaster himself would say --
@@ -1757,7 +1722,7 @@ Undisturbed . . . But the skin of progress
 Masks, unknown, the spotted wolf of sameness . . .
 Does sameness not revolt your being,
 My daughter?
--52-
+
 [ Sidi is capable only of a bewildered nod, slowly.]
 BAROKA: [sighs, hands folded piously on his lap.]
 I find my soul is sensitive, like yours,
@@ -1792,7 +1757,7 @@ Like a fresh-water reed. But I do find
 Your school teacher and I are much alike.
 The proof of wisdom is the wish to learn
 Even from children. And the haste of youth
--53-
+
 Must learn its temper from the gloss
 Of ancient leather, from a strength
 Knit close along the grain. The school teacher
@@ -1824,7 +1789,7 @@ Which still deceives the world . . .
 a crowd of dancers burst in at the front and dance off at the opposite side without
 slackening pace. In their brief appearance it should be apparent that they comprise a
 group of female dancers pursuing a
--54-
+
 masked male. Drumming and shouts continue quite audibly and shortly afterwards. They
 enter and re-cross the stage in the same manner. The shouts fade away and they next
 appear at the market clearing. It is now full evening. Lakunle and Sadiku are still waiting
@@ -1852,7 +1817,7 @@ With a girl.
 [Each approaching footstep brings Lakunle to attention, but it is only a hawker or a
 passer-by. The wrestler passes. Sadiku greets him familiarly. Then, after he has passed,
 some significance of this breaks on Sadiku and she begins to look a little puzzled.]
--55-
+
 LAKUNLE: I know he has dungeons. Secret holes
 Where a helpless girl will lie
 And rot for ever. But not for nothing
@@ -1883,7 +1848,7 @@ SADIKU: Don't be a miser. Will you let them go without
 giving you a special performance?
 LAKUNLE: If you think I care for their obscenity . . .
 SADIKU: [wheedling.] Come on, school teacher. They'll expect
--56-
+
 it of you . . . The man of learning . . . the young sprig of foreign wisdom . . . You must not
 demean yourself in their eyes . . . you must give them money to perform for your
 lordship . . .
@@ -1911,7 +1876,6 @@ distant and she unwraps her eyelids. Sighs, looks around her and walks contented
 towards Lakunle. As usual he has enjoyed the spectacle in spite of himself, showing
 especial relish where ' Baroka' gets the worst of it from his women. Sadiku looks at him for
 a moment while he tries to replace
--57-
 his obvious enjoyment with disdain. She shouts 'Boo' at him, and breaks into a dance
 movement, shakes a sudden leg at Lakunle.]
 SADIKU: Sadiku of the duiker's feet . . . that's what the men used to call me. I could twist
@@ -1942,7 +1906,7 @@ No. Better still, I shall demand
 Redress from the central courts.
 I shall make him spend
 The remainder of his wretched life
--58-
+
 In prison -- with hard labour.
 I'll teach him
 To beat defenceless women . . .
@@ -1977,7 +1941,7 @@ Sidi, are you a maid or not?
 LAKUNLE: The Lord forbid!
 SADIKU: Too late for prayers. Cheer up. It happens to the best
 of us.
--59-
+
 LAKUNLE: Oh heavens, strike me dead!
 Earth, open up and swallow Lakunle.
 For he no longer has the wish to live.
@@ -2012,7 +1976,7 @@ unbelieving eyes. She is unsmiling, her face a puzzle.]
 SIDI: You would? You would marry me?
 LAKUNLE: [puffs out his chest.] Yes.
 [Without a change of expression, Sidi dashes suddenly off the stage.]
--60-
+
 SADIKU: What on earth has got into her?
 LAKUNLE: I wish I knew
 She took off suddenly
@@ -2045,7 +2009,7 @@ Surely she can wait a day or two at least.
 There is the asking to be done,
 And then I have to hire a praise-singer,
 And such a number of ceremonies
--61-
+
 Must firstly be performed.
 SADIKU: Just what I said but she only laughed at me and called me a . . . a . . . what was
 it now . . . a bra . . . braba . . . brabararian. It serves you right. It all comes of your
@@ -2077,7 +2041,7 @@ Hence parasites, you've made a big mistake.
 There is no one getting wedded; get you home.
 [ Sidi now enters. In one hand she holds a bundle, done up in a richly embroidered cloth:
 in the other the magazine. She is
--62-
+
 radiant, jewelled, lightly clothed, and wears light leather-thong sandals. They all go
 suddenly silent except for the long-drawn O-Ohs of admiration. She goes up to Lakunle
 and hands him the book.]
@@ -2108,7 +2072,7 @@ way, book-nourished shrimp.
 Do you see what strength he has given me?
 That was not bad. For a man of sixty,
 It was the secret of God's own draught
--63-
+
 A deed for drums and ballads.
 But you, at sixty, you'll be ten years dead!
 In fact, you'll not survive your honeymoon . . .
