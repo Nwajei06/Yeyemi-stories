@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import img1 from "../../public/images//godchild.jpeg"
+import img1 from "../../public/images//zikoraimage.jpeg"
 import { Link } from 'react-router-dom'
 function Zikora() {
        const [displays, displayNow]=useState(false);

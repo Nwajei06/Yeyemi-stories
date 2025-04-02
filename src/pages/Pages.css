@@ -186,4 +186,9 @@ hr{
     font-style: italic;
 
 }
+.chap-img{
+    /* border-radius: 50px */
+    height: 80px;
+    width: 80px;
+}
 }

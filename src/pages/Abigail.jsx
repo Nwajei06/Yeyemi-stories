@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import img1 from "../../public/images//godchild.jpeg"
+import img1 from "../../public/images//abii.jpeg"
 import { Link } from 'react-router-dom'
 
 function Abigail() {
